@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv source_info_url="https://api.telerama.fr">
+  <channel id="C4.api.telerama.fr">
+    <display-name>France 2</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/4.png" />
+  </channel>
+  <channel id="C34.api.telerama.fr">
+    <display-name>Canal+</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/34.png" />
+  </channel>
+  <channel id="C47.api.telerama.fr">
+    <display-name>France 5</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/47.png" />
+  </channel>
+  <channel id="C78.api.telerama.fr">
+    <display-name>France 4</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/78.png" />
+  </channel>
+  <channel id="C80.api.telerama.fr">
+    <display-name>France 3</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/80.png" />
+  </channel>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="C112.api.telerama.fr">
+    <display-name>LCI</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/112.png" />
+  </channel>
+  <channel id="C118.api.telerama.fr">
+    <display-name>M6</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/118.png" />
+  </channel>
+  <channel id="C119.api.telerama.fr">
+    <display-name>W9</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/119.png" />
+  </channel>
+  <channel id="C160.api.telerama.fr">
+    <display-name>France Ô</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/160.png" />
+  </channel>
+  <channel id="C192.api.telerama.fr">
+    <display-name>TF1</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/192.png" />
+  </channel>
+  <channel id="C195.api.telerama.fr">
+    <display-name>TMC</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/195.png" />
+  </channel>
+  <channel id="C226.api.telerama.fr">
+    <display-name>CNEWS</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/226.png" />
+  </channel>
+  <channel id="C234.api.telerama.fr">
+    <display-name>La Chaîne parlementaire</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/234.png" />
+  </channel>
+  <channel id="C444.api.telerama.fr">
+    <display-name>NRJ 12</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/444.png" />
+  </channel>
+  <channel id="C445.api.telerama.fr">
+    <display-name>C8</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/445.png" />
+  </channel>
+  <channel id="C446.api.telerama.fr">
+    <display-name>TFX</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/446.png" />
+  </channel>
+  <channel id="C458.api.telerama.fr">
+    <display-name>CSTAR</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/458.png" />
+  </channel>
+  <channel id="C481.api.telerama.fr">
+    <display-name>BFMTV</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/481.png" />
+  </channel>
+  <channel id="C482.api.telerama.fr">
+    <display-name>Gulli</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/482.png" />
+  </channel>
+  <channel id="C1399.api.telerama.fr">
+    <display-name>Chérie 25</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1399.png" />
+  </channel>
+  <channel id="C1400.api.telerama.fr">
+    <display-name>RMC Découverte</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1400.png" />
+  </channel>
+  <channel id="C1401.api.telerama.fr">
+    <display-name>L'Equipe</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1401.png" />
+  </channel>
+  <channel id="C1402.api.telerama.fr">
+    <display-name>RMC Story</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1402.png" />
+  </channel>
+  <channel id="C1403.api.telerama.fr">
+    <display-name>6ter</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1403.png" />
+  </channel>
+  <channel id="C1404.api.telerama.fr">
+    <display-name>TF1 Séries Films</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1404.png" />
+  </channel>
+  <channel id="C2111.api.telerama.fr">
+    <display-name>Franceinfo</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/2111.png" />
+  </channel>
+  <programme channel="C226.api.telerama.fr" start="20200701213000" stop="20200702040000">
+    <title>L'édition de la nuit</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">390</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200702231000" stop="20200702231500">
+    <title>Météo Outremer</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/527d3a3d-3bf1-42ae-b57f-3f6389d3ffa7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200702231500" stop="20200703000000">
+    <title>Tout compte fait</title>
+    <sub-title>Alimentation : comment sortir de la mondialisation ?</sub-title>
+    <desc lang="fr">Au sommaire :</desc>
+    <category lang="fr">magazine de l'économie</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3fc9bfd0-51c1-4a21-91cd-5e9953229f1a.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200702222300" stop="20200702231100">
+    <title>Homeland</title>
+    <sub-title>Threnody(s)</sub-title>
+    <desc lang="fr">Saison:8 - Episode:8 -</desc>
+    <credits>
+      <director>Michael Klick</director>
+      <actor>Claire Danes</actor>
+      <actor>Mandy Patinkin</actor>
+      <actor>Beau Bridges</actor>
+      <actor>Hugh Dancy</actor>
+      <actor>Linus Roache</actor>
+      <actor>Numan Acar</actor>
+      <actor>Costa Ronin</actor>
+      <actor>Nimrat Kaur</actor>
+      <writer>Howard Gordon</writer>
+      <writer>Alex Gansa</writer>
+      <writer>Patrick Harbinson</writer>
+      <writer>Chip Johannessen</writer>
+    </credits>
+    <category lang="fr">série de suspense</category>
+    <length units="minutes">48</length>
+    <episode-num system="xmltv_ns">7.7.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200702231100" stop="20200702235200">
+    <title>This Is Us</title>
+    <desc lang="fr">Saison:4 - Episode:10 -</desc>
+    <credits>
+      <actor>Mandy Moore</actor>
+      <actor>Justin Hartley</actor>
+      <actor>Milo Ventimiglia</actor>
+      <actor>Sterling K Brown</actor>
+      <actor>Chrissy Metz</actor>
+      <actor>Susan Kelechi Watson</actor>
+      <actor>Chris Sullivan</actor>
+      <actor>Jon Huertas</actor>
+      <actor>Melanie Liburd</actor>
+      <writer>Dan Fogelman</writer>
+    </credits>
+    <category lang="fr">série dramatique</category>
+    <length units="minutes">41</length>
+    <episode-num system="xmltv_ns">3.9.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200702235200" stop="20200703003400">
+    <title>This Is Us</title>
+    <desc lang="fr">Saison:4 - Episode:11 -</desc>
+    <credits>
+      <actor>Mandy Moore</actor>
+      <actor>Justin Hartley</actor>
+      <actor>Milo Ventimiglia</actor>
+      <actor>Sterling K Brown</actor>
+      <actor>Chrissy Metz</actor>
+      <actor>Susan Kelechi Watson</actor>
+      <actor>Chris Sullivan</actor>
+      <actor>Jon Huertas</actor>
+      <actor>Melanie Liburd</actor>
+      <writer>Dan Fogelman</writer>
+    </credits>
+    <category lang="fr">série dramatique</category>
+    <length units="minutes">42</length>
+    <episode-num system="xmltv_ns">3.10.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C47.api.telerama.fr" start="20200702222500" stop="20200702232000">
+    <title>1917, il était une fois la révolution</title>
+    <desc lang="fr">Dans le fracas de la Première Guerre mondiale, saignée par les combats, éprouvée par la faim, la Russie des Tsars entre en révolution. Pour tout un peuple, l'espoir renaît. Mais le rêve ne va pas durer. Alors que le chaos se propage dans le pays, une poignée d'hommes va s'emparer du pouvoir, et changer le destin de l'humanité. La postérité n'a retenu que la révolution d'octobre, mais a oublié celle de février, qui aurait pu conduire la Russie vers un tout autre destin. Retour sur les événements qui se sont succédé au cours d'une année décisive pour l'Histoire.</desc>
+    <date>2017</date>
+    <category lang="fr">documentaire : histoire</category>
+    <length units="minutes">55</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/48b4d367-aa92-48c0-8a1e-00d063342720.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C47.api.telerama.fr" start="20200702232000" stop="20200703000500">
+    <title>Les félins et la saison des pluies</title>
+    <desc lang="fr">Au Bostwana, avec l'arrivée de la saison des pluies, de nombreux animaux migrent vers la plaine, qui constitue un garde-manger à ciel ouvert pour les lions.</desc>
+    <date>2016</date>
+    <category lang="fr">documentaire : animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f78e16b1-40ec-4f3a-a58b-bef48e966b65.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C78.api.telerama.fr" start="20200702225500" stop="20200702230000">
+    <title>Consomag</title>
+    <sub-title>Rénovation énergétique 1</sub-title>
+    <desc lang="fr">Une émission de l'Institut national de la consommation.</desc>
+    <category lang="fr">magazine du consommateur</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3219c4fe-8225-4751-8635-69baf13033c5.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C78.api.telerama.fr" start="20200702230000" stop="20200703034900">
+    <title>Interruption des programmes</title>
+    <category lang="fr">fin</category>
+    <length units="minutes">289</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200702220500" stop="20200702221500">
+    <title>Météo</title>
+    <desc lang="fr">Bulletin météorologique du service de presse de France 3-Météo France.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">10</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200702221500" stop="20200703001500">
+    <title>Le spectacle continue</title>
+    <desc lang="fr">Les antennes de France 3 proposent pas moins de treize rendez-vous régionaux simultanés, chaque semaine, au fil des festivals de l'été. Théâtres, opéras et concerts de musiques classique, jazz, ou encore musiques urbaines, à chaque région sa scène pour plus de cent rendez-vous tout au long de l'été, en soutien aux festivals et institutions culturelles partout en France.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ea42280e-b75f-4f51-94f1-57c2a88a51c7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C111.api.telerama.fr" start="20200702225000" stop="20200703002000">
+    <title>Petites fripouilles, grosses embrouilles</title>
+    <desc lang="fr">Hotte, un ancien prisonnier, décidé à se ranger et à s'occuper sérieusement de ses deux enfants adolescents, doit affronter son agent de probation, Benno, qui ne voit en lui qu'un incurable rebut de la société. C'est alors qu'un petit délinquant, Ivic, prend contact avec Hotte pour lui proposer un coup... - Critique : Hotte Mazocha est un criminel alcoolique à chemise hawaïenne et débardeur taché de gras. Lorsqu'il réclame la garde de ses enfants adolescents, l'agent de probation Benno Meurer s'épouvante : comment cet ex-taulard rustre et violent, qui ne pense qu'aux allocations, pourrait-il s'occuper de sa progéniture, qu'il n'a même jamais voulu rencontrer jusque-là ? Le personnage de Mazocha est grossier, idiot et façonné de clichés, tout comme le scénario de ce téléfilm déplaisant. Trois « intrigues » s'entremêlent, toutes aussi nulles les unes que les autres. Mazocha reconquérant minablement son rôle de père, Meurer empêtré dans ses histoires de coeur et de stérilité, et les larcins du jeune Ivic, petite frappe « ayant fui le Kosovo il y a dix ans ». Dans ces tranches de vie grotesques, tout devient ressort scénaristique, du décès d'un ado au harcèlement sexuel en passant par l'incompétence du bureau de l'enfance... Après une tonne de péripéties glauques, le dénouement paradisiaque est ridicule. Et même pas divertissant. — Marie-Hélène Soenen</desc>
+    <credits>
+      <director>Markus Sehr</director>
+      <actor>Christoph Maria Herbst</actor>
+      <actor>Peter Kurth</actor>
+      <actor>Emma Bading</actor>
+      <actor>Ivo Kortlang</actor>
+      <actor>Dorka Gryllus</actor>
+      <actor>Anneke Kim Sarnau</actor>
+      <actor>Pasquale Aleardi</actor>
+      <actor>Reinhold G Moritz</actor>
+      <writer>Xao Seffcheque</writer>
+      <writer>Martin Ritzenhoff</writer>
+    </credits>
+    <category lang="fr">téléfilm dramatique</category>
+    <length units="minutes">90</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/a7295aec-9765-406a-9389-c988e418f20a.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C112.api.telerama.fr" start="20200702220000" stop="20200703000000">
+    <title>24 Heures Pujadas</title>
+    <desc lang="fr">Débats, reportages et interventions d'experts permettent d'approfondir l'actualité du jour. Placé sous le signe de la pédagogie, cette nouvelle émission est segmentée en trois parties : le débat du jour, un sujet politique ou portant sur l'économie et une dernière partie qui concerne la science, l'international ou la société. Les téléspectateurs sont invités à réagir via les réseaux sociaux.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/2176a5f9-7f9d-4832-8b2e-73422cc172de.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C118.api.telerama.fr" start="20200702222000" stop="20200702230500">
+    <title>Salvation</title>
+    <sub-title>Crime et châtiment</sub-title>
+    <desc lang="fr">Saison:2 - Episode:3 - Grace est priée de respecter le cadre de confidentialité de son travail. Sa loyauté est mise à l'épreuve. Pendant ce temps Darius charge Liam d'une mission périlleuse tandis qu'un acte de violence plonge la nation dans le chaos...</desc>
+    <credits>
+      <director>Maja Vrvilo</director>
+      <actor>Santiago Cabrera</actor>
+      <actor>Jennifer Finnigan</actor>
+      <actor>Charlie Rowe</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Jacqueline Byers</actor>
+      <actor>Sasha Roiz</actor>
+      <actor>Erica Luttrell</actor>
+      <actor>Ashley Thomas</actor>
+      <writer>Liz Kruger</writer>
+      <writer>Craig Shapiro</writer>
+      <writer>Mike Werb</writer>
+    </credits>
+    <category lang="fr">série dramatique</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dbed931e-1540-424c-9aea-1e6fbea3634a.jpg" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C118.api.telerama.fr" start="20200702230500" stop="20200702235500">
+    <title>Salvation</title>
+    <sub-title>L'appel aux armes</sub-title>
+    <desc lang="fr">Saison:2 - Episode:4 - Grace se lance dans une mission des plus périlleuses. Elle prend des risques inconsidérés, tandis que les relations entre Liam et Darius sont mises à rude épreuve. Parallèlement, le sort du pays est en jeu alors que tout le monde attend la décision de la Cour suprême pour savoir qui est le véritable président...</desc>
+    <credits>
+      <director>Dan Lerner</director>
+      <actor>Santiago Cabrera</actor>
+      <actor>Jennifer Finnigan</actor>
+      <actor>Charlie Rowe</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Jacqueline Byers</actor>
+      <actor>Melia Kreiling</actor>
+      <actor>Ashley Thomas</actor>
+      <actor>Taylor Cole</actor>
+      <writer>Liz Kruger</writer>
+      <writer>Craig Shapiro</writer>
+      <writer>Damani Johnson</writer>
+    </credits>
+    <category lang="fr">série dramatique</category>
+    <length units="minutes">50</length>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C118.api.telerama.fr" start="20200702235500" stop="20200703004000">
+    <title>Salvation</title>
+    <sub-title>La chute de la Maison-Blanche</sub-title>
+    <desc lang="fr">Saison:2 - Episode:5 - Grace forge une alliance avec Alonzo, le frère de Claire, mais cette association temporaire pourrait se révéler dangereuse. Harris et Darius, eux, doivent unir leurs efforts pour faire face aux forces de Bennett...</desc>
+    <credits>
+      <director>Douglas Aarniokoski</director>
+      <actor>Santiago Cabrera</actor>
+      <actor>Jennifer Finnigan</actor>
+      <actor>Charlie Rowe</actor>
+      <actor>Ian Anthony Dale</actor>
+      <actor>Jacqueline Byers</actor>
+      <actor>Melia Kreiling</actor>
+      <actor>Ashley Thomas</actor>
+      <actor>Sasha Roiz</actor>
+      <writer>Liz Kruger</writer>
+      <writer>Craig Shapiro</writer>
+      <writer>Damani Johnson</writer>
+    </credits>
+    <category lang="fr">série dramatique</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fdd0320b-84e7-440b-b90f-62a254f7265d.jpg" />
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C119.api.telerama.fr" start="20200702231000" stop="20200703040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">290</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200702222400" stop="20200702233400">
+    <title>Doc Shot</title>
+    <desc lang="fr">Saison:1 - En racontant l'histoire de l'Artemisia et de ceux qui se battent pour que cette plante soit diffusée, ce documentaire met au pied du mur les institutions qui tentent de lutter contre le paludisme. En 2017, la maladie continue de tuer un enfant toutes les deux minutes. Le parasite qui la provoque devient résistant aux médicaments, les moustiques contournent les moustiquaires, et le vaccin s'avère décevant.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">70</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/106620c4-a8ac-47c0-99e2-c4e37c089bbe.jpg" />
+    <episode-num system="xmltv_ns">0..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200702233400" stop="20200703002600">
+    <title>Evangéliques de France : la course aux adeptes</title>
+    <desc lang="fr">La foi évangélique, dominante aux Etats-Unis, est une branche du protestantisme. Aujourd'hui, dans le monde, un chrétien sur quatre est évangélique, ce qui représente 619 millions de fidèles. En France, plus de 600 000 personnes se revendiquent de cette foi. Leur nombre a été multiplié par dix en 65 ans. Comment expliquer ce succès, notamment en Outre-Mer ? Pour convertir le maximum de personnes, les évangéliques n'hésitent pas à déployer les grands moyens, avec des méthodes bien rodées, que l'on pourrait assimiler à du prosélytisme, voire à du marketing.</desc>
+    <date>2016</date>
+    <category lang="fr">documentaire : religions</category>
+    <length units="minutes">52</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/0a93feae-eaee-4946-a379-6e788f6ea8f0.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C192.api.telerama.fr" start="20200702223500" stop="20200702232000">
+    <title>Les experts : Manhattan</title>
+    <sub-title>Nouvel espoir</sub-title>
+    <desc lang="fr">Saison:6 - Episode:1 - Dans un bar, les membres de l'équipe se remémorent leurs coéquipiers disparus. Leur réunion funèbre est brutalement interrompue quand les passagers d'un véhicule ouvrent le feu sur eux. Tout le monde s'abrite sous les tables mais, lorsque le sang se met à couler, Mac comprend que l'un d'eux a été touché. Alors que l'équipe se lance à la recherche des coupables, Danny est contacté par une jeune femme qui veut lui communiquer des informations sur l'un des tireurs. Il gagne le lieu de rendez-vous avec Mac, mais leur contact est abattu avant d'avoir pu livrer la moindre information. Les tueurs semblent bien organisés et surtout très bien informés...</desc>
+    <credits>
+      <director>David von Ancken</director>
+      <actor>Gary Sinise</actor>
+      <actor>Melina Kanakaredes</actor>
+      <actor>Carmine Giovinazzo</actor>
+      <actor>Hill Harper</actor>
+      <actor>Eddie Cahill</actor>
+      <actor>Anna Belknap</actor>
+      <actor>Robert Joy</actor>
+      <actor>AJ Buckley</actor>
+      <writer>Ann Donahue</writer>
+      <writer>Carol Mendelsohn</writer>
+      <writer>Anthony E Zuiker</writer>
+      <writer>Pam Veasey</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/966fae5d-2ccd-422b-88c5-688a27d52386.jpg" />
+    <episode-num system="xmltv_ns">5.0.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C192.api.telerama.fr" start="20200702232000" stop="20200703002000">
+    <title>Les experts : Manhattan</title>
+    <sub-title>Sans famille</sub-title>
+    <desc lang="fr">Saison:6 - Episode:11 - Un ancien SDF a été percuté par une automobile en plein jour. L'homme était bien connu de la brigade des stupéfiants. Pourtant, cela faisait deux ans qu'il n'avait plus touché à la drogue. Un détail chiffonne Mac : il avait souscrit une police d'assurance garantissant deux millions de dollars à sa compagne. Parallèlement, l'équipe se penche sur le décès d'une personne qui avait apparemment emprunté l'identité de quelqu'un d'autre. Mac et Stella en viennent à se demander si les deux affaires ne sont pas liées. Malgré la difficulté des investigations, personne n'oublie que le réveillon de Noël approche. Personne, excepté Mac...</desc>
+    <credits>
+      <director>Eric Laneuville</director>
+      <actor>Gary Sinise</actor>
+      <actor>Melina Kanakaredes</actor>
+      <actor>Eddie Cahill</actor>
+      <actor>Robert Joy</actor>
+      <actor>Anna Belknap</actor>
+      <actor>AJ Buckley</actor>
+      <actor>Carmine Giovinazzo</actor>
+      <actor>Hill Harper</actor>
+      <writer>Ann Donahue</writer>
+      <writer>Carol Mendelsohn</writer>
+      <writer>Anthony E Zuiker</writer>
+      <writer>John Dove</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="hours">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/714ca86f-86aa-4993-b3d4-16de472abe33.jpg" />
+    <episode-num system="xmltv_ns">5.10.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C195.api.telerama.fr" start="20200702223500" stop="20200703000500">
+    <title>90' Enquêtes</title>
+    <sub-title>Bons plans, nouvelles tendances, pièges à éviter : comment réussir son mariage ?</sub-title>
+    <desc lang="fr">En 2018, 228 000 mariages ont été célébrés. S'offrir un mariage de rêve avec un petit budget est désormais possible grâce à la formule très tendance du «mariage sponsorisé». L'autre tendance consiste à se marier à l'étranger. Mais le plus beau jour de sa vie peut aussi se transformer en cauchemar.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">90</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7b99397b-ce54-4ec4-814a-95588e7fbc15.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C234.api.telerama.fr" start="20200702223000" stop="20200702233000">
+    <title>La bataille de Notre-Dame</title>
+    <desc lang="fr">Le 15 avril 2019, un violent incendie a détruit la Cathédrale Notre-Dame de Paris. C'est un incroyable combat et une course haletante contre le feu que le monde entier a suivi en direct à la télévision. Il s'agit du plus important sinistre subi par l'édifice depuis sa construction. Depuis cette date, Notre-Dame est fermée au public pour une durée indéterminée. Les principaux acteurs de la bataille de Notre-Dame dévoilent les coulisses de cette lutte et font revivre, minute par minute, cette nuit pour sauver des flammes le monument le plus visité de France.</desc>
+    <category lang="fr">documentaire : société</category>
+    <length units="hours">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1cc45846-0bba-4b6a-80ba-68e093ae0c73.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C234.api.telerama.fr" start="20200702233000" stop="20200703000000">
+    <title>DébatDoc</title>
+    <sub-title>La bataille de Notre-Dame</sub-title>
+    <desc lang="fr">Les soirées DébatDoc s'invitent en prime time sur LCP. Chaque soir, un débat accompagne la diffusion d'un documentaire. En quête de sens, ce rendez-vous prend de la hauteur et lance les discussions pour prolonger le regard du réalisateur et répondre au questionnement soulevé.</desc>
+    <category lang="fr">débat</category>
+    <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/27acbd6e-4da8-4136-9c64-c37e23bab534.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C444.api.telerama.fr" start="20200702225500" stop="20200702235000">
+    <title>FBI : portés disparus</title>
+    <sub-title>Après la tempête</sub-title>
+    <desc lang="fr">Saison:5 - Episode:6 - Jack et son équipe sont à la recherche d'Aaron Gibbs, un homme traumatisé par le passage de l'ouragan Katrina sur sa propriété. L'équipe interroge Sherise, son épouse. Elle affirme avoir vu Aaron pour la dernière fois la veille, lorsqu'il a quitté leur chambre de motel. Bien vite, les enquêteurs apprennent qu'Aaron mentait depuis un certain temps à sa femme. Il prétendait avoir trouvé un emploi temporaire dans le New Jersey après avoir été licencié de l'entreprise de construction de son cousin. En réalité, il travaillait dans un club de combats clandestins. Jack cherche à en savoir un peu plus sur l'étrange personnalité d'Aaron...</desc>
+    <credits>
+      <director>Peter Markle</director>
+      <actor>Anthony LaPaglia</actor>
+      <actor>Poppy Montgomery</actor>
+      <actor>Eric Close</actor>
+      <actor>Roselyn Sanchez</actor>
+      <actor>Enrique Murciano</actor>
+      <actor>Lisa Gay Hamilton</actor>
+      <actor>Marianne Jean-Baptiste</actor>
+      <actor>Kevin Fry</actor>
+      <writer>Hank Steinberg</writer>
+      <writer>Jan Nash</writer>
+      <guest>Eriq La Salle</guest>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">55</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/65d7c9f8-c7c0-4f51-a7b4-f62c39a6d30c.jpg" />
+    <episode-num system="xmltv_ns">4.5.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C444.api.telerama.fr" start="20200702235000" stop="20200703005000">
+    <title>FBI : portés disparus</title>
+    <sub-title>Exorcisme</sub-title>
+    <desc lang="fr">Saison:5 - Episode:7 - Katie Duncan vient de disparaître. Le FBI la recherche et interroge les dernières personnes qui se sont trouvées en contact avec elle. Les agents fédéraux apprennent qu'un prêtre venait de tenter un exorcisme sur elle car elle se croyait possédée par un démon. Martin découvre sur une photo qu'il connaît la disparue : ils ont naguère travaillé ensemble et pourtant, il n'a aucun souvenir d'elle. Au cours de leurs recherches, les enquêteurs établissent que le prêtre qui a exorcisé Katie a été, un an auparavant, l'un des principaux suspects dans une affaire de meurtre. La victime était morte peu après un exorcisme...</desc>
+    <credits>
+      <director>Martha Mitchell</director>
+      <actor>Anthony LaPaglia</actor>
+      <actor>Eric Close</actor>
+      <actor>Poppy Montgomery</actor>
+      <actor>Roselyn Sanchez</actor>
+      <actor>Enrique Murciano</actor>
+      <actor>Aleksa Palladino</actor>
+      <actor>Josh Braaten</actor>
+      <actor>Dee Wallace</actor>
+      <writer>Hank Steinberg</writer>
+      <writer>Jose Molina</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="hours">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/97cfcfae-d361-4491-aadc-b91b2c378431.jpg" />
+    <episode-num system="xmltv_ns">4.6.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C445.api.telerama.fr" start="20200702220000" stop="20200703040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="hours">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C446.api.telerama.fr" start="20200702230500" stop="20200703043000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">325</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C458.api.telerama.fr" start="20200702223000" stop="20200703040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">330</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C481.api.telerama.fr" start="20200702220000" stop="20200703023000">
+    <title>Programmes de la nuit BFM TV</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">270</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200702220800" stop="20200702222500">
+    <title>Corneil et Bernie</title>
+    <sub-title>C'est pas drôle</sub-title>
+    <desc lang="fr">Saison:2 - Episode:4 - Le 1er avril, Bernie pousse tout le monde à bout avec ses blagues. Il fait croire à oncle Rico qu'il a gagné à la loterie. Ce dernier annonce alors qu'il abandonne tout pour vivre en Haïti...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">17</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e1256f64-e657-4c95-9e70-f4a7e36c6760.jpg" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200702222500" stop="20200702223800">
+    <title>Corneil et Bernie</title>
+    <sub-title>Une trottinette de fille</sub-title>
+    <desc lang="fr">Saison:2 - Episode:5 - Roméo s'offre une trottinette de compétition, avec laquelle il a toutes les chances remporter la course de l'école. Abattu, Bernie s'achète une nouvelle trottinette, sans réaliser qu'elle est destinées aux filles...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">13</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e1256f64-e657-4c95-9e70-f4a7e36c6760.jpg" />
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200702223800" stop="20200702230000">
+    <title>Corneil et Bernie</title>
+    <sub-title>Un vrai faux malade</sub-title>
+    <desc lang="fr">Saison:2 - Episode:6 - Bernie visite l'hôpital avec son école. Tous les élèves comparent leurs cicatrices et se moquent de Bernie qui n'en a aucune. Malgré tous les efforts de Corneil pour l'en dissuader, Bernie fait semblant d'être malade et reste à l'hôpital pour échapper à l'interro prévue par Mme Martin. Il en profite pour tenter d'avoir lui aussi une cicatrice avec l'aide de ces deux camarades de chambre un peu trop déjantés...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">22</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e1256f64-e657-4c95-9e70-f4a7e36c6760.jpg" />
+    <episode-num system="xmltv_ns">1.5.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200702230000" stop="20200702232500">
+    <title>Totally Spies</title>
+    <sub-title>Le salon de coiffure machiavélique</sub-title>
+    <desc lang="fr">Saison:2 - Episode:3 - Les espionnes ont deux missions à assurer en même temps : enquêter sur la disparition de plusieurs personnes aux cheveux roux dans un salon de coiffure et trouver un cadeau pour l'anniversaire de Jerry...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05568dec-592e-4b28-b067-1e9e0d394050.jpg" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200702232500" stop="20200702235000">
+    <title>Totally Spies</title>
+    <sub-title>Dans la peau de Jerry</sub-title>
+    <desc lang="fr">Saison:2 - Episode:4 - Jerry a un comportement très étrange. En effet, le docteur V, un scientifique renvoyé du Woohp, a pris le contrôle de son corps afin de mener à bien son projet criminel...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1c6862d7-fadb-456b-b698-a7bb3dc2b87c.jpg" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200702235000" stop="20200703001500">
+    <title>Foot 2 rue extrême</title>
+    <sub-title>Cap, pas cap</sub-title>
+    <desc lang="fr">Saison:1 - Episode:34 - Samy et Louna se lancent dans une série de défis sans fin, où chacun veut prouver qu'il est le meilleur. Très vite, cette rivalité empêche la Team de s'entraîner convenablement, mais en plus elle les pousse à faire des bêtises...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3a57ba20-3d7c-499c-b0bf-32ec8eda60f0.jpg" />
+    <episode-num system="xmltv_ns">0.33.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1399.api.telerama.fr" start="20200702224500" stop="20200703040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">315</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1401.api.telerama.fr" start="20200702233000" stop="20200703010500">
+    <title>L'Equipe du soir</title>
+    <category lang="fr">sport : multisports</category>
+    <length units="minutes">95</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1051f83f-f327-428d-a2c5-eedcfde8f1a9.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1402.api.telerama.fr" start="20200702220000" stop="20200703040000">
+    <title>Fin des programmes</title>
+    <category lang="fr">fin</category>
+    <length units="hours">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1403.api.telerama.fr" start="20200702225000" stop="20200703005000">
+    <title>Vive le camping</title>
+    <sub-title>A Bénodet, sur la côte bretonne</sub-title>
+    <desc lang="fr">Rendez-vous cette semaine à Bénodet, sur la Riviera Bretonne, dans un établissement situé entre mer et rivière. Cet endroit, c'est avant tout une success story familiale. En 1967, il n'y avait que quelques tentes dans un champ. 50 ans plus tard, le camping s'étend sur 12 hectares, possède un parc aquatique de 1 000 m² et accueille jusqu'à 1 600 vacanciers.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6cddb3dd-0750-42d1-880e-354c62b9bb80.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1404.api.telerama.fr" start="20200702221000" stop="20200702232000">
+    <title>Alice Nevers</title>
+    <sub-title>Survivre</sub-title>
+    <desc lang="fr">Saison:14 - Episode:2 - Un jeune homme au physique athlétique a été retrouvé mort dans le bois de Boulogne. L'autopsie révèle qu'avant sa mort, il a mangé un lapin qu'il a lui-même chassé dans la forêt. Il semble également qu'il ait été suspendu par les pieds. La rencontre avec sa soeur, elle-même professeure de chasse à l'arc, apporte une première explication : il était survivaliste. Jusqu'à sa majorité, il a vécu isolé du reste du monde, en pleine nature, son père l'ayant enlevé quand il était petit. Pendant ce temps, le père d'Alice trouve une photo de Chahine avec une autre femme. Il met Victor dans la confidence...</desc>
+    <credits>
+      <director>Akim Isker</director>
+      <actor>Marine Delterme</actor>
+      <actor>Jean-Michel Tinivelli</actor>
+      <actor>Guillaume Carcaud</actor>
+      <actor>Mas Belsito</actor>
+      <actor>Pierre Santini</actor>
+      <actor>Karine Testa</actor>
+      <actor>Guilaine Londez</actor>
+      <actor>Daniel-Jean Colloredo</actor>
+      <actor>Louise Emma Morel</actor>
+      <actor>Arthur Choisnet</actor>
+      <writer>Noëlle Loriot</writer>
+      <writer>Thomas Boullé</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">70</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a2ca390-6c57-4ac6-9281-97fa921bf09e.jpg" />
+    <episode-num system="xmltv_ns">13.1.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C1404.api.telerama.fr" start="20200702232000" stop="20200703002000">
+    <title>Alice Nevers</title>
+    <sub-title>Mauvais genre</sub-title>
+    <desc lang="fr">Saison:14 - Episode:3 - Durant la kermesse de l'école, Alice retrouve son fils prostré dans les toilettes. C'est alors qu'elle aperçoit une silhouette dans une cabine et découvre avec horreur le cadavre du directeur de l'école. Petit Paul a-t-il été le témoin direct du meurtre ? L'enfant est immédiatement mis en sécurité.  L'enquête révèle que des conflits avaient éclaté récemment dans l'établissement, entre les enseignants et certains parents d'élèves, en guerre contre la théorie du genre. Le combat que menait le directeur pour l'égalité entre les filles et les garçons lui a-t-il coûté la vie ? Lorsqu'Alice retourne dans sa maison d'enfance, elle découvre le mensonge orchestré par Chahine...</desc>
+    <credits>
+      <director>Akim Isker</director>
+      <actor>Marine Delterme</actor>
+      <actor>Jean-Michel Tinivelli</actor>
+      <actor>Gary Mihaileanu</actor>
+      <actor>Guillaume Carcaud</actor>
+      <actor>Mas Belsito</actor>
+      <actor>Pierre Santini</actor>
+      <actor>Karine Testa</actor>
+      <actor>Médina Diarra</actor>
+      <actor>Daniel-Jean Colloredo</actor>
+      <writer>Noëlle Loriot</writer>
+      <writer>Aude Blanchard</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="hours">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/97b615dc-6e6e-45ef-bc21-add7ba941654.jpg" />
+    <episode-num system="xmltv_ns">13.2.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C2111.api.telerama.fr" start="20200702220000" stop="20200703035700">
+    <title>France 24</title>
+    <category lang="fr">magazine d'information</category>
+    <length units="minutes">357</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8c54e999-6001-4506-b435-58301e6ea2e4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>

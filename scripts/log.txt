@@ -1,0 +1,715 @@
+
+# Start script at 02/07/2020 01:00:01
+
+# Remove old XMLTV files of raw directory (/home/admin/xmltv/scripts/../raw/)
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200629.xml
+
+# Update raw XMLTV files from grabbers
+	* Grab TV guides of day 02/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200702.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200702.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200702.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200702.xml
+[Thu Jul  2 01:00:01 2020] Fetching listings:   0%
+[Thu Jul  2 01:00:26 2020] Fetching listings:   3%
+[Thu Jul  2 01:02:06 2020] Fetching listings:   7%
+[Thu Jul  2 01:02:37 2020] Fetching listings:  11%
+[Thu Jul  2 01:04:01 2020] Fetching listings:  15%
+[Thu Jul  2 01:04:16 2020] Fetching listings:  19%
+[Thu Jul  2 01:05:25 2020] Fetching listings:  23%
+[Thu Jul  2 01:05:40 2020] Fetching listings:  26%
+[Thu Jul  2 01:06:51 2020] Fetching listings:  30%
+[Thu Jul  2 01:07:42 2020] Fetching listings:  34%
+[Thu Jul  2 01:10:26 2020] Fetching listings:  38%
+[Thu Jul  2 01:10:40 2020] Fetching listings:  42%
+[Thu Jul  2 01:11:46 2020] Fetching listings:  46%
+No schedule found
+[Thu Jul  2 01:11:50 2020] Fetching listings:  50%
+No schedule found
+[Thu Jul  2 01:11:55 2020] Fetching listings:  53%
+[Thu Jul  2 01:12:03 2020] Fetching listings:  57%
+Unable to retrieve web page for 185
+[Thu Jul  2 01:12:12 2020] Fetching listings:  61%
+[Thu Jul  2 01:12:55 2020] Fetching listings:  65%
+[Thu Jul  2 01:13:00 2020] Fetching listings:  69%
+[Thu Jul  2 01:13:42 2020] Fetching listings:  73%
+[Thu Jul  2 01:13:48 2020] Fetching listings:  76%
+[Thu Jul  2 01:14:34 2020] Fetching listings:  80%
+[Thu Jul  2 01:14:56 2020] Fetching listings:  84%
+[Thu Jul  2 01:16:19 2020] Fetching listings:  88%
+[Thu Jul  2 01:16:40 2020] Fetching listings:  92%
+[Thu Jul  2 01:17:55 2020] Fetching listings:  96%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200702.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200702.xml already exists --> Nothing to do
+	* Grab TV guides of day 03/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200703.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200703.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200703.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200703.xml
+[Thu Jul  2 01:17:56 2020] Fetching listings:   0%
+[Thu Jul  2 01:18:16 2020] Fetching listings:   3%
+[Thu Jul  2 01:19:50 2020] Fetching listings:   7%
+[Thu Jul  2 01:20:03 2020] Fetching listings:  11%
+[Thu Jul  2 01:21:26 2020] Fetching listings:  15%
+[Thu Jul  2 01:21:36 2020] Fetching listings:  19%
+[Thu Jul  2 01:22:52 2020] Fetching listings:  23%
+[Thu Jul  2 01:23:04 2020] Fetching listings:  26%
+[Thu Jul  2 01:24:02 2020] Fetching listings:  30%
+[Thu Jul  2 01:24:35 2020] Fetching listings:  34%
+[Thu Jul  2 01:27:01 2020] Fetching listings:  38%
+[Thu Jul  2 01:27:07 2020] Fetching listings:  42%
+[Thu Jul  2 01:28:16 2020] Fetching listings:  46%
+No schedule found
+[Thu Jul  2 01:28:19 2020] Fetching listings:  50%
+No schedule found
+[Thu Jul  2 01:28:21 2020] Fetching listings:  53%
+Unable to retrieve web page for 185
+[Thu Jul  2 01:29:02 2020] Fetching listings:  57%
+[Thu Jul  2 01:29:08 2020] Fetching listings:  61%
+[Thu Jul  2 01:30:08 2020] Fetching listings:  65%
+[Thu Jul  2 01:30:09 2020] Fetching listings:  69%
+[Thu Jul  2 01:31:33 2020] Fetching listings:  73%
+[Thu Jul  2 01:31:39 2020] Fetching listings:  76%
+[Thu Jul  2 01:32:13 2020] Fetching listings:  80%
+[Thu Jul  2 01:32:27 2020] Fetching listings:  84%
+[Thu Jul  2 01:33:56 2020] Fetching listings:  88%
+[Thu Jul  2 01:34:14 2020] Fetching listings:  92%
+[Thu Jul  2 01:35:23 2020] Fetching listings:  96%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200703.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200703.xml already exists --> Nothing to do
+	* Grab TV guides of day 04/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200704.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200704.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200704.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200704.xml
+[Thu Jul  2 01:35:23 2020] Fetching listings:   0%
+[Thu Jul  2 01:35:41 2020] Fetching listings:   3%
+[Thu Jul  2 01:37:13 2020] Fetching listings:   7%
+[Thu Jul  2 01:37:28 2020] Fetching listings:  11%
+[Thu Jul  2 01:38:47 2020] Fetching listings:  15%
+[Thu Jul  2 01:38:55 2020] Fetching listings:  19%
+[Thu Jul  2 01:40:25 2020] Fetching listings:  23%
+[Thu Jul  2 01:40:33 2020] Fetching listings:  26%
+[Thu Jul  2 01:41:44 2020] Fetching listings:  30%
+[Thu Jul  2 01:42:11 2020] Fetching listings:  34%
+[Thu Jul  2 01:45:02 2020] Fetching listings:  38%
+[Thu Jul  2 01:45:08 2020] Fetching listings:  42%
+[Thu Jul  2 01:46:12 2020] Fetching listings:  46%
+No schedule found
+[Thu Jul  2 01:46:16 2020] Fetching listings:  50%
+No schedule found
+[Thu Jul  2 01:46:17 2020] Fetching listings:  53%
+[Thu Jul  2 01:46:22 2020] Fetching listings:  57%
+[Thu Jul  2 01:47:03 2020] Fetching listings:  61%
+[Thu Jul  2 01:47:10 2020] Fetching listings:  65%
+[Thu Jul  2 01:47:50 2020] Fetching listings:  69%
+[Thu Jul  2 01:47:51 2020] Fetching listings:  73%
+[Thu Jul  2 01:48:24 2020] Fetching listings:  76%
+[Thu Jul  2 01:48:33 2020] Fetching listings:  80%
+[Thu Jul  2 01:49:14 2020] Fetching listings:  84%
+[Thu Jul  2 01:49:27 2020] Fetching listings:  88%
+Unable to retrieve web page for 1230
+[Thu Jul  2 01:49:38 2020] Fetching listings:  92%
+[Thu Jul  2 01:50:52 2020] Fetching listings:  96%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200704.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200704.xml already exists --> Nothing to do
+	* Grab TV guides of day 05/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200705.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200705.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200705.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200705.xml
+[Thu Jul  2 01:50:52 2020] Fetching listings:   0%
+[Thu Jul  2 01:51:07 2020] Fetching listings:   3%
+[Thu Jul  2 01:52:42 2020] Fetching listings:   7%
+[Thu Jul  2 01:52:53 2020] Fetching listings:  11%
+[Thu Jul  2 01:54:36 2020] Fetching listings:  15%
+[Thu Jul  2 01:54:46 2020] Fetching listings:  19%
+[Thu Jul  2 01:55:59 2020] Fetching listings:  23%
+[Thu Jul  2 01:56:07 2020] Fetching listings:  26%
+[Thu Jul  2 01:57:08 2020] Fetching listings:  30%
+[Thu Jul  2 01:57:34 2020] Fetching listings:  34%
+[Thu Jul  2 01:59:41 2020] Fetching listings:  38%
+[Thu Jul  2 01:59:47 2020] Fetching listings:  42%
+[Thu Jul  2 02:01:33 2020] Fetching listings:  46%
+No schedule found
+[Thu Jul  2 02:01:36 2020] Fetching listings:  50%
+No schedule found
+[Thu Jul  2 02:01:37 2020] Fetching listings:  53%
+Unable to retrieve web page for 185
+[Thu Jul  2 02:02:12 2020] Fetching listings:  57%
+[Thu Jul  2 02:02:21 2020] Fetching listings:  61%
+[Thu Jul  2 02:02:54 2020] Fetching listings:  65%
+[Thu Jul  2 02:02:57 2020] Fetching listings:  69%
+[Thu Jul  2 02:03:32 2020] Fetching listings:  73%
+[Thu Jul  2 02:03:34 2020] Fetching listings:  76%
+[Thu Jul  2 02:03:59 2020] Fetching listings:  80%
+[Thu Jul  2 02:04:18 2020] Fetching listings:  84%
+[Thu Jul  2 02:05:46 2020] Fetching listings:  88%
+[Thu Jul  2 02:06:17 2020] Fetching listings:  92%
+[Thu Jul  2 02:07:46 2020] Fetching listings:  96%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200705.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200705.xml already exists --> Nothing to do
+	* Grab TV guides of day 06/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200706.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200706.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200706.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200706.xml
+[Thu Jul  2 02:07:46 2020] Fetching listings:   0%
+[Thu Jul  2 02:08:08 2020] Fetching listings:   3%
+[Thu Jul  2 02:10:12 2020] Fetching listings:   7%
+[Thu Jul  2 02:10:32 2020] Fetching listings:  11%
+[Thu Jul  2 02:12:02 2020] Fetching listings:  15%
+[Thu Jul  2 02:12:14 2020] Fetching listings:  19%
+[Thu Jul  2 02:13:32 2020] Fetching listings:  23%
+[Thu Jul  2 02:13:43 2020] Fetching listings:  26%
+[Thu Jul  2 02:14:39 2020] Fetching listings:  30%
+[Thu Jul  2 02:15:18 2020] Fetching listings:  34%
+[Thu Jul  2 02:17:25 2020] Fetching listings:  38%
+[Thu Jul  2 02:17:34 2020] Fetching listings:  42%
+[Thu Jul  2 02:18:56 2020] Fetching listings:  46%
+No schedule found
+[Thu Jul  2 02:18:59 2020] Fetching listings:  50%
+Unable to retrieve web page for 1207
+[Thu Jul  2 02:19:08 2020] Fetching listings:  53%
+[Thu Jul  2 02:19:55 2020] Fetching listings:  57%
+[Thu Jul  2 02:19:56 2020] Fetching listings:  61%
+Unable to retrieve web page for 182
+[Thu Jul  2 02:20:04 2020] Fetching listings:  65%
+[Thu Jul  2 02:20:43 2020] Fetching listings:  69%
+[Thu Jul  2 02:20:47 2020] Fetching listings:  73%
+[Thu Jul  2 02:21:29 2020] Fetching listings:  76%
+[Thu Jul  2 02:21:49 2020] Fetching listings:  80%
+[Thu Jul  2 02:23:06 2020] Fetching listings:  84%
+[Thu Jul  2 02:23:16 2020] Fetching listings:  88%
+[Thu Jul  2 02:24:41 2020] Fetching listings:  92%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200706.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200706.xml already exists --> Nothing to do
+	* Grab TV guides of day 07/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200707.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200707.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200707.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200707.xml
+[Thu Jul  2 02:24:41 2020] Fetching listings:   0%
+[Thu Jul  2 02:25:02 2020] Fetching listings:   3%
+Unable to retrieve web page for 1013
+[Thu Jul  2 02:25:23 2020] Fetching listings:   7%
+[Thu Jul  2 02:27:01 2020] Fetching listings:  11%
+[Thu Jul  2 02:27:18 2020] Fetching listings:  15%
+[Thu Jul  2 02:28:37 2020] Fetching listings:  19%
+[Thu Jul  2 02:28:46 2020] Fetching listings:  23%
+[Thu Jul  2 02:29:50 2020] Fetching listings:  26%
+[Thu Jul  2 02:30:10 2020] Fetching listings:  30%
+[Thu Jul  2 02:32:30 2020] Fetching listings:  34%
+[Thu Jul  2 02:32:44 2020] Fetching listings:  38%
+[Thu Jul  2 02:34:00 2020] Fetching listings:  42%
+Unable to retrieve web page for 1207
+No schedule found
+[Thu Jul  2 02:34:05 2020] Fetching listings:  46%
+[Thu Jul  2 02:34:11 2020] Fetching listings:  50%
+[Thu Jul  2 02:34:44 2020] Fetching listings:  53%
+Unable to retrieve web page for 182
+[Thu Jul  2 02:35:40 2020] Fetching listings:  57%
+[Thu Jul  2 02:35:44 2020] Fetching listings:  61%
+[Thu Jul  2 02:36:31 2020] Fetching listings:  65%
+[Thu Jul  2 02:36:33 2020] Fetching listings:  69%
+[Thu Jul  2 02:37:07 2020] Fetching listings:  73%
+[Thu Jul  2 02:37:24 2020] Fetching listings:  76%
+[Thu Jul  2 02:38:55 2020] Fetching listings:  80%
+[Thu Jul  2 02:39:14 2020] Fetching listings:  84%
+[Thu Jul  2 02:40:29 2020] Fetching listings:  88%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200707.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200707.xml already exists --> Nothing to do
+	* Grab TV guides of day 08/07/2020
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200708.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200708.xml already exists --> Nothing to do
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200708.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200708.xml
+[Thu Jul  2 02:40:29 2020] Fetching listings:   0%
+Unable to retrieve web page for 1013
+[Thu Jul  2 02:42:28 2020] Fetching listings:   3%
+[Thu Jul  2 02:42:44 2020] Fetching listings:   7%
+[Thu Jul  2 02:44:08 2020] Fetching listings:  11%
+[Thu Jul  2 02:44:24 2020] Fetching listings:  15%
+Unable to retrieve web page for 320
+[Thu Jul  2 02:44:36 2020] Fetching listings:  19%
+[Thu Jul  2 02:45:46 2020] Fetching listings:  23%
+[Thu Jul  2 02:46:06 2020] Fetching listings:  26%
+[Thu Jul  2 02:48:37 2020] Fetching listings:  30%
+[Thu Jul  2 02:48:42 2020] Fetching listings:  34%
+Unable to retrieve web page for 178
+No schedule found
+[Thu Jul  2 02:48:50 2020] Fetching listings:  38%
+No schedule found
+[Thu Jul  2 02:48:52 2020] Fetching listings:  42%
+[Thu Jul  2 02:48:53 2020] Fetching listings:  46%
+[Thu Jul  2 02:49:45 2020] Fetching listings:  50%
+[Thu Jul  2 02:49:54 2020] Fetching listings:  53%
+[Thu Jul  2 02:50:33 2020] Fetching listings:  57%
+[Thu Jul  2 02:50:36 2020] Fetching listings:  61%
+[Thu Jul  2 02:51:20 2020] Fetching listings:  65%
+[Thu Jul  2 02:51:25 2020] Fetching listings:  69%
+[Thu Jul  2 02:52:09 2020] Fetching listings:  73%
+[Thu Jul  2 02:52:20 2020] Fetching listings:  76%
+[Thu Jul  2 02:53:41 2020] Fetching listings:  80%
+[Thu Jul  2 02:53:59 2020] Fetching listings:  84%
+[Thu Jul  2 02:55:17 2020] Fetching listings:  88%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_it_20200708.xml already exists --> Nothing to do
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200708.xml already exists --> Nothing to do
+	* Grab TV guides of day 09/07/2020
+		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200709.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200709.xml
+                                                  getting listings...Grabber process finished in 122 seconds for 8 chans, 57 api calls : 55 api_casting, 1 api_grille, 1 api_init, 6 cached api_casting
+		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200709.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200709.xml
+                                                  getting listings...Aucun programme pour la chaîne 2111 Franceinfo le 2020-07-09
+Grabber process finished in 328 seconds for 55 chans, 167 api calls : 164 api_casting, 2 api_grille, 1 api_init, 4 cached api_casting
+		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200709.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200709.xml
+[Thu Jul  2 03:02:49 2020] Fetching listings:   0%
+[Thu Jul  2 03:03:06 2020] Fetching listings:   3%
+[Thu Jul  2 03:04:48 2020] Fetching listings:   7%
+[Thu Jul  2 03:04:58 2020] Fetching listings:  11%
+Unable to retrieve web page for 432
+Unable to retrieve web page for 320
+Unable to retrieve web page for 320
+[Thu Jul  2 03:05:17 2020] Fetching listings:  15%
+[Thu Jul  2 03:06:23 2020] Fetching listings:  19%
+[Thu Jul  2 03:06:55 2020] Fetching listings:  23%
+Unable to retrieve web page for 257
+Unable to retrieve web page for 178
+[Thu Jul  2 03:08:37 2020] Fetching listings:  26%
+No schedule found
+[Thu Jul  2 03:08:40 2020] Fetching listings:  30%
+No schedule found
+[Thu Jul  2 03:08:45 2020] Fetching listings:  34%
+[Thu Jul  2 03:08:50 2020] Fetching listings:  38%
+[Thu Jul  2 03:09:37 2020] Fetching listings:  42%
+[Thu Jul  2 03:09:44 2020] Fetching listings:  46%
+[Thu Jul  2 03:10:37 2020] Fetching listings:  50%
+[Thu Jul  2 03:10:40 2020] Fetching listings:  53%
+[Thu Jul  2 03:11:20 2020] Fetching listings:  57%
+[Thu Jul  2 03:11:24 2020] Fetching listings:  61%
+[Thu Jul  2 03:11:54 2020] Fetching listings:  65%
+[Thu Jul  2 03:12:04 2020] Fetching listings:  69%
+[Thu Jul  2 03:13:26 2020] Fetching listings:  73%
+[Thu Jul  2 03:13:47 2020] Fetching listings:  76%
+[Thu Jul  2 03:15:12 2020] Fetching listings:  80%
+		- Last command exited with no zero code :-/, remove xmltv file
+		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200709.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200709.xml
+XMLTV::Supplement: Failed to fetch http://supplement.xmltv.org/tv_grab_it/channel_ids: 404 Not Found. Using cached info.
+getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Ritorno al futuro Collection H| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Discovery| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |NationalGeo| for 'skylife' is not in channel_ids, should be updated.
+***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Discovery Sci| for 'skylife' is not in channel_ids, should be updated.
+***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
+***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
+***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
+***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
+***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
+***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
+***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
+***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
+***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
+***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
+***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
+***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
+***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
+***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
+***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
+***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
+***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
+VERBOSE: Cannot get skylife's channel list (http://guidatv.sky.it/app/guidatv/contenuti/data/grid/grid_musica_channels.js). Site \n at /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it line 1386.
+############VERBOSE: Cannot get mediaset_guidatv's channel list (http://www.mediaset.it/guidatv/palinsesto.xml). Site \n at /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it line 3278.
+################################
+Day offset too big. No program information will be fetched.
+getting listings: (nothing to do)
+		- File /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200709.xml already exists --> Nothing to do
+
+# Remove all XMLTV files in root directory
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_all_local.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_all.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_20200629.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_local_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_local_20200706.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200701.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200630.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_20200705.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_it_local_20200704.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200707.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_uk_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_be_20200708.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_local_20200703.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_local_20200702.xml
+	* Remove file /home/admin/xmltv/scripts/../tv_guide_fr_tnt_20200629.xml
+
+# Generate new XMLTV files in root directory
+
+* Processing of be country:
+	- Retireve programmes from all xmltv files of this country
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200630.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200701.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200702.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200703.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200704.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200705.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200706.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200707.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200708.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200709.xml
+	- Write full xmltv file in tv_guide_be.xml
+	- Write full xmltv file in tv_guide_be_local.xml
+	- Write one day xmltv files:
+		* Write day 20200630 in tv_guide_be_20200630.xml
+		* Write day 20200701 in tv_guide_be_20200701.xml
+		* Write day 20200702 in tv_guide_be_20200702.xml
+		* Write day 20200703 in tv_guide_be_20200703.xml
+		* Write day 20200704 in tv_guide_be_20200704.xml
+		* Write day 20200705 in tv_guide_be_20200705.xml
+		* Write day 20200706 in tv_guide_be_20200706.xml
+		* Write day 20200707 in tv_guide_be_20200707.xml
+		* Write day 20200708 in tv_guide_be_20200708.xml
+		* Write day 20200709 in tv_guide_be_20200709.xml
+		* Write day 20200630 in tv_guide_be_local_20200630.xml
+		* Write day 20200701 in tv_guide_be_local_20200701.xml
+		* Write day 20200702 in tv_guide_be_local_20200702.xml
+		* Write day 20200703 in tv_guide_be_local_20200703.xml
+		* Write day 20200704 in tv_guide_be_local_20200704.xml
+		* Write day 20200705 in tv_guide_be_local_20200705.xml
+		* Write day 20200706 in tv_guide_be_local_20200706.xml
+		* Write day 20200707 in tv_guide_be_local_20200707.xml
+		* Write day 20200708 in tv_guide_be_local_20200708.xml
+		* Write day 20200709 in tv_guide_be_local_20200709.xml
+
+* Processing of fr_tnt country:
+	- Retireve programmes from all xmltv files of this country
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200630.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200701.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200702.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200703.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200704.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200705.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200706.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200707.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200708.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200709.xml
+	- Write full xmltv file in tv_guide_fr_tnt.xml
+	- Write full xmltv file in tv_guide_fr_tnt_local.xml
+	- Write one day xmltv files:
+		* Write day 20200630 in tv_guide_fr_tnt_20200630.xml
+		* Write day 20200701 in tv_guide_fr_tnt_20200701.xml
+		* Write day 20200702 in tv_guide_fr_tnt_20200702.xml
+		* Write day 20200703 in tv_guide_fr_tnt_20200703.xml
+		* Write day 20200704 in tv_guide_fr_tnt_20200704.xml
+		* Write day 20200705 in tv_guide_fr_tnt_20200705.xml
+		* Write day 20200706 in tv_guide_fr_tnt_20200706.xml
+		* Write day 20200707 in tv_guide_fr_tnt_20200707.xml
+		* Write day 20200708 in tv_guide_fr_tnt_20200708.xml
+		* Write day 20200709 in tv_guide_fr_tnt_20200709.xml
+		* Write day 20200630 in tv_guide_fr_tnt_local_20200630.xml
+		* Write day 20200701 in tv_guide_fr_tnt_local_20200701.xml
+		* Write day 20200702 in tv_guide_fr_tnt_local_20200702.xml
+		* Write day 20200703 in tv_guide_fr_tnt_local_20200703.xml
+		* Write day 20200704 in tv_guide_fr_tnt_local_20200704.xml
+		* Write day 20200705 in tv_guide_fr_tnt_local_20200705.xml
+		* Write day 20200706 in tv_guide_fr_tnt_local_20200706.xml
+		* Write day 20200707 in tv_guide_fr_tnt_local_20200707.xml
+		* Write day 20200708 in tv_guide_fr_tnt_local_20200708.xml
+		* Write day 20200709 in tv_guide_fr_tnt_local_20200709.xml
+
+* Processing of uk country:
+	- Retireve programmes from all xmltv files of this country
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200630.xml
+	- Write full xmltv file in tv_guide_uk.xml
+	- Write full xmltv file in tv_guide_uk_local.xml
+	- Write one day xmltv files:
+		* Write day 20200630 in tv_guide_uk_20200630.xml
+		* Write day 20200701 in tv_guide_uk_20200701.xml
+		* Write day 20200702 in tv_guide_uk_20200702.xml
+		* Write day 20200703 in tv_guide_uk_20200703.xml
+		* Write day 20200704 in tv_guide_uk_20200704.xml
+		* Write day 20200705 in tv_guide_uk_20200705.xml
+		* Write day 20200706 in tv_guide_uk_20200706.xml
+		* Write day 20200707 in tv_guide_uk_20200707.xml
+		* Write day 20200708 in tv_guide_uk_20200708.xml
+		* Write day 20200709 in tv_guide_uk_20200709.xml
+		* Write day 20200630 in tv_guide_uk_local_20200630.xml
+		* Write day 20200701 in tv_guide_uk_local_20200701.xml
+		* Write day 20200702 in tv_guide_uk_local_20200702.xml
+		* Write day 20200703 in tv_guide_uk_local_20200703.xml
+		* Write day 20200704 in tv_guide_uk_local_20200704.xml
+		* Write day 20200705 in tv_guide_uk_local_20200705.xml
+		* Write day 20200706 in tv_guide_uk_local_20200706.xml
+		* Write day 20200707 in tv_guide_uk_local_20200707.xml
+		* Write day 20200708 in tv_guide_uk_local_20200708.xml
+		* Write day 20200709 in tv_guide_uk_local_20200709.xml
+
+* Processing of it country:
+	- Retireve programmes from all xmltv files of this country
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200630.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200701.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200702.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200703.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200704.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200705.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200706.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200707.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200708.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_it_20200709.xml
+	- Write full xmltv file in tv_guide_it.xml
+	- Write full xmltv file in tv_guide_it_local.xml
+	- Write one day xmltv files:
+		* Write day 20200630 in tv_guide_it_20200630.xml
+		* Write day 20200701 in tv_guide_it_20200701.xml
+		* Write day 20200702 in tv_guide_it_20200702.xml
+		* Write day 20200703 in tv_guide_it_20200703.xml
+		* Write day 20200704 in tv_guide_it_20200704.xml
+		* Write day 20200705 in tv_guide_it_20200705.xml
+		* Write day 20200706 in tv_guide_it_20200706.xml
+		* Write day 20200707 in tv_guide_it_20200707.xml
+		* Write day 20200708 in tv_guide_it_20200708.xml
+		* Write day 20200709 in tv_guide_it_20200709.xml
+		* Write day 20200630 in tv_guide_it_local_20200630.xml
+		* Write day 20200701 in tv_guide_it_local_20200701.xml
+		* Write day 20200702 in tv_guide_it_local_20200702.xml
+		* Write day 20200703 in tv_guide_it_local_20200703.xml
+		* Write day 20200704 in tv_guide_it_local_20200704.xml
+		* Write day 20200705 in tv_guide_it_local_20200705.xml
+		* Write day 20200706 in tv_guide_it_local_20200706.xml
+		* Write day 20200707 in tv_guide_it_local_20200707.xml
+		* Write day 20200708 in tv_guide_it_local_20200708.xml
+		* Write day 20200709 in tv_guide_it_local_20200709.xml
+
+* Processing of fr country:
+	- Retireve programmes from all xmltv files of this country
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200630.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200701.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200702.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200703.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200704.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200705.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200706.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200707.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200708.xml
+		* Add programmes from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200709.xml
+	- Write full xmltv file in tv_guide_fr.xml
+	- Write full xmltv file in tv_guide_fr_local.xml
+	- Write one day xmltv files:
+		* Write day 20200630 in tv_guide_fr_20200630.xml
+		* Write day 20200701 in tv_guide_fr_20200701.xml
+		* Write day 20200702 in tv_guide_fr_20200702.xml
+		* Write day 20200703 in tv_guide_fr_20200703.xml
+		* Write day 20200704 in tv_guide_fr_20200704.xml
+		* Write day 20200705 in tv_guide_fr_20200705.xml
+		* Write day 20200706 in tv_guide_fr_20200706.xml
+		* Write day 20200707 in tv_guide_fr_20200707.xml
+		* Write day 20200708 in tv_guide_fr_20200708.xml
+		* Write day 20200709 in tv_guide_fr_20200709.xml
+		* Write day 20200630 in tv_guide_fr_local_20200630.xml
+		* Write day 20200701 in tv_guide_fr_local_20200701.xml
+		* Write day 20200702 in tv_guide_fr_local_20200702.xml
+		* Write day 20200703 in tv_guide_fr_local_20200703.xml
+		* Write day 20200704 in tv_guide_fr_local_20200704.xml
+		* Write day 20200705 in tv_guide_fr_local_20200705.xml
+		* Write day 20200706 in tv_guide_fr_local_20200706.xml
+		* Write day 20200707 in tv_guide_fr_local_20200707.xml
+		* Write day 20200708 in tv_guide_fr_local_20200708.xml
+		* Write day 20200709 in tv_guide_fr_local_20200709.xml
+	* Merge all country tv guides in tv_guide_all.xml
+	* Merge all country tv guides in tv_guide_all_local.xml
+
+# Exit script at 02/07/2020 03:15:49
+
+- Push changes
+
+[master cd2097d] Auto update TV guides (02/07/2020 01:00:01-CEST)
+ 82 files changed, 635075 insertions(+), 768149 deletions(-)
+ rename raw/{tv_guide_be_telerama_20200629.xml => tv_guide_be_telerama_20200709.xml} (52%)
+ delete mode 100644 raw/tv_guide_fr_telerama_20200629.xml
+ create mode 100644 raw/tv_guide_fr_telerama_20200709.xml
+ delete mode 100644 raw/tv_guide_it_20200629.xml
+ create mode 100644 raw/tv_guide_it_20200709.xml
+ delete mode 100644 raw/tv_guide_uk_tvguide_20200629.xml
+ delete mode 100644 tv_guide_be_20200629.xml
+ create mode 100644 tv_guide_be_20200709.xml
+ delete mode 100644 tv_guide_be_local_20200629.xml
+ create mode 100644 tv_guide_be_local_20200709.xml
+ delete mode 100644 tv_guide_fr_20200629.xml
+ create mode 100644 tv_guide_fr_20200709.xml
+ delete mode 100644 tv_guide_fr_local_20200629.xml
+ create mode 100644 tv_guide_fr_local_20200709.xml
+ delete mode 100644 tv_guide_fr_tnt_20200629.xml
+ create mode 100644 tv_guide_fr_tnt_20200709.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200629.xml
+ create mode 100644 tv_guide_fr_tnt_local_20200709.xml
+ rename tv_guide_it_20200629.xml => tv_guide_it_20200709.xml (68%)
+ rename tv_guide_it_local_20200629.xml => tv_guide_it_local_20200709.xml (68%)
+ rewrite tv_guide_uk.xml (95%)
+ delete mode 100644 tv_guide_uk_20200629.xml
+ create mode 100644 tv_guide_uk_20200709.xml
+ rewrite tv_guide_uk_local.xml (95%)
+ delete mode 100644 tv_guide_uk_local_20200629.xml
+ create mode 100644 tv_guide_uk_local_20200709.xml
+To github.com:Catch-up-TV-and-More/xmltv.git
+   421b919..cd2097d  master -> master
+
+- Changes have been pushed --> exit
+
