@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv source_info_url="https://api.telerama.fr">
+  <channel id="C4.api.telerama.fr">
+    <display-name>France 2</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/4.png" />
+  </channel>
+  <channel id="C34.api.telerama.fr">
+    <display-name>Canal+</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/34.png" />
+  </channel>
+  <channel id="C47.api.telerama.fr">
+    <display-name>France 5</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/47.png" />
+  </channel>
+  <channel id="C78.api.telerama.fr">
+    <display-name>France 4</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/78.png" />
+  </channel>
+  <channel id="C80.api.telerama.fr">
+    <display-name>France 3</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/80.png" />
+  </channel>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="C112.api.telerama.fr">
+    <display-name>LCI</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/112.png" />
+  </channel>
+  <channel id="C118.api.telerama.fr">
+    <display-name>M6</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/118.png" />
+  </channel>
+  <channel id="C119.api.telerama.fr">
+    <display-name>W9</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/119.png" />
+  </channel>
+  <channel id="C160.api.telerama.fr">
+    <display-name>France Ô</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/160.png" />
+  </channel>
+  <channel id="C192.api.telerama.fr">
+    <display-name>TF1</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/192.png" />
+  </channel>
+  <channel id="C195.api.telerama.fr">
+    <display-name>TMC</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/195.png" />
+  </channel>
+  <channel id="C226.api.telerama.fr">
+    <display-name>CNEWS</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/226.png" />
+  </channel>
+  <channel id="C234.api.telerama.fr">
+    <display-name>La Chaîne parlementaire</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/234.png" />
+  </channel>
+  <channel id="C444.api.telerama.fr">
+    <display-name>NRJ 12</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/444.png" />
+  </channel>
+  <channel id="C445.api.telerama.fr">
+    <display-name>C8</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/445.png" />
+  </channel>
+  <channel id="C446.api.telerama.fr">
+    <display-name>TFX</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/446.png" />
+  </channel>
+  <channel id="C458.api.telerama.fr">
+    <display-name>CSTAR</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/458.png" />
+  </channel>
+  <channel id="C481.api.telerama.fr">
+    <display-name>BFMTV</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/481.png" />
+  </channel>
+  <channel id="C482.api.telerama.fr">
+    <display-name>Gulli</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/482.png" />
+  </channel>
+  <channel id="C1399.api.telerama.fr">
+    <display-name>Chérie 25</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1399.png" />
+  </channel>
+  <channel id="C1400.api.telerama.fr">
+    <display-name>RMC Découverte</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1400.png" />
+  </channel>
+  <channel id="C1401.api.telerama.fr">
+    <display-name>L'Equipe</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1401.png" />
+  </channel>
+  <channel id="C1402.api.telerama.fr">
+    <display-name>RMC Story</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1402.png" />
+  </channel>
+  <channel id="C1403.api.telerama.fr">
+    <display-name>6ter</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1403.png" />
+  </channel>
+  <channel id="C1404.api.telerama.fr">
+    <display-name>TF1 Séries Films</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1404.png" />
+  </channel>
+  <channel id="C2111.api.telerama.fr">
+    <display-name>Franceinfo</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/2111.png" />
+  </channel>
+  <programme channel="C226.api.telerama.fr" start="20200811210000" stop="20200812040000">
+    <title>L'édition de la nuit</title>
+    <category lang="fr">journal</category>
+    <length units="hours">7</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d2411c34-9753-4a79-a718-40f41ae4cbed.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200811231000" stop="20200812011000">
+    <title>Monteverdi à Venise</title>
+    <sub-title>Orfeo</sub-title>
+    <desc lang="fr">La belle Eurydice est morte. Orphée, son époux, et ses amis se lamentent sur sa tombe. C'est alors qu'une messagère apparaît, annonçant à Orphée que Zeus, ayant eu vent de son malheur, s'est pris de pitié pour lui. Orphée est donc autorisé à descendre aux Enfers, où il devra, par la seule force de sa musique, convaincre Pluton de le laisser repartir avec Eurydice. Mais son chemin sera semé d'embûches...</desc>
+    <category lang="fr">opéra</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/a54a8af7-770f-41dd-bf5d-f706a95982c8.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200812011000" stop="20200812011500">
+    <title>Météo Outre-mer</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200812015500" stop="20200812020500">
+    <title>Pays et marchés du monde</title>
+    <sub-title>France-Lourmarin</sub-title>
+    <desc lang="fr">Une découverte des richesses patrimoniales et culinaires du littoral de La Réunion.</desc>
+    <category lang="fr">documentaire : découvertes</category>
+    <length units="minutes">10</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8b910c5a-2c66-4b31-a647-f86492b56ddc.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200812020500" stop="20200812025000">
+    <title>Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Un quiz, six candidats et, bien calé dans son fauteuil, un champion que tous rêvent de déloger. Chaque jour, un seul pourra se mesurer à lui et espérer devenir le nouveau champion.</desc>
+    <category lang="fr">jeu</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f8b4569d-f743-48f5-a50f-167bdb483193.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C4.api.telerama.fr" start="20200812025000" stop="20200812033000">
+    <title>Les Z'amours</title>
+    <desc lang="fr">Trois couples de candidats répondent à des questions censées évaluer la connaissance qu'ils ont de leurs partenaires respectifs. Les conjoints qui accordent le mieux leurs violons remportent la mise.</desc>
+    <category lang="fr">jeu</category>
+    <length units="minutes">40</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ab3add23-f182-4a84-8cdb-f44956c2630f.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200811225000" stop="20200812002500">
+    <title>Euphoria</title>
+    <desc lang="fr">Après plusieurs années de séparation, Emilie rejoint sa petite soeur, photographe, à New York puis l'entraîne vers une mystérieuse destination en Europe. Là elles sont attendues dans une maison isolée, située au coeur d'une forêt tranquille, où les accueille Marina. Celle-ci leur explique qu'il s'agit d'un établissement paisible qui permet aux malades de finir leur vie sereinement, comme ils le souhaitent. Horrifiée, Ines comprend que sa soeur, en phase terminale, souhaite passer ses derniers jours avec elle. De confidence en règlement de compte, les deux soeurs se rapprochent peu à peu, douloureusement...</desc>
+    <credits>
+      <director>Lisa Langseth</director>
+      <actor>Alicia Vikander</actor>
+      <actor>Eva Green</actor>
+      <actor>Charles Dance</actor>
+      <actor>Charlotte Rampling</actor>
+      <actor>Mark Stanley</actor>
+      <actor>Adrian Lester</actor>
+      <actor>August Zirner</actor>
+      <writer>Lisa Langseth</writer>
+      <guest>Christian M Goldbeck</guest>
+      <guest>Rob Hardy</guest>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">95</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/df7af746-4738-438b-9889-d6e1a2c504fc.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+    <star-rating>
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200812002500" stop="20200812005600">
+    <title>Veuillez agréer...</title>
+    <category lang="fr">film</category>
+    <length units="minutes">31</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dd1b1d0e-9181-4ba9-b646-290482480970.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200812005600" stop="20200812021600">
+    <title>Chasseurs de dragons</title>
+    <desc lang="fr">La quête de deux drôles de zigotos et d'une fillette, dans un monde fantastique de palais et de forêts en apesanteur. Un film d'animation spectaculaire.</desc>
+    <date>2008</date>
+    <category lang="fr">film d'animation</category>
+    <length units="minutes">80</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/57bc11d9-fe4f-4900-a23d-c1429103d614.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C34.api.telerama.fr" start="20200812021600" stop="20200812035700">
+    <title>Super Rugby AU (Melbourne Rebels / Brumbies)</title>
+    <category lang="fr">sport : rugby</category>
+    <length units="minutes">101</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/241ed98b-bed9-45aa-93ca-10add7978f78.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C47.api.telerama.fr" start="20200811233000" stop="20200812002500">
+    <title>Des trains pas comme les autres</title>
+    <sub-title>Ethiopie</sub-title>
+    <desc lang="fr">Saison:10 - Philippe Gougler part à la découverte de l'Ethiopie à travers ses lignes ferroviaires nationales. Son voyage débute dans un train qui circule sur une ligne de chemin de fer très ancienne construite par les Français et qui relie Addis-Abeba à Djibouti. A Harar, ville historique, il va se retrouver en pleine nuit parmi des hyènes avant de poursuivre le voyage sur une ligne construite par les Chinois, puis sur des haut-plateaux situés à plus de 3000 mètres d'altitude. Dans le nord du pays, près d'Aterow, il ira à la rencontre des fermiers qui doivent crier toute la journée pour éloigner des babouins qui chapardent les récoltes.</desc>
+    <date>2020</date>
+    <category lang="fr">documentaire : voyage</category>
+    <length units="minutes">55</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/82968bcc-a333-425b-89c0-58c1d3033364.jpg" />
+    <episode-num system="xmltv_ns">9..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C47.api.telerama.fr" start="20200812002500" stop="20200812025000">
+    <title>La nuit France 5</title>
+    <category lang="fr">magazine de reportages</category>
+    <length units="minutes">145</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/df258386-eab9-42f8-b9e3-80093c62749a.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C47.api.telerama.fr" start="20200812025000" stop="20200812035500">
+    <title>C dans l'air</title>
+    <desc lang="fr">Du lundi au samedi, "C dans l'air" donne les clés pour comprendre dans sa globalité un événement ou un sujet de première importance, en permettant aux téléspectateurs d'intervenir dans le débat ou de poser des questions par SMS ou Internet. Plusieurs reportages illustrent le sujet et des spécialistes, sur le plateau, l'éclairent de leurs réflexions.</desc>
+    <category lang="fr">magazine d'information</category>
+    <length units="minutes">65</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d37ebf3d-7fcf-4136-ac46-645ffd4c58c2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C78.api.telerama.fr" start="20200811222500" stop="20200812002000">
+    <title>Le monde de Jamy</title>
+    <sub-title>Bien manger, c'est encore possible !</sub-title>
+    <desc lang="fr">Malgré les scandales alimentaires, malgré les pesticides, on mange beaucoup mieux aujourd'hui qu'il y a cinquante ans. On trouve en effet des produits plus variés, plus sains, issus d'un savoir-faire traditionnel, tout cela sans dépenser trop. D'une part, les consommateurs sont devenus plus exigeants et attentifs, en quête de qualité. D'autre part, les agriculteurs et les producteurs prennent conscience des limites du productivisme, et de ses dangers pour l'environnement et la santé. De la Provence à la Bretagne, de Toulouse à Paris, Jamy Gourmaud et Myriam Bounafaa ont sillonné la France pour rencontrer les meilleurs producteurs, comprendre comment sont fabriqués les produits les plus savoureux, les plus authentiques, et donner les clés pour les reconnaître en faisant les courses, sur les marchés ou en grande surface.</desc>
+    <date>2016</date>
+    <category lang="fr">documentaire : sciences et technique</category>
+    <length units="minutes">115</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fe23a930-253f-4d13-a317-ec5d845a6930.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C78.api.telerama.fr" start="20200812002000" stop="20200812034900">
+    <title>Interruption des programmes</title>
+    <category lang="fr">fin</category>
+    <length units="minutes">209</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200811232000" stop="20200812001000">
+    <title>Miss Fisher enquête</title>
+    <sub-title>Le miracle de la science</sub-title>
+    <desc lang="fr">Saison:3 - Episode:8 - Quentin Tode, un astronome, est retrouvé mort à l'Institut Wren. L'homme avait reçu la veille le premier prix décerné par cet institut. Osman Efendi, le second prix du concours Wren, qui s'était fait voler les résultats de ses propres travaux par Tode, pourrait bien être un suspect. Mais les investigations de Phryne vont révéler une affaire bien plus complexe...</desc>
+    <credits>
+      <director>Daina Reid</director>
+      <actor>Essie Davis</actor>
+      <actor>Nathan Page</actor>
+      <actor>Hugo Johnstone-Burt</actor>
+      <actor>Ashleigh Cummings</actor>
+      <actor>Pip Miller</actor>
+      <actor>Dennis Coard</actor>
+      <actor>Tamblyn Lord</actor>
+      <actor>David James</actor>
+      <writer>Maureen Jennings</writer>
+      <writer>Kris Wyld</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">50</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e4e9ca76-1bc7-4c4a-9e25-3095ba9f9cfb.jpg" />
+    <episode-num system="xmltv_ns">2.7.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200812001000" stop="20200812001500">
+    <title>Un livre, un jour</title>
+    <sub-title>"Bleue" de Maja Lunde (Presses de la Cité)</sub-title>
+    <desc lang="fr">"Un livre, un jour" est un mini-magazine littéraire diffusé quotidiennement sur France 3, dont le principe est de présenter chaque jour un livre différent.</desc>
+    <category lang="fr">magazine littéraire</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d755b05d-f6c2-4591-89fa-2783a0096587.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200812001500" stop="20200812014500">
+    <title>Samedi d'en rire</title>
+    <desc lang="fr">(Reprise du 08/08/20)</desc>
+    <category lang="fr">divertissement-humour</category>
+    <length units="minutes">90</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/337f8f55-7fde-44a3-9f45-082f96423e79.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200812014500" stop="20200812024000">
+    <title>Les carnets de Julie</title>
+    <sub-title>La Haute-Normandie</sub-title>
+    <desc lang="fr">Saison:3 - Au sommaire : Le canard à la rouennaise d'Hubert. - Le poulpe à la dieppoise de Nicole. - Les Saint-Jacques à la crème, aux endives et au lard de Nathalie.</desc>
+    <category lang="fr">magazine culinaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/175789b0-a0e8-4ea0-8ee2-f6d9abf2d3e6.jpg" />
+    <episode-num system="xmltv_ns">2..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200812024000" stop="20200812025500">
+    <title>Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">magazine musical</category>
+    <length units="minutes">15</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/53f03499-1e38-4a03-a63e-df8ae7b78205.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C80.api.telerama.fr" start="20200812025500" stop="20200812033500">
+    <title>Questions pour un champion</title>
+    <desc lang="fr">Samuel Etienne anime ce jeu emblématique, qui voit chaque soir s'affronter quatre candidats autour de questions de culture générale.</desc>
+    <category lang="fr">jeu</category>
+    <length units="minutes">40</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/67bc81cc-83a6-4ea9-8e02-d01af26499e8.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C111.api.telerama.fr" start="20200811230500" stop="20200812000000">
+    <title>Arte reportage</title>
+    <desc lang="fr">Au sommaire : "Pakistan : les fantômes de Karachi". A Karachi, le centre Bilquis Edhi, seul hôpital psychiatrique gratuit du pays, accueille 1700 patientes, souvent des femmes répudiées par leurs familles. - "Grèce : Lesbos, survivre à Moria". Dans le camp de Moria, Fereshta Azimi, réfugiée afghane, donne des cours d'anglais à d'autres réfugiées pour les aider à reprendre confiance en elles.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">55</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d47d41b6-d374-4d23-91ad-9dc3b42ca90a.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C111.api.telerama.fr" start="20200812000000" stop="20200812010000">
+    <title>Trafic d'enfants</title>
+    <desc lang="fr">Des centaines de vols sont régulièrement commis dans le métro parisien par des enfants roumains. Après plusieurs interpellations la Brigade de protection des mineurs s'empare de l'affaire. Dans les pas des policiers et des magistrats, le film suit l'enquête menée en collaboration avec la police roumaine. Très vite les interrogatoires et les écoutes dévoilent que le produit des vols est presque intégralement reversé aux parents qui vivent dans des squats au-delà du périphérique, puis envoyé en Roumanie. Les enquêteurs découvrent des enfants sous emprise, interdits d'école, obligés de voler par leurs parents pour rembourser des dettes d'honneur. Un film intense sur la justice face à un trafic d'enfants à l'échelle européenne.</desc>
+    <date>2019</date>
+    <category lang="fr">documentaire : société</category>
+    <length units="hours">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1903144b-c853-4a8e-8068-4422eacbd96d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C111.api.telerama.fr" start="20200812010000" stop="20200812015500">
+    <title>La justice les yeux dans les yeux</title>
+    <desc lang="fr">Braquage, agression, abus sexuels ou encore accident de la route : autant d’infractions qui engendrent des blessures profondes, physiques et morales, chez les victimes, souvent privées de voix dans des procédures judiciaires axées sur la peine. Pour leur restituer une place, la justice restaurative organise des confrontations entre elles et les auteurs de ces actes, afin que s’instaure un dialogue cathartique entre les deux parties. Des médiations chargées émotionnellement, qui permettent cependant aux unes et aux autres de dépasser la violence subie et commise pour se reconstruire.</desc>
+    <date>2018</date>
+    <category lang="fr">documentaire : justice</category>
+    <length units="minutes">55</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d1320c46-6c4f-4a1a-a838-073f50db03ff.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C111.api.telerama.fr" start="20200812015500" stop="20200812030000">
+    <title>Arte regards</title>
+    <sub-title>Notre été à Majorque</sub-title>
+    <desc lang="fr">Leurs histoires ne font pas la une mais elles émeuvent, surprennent et donnent à réfléchir. En prise avec un thème d'actualité, les reportages choisis par ARTE Regards vont à la rencontre de citoyens européens et proposent une plongée inédite dans leurs réalités quotidiennes.</desc>
+    <date>2020</date>
+    <category lang="fr">documentaire : société</category>
+    <length units="minutes">65</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c665549a-dcb5-4912-9cec-3d7ea1ae5600.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C112.api.telerama.fr" start="20200811220000" stop="20200812000000">
+    <title>24 Heures Pujadas</title>
+    <desc lang="fr">Débats, reportages et interventions d'experts permettent d'approfondir l'actualité du jour. Placé sous le signe de la pédagogie, cette nouvelle émission est segmentée en trois parties : le débat du jour, un sujet politique ou portant sur l'économie et une dernière partie qui concerne la science, l'international ou la société. Les téléspectateurs sont invités à réagir via les réseaux sociaux.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/2176a5f9-7f9d-4832-8b2e-73422cc172de.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C112.api.telerama.fr" start="20200812000000" stop="20200812050000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="hours">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C118.api.telerama.fr" start="20200811231500" stop="20200812040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">285</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C119.api.telerama.fr" start="20200811231000" stop="20200812005000">
+    <title>Michel Sardou : l'indomptable</title>
+    <desc lang="fr">Michel Sardou fait partie des monuments de la musique populaire. De «La maladie d'amour» à «Je vole» en passant par «La java de Broadway», tous ses tubes ont marqué l'histoire de la chanson française. Mais qui se cache vraiment derrière cette légende de la musique qui est au sommet depuis près de 50 ans ?</desc>
+    <category lang="fr">magazine musical</category>
+    <length units="minutes">100</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/20babe94-9e3d-45fe-b159-fe1eca63fcd3.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C119.api.telerama.fr" start="20200812005000" stop="20200812040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">190</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200811234000" stop="20200812003300">
+    <title>Heiva i Paris 2019</title>
+    <desc lang="fr">Plus de 150 danseurs venus d'Océanie, d'Europe et des quatre coins du monde sont présents pour enflammer la scène. Devant un jury venu spécialement de Tahiti, les meilleures troupes et danseurs s'affrontent à travers des chorégraphies pour décrocher le fameux titre du Heiva i Paris. Entre émotions, prestige et performance, ce grand spectacle immersif transporte les spectateurs dans les îles polynésiennes.</desc>
+    <category lang="fr">chorégraphique</category>
+    <length units="minutes">53</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1f4fa6a5-cc3b-4155-ac08-52e33f954773.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200812003300" stop="20200812020900">
+    <title>Concert solidarité Covid-19 : Te aho paruru</title>
+    <desc lang="fr">Te Aho Paruru, c'est le nom du concert solidaire organisé par l'association des artistes "Les Tamari'i Ha'uti" et l'association "To Tiare". Après plus d'un mois de confinement, ce collectif proposait aux Polynésiens un concert en live afin de les divertir, mais aussi pour appeler à la solidarité envers ceux qui souffrent de cette crise sanitaire.</desc>
+    <category lang="fr">world music</category>
+    <length units="minutes">96</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/4753139e-6199-444d-aae9-7b47b331a148.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200812020900" stop="20200812023500">
+    <title>Endemix Live</title>
+    <sub-title>Kapa kapa</sub-title>
+    <desc lang="fr">Saison:1 - Une rencontre musicale pour découvrir sur scène l'actualité d'un artiste local confirmé, le tout pimenté d'une interview sur ses sources d'inspiration, ses influences, ses engagements.</desc>
+    <category lang="fr">magazine musical</category>
+    <length units="minutes">26</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5f20b266-026b-4f53-865b-99c1eadf8f6f.jpg" />
+    <episode-num system="xmltv_ns">0..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200812023500" stop="20200812024800">
+    <title>Infô soir</title>
+    <desc lang="fr">Le journal s'appuie sur les neuf départements et territoires français des outre-mers pour mieux comprendre le monde et s'ouvrir à l'actualité internationale dans laquelle s'inscrivent ces régions.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">13</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C160.api.telerama.fr" start="20200812024800" stop="20200812030600">
+    <title>Journal Polynésie</title>
+    <desc lang="fr">Retrouvez toute l'actualité de Polynésie.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">18</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C192.api.telerama.fr" start="20200811234500" stop="20200812003000">
+    <title>New York Unité Spéciale</title>
+    <sub-title>Parole contre parole</sub-title>
+    <desc lang="fr">Saison:6 - Episode:8 - Myra Dempsey, étudiante, affirme avoir été violée par un de ses professeurs, Ron Polikoff. L'homme accepte d'aider Benson et Stabler en leur fournissant un échantillon d'ADN. Une fois les résultats de l'analyse connus, la relation sexuelle ne fait plus aucun doute. L'enseignant affirme aux détectives que la jeune fille était consentante. Le mystère s'épaissit. Qui dit vrai ? Qui ment ? Et pour quelle raison ? Benson croit Myra Dempsey, tandis que Stabler préfère penser que Ron Polikoff dit la vérité. Les choses se compliquent quand Myra se met à accuser Stabler de s'être conduit de manière indécente en sa présence...</desc>
+    <credits>
+      <director>Ted Kotcheff</director>
+      <actor>Mariska Hargitay</actor>
+      <actor>Christopher Meloni</actor>
+      <actor>Bill Campbell</actor>
+      <actor>Shannyn Sossamon</actor>
+      <actor>Viola Davis</actor>
+      <actor>Mariette Hartley</actor>
+      <actor>Wynter Kullman</actor>
+      <actor>Jeffrey Carlson</actor>
+      <writer>Dick Wolf</writer>
+      <writer>Marjorie David</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/08d9fe11-9c33-4794-9959-918020739fb6.jpg" />
+    <episode-num system="xmltv_ns">5.7.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C192.api.telerama.fr" start="20200812003000" stop="20200812043000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
+    <category lang="fr">programme indéterminé</category>
+    <length units="hours">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C195.api.telerama.fr" start="20200811233500" stop="20200812044500">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">310</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C234.api.telerama.fr" start="20200811235500" stop="20200812000000">
+    <title>Députés au temps du confinement</title>
+    <sub-title>L'assemblée nationale</sub-title>
+    <desc lang="fr">Avec la crise du coronavirus, les députés doivent s'adapter à une situation inédite et "réinventer" leur fonction. Cette série de reportages va à la rencontre de ces députés qui s'organisent au temps du confinement.</desc>
+    <category lang="fr">interview</category>
+    <length units="minutes">5</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C234.api.telerama.fr" start="20200812000000" stop="20200812013000">
+    <title>Séance à l'Assemblée nationale</title>
+    <desc lang="fr">Retransmission quotidienne des séances publiques ou des réunions de commissions de l'Assemblée.</desc>
+    <category lang="fr">débat parlementaire</category>
+    <length units="minutes">90</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/258bf510-7de0-40e6-8861-2691d8b6a69a.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C234.api.telerama.fr" start="20200812013000" stop="20200812023000">
+    <title>Séance à l'Assemblée nationale</title>
+    <desc lang="fr">Retransmission quotidienne des séances publiques ou des réunions de commissions de l'Assemblée.</desc>
+    <category lang="fr">débat parlementaire</category>
+    <length units="hours">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/258bf510-7de0-40e6-8861-2691d8b6a69a.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C234.api.telerama.fr" start="20200812023000" stop="20200812043000">
+    <title>Les matins du Sénat</title>
+    <desc lang="fr">Les moments forts de l'examen des textes dans l'hémicycle et des auditions en commission.</desc>
+    <category lang="fr">débat parlementaire</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6366bb8c-c9d3-4b77-b8cf-0dcac7561765.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C444.api.telerama.fr" start="20200811231500" stop="20200812002000">
+    <title>Profilage</title>
+    <sub-title>Une vie pour une autre</sub-title>
+    <desc lang="fr">Saison:2 - Episode:4 - Sandrine Dewit, une assistante sociale de 35 ans, est retrouvée morte dans un crématorium. Elle venait juste de publier un livre-témoignage sur son calvaire d'enfant battue. Claude Forestier, le père honni, se serait-il vengé d'elle après ces aveux publics ? Alors que Chloé s'investit plus que de raison dans cette enquête douloureuse, l'arrivée d'une lettre fait subitement rejaillir son passé...</desc>
+    <credits>
+      <director>Christophe Lamotte</director>
+      <actor>Guillaume Cramoisan</actor>
+      <actor>Odile Vuillemin</actor>
+      <actor>Jean-Michel Martial</actor>
+      <actor>Vanessa Valence</actor>
+      <actor>Raphaël Ferret</actor>
+      <actor>Guillaume de Tonquédec</actor>
+      <actor>Jéromine Chasseriaud</actor>
+      <actor>Arnaud Simon</actor>
+      <writer>Fanny Robert</writer>
+      <writer>Sophie Lebarbier</writer>
+      <writer>Thomas Perrier</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">65</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/653d485e-5257-4490-95d3-a29b93b3aa67.jpg" />
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C445.api.telerama.fr" start="20200811223000" stop="20200812040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">330</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C446.api.telerama.fr" start="20200811233000" stop="20200812041500">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">285</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C458.api.telerama.fr" start="20200811234000" stop="20200812040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">260</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C481.api.telerama.fr" start="20200811220000" stop="20200812040000">
+    <title>Le journal de la nuit</title>
+    <category lang="fr">journal</category>
+    <length units="hours">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/9985e143-5f4c-4da5-80b4-2b7acf122ef8.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200811235000" stop="20200812001500">
+    <title>Foot 2 rue extrême</title>
+    <sub-title>Mauvaise passe</sub-title>
+    <desc lang="fr">Saison:1 - Episode:37 - Samy et Greg ont mis au point un super enchaînement de passes et de tricks qui est censé leur garantir de marquer à coup sûr. Le souci, c'est qu'il ne marche que pour deux joueurs. Alors forcément, Inès et Louna se sentent mises à l'écart. En plus, le défi du jour consiste à marquer en faisant rebondir la balle sur un mur, ce qui rend la stratégie de Samy et Greg inefficace. Mais malgré les suppliques des filles, les deux garçons ne sont pas prêts à laisser tomber leur super technique qui a demandé tant de pratique. Pourtant, il faut parfois savoir faire passer l'intérêt collectif avant sa fierté personnelle...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3a57ba20-3d7c-499c-b0bf-32ec8eda60f0.jpg" />
+    <episode-num system="xmltv_ns">0.36.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812001500" stop="20200812004000">
+    <title>Foot 2 rue extrême</title>
+    <sub-title>Le rapporteur</sub-title>
+    <desc lang="fr">Saison:1 - Episode:38 - Les joueurs de F2RX accueillent Bilal, le cousin d'Inès. Bilal est unijambiste et se déplace avec des béquilles, mais ça ne l'empêche pas d'être un super danseur et joueur de foot extrême. En parallèle, Louna répète une acrobatie dangereuse que Paul lui a interdit de pratiquer. Elle finit par se faire exclure du match du lendemain après avoir été dénoncée par quelqu'un. Elle est persuadée que c'est Bilal qui l'a trahie. D'ailleurs, celui-ci prend sa place dans la Team le temps d'un match. Mais en réalité, si Bilal a tenté de persuader Louna d'abandonner son acrobatie, c'est que lui-même a perdu sa jambe dans des circonstances semblables...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3a57ba20-3d7c-499c-b0bf-32ec8eda60f0.jpg" />
+    <episode-num system="xmltv_ns">0.37.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812004000" stop="20200812010500">
+    <title>Foot 2 rue extrême</title>
+    <sub-title>Peur de grandir</sub-title>
+    <desc lang="fr">Saison:1 - Episode:39 - C'est la grande finale de la compétition entre la Team et les Del Toro, un match couperet dans lequel la première équipe arrivée à trois buts l'emporte. Mais Tag ne sera pas là pour entraîner la Team. Il a prévu de passer le week-end avec Eloïse, son amie d'enfance. Samy et ses amis digèrent mal l'absence de leur coach. Et même s'ils savent que Tag ne sera de toute façon plus là l'année suivante, ils ont peur de ne pas y arriver seuls...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3a57ba20-3d7c-499c-b0bf-32ec8eda60f0.jpg" />
+    <episode-num system="xmltv_ns">0.38.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812010500" stop="20200812013000">
+    <title>Xiaolin Chronicles</title>
+    <sub-title>Chase Young pond un oeuf</sub-title>
+    <desc lang="fr">Saison:1 - Episode:19 - Omi se sent seul et finit par se lier d'amitié avec Jack Spicer. Ils prennent un oeuf géant sur le repaire de Chase, soupçonnant qu'il pourrait être un Shen Gong Wu...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/00cce756-fa1f-44d4-9791-7b40f89d5840.jpg" />
+    <episode-num system="xmltv_ns">0.18.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812013000" stop="20200812015500">
+    <title>Xiaolin Chronicles</title>
+    <sub-title>Attiré par le Mal</sub-title>
+    <desc lang="fr">Saison:1 - Episode:20 - Petit Sim dessine et donne vie à d'horribles belettes avec l'aide d'un Shen Gong Wu. Armé de belettes mutantes, Petit Sim saccage tout à travers la ville, donnant du fil à retordre aux moines...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/353df667-38ca-4a61-9734-9e5fb818692e.jpg" />
+    <episode-num system="xmltv_ns">0.19.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812015500" stop="20200812020600">
+    <title>Sonic Boom</title>
+    <sub-title>Voyage au bout de la culpabilité</sub-title>
+    <desc lang="fr">Saison:1 - Episode:9 - Sonic vient en aide aux Gogobas, un village si pacifique et charmant qu'il est difficile de leur refuser quoi que ce soit...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">11</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1d223d59-ef74-4dc4-b0a6-fe85b7ec245a.jpg" />
+    <episode-num system="xmltv_ns">0.8.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812020600" stop="20200812021900">
+    <title>Sonic Boom</title>
+    <sub-title>Hé, il est passé où mon Eggman ?</sub-title>
+    <desc lang="fr">Saison:1 - Episode:10 - Eggman a disparu. Orbot et Cubot, ses fidèles acolytes, partent à sa recherche...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">13</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b18eab9b-c2e7-4664-984e-71ce1c53df03.jpg" />
+    <episode-num system="xmltv_ns">0.9.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812021900" stop="20200812023000">
+    <title>Sonic Boom</title>
+    <sub-title>C'est quoi ce cirque ?</sub-title>
+    <desc lang="fr">Saison:1 - Episode:11 - Le cirque arrive en ville et demande l'aide de Sonic et de ses amis pour assurer leur représentation...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">11</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b18eab9b-c2e7-4664-984e-71ce1c53df03.jpg" />
+    <episode-num system="xmltv_ns">0.10.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812023000" stop="20200812024500">
+    <title>Sonic Boom</title>
+    <sub-title>La vache fofolle</sub-title>
+    <desc lang="fr">Saison:1 - Episode:12 - Eggman invente un robot vache particulièrement destructeur. L'équipe de Sonic ne peut le détruire sans risquer d'importants dégâts...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">15</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1d223d59-ef74-4dc4-b0a6-fe85b7ec245a.jpg" />
+    <episode-num system="xmltv_ns">0.11.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812024500" stop="20200812025200">
+    <title>Oggy et les cafards</title>
+    <sub-title>Super Dee Dee</sub-title>
+    <desc lang="fr">Saison:6 - Episode:13 - Deedee tente de régler l'image de la télé, brouillée par l'orage qui se déchaîne, lorsqu'il est brutalement frappé par la foudre. Tandis que ses compères se ruent pour chercher les premiers secours, Deedee, complètement groggy, s'agrippe à un tuyau pour se relever. Mais le tuyau se tord...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">7</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5a65c214-28ba-42b9-a002-931bc651d722.jpg" />
+    <episode-num system="xmltv_ns">5.12.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812025200" stop="20200812025900">
+    <title>Oggy et les cafards</title>
+    <sub-title>Seul au monde</sub-title>
+    <desc lang="fr">Saison:6 - Episode:14 - Après une poursuite effrénée à travers toute la maison, Oggy parvient à coincer les cafards dans une boîte de conserve dont il soude le couvercle avant de la lancer par la fenêtre...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">7</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5a65c214-28ba-42b9-a002-931bc651d722.jpg" />
+    <episode-num system="xmltv_ns">5.13.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C482.api.telerama.fr" start="20200812025900" stop="20200812031000">
+    <title>Oggy et les cafards</title>
+    <sub-title>L'heure du goûter</sub-title>
+    <desc lang="fr">Saison:6 - Episode:15 - Jack se fait voler sous son nez le merveilleux gâteau qu'il vient tout juste de sortir du four. Très en colère, il part à la poursuite des cafards, auteurs présumés du délit. Mais dans l'agitation, il renverse Oggy...</desc>
+    <category lang="fr">jeunesse : dessin animé</category>
+    <length units="minutes">11</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5a65c214-28ba-42b9-a002-931bc651d722.jpg" />
+    <episode-num system="xmltv_ns">5.14.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1399.api.telerama.fr" start="20200811225500" stop="20200812000000">
+    <title>Snapped : les couples tueurs</title>
+    <sub-title>Scramuzza &amp; Rodriguez</sub-title>
+    <desc lang="fr">Mario, Gina et leur fils forment une famille soudée et heureuse. Mais un 28 février, leur vie paisible va basculer à tout jamais. Quand Mario, connu pour sa ponctualité, ne se présente pas au travail ce jour-là, son collègue Lee n'hésite pas une seule seconde et se rend à son domicile. La porte est verrouillée mais il parvient tout de même à voir que l'intérieur a été saccagé. Immédiatement, Lee appelle Gina et elle lui explique qu'elle n'est pas rentrée la nuit passée. Elle se rend immédiatement à son domicile mais aucun signe de Mario : c'est la police qui le découvrira un peu plus tard dans la buanderie. Il est mort, battu et étranglé...</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">65</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/2ac4135a-8721-4ec3-ae97-ed37ed456b84.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C1400.api.telerama.fr" start="20200811230000" stop="20200812040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="hours">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1401.api.telerama.fr" start="20200811231000" stop="20200812002000">
+    <title>L'Equipe du soir</title>
+    <category lang="fr">sport : multisports</category>
+    <length units="minutes">70</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1051f83f-f327-428d-a2c5-eedcfde8f1a9.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1401.api.telerama.fr" start="20200812002000" stop="20200812013000">
+    <title>L'Equipe du soir</title>
+    <category lang="fr">sport : multisports</category>
+    <length units="minutes">70</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1051f83f-f327-428d-a2c5-eedcfde8f1a9.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1401.api.telerama.fr" start="20200812013000" stop="20200812023500">
+    <title>L'Equipe du soir</title>
+    <category lang="fr">sport : multisports</category>
+    <length units="minutes">65</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1051f83f-f327-428d-a2c5-eedcfde8f1a9.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1401.api.telerama.fr" start="20200812023500" stop="20200812040000">
+    <title>La légende</title>
+    <desc lang="fr">Jean-Christophe Markovic fait des merveilles sur les terrains de basket. A 25 ans, alors qu'il pourrait évolué dans les meilleurs clubs européens, il prèfère revenir à Angers, là où il a été formé. L'accueil est un peu glacial de la part de certains joueurs qui le voient comme un rival. Markovic parvient finalement à se faire accepter mais une sale blessure au genou brise ses rêves. Selon ses médecins et notamment Laure, sa kinésithérapeute, sa carrière est terminée. Mais le jeune homme ne veut pas renoncer, reprend l'entraînement avec toujours l'espoir d'intégrer l'équipe de France. Il a recours à des anti-douleurs très puissants qui finissent par nuire à sa santé... - Critique : Pour son deuxième long métrage, Florian Hessique imagine l’histoire d’un prodige du basket, de retour dans son club formateur après une grave blessure. Les séquences de jeu sont gâchées par des ralentis intempestifs. L’acteur-réalisateur oublie de jouer collectif : il laisse le reste de l’équipe hors champ.</desc>
+    <credits>
+      <director>Florian Hessique</director>
+      <actor>Florian Hessique</actor>
+      <actor>Jean-Christophe Bouvet</actor>
+      <actor>Kevin Miranda</actor>
+      <actor>Patrick Préjean</actor>
+      <actor>Géraldine Lapalus</actor>
+      <actor>Olivier Raynal</actor>
+      <actor>Olivier Pagès</actor>
+      <actor>Fedele Papalia</actor>
+      <writer>Florian Hessique</writer>
+      <guest>Antoine Sorin</guest>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">85</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b98011bf-dfb4-45ef-bdee-0adf44283213.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>1/5</value>
+    </star-rating>
+  </programme>
+  <programme channel="C1402.api.telerama.fr" start="20200811231500" stop="20200812040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">285</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1403.api.telerama.fr" start="20200811233500" stop="20200812041000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">275</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1404.api.telerama.fr" start="20200811222500" stop="20200812001000">
+    <title>La menace du volcan</title>
+    <sub-title>La menace du volcan - Partie 2</sub-title>
+    <desc lang="fr">La course contre la montre continue pour tenter de sauver la population mondiale en danger. L'éruption volcanique provoque de nombreux dommages. Les interventions de secours sont de plus en plus compliquées à réaliser dans ce climat dramatique. La peur envahit les personnes présentes. La panique surgit...</desc>
+    <credits>
+      <director>Paul Shapiro</director>
+      <actor>Terry O'Quinn</actor>
+      <actor>Michael Vartan</actor>
+      <actor>Lauren Lee Smith</actor>
+      <actor>Agam Darshi</actor>
+      <actor>Ian Tracey</actor>
+      <actor>Brian Markinson</actor>
+      <actor>Connor Christopher Levins</actor>
+      <actor>Brendan Fletcher</actor>
+      <writer>Michael Vickerman</writer>
+    </credits>
+    <category lang="fr">téléfilm d'action</category>
+    <length units="minutes">105</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/aa3e9b1c-b3b0-4ea3-850d-130ede59b2aa.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C1404.api.telerama.fr" start="20200812001000" stop="20200812041000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">Retrouvez tous vos programmes de nuit.</desc>
+    <category lang="fr">programme indéterminé</category>
+    <length units="hours">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C2111.api.telerama.fr" start="20200811220000" stop="20200812035700">
+    <title>France 24</title>
+    <category lang="fr">magazine d'information</category>
+    <length units="minutes">357</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8c54e999-6001-4506-b435-58301e6ea2e4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>

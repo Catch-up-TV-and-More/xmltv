@@ -14,8 +14,8 @@ force_pull () {
 
 push () {
     git add --all
-    git commit -m "Auto update TV guides ($now)"
-    git push
+    git commit --amend -m "Auto update TV guides ($now)"
+    git push -f origin master
 }
 
 

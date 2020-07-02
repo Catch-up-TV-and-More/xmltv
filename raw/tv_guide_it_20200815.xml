@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-url="http://mediaset.it,http://guidatv.sky.it,http://rai.it,http://mediaset_guidatv.it,http://mediasetpremium.mediaset.it,http://iris.mediaset.it,http://boingtv.it,http://la7.it" source-data-url="http://www.tv.mediaset.it/dati/palinsesto/palinsesto-mondotv.xml,http://guidatv.sky.it/,http://www.rai.it/,http://www.mediaset.it/guidatv/palinsesto.xml,http://www.mediasetpremium.mediaset.it/,http://iris.mediaset.it/palinsesto/palinsesto1.shtml,http://www.boingtv.it/xml/palinsesto.xml,http://www.la7.it/guidatv/index" generator-info-name="XMLTV" generator-info-url="http://xmltv.org/">
+  <channel id="frisbee.guidatv.sky.it">
+    <display-name>Frisbee</display-name>
+  </channel>
+  <channel id="aljazeeraintlhd.guidatv.sky.it">
+    <display-name>Al Jazeera Intl. HD</display-name>
+    <display-name>532</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/5113_home.png" />
+  </channel>
+  <channel id="bbcknowledge.mediasetpremium.mediaset.it">
+    <display-name>BBC Knowledge</display-name>
+  </channel>
+  <channel id="bfc.guidatv.sky.it">
+    <display-name>BFC</display-name>
+    <display-name>511</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10593_home.png" />
+  </channel>
+  <channel id="babytv.guidatv.sky.it">
+    <display-name>Baby TV</display-name>
+  </channel>
+  <channel id="www.bloomberg.it">
+    <display-name>Bloomberg</display-name>
+    <display-name>529</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/349_home.png" />
+  </channel>
+  <channel id="boomerang.cartoonnetwork.it">
+    <display-name>Boomerang</display-name>
+  </channel>
+  <channel id="cacciaepesca.guidatv.sky.it">
+    <display-name>Caccia e PESCA</display-name>
+    <display-name>236</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/23750_home.png" />
+  </channel>
+  <channel id="www.cnbceurope.com">
+    <display-name>CNBC</display-name>
+  </channel>
+  <channel id="cnnintl.guidatv.sky.it">
+    <display-name>CNN Intl.</display-name>
+    <display-name>526</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/312_home.png" />
+  </channel>
+  <channel id="www.canale5.com">
+    <display-name>Canale 5</display-name>
+  </channel>
+  <channel id="piu1.cartoonnetwork.it">
+    <display-name>Cartoon +1</display-name>
+  </channel>
+  <channel id="cartoonnetwork.mediasetpremium.mediaset.it">
+    <display-name>Cartoon Network</display-name>
+  </channel>
+  <channel id="cartoonito.guidatv.sky.it">
+    <display-name>Cartoonito</display-name>
+  </channel>
+  <channel id="cine34.guidatv.sky.it">
+    <display-name>Cine34</display-name>
+    <display-name>327</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images" />
+  </channel>
+  <channel id="classcnbc.guidatv.sky.it">
+    <display-name>Class CNBC</display-name>
+    <display-name>507</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/308_home.png" />
+  </channel>
+  <channel id="classicahd.guidatv.sky.it">
+    <display-name>Classica HD</display-name>
+  </channel>
+  <channel id="paramountcomedy.skytv.it">
+    <display-name>Comedy Central</display-name>
+  </channel>
+  <channel id="dazn1.guidatv.sky.it">
+    <display-name>DAZN1</display-name>
+    <display-name>209</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10774_home.png" />
+  </channel>
+  <channel id="dmax.guidatv.sky.it">
+    <display-name>DMAX</display-name>
+    <display-name>5052</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9233_home.png" />
+  </channel>
+  <channel id="dmax1.guidatv.sky.it">
+    <display-name>DMAX +1</display-name>
+  </channel>
+  <channel id="deajunior.guidatv.sky.it">
+    <display-name>DeA Junior</display-name>
+  </channel>
+  <channel id="deakids.skytv.it">
+    <display-name>DeAKids</display-name>
+  </channel>
+  <channel id="www.deejay.it">
+    <display-name>Deejay TV</display-name>
+  </channel>
+  <channel id="discovery.guidatv.sky.it">
+    <display-name>Discovery</display-name>
+    <display-name>401</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/931_home.png" />
+  </channel>
+  <channel id="discovery1.guidatv.sky.it">
+    <display-name>Discovery +1</display-name>
+    <display-name>402</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/331_home.png" />
+  </channel>
+  <channel id="discoverysci.guidatv.sky.it">
+    <display-name>Discovery Sci</display-name>
+    <display-name>405</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/467_home.png" />
+  </channel>
+  <channel id="discoveryworld.mediasetpremium.mediaset.it">
+    <display-name>Discovery World</display-name>
+  </channel>
+  <channel id="disney.mediasetpremium.mediaset.it">
+    <display-name>Disney</display-name>
+  </channel>
+  <channel id="disney1.mediasetpremium.mediaset.it">
+    <display-name>Disney +1</display-name>
+  </channel>
+  <channel id="disneyjunior.mediasetpremium.mediaset.it">
+    <display-name>Disney Junior</display-name>
+  </channel>
+  <channel id="doctorslife.guidatv.sky.it">
+    <display-name>Doctor's Life</display-name>
+    <display-name>440</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/7402_home.png" />
+  </channel>
+  <channel id="emiliaromagna24.guidatv.sky.it">
+    <display-name>Emilia Romagna 24</display-name>
+    <display-name>518</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <channel id="www.euronews.net">
+    <display-name>Euronews</display-name>
+    <display-name>521</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/801_home.png" />
+  </channel>
+  <channel id="eurosport2hd.guidatv.sky.it">
+    <display-name>Eurosport 2 HD</display-name>
+    <display-name>211</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9060_home.png" />
+  </channel>
+  <channel id="hd.eurosport.com">
+    <display-name>Eurosport HD</display-name>
+    <display-name>210</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9057_home.png" />
+  </channel>
+  <channel id="focus.guidatv.sky.it">
+    <display-name>Focus</display-name>
+    <display-name>414</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10470_home.png" />
+  </channel>
+  <channel id="foodnetworkhd.guidatv.sky.it">
+    <display-name>Food Network HD</display-name>
+    <display-name>416</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10534_home.png" />
+  </channel>
+  <channel id="fox.skytv.it">
+    <display-name>Fox</display-name>
+  </channel>
+  <channel id="foxpiuuno.skylife.it">
+    <display-name>Fox +1</display-name>
+  </channel>
+  <channel id="foxbusiness.guidatv.sky.it">
+    <display-name>Fox Business</display-name>
+    <display-name>527</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/6741_home.png" />
+  </channel>
+  <channel id="foxcrimehd.guidatv.sky.it">
+    <display-name>Fox Crime HD</display-name>
+  </channel>
+  <channel id="foxhd.guidatv.sky.it">
+    <display-name>Fox HD</display-name>
+  </channel>
+  <channel id="foxlifehd.guidatv.sky.it">
+    <display-name>Fox Life HD</display-name>
+  </channel>
+  <channel id="www.foxnews.com">
+    <display-name>Fox News</display-name>
+    <display-name>523</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/446_home.png" />
+  </channel>
+  <channel id="france24englishhd.guidatv.sky.it">
+    <display-name>France 24 English HD</display-name>
+    <display-name>531</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/7968_home.png" />
+  </channel>
+  <channel id="france24francaishd.guidatv.sky.it">
+    <display-name>France 24 Francais HD</display-name>
+    <display-name>541</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/5119_home.png" />
+  </channel>
+  <channel id="giallo.guidatv.sky.it">
+    <display-name>Giallo</display-name>
+  </channel>
+  <channel id="gamberorossohd.guidatv.sky.it">
+    <display-name>Gambero Rosso HD</display-name>
+    <display-name>412</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9099_home.png" />
+  </channel>
+  <channel id="hiro.mediasetpremium.mediaset.it">
+    <display-name>Hiro</display-name>
+  </channel>
+  <channel id="history1.guidatv.sky.it">
+    <display-name>History +1</display-name>
+    <display-name>408</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/123_home.png" />
+  </channel>
+  <channel id="historyhd.guidatv.sky.it">
+    <display-name>History HD</display-name>
+    <display-name>407</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9101_home.png" />
+  </channel>
+  <channel id="intertv.guidatv.sky.it">
+    <display-name>Inter TV</display-name>
+    <display-name>232</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9893_home.png" />
+  </channel>
+  <channel id="iris.mediaset.it">
+    <display-name>iris</display-name>
+  </channel>
+  <channel id="www.italia1.com">
+    <display-name>Italia 1</display-name>
+  </channel>
+  <channel id="joi.mediasetpremium.mediaset.it">
+    <display-name>Joi</display-name>
+  </channel>
+  <channel id="joi1.mediasetpremium.mediaset.it">
+    <display-name>Joi +1</display-name>
+  </channel>
+  <channel id="k2.guidatv.sky.it">
+    <display-name>K2</display-name>
+  </channel>
+  <channel id="lei1.guidatv.sky.it">
+    <display-name>LEI +1</display-name>
+  </channel>
+  <channel id="la5.guidatv.sky.it">
+    <display-name>La5</display-name>
+  </channel>
+  <channel id="la5.mediaset.it">
+    <display-name>La5</display-name>
+  </channel>
+  <channel id="www.la7.it">
+    <display-name>La7</display-name>
+  </channel>
+  <channel id="www.la7d.it">
+    <display-name>La7D</display-name>
+  </channel>
+  <channel id="laziostylech.guidatv.sky.it">
+    <display-name>Lazio Style Ch</display-name>
+    <display-name>233</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/7527_home.png" />
+  </channel>
+  <channel id="manga.skytv.it">
+    <display-name>MAN-GA</display-name>
+  </channel>
+  <channel id="msmotortv.guidatv.sky.it">
+    <display-name>MS MOTORTV</display-name>
+    <display-name>228</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/7587_home.png" />
+  </channel>
+  <channel id="www.mtv.it">
+    <display-name>MTV</display-name>
+  </channel>
+  <channel id="mtvmusic.guidatv.sky.it">
+    <display-name>MTV Music</display-name>
+  </channel>
+  <channel id="mtvmusicdtt.guidatv.sky.it">
+    <display-name>MTV Music DTT</display-name>
+  </channel>
+  <channel id="mediasetextra.mediaset.it">
+    <display-name>Mediaset Extra</display-name>
+  </channel>
+  <channel id="italia2.mediaset.it">
+    <display-name>Mediaset Italia 2</display-name>
+  </channel>
+  <channel id="milantv.guidatv.sky.it">
+    <display-name>Milan TV</display-name>
+    <display-name>230</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9513_home.png" />
+  </channel>
+  <channel id="motortrend.guidatv.sky.it">
+    <display-name>Motor Trend</display-name>
+    <display-name>5056</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9237_home.png" />
+  </channel>
+  <channel id="motortrendhd.guidatv.sky.it">
+    <display-name>Motor Trend HD</display-name>
+    <display-name>418</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/8130_home.png" />
+  </channel>
+  <channel id="mya.mediasetpremium.mediaset.it">
+    <display-name>Mya</display-name>
+  </channel>
+  <channel id="mya1.mediasetpremium.mediaset.it">
+    <display-name>Mya +1</display-name>
+  </channel>
+  <channel id="natgeowild1.guidatv.sky.it">
+    <display-name>NatGeo Wild +1</display-name>
+    <display-name>410</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/8813_home.png" />
+  </channel>
+  <channel id="natgeowildhd.guidatv.sky.it">
+    <display-name>NatGeo Wild HD</display-name>
+    <display-name>409</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9100_home.png" />
+  </channel>
+  <channel id="nationalgeo.guidatv.sky.it">
+    <display-name>NationalGeo</display-name>
+    <display-name>403</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/641_home.png" />
+  </channel>
+  <channel id="nationalgeo1.guidatv.sky.it">
+    <display-name>NationalGeo +1</display-name>
+    <display-name>404</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/125_home.png" />
+  </channel>
+  <channel id="nickjr.guidatv.sky.it">
+    <display-name>Nick JR</display-name>
+  </channel>
+  <channel id="nickelodeon.skytv.it">
+    <display-name>Nickelodeon</display-name>
+  </channel>
+  <channel id="nickelodeon1.guidatv.sky.it">
+    <display-name>Nickelodeon + 1</display-name>
+  </channel>
+  <channel id="playhouse.mediasetpremium.mediaset.it">
+    <display-name>Playhouse</display-name>
+  </channel>
+  <channel id="premium.raisat.it">
+    <display-name>Premium</display-name>
+  </channel>
+  <channel id="steel.mediasetpremium.mediaset.it">
+    <display-name>Premium Action</display-name>
+  </channel>
+  <channel id="premiumcalcio24.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio</display-name>
+  </channel>
+  <channel id="direttacalcio1.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio 1</display-name>
+  </channel>
+  <channel id="direttacalcio2.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio 2</display-name>
+  </channel>
+  <channel id="direttacalcio3.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio 3</display-name>
+  </channel>
+  <channel id="direttacalcio4.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio 4</display-name>
+  </channel>
+  <channel id="direttacalcio5.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio 5</display-name>
+  </channel>
+  <channel id="direttacalcio6.mediasetpremium.mediaset.it">
+    <display-name>Premium Calcio 6</display-name>
+  </channel>
+  <channel id="premiumcinema.mediasetpremium.mediaset.it">
+    <display-name>Premium Cinema</display-name>
+  </channel>
+  <channel id="premiumcinemacomedy.mediasetpremium.mediaset.it">
+    <display-name>Premium Cinema Comedy</display-name>
+  </channel>
+  <channel id="premiumcinemaemotion.mediasetpremium.mediaset.it">
+    <display-name>Premium Cinema Emotion</display-name>
+  </channel>
+  <channel id="premiumcinemaenergy.mediasetpremium.mediaset.it">
+    <display-name>Premium Cinema Energy</display-name>
+  </channel>
+  <channel id="premiumcrime.mediasetpremium.mediaset.it">
+    <display-name>Premium Crime</display-name>
+  </channel>
+  <channel id="premiumextra.mediasetpremium.mediaset.it">
+    <display-name>Premium Extra</display-name>
+  </channel>
+  <channel id="premiumextra2.mediasetpremium.mediaset.it">
+    <display-name>Premium Extra 2</display-name>
+  </channel>
+  <channel id="premiumstories.mediaset_guidatv.it">
+    <display-name>Premium Stories</display-name>
+  </channel>
+  <channel id="primafila01.skytv.it">
+    <display-name>Primafila 1</display-name>
+  </channel>
+  <channel id="primafila10.skytv.it">
+    <display-name>Primafila 10</display-name>
+  </channel>
+  <channel id="primafila11.skytv.it">
+    <display-name>Primafila 11</display-name>
+  </channel>
+  <channel id="primafila12.skytv.it">
+    <display-name>Primafila 12</display-name>
+  </channel>
+  <channel id="primafila13.skytv.it">
+    <display-name>Primafila 13</display-name>
+  </channel>
+  <channel id="primafila14.skytv.it">
+    <display-name>Primafila 14</display-name>
+  </channel>
+  <channel id="primafila15.skytv.it">
+    <display-name>Primafila 15</display-name>
+  </channel>
+  <channel id="primafila16.skytv.it">
+    <display-name>Primafila 16</display-name>
+  </channel>
+  <channel id="primafila17.skytv.it">
+    <display-name>Primafila 17</display-name>
+  </channel>
+  <channel id="primafila18.skytv.it">
+    <display-name>Primafila 18</display-name>
+  </channel>
+  <channel id="primafila02.skytv.it">
+    <display-name>Primafila 2</display-name>
+  </channel>
+  <channel id="primafila03.skytv.it">
+    <display-name>Primafila 3</display-name>
+  </channel>
+  <channel id="primafila04.skytv.it">
+    <display-name>Primafila 4</display-name>
+  </channel>
+  <channel id="primafila05.skytv.it">
+    <display-name>Primafila 5</display-name>
+  </channel>
+  <channel id="primafila06.skytv.it">
+    <display-name>Primafila 6</display-name>
+  </channel>
+  <channel id="primafila07.skytv.it">
+    <display-name>Primafila 7</display-name>
+  </channel>
+  <channel id="primafila08.skytv.it">
+    <display-name>Primafila 8</display-name>
+  </channel>
+  <channel id="primafila09.skytv.it">
+    <display-name>Primafila 9</display-name>
+  </channel>
+  <channel id="qvc.guidatv.sky.it">
+    <display-name>QVC</display-name>
+    <display-name>5032</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/27111_home.png" />
+  </channel>
+  <channel id="radionorbatv.guidatv.sky.it">
+    <display-name>Radionorba TV</display-name>
+  </channel>
+  <channel id="rainews.guidatv.sky.it">
+    <display-name>RAI News</display-name>
+    <display-name>508</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/895_home.png" />
+  </channel>
+  <channel id="raisport.guidatv.sky.it">
+    <display-name>RAI Sport</display-name>
+    <display-name>227</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/807_home.png" />
+  </channel>
+  <channel id="rtdochd.guidatv.sky.it">
+    <display-name>RT Doc HD</display-name>
+    <display-name>578</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/8873_home.png" />
+  </channel>
+  <channel id="rthd.guidatv.sky.it">
+    <display-name>RT HD</display-name>
+    <display-name>536</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/6886_home.png" />
+  </channel>
+  <channel id="radio1.rai.it">
+    <display-name>Radio 1</display-name>
+  </channel>
+  <channel id="radio2.rai.it">
+    <display-name>Radio 2</display-name>
+  </channel>
+  <channel id="radio3.rai.it">
+    <display-name>Radio3</display-name>
+  </channel>
+  <channel id="www.raiuno.rai.it">
+    <display-name>Rai 1</display-name>
+  </channel>
+  <channel id="rai1dtt.guidatv.sky.it">
+    <display-name>Rai 1 (DTT)</display-name>
+  </channel>
+  <channel id="www.raidue.rai.it">
+    <display-name>Rai 2</display-name>
+  </channel>
+  <channel id="rai2dtt.guidatv.sky.it">
+    <display-name>Rai 2 (DTT)</display-name>
+  </channel>
+  <channel id="www.raitre.rai.it">
+    <display-name>Rai 3</display-name>
+  </channel>
+  <channel id="rai3dtt.guidatv.sky.it">
+    <display-name>Rai 3 (DTT)</display-name>
+  </channel>
+  <channel id="rai4.raisat.it">
+    <display-name>Rai 4</display-name>
+  </channel>
+  <channel id="rai5.rai.it">
+    <display-name>Rai5</display-name>
+  </channel>
+  <channel id="raigulp.rai.it">
+    <display-name>Rai Gulp</display-name>
+  </channel>
+  <channel id="raimovie.rai.it">
+    <display-name>Rai Movie</display-name>
+  </channel>
+  <channel id="rainewsdtt.guidatv.sky.it">
+    <display-name>Rai News DTT</display-name>
+  </channel>
+  <channel id="raipremium.guidatv.sky.it">
+    <display-name>Rai Premium</display-name>
+  </channel>
+  <channel id="raiscuola.rai.it">
+    <display-name>Rai Scuola</display-name>
+  </channel>
+  <channel id="raisport1dtt.guidatv.sky.it">
+    <display-name>Rai Sport 1 DTT</display-name>
+    <display-name>5057</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/8317_home.png" />
+  </channel>
+  <channel id="raistoria.rai.it">
+    <display-name>Rai Storia</display-name>
+  </channel>
+  <channel id="raisport1.rai.it">
+    <display-name>RaiSport 1</display-name>
+  </channel>
+  <channel id="raisport2.rai.it">
+    <display-name>RaiSport 2</display-name>
+  </channel>
+  <channel id="rt.discovery-italia.com">
+    <display-name>Real Time</display-name>
+    <display-name>5031</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/27127_home.png" />
+  </channel>
+  <channel id="realtime1.guidatv.sky.it">
+    <display-name>Real Time+1</display-name>
+  </channel>
+  <channel id="realtimehd.guidatv.sky.it">
+    <display-name>Real Time HD</display-name>
+  </channel>
+  <channel id="www.rete4.com">
+    <display-name>Retequattro</display-name>
+  </channel>
+  <channel id="romatv.guidatv.sky.it">
+    <display-name>Roma TV</display-name>
+    <display-name>213</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9194_home.png" />
+  </channel>
+  <channel id="sanmarinortv.guidatv.sky.it">
+    <display-name>San Marino RTV</display-name>
+    <display-name>520</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/6861_home.png" />
+  </channel>
+  <channel id="skyartehd.guidatv.sky.it">
+    <display-name>Sky Arte HD</display-name>
+    <display-name>400</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/7767_home.png" />
+  </channel>
+  <channel id="skyatlantichd.guidatv.sky.it">
+    <display-name>Sky Atlantic HD</display-name>
+  </channel>
+  <channel id="skycinemaactionhd.guidatv.sky.it">
+    <display-name>Sky Cinema Action HD</display-name>
+    <display-name>305</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9050_home.png" />
+  </channel>
+  <channel id="skycinemacomedyhd.guidatv.sky.it">
+    <display-name>Sky Cinema Comedy HD</display-name>
+    <display-name>309</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9039_home.png" />
+  </channel>
+  <channel id="skycinemadramahd.guidatv.sky.it">
+    <display-name>Sky Cinema Drama HD</display-name>
+    <display-name>308</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10518_home.png" />
+  </channel>
+  <channel id="skycinemaduehd.guidatv.sky.it">
+    <display-name>Sky Cinema Due HD</display-name>
+    <display-name>302</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9034_home.png" />
+  </channel>
+  <channel id="skycinemafamilyhd.guidatv.sky.it">
+    <display-name>Sky Cinema Family HD</display-name>
+    <display-name>304</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9042_home.png" />
+  </channel>
+  <channel id="skycinemaromancehd.guidatv.sky.it">
+    <display-name>Sky Cinema Romance HD</display-name>
+    <display-name>307</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9055_home.png" />
+  </channel>
+  <channel id="skycinemasuspensehd.guidatv.sky.it">
+    <display-name>Sky Cinema Suspense HD</display-name>
+    <display-name>306</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10515_home.png" />
+  </channel>
+  <channel id="skycinemaunohd.guidatv.sky.it">
+    <display-name>Sky Cinema Uno HD</display-name>
+    <display-name>301</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9044_home.png" />
+  </channel>
+  <channel id="skymeteo24.guidatv.sky.it">
+    <display-name>Sky Meteo24</display-name>
+    <display-name>501</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/321_home.png" />
+  </channel>
+  <channel id="www.skynews.it">
+    <display-name>Sky News</display-name>
+    <display-name>522</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/445_home.png" />
+  </channel>
+  <channel id="skysport.guidatv.sky.it">
+    <display-name>Sky Sport</display-name>
+    <display-name>486</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10334_home.png" />
+  </channel>
+  <channel id="skysportarena.guidatv.sky.it">
+    <display-name>Sky Sport Arena</display-name>
+    <display-name>204</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/7507_home.png" />
+  </channel>
+  <channel id="skysportcollectionhd.guidatv.sky.it">
+    <display-name>Sky Sport Collection HD</display-name>
+    <display-name>205</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10254_home.png" />
+  </channel>
+  <channel id="skysportf1hd.guidatv.sky.it">
+    <display-name>Sky Sport F1 HD</display-name>
+    <display-name>207</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9096_home.png" />
+  </channel>
+  <channel id="skysportfootballhd.guidatv.sky.it">
+    <display-name>Sky Sport Football HD</display-name>
+    <display-name>203</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9103_home.png" />
+  </channel>
+  <channel id="skysportmotogp.guidatv.sky.it">
+    <display-name>Sky Sport MotoGP</display-name>
+    <display-name>208</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/8434_home.png" />
+  </channel>
+  <channel id="skysportnba.guidatv.sky.it">
+    <display-name>Sky Sport NBA</display-name>
+    <display-name>206</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/8753_home.png" />
+  </channel>
+  <channel id="skysportserieahd.guidatv.sky.it">
+    <display-name>Sky Sport Serie A HD</display-name>
+    <display-name>473</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10333_home.png" />
+  </channel>
+  <channel id="skysportuno.guidatv.sky.it">
+    <display-name>Sky Sport Uno</display-name>
+    <display-name>482</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10417_home.png" />
+  </channel>
+  <channel id="skysportunohd.guidatv.sky.it">
+    <display-name>Sky Sport Uno HD</display-name>
+    <display-name>472</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10416_home.png" />
+  </channel>
+  <channel id="skysport24.skytv.it">
+    <display-name>Sky Sport24</display-name>
+    <display-name>481</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/10393_home.png" />
+  </channel>
+  <channel id="skytg24.skytv.it">
+    <display-name>Sky TG24</display-name>
+    <display-name>5050</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9313_home.png" />
+  </channel>
+  <channel id="skyuno.skytv.it">
+    <display-name>Sky Uno</display-name>
+  </channel>
+  <channel id="skyunohd.guidatv.sky.it">
+    <display-name>Sky Uno HD</display-name>
+  </channel>
+  <channel id="steel1.mediasetpremium.mediaset.it">
+    <display-name>Steel +1</display-name>
+  </channel>
+  <channel id="studiouniversal.mediasetpremium.mediaset.it">
+    <display-name>Studio Universal</display-name>
+  </channel>
+  <channel id="super.guidatv.sky.it">
+    <display-name>Super!</display-name>
+  </channel>
+  <channel id="supertennisdtt.guidatv.sky.it">
+    <display-name>SuperTennis DTT</display-name>
+    <display-name>5064</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/27128_home.png" />
+  </channel>
+  <channel id="supertennishd.guidatv.sky.it">
+    <display-name>SuperTennis HD</display-name>
+    <display-name>224</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/25900_home.png" />
+  </channel>
+  <channel id="tgnorba24.guidatv.sky.it">
+    <display-name>TG NORBA 24</display-name>
+    <display-name>510</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/6481_home.png" />
+  </channel>
+  <channel id="trmh24.guidatv.sky.it">
+    <display-name>TRM h24</display-name>
+    <display-name>519</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9013_home.png" />
+  </channel>
+  <channel id="tv2000.guidatv.sky.it">
+    <display-name>TV2000</display-name>
+  </channel>
+  <channel id="tv2000dtt.guidatv.sky.it">
+    <display-name>TV2000 DTT</display-name>
+  </channel>
+  <channel id="tgcom24.mediaset.it">
+    <display-name>TgCom24</display-name>
+  </channel>
+  <channel id="topcrime.guidatv.sky.it">
+    <display-name>Top Crime</display-name>
+  </channel>
+  <channel id="torinochannel.guidatv.sky.it">
+    <display-name>Torino Channel</display-name>
+    <display-name>234</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/9553_home.png" />
+  </channel>
+  <channel id="vh1.skylife.it">
+    <display-name>VH1</display-name>
+  </channel>
+  <channel id="yoyo.raisat.it">
+    <display-name>Yoyo</display-name>
+  </channel>
+  <channel id="www.boingtv.it">
+    <display-name>boingtv</display-name>
+  </channel>
+  <channel id="cielo.guidatv.sky.it">
+    <display-name>Cielo</display-name>
+  </channel>
+  <channel id="cielohd.guidatv.sky.it">
+    <display-name>Cielo HD</display-name>
+  </channel>
+  <channel id="i24news.guidatv.sky.it">
+    <display-name>i24news</display-name>
+    <display-name>537</display-name>
+    <icon src="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/26321_home.png" />
+  </channel>
+</tv>
