@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-url="https://api.telerama.fr" source-data-url="https://api.telerama.fr" generator-info-name="XMLTV" generator-info-url="http://mythtv-fr.org/">
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme start="20200823000500 +0200" stop="20200823090000 +0200" channel="C23.api.telerama.fr">
+    <title>Journaallus</title>
+    <sub-title>Doorlopende herhalingen</sub-title>
+    <category lang="fr">journal</category>
+    <length units="minutes">535</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823000500 +0200" stop="20200823001100 +0200" channel="C164.api.telerama.fr">
+    <title>Contacts</title>
+    <sub-title>Beaucoup de technologie mais un seul vrai conducteur</sub-title>
+    <desc lang="fr">A quoi ressembleront vos grandes vacances 2020 ? Il est fort probable que beaucoup d'entre vous ne quitteront pas l'Europe cette année. Nos beaux coins et nos sites touristiques seront donc sans doute fort fréquentés par les touristes circulant par toutes sortes de moyens, à vélo, en voiture, à moto ou à pied. Et tout ce petit monde aura intérêt à se respecter mutuellement...</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823001100 +0200" stop="20200823004300 +0200" channel="C164.api.telerama.fr">
+    <title>Studio Foot</title>
+    <sub-title>Championnat de Belgique D1A : 3e journée</sub-title>
+    <category lang="fr">sport : football</category>
+    <length units="minutes">32</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/16f7d086-90e6-4bbb-b065-0a7fc70801b6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823004300 +0200" stop="20200823004600 +0200" channel="C164.api.telerama.fr">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823004600 +0200" stop="20200823061800 +0200" channel="C164.api.telerama.fr">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">332</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/277044c2-0ee0-4c34-bdaf-7542e3746ab8.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823002000 +0200" stop="20200823005000 +0200" channel="C168.api.telerama.fr">
+    <title>Waldorado</title>
+    <desc lang="fr">Emilie se rend à Soumagne, en région liégeoise, pour découvrir Joskin, un des leaders européens dans la construction et le négoce de machines agricoles. Elle rencontre également Marc Debailleul qui a été sacré "Meilleur ouvrier de France" en pâtisserie en 1983. Il s'est installé en Belgique pour y ouvrir un petit atelier. Enfin, visite de la société XBODY à Namur, et de Référence Fitness à Liège.</desc>
+    <category lang="fr">magazine de découvertes</category>
+    <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/9c040af6-c4d9-462d-be4a-2545abf36222.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823005000 +0200" stop="20200823005500 +0200" channel="C168.api.telerama.fr">
+    <title>Météo</title>
+    <desc lang="fr">Quel temps fera-t-il demain ? Nos bulletins météo vous tiennent au courant des prévisions. La pluie et le beau temps, annoncés par nos spécialistes.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823005500 +0200" stop="20200823013500 +0200" channel="C168.api.telerama.fr">
+    <title>RTL info 19 heures</title>
+    <desc lang="fr">L'information est au coeur de RTL TVI. Cette année plus que jamais, l'ensemble des équipes de la rédaction se mobilise afin de faire preuve de réactivité dans n'importe quelles circonstances.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">40</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/077ab6d9-eb7c-4a90-a25f-9973c09e69f0.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823013500 +0200" stop="20200823033500 +0200" channel="C168.api.telerama.fr">
+    <title>Jeux de nuit</title>
+    <desc lang="fr">Tous les jours de la semaine, à la fin des programmes, retrouvez un jeu télévisé interactif, en direct, permettant aux téléspectateurs de gagner un prix en argent ou en nature s'ils répondent correctement à la (aux) question(s) posée(s). Il s'agit d'une série de jeux interactifs (mots croisés, exercices d'observation, de connaissances ou de reconnaissance) auxquels les téléspectateurs peuvent ainsi participer par téléphone ou par SMS.</desc>
+    <category lang="fr">jeu</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823033500 +0200" stop="20200823050000 +0200" channel="C168.api.telerama.fr">
+    <title>Boucle de nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">85</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823004600 +0200" stop="20200823005200 +0200" channel="C187.api.telerama.fr">
+    <title>Vews</title>
+    <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5c5855b4-bff6-4630-8367-4c5bd7aaff4d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823005200 +0200" stop="20200823005600 +0200" channel="C187.api.telerama.fr">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823005600 +0200" stop="20200823013000 +0200" channel="C187.api.telerama.fr">
+    <title>Le meilleur de l'humour express</title>
+    <desc lang="fr">26' du Meilleur de l'Humour du lundi au vendredi</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">34</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823013000 +0200" stop="20200823074900 +0200" channel="C187.api.telerama.fr">
+    <title>Boucle de nuit</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">379</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823014500 +0200" stop="20200823050000 +0200" channel="C377.api.telerama.fr">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">195</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823004700 +0200" stop="20200823012400 +0200" channel="C892.api.telerama.fr">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">37</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823012400 +0200" stop="20200823012500 +0200" channel="C892.api.telerama.fr">
+    <title>Météo internationale</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">1</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200823012500 +0200" stop="20200823060000 +0200" channel="C892.api.telerama.fr">
+    <title>Boucle de nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">275</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>

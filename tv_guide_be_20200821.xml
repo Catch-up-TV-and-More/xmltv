@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv source_info_url="https://api.telerama.fr">
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme channel="C23.api.telerama.fr" start="20200820221000" stop="20200821070000">
+    <title>Journaallus</title>
+    <sub-title>Doorlopende herhalingen</sub-title>
+    <category lang="fr">journal</category>
+    <length units="minutes">530</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C50.api.telerama.fr" start="20200820220500" stop="20200821030000">
+    <title>Best of Shopping</title>
+    <desc lang="fr">Avec Best of Shopping, découvrez le meilleur du téléachat mondial sélectionné pour vous dans de nombreux univers : la cuisine, l'entretien de la maison, le bricolage, la forme et la beauté.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">295</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/bc5e1f26-53c8-49fe-9098-49df41b9cfc4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200820232400" stop="20200821035900">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">275</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/277044c2-0ee0-4c34-bdaf-7542e3746ab8.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C168.api.telerama.fr" start="20200820225000" stop="20200821005000">
+    <title>Jeux de nuit</title>
+    <desc lang="fr">Tous les jours de la semaine, à la fin des programmes, retrouvez un jeu télévisé interactif, en direct, permettant aux téléspectateurs de gagner un prix en argent ou en nature s'ils répondent correctement à la (aux) question(s) posée(s). Il s'agit d'une série de jeux interactifs (mots croisés, exercices d'observation, de connaissances ou de reconnaissance) auxquels les téléspectateurs peuvent ainsi participer par téléphone ou par SMS.</desc>
+    <category lang="fr">jeu</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C168.api.telerama.fr" start="20200821005000" stop="20200821030000">
+    <title>Boucle de nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">130</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200820230000" stop="20200821052400">
+    <title>Boucle de nuit</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">384</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C377.api.telerama.fr" start="20200820231000" stop="20200821011000">
+    <title>Luna Park</title>
+    <desc lang="fr">Chaque jour, " Luna Park " présente une série de jeux de durées variables sous la forme de questions / réponses adressées aux téléspectateurs. Ces jeux sont classés par catégories (culture générale, sports, santé, alimentation, histoire, géographie, vocabulaire, orthographe... etc). Ils sont dotés d'enjeux variables. Les téléspectateurs qui souhaitent participer, peuvent répondre, en direct, par téléphone, et gagner des cadeaux ou de l'argent.</desc>
+    <category lang="fr">jeu</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/02802cd4-1d91-4e60-bc91-d371afc81ef9.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C377.api.telerama.fr" start="20200821011000" stop="20200821070000">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">350</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821005500" stop="20200821013000">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821013000" stop="20200821013500">
+    <title>Météo internationale</title>
+    <sub-title>Météo Internationale</sub-title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821013500" stop="20200821040000">
+    <title>Boucle de nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">145</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C23.api.telerama.fr" start="20200821234000" stop="20200822001000">
+    <title>De Playlist</title>
+    <sub-title>Laura Lynn</sub-title>
+    <desc lang="fr">Saison:1 -</desc>
+    <category lang="fr">variétés</category>
+    <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/59f5c3fa-815f-4bbd-8cc3-3ac206076ff7.jpg" />
+    <episode-num system="xmltv_ns">0..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200821220500" stop="20200821220900">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200821220900" stop="20200821224500">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">36</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/277044c2-0ee0-4c34-bdaf-7542e3746ab8.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200821224500" stop="20200821230000">
+    <title>Studio Foot</title>
+    <sub-title>Courtrai - Eupen</sub-title>
+    <category lang="fr">football</category>
+    <length units="minutes">15</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6c9b77d1-47a8-4a5c-bb96-4dcbd9b312b8.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200821230000" stop="20200821231000">
+    <title>Quel temps !</title>
+    <desc lang="fr">Découvrez les coulisses du climat chez nous et à l'autre bout du monde. Des changements climatiques aux énergies renouvelables, toutes les questions scientifiques seront abordées.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">10</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200821231000" stop="20200821231400">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200821231400" stop="20200822042800">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">314</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/277044c2-0ee0-4c34-bdaf-7542e3746ab8.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C168.api.telerama.fr" start="20200821220000" stop="20200821224000">
+    <title>RTL info 19 heures</title>
+    <desc lang="fr">L'information est au coeur de RTL TVI. Cette année plus que jamais, l'ensemble des équipes de la rédaction se mobilise afin de faire preuve de réactivité dans n'importe quelles circonstances.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">40</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/077ab6d9-eb7c-4a90-a25f-9973c09e69f0.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C168.api.telerama.fr" start="20200821224000" stop="20200822043500">
+    <title>Jeux de nuit</title>
+    <desc lang="fr">Tous les jours de la semaine, à la fin des programmes, retrouvez un jeu télévisé interactif, en direct, permettant aux téléspectateurs de gagner un prix en argent ou en nature s'ils répondent correctement à la (aux) question(s) posée(s). Il s'agit d'une série de jeux interactifs (mots croisés, exercices d'observation, de connaissances ou de reconnaissance) auxquels les téléspectateurs peuvent ainsi participer par téléphone ou par SMS.</desc>
+    <category lang="fr">jeu</category>
+    <length units="minutes">355</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200821222700" stop="20200821223300">
+    <title>Vews</title>
+    <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5c5855b4-bff6-4630-8367-4c5bd7aaff4d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200821223300" stop="20200821223700">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200821223700" stop="20200821230000">
+    <title>Alors, on Change !</title>
+    <sub-title>Et demain, le circuit court ?</sub-title>
+    <desc lang="fr">Le magazine de la société en transition</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">23</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200821230000" stop="20200822053800">
+    <title>Boucle de nuit</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">398</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C377.api.telerama.fr" start="20200821234000" stop="20200822030000">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">200</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821220400" stop="20200821225700">
+    <title>1918-1939 : les rêves brisés de l'entre-deux-guerres</title>
+    <sub-title>Crash</sub-title>
+    <desc lang="fr">Tandis que des privilégiés profitent des Années folles, des millions de personnes vivent dans la plus extrême pauvreté. Fin 1927, nombreux sont ceux qui spéculent, ou qui s'endettent massivement grâce au crédit à la consommation inventé aux Etats-Unis. Le Vendredi noir de 1929 fait voler en éclats tous les espoirs de prospérité. Pour sauver le «One-Two-Two», le bordel de luxe qu'il a ouvert à Paris, Marcel Jamet accepte de collaborer avec la police. Sorti de prison, Hans Baimler s'éprend d'une camarade du parti. Albert, le compagnon d'Elise Ottensen, noue une liaison avec Alfa, 18 ans. La politique monétaire de Mussolini ruine l'empire textile fondé par Silvio Crespi. Enfin, entamant en Autriche ses études de médecine, Edith Wellspacher fait la connaissance de Max Wachstein, un jeune interne juif.</desc>
+    <date>2018</date>
+    <category lang="fr">documentaire : fiction</category>
+    <length units="minutes">53</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8293fd22-1222-4d91-b07e-31fb8968b4c5.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821225700" stop="20200821233200">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821233200" stop="20200821233500">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200821233500" stop="20200822035900">
+    <title>Boucle de nuit</title>
+    <category lang="fr">programme indéterminé</category>
+    <length units="minutes">264</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>

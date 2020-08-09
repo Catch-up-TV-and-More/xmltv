@@ -212,7 +212,7 @@ def generate_new_xmltv_files():
 
                 # If there is no programme, delete this raw xmltv file
                 if not programmes:
-                    print('\t\t\t- This file does not contain any TV shows, delete it', flush=True)
+                    print('\t\t\t- This file does not contain any TV shows :-/, delete it', flush=True)
                     os.remove(xmltv_fp)
                 else:
                     programmes_local_datetime_l = programmes_local_datetime_l + programmes
@@ -290,11 +290,16 @@ def generate_new_xmltv_files():
 
             # Add programmes
             if fp_prefix == '_local':
-                for p in country_infos['programmes_local_datetime_l']:
-                    w.addProgramme(p)
+                programmes_l = country_infos['programmes_local_datetime_l']
             else:
-                for p in country_infos['programmes_l']:
-                    w.addProgramme(p)
+                programmes_l = country_infos['programmes_l']
+
+            if not programmes_l:
+                print('\t\t* This file does not contain any TV shows :-/, do not write it', flush=True)
+                continue
+
+            for p in programmes_l:
+                w.addProgramme(p)
 
             # Write XMLTV file
             with open(dst_fp, 'wb') as f:
@@ -321,6 +326,11 @@ def generate_new_xmltv_files():
                     programmes_l = country_infos['programmes_local_datetime_l']
                 else:
                     programmes_l = country_infos['programmes_l']
+
+                if not programmes_l:
+                    print('\t\t\t- This file does not contain any TV shows :-/, do not write it', flush=True)
+                    continue
+
                 for p in programmes_l:
                     start_s = p['start'][0:8]
                     stop_s = p['stop'][0:8]
