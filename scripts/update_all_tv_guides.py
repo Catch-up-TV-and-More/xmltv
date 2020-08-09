@@ -158,10 +158,10 @@ def update_raw_files():
         print('\t* Grab TV guides of day {}'.format(day_to_grab.strftime("%d/%m/%Y")), flush=True)
         for country_code, country_infos in COUNTRIES.items():
             xmltv_fp = RAW_DIRECTORY + country_infos['raw'].format('_' + day_to_grab.strftime("%Y%m%d"))
+            print('\t\t- Grab TV guides of {} country in {}'.format(country_code, xmltv_fp), flush=True)
             if os.path.exists(xmltv_fp):
-                print('\t\t- File {} already exists --> Nothing to do'.format(xmltv_fp), flush=True)
+                print('\t\t\t* This file already exists --> Nothing to do', flush=True)
             else:
-                print('\t\t- Grab TV guides of {} country in {}'.format(country_code, xmltv_fp), flush=True)
                 cmd = country_infos['grabber_cmd']
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)
@@ -177,7 +177,7 @@ def remove_xmltv_files():
     """In root directory, remove all XMLTV files"""
     print('\n# Remove all XMLTV files in root directory', flush=True)
     for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
-        print('\t* Remove file ' + f, flush=True)
+        # print('\t* Remove file ' + f, flush=True)
         os.remove(f)
 
 
@@ -188,7 +188,7 @@ def generate_new_xmltv_files():
         print('\n* Processing of {} country:'.format(country_code), flush=True)
 
         # Retireve programmes from all raw xmltv files
-        print('\t- Retireve programmes from all xmltv files of this country', flush=True)
+        print('\t- Retireve TV shows from all xmltv files of this country', flush=True)
         channels_l = []
         programmes_local_datetime_l = []
         data_d = {}
@@ -198,7 +198,7 @@ def generate_new_xmltv_files():
             xmltv_fp = RAW_DIRECTORY + country_infos['raw'].format('_' + date.strftime("%Y%m%d"))
             if not os.path.exists(xmltv_fp):
                 continue
-            print('\t\t* Add programmes from file {}'.format(xmltv_fp), flush=True)
+            print('\t\t* Add TV shows from file {}'.format(xmltv_fp), flush=True)
 
             try:
                 # Channels and data are the same for all days
@@ -206,13 +206,20 @@ def generate_new_xmltv_files():
                     data_d = xmltv.read_data(open(xmltv_fp, 'r'))
                 if not channels_l:
                     channels_l = xmltv.read_channels(open(xmltv_fp, 'r'))
+
                 # But for the programmes, we need to append each day
-                programmes_local_datetime_l = programmes_local_datetime_l + xmltv.read_programmes(open(xmltv_fp, 'r'))
-            except Exception:
-                print('\t\t* File {} seems to be corrupt :-/, remove xmltv file'.format(xmltv_fp), flush=True)
-                if os.path.exists(xmltv_fp):
+                programmes = xmltv.read_programmes(open(xmltv_fp, 'r'))
+
+                # If there is no programme, delete this raw xmltv file
+                if not programmes:
+                    print('\t\t\t- This file does not contain any TV shows, delete it', flush=True)
                     os.remove(xmltv_fp)
-                pass
+                else:
+                    programmes_local_datetime_l = programmes_local_datetime_l + programmes
+
+            except Exception:
+                print('\t\t\t- This file seems to be corrupt :-/, delete it', flush=True)
+                os.remove(xmltv_fp)
 
         # If data_d is still empty here, we can continue to the next country
         if not data_d:
