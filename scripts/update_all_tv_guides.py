@@ -180,10 +180,10 @@ def update_raw_files():
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
                 r = subprocess.run(cmd, env=my_env)
-                if r.returncode != 0:
-                    print('\t\t- Last command exited with no zero code :-/, remove xmltv file', flush=True)
-                    if os.path.exists(xmltv_fp):
-                        os.remove(xmltv_fp)
+                # if r.returncode != 0:
+                #     print('\t\t- Last command exited with no zero code :-/, remove xmltv file', flush=True)
+                #     if os.path.exists(xmltv_fp):
+                #         os.remove(xmltv_fp)
 
 
 def remove_xmltv_files():
