@@ -19,6 +19,7 @@ TODAY = datetime.now()
 
 COUNTRIES = {
     'fr': {
+        'raw_min_size': 600000,
         'raw': 'tv_guide_fr_telerama{}.xml',
         'dst': 'tv_guide_fr{}.xml',
         'tz': 'Europe/Paris',
@@ -37,6 +38,7 @@ COUNTRIES = {
         ]
     },
     'fr_tnt': {
+        'raw_min_size': 600000,
         'raw': 'tv_guide_fr_telerama{}.xml',
         'dst': 'tv_guide_fr_tnt{}.xml',
         'tz': 'Europe/Paris',
@@ -84,6 +86,7 @@ COUNTRIES = {
         ]
     },
     'be': {
+        'raw_min_size': 150000,
         'raw': 'tv_guide_be_telerama{}.xml',
         'dst': 'tv_guide_be{}.xml',
         'tz': 'Europe/Paris',
@@ -102,6 +105,7 @@ COUNTRIES = {
         ]
     },
     'uk': {
+        'raw_min_size': 150000,
         'raw': 'tv_guide_uk_tvguide{}.xml',
         'dst': 'tv_guide_uk{}.xml',
         'tz': 'Europe/London',
@@ -118,6 +122,7 @@ COUNTRIES = {
         ]
     },
     'it': {
+        'raw_min_size': 150000,
         'raw': 'tv_guide_it{}.xml',
         'dst': 'tv_guide_it{}.xml',
         'tz': 'Europe/Rome',
@@ -131,7 +136,8 @@ COUNTRIES = {
             'myoffset',
             '--output',
             'myoutput'
-        ]
+        ],
+        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6]
     }
 }
 
@@ -157,11 +163,18 @@ def update_raw_files():
         day_to_grab = TODAY + timedelta(days=delta)
         print('\t* Grab TV guides of day {}'.format(day_to_grab.strftime("%d/%m/%Y")), flush=True)
         for country_code, country_infos in COUNTRIES.items():
+            if 'allowed_offsets' in country_infos and delta not in country_infos['allowed_offsets']:
+                continue
             xmltv_fp = RAW_DIRECTORY + country_infos['raw'].format('_' + day_to_grab.strftime("%Y%m%d"))
             print('\t\t- Grab TV guides of {} country in {}'.format(country_code, xmltv_fp), flush=True)
+            run_cmd = True
             if os.path.exists(xmltv_fp):
-                print('\t\t\t* This file already exists --> Nothing to do', flush=True)
-            else:
+                if os.path.getsize(xmltv_fp) < country_infos['raw_min_size']:
+                    print('\t\t\t* This file already exists but its size is small 0_o --> run grabber again', flush=True)
+                else:
+                    print('\t\t\t* This file already exists --> Nothing to do', flush=True)
+                    run_cmd = False
+            if run_cmd:
                 cmd = country_infos['grabber_cmd']
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)

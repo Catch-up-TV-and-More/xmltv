@@ -32,6 +32,26 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
+  <programme channel="C50.api.telerama.fr" start="20200825214500" stop="20200826030000">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">315</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1280.api.telerama.fr" start="20200825195000" stop="20200826040000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">490</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C23.api.telerama.fr" start="20200825222500" stop="20200826070000">
     <title>Journaallus</title>
     <sub-title>Doorlopende herhalingen</sub-title>

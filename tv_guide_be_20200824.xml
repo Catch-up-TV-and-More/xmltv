@@ -32,6 +32,15 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
+  <programme channel="C1280.api.telerama.fr" start="20200823185500" stop="20200824040000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">545</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C23.api.telerama.fr" start="20200823222000" stop="20200824070000">
     <title>Journaallus</title>
     <sub-title>Doorlopende herhalingen</sub-title>

@@ -32,6 +32,106 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
+  <programme channel="C23.api.telerama.fr" start="20200823233000 +0200" stop="20200824002000 +0200">
+    <title>First Dates</title>
+    <desc lang="fr">Saison:7 -</desc>
+    <category lang="fr">téléréalité</category>
+    <length units="minutes">50</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/be238b92-c3bb-4bb0-9812-003a8c7a1123.jpg" />
+    <episode-num system="xmltv_ns">6..</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C50.api.telerama.fr" start="20200823232500 +0200" stop="20200824001500 +0200">
+    <title>The Five</title>
+    <desc lang="fr">Saison:1 - Episode:10 - Le père biologique de Jesse raconte à Mark comment il a rejoint le garçonnet dans le parc au moment où Jakob Marosi s'apprêtait à l'enlever. Il a ensuite caché l'enfant, qu'il a rebaptisé et élevé. Sa nouvelle identité va en surprendre plus d'un car tous ont côtoyé le jeune homme au fil de l'enquête...</desc>
+    <credits>
+      <director>Mark Tonderai</director>
+      <actor>Tom Cullen</actor>
+      <actor>OT Fagbenle</actor>
+      <actor>Hannah Arterton</actor>
+      <actor>Sarah Solemani</actor>
+      <actor>Michael Maloney</actor>
+      <actor>Geraldine James</actor>
+      <actor>Erin Shanagher</actor>
+      <actor>Rade Serbedzija</actor>
+      <writer>Harlan Coben</writer>
+    </credits>
+    <category lang="fr">série de suspense</category>
+    <length units="minutes">50</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c3100b3a-5abd-4569-b8a4-453402e30cfc.jpg" />
+    <episode-num system="xmltv_ns">0.9.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200823231500 +0200" stop="20200824000700 +0200">
+    <title>Week-end sportif</title>
+    <category lang="fr">sport : multisports</category>
+    <length units="minutes">52</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c41c6b79-148c-4bde-a9de-a90d043b3478.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C168.api.telerama.fr" start="20200823234000 +0200" stop="20200824002000 +0200">
+    <title>RTL info 19 heures</title>
+    <desc lang="fr">L'information est au coeur de RTL TVI. Cette année plus que jamais, l'ensemble des équipes de la rédaction se mobilise afin de faire preuve de réactivité dans n'importe quelles circonstances.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">40</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/077ab6d9-eb7c-4a90-a25f-9973c09e69f0.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200823234800 +0200" stop="20200824003300 +0200">
+    <title>Matière grise</title>
+    <sub-title>Se faire tatouer pour effacer les traces d'un cancer</sub-title>
+    <desc lang="fr">Si le tatouage est à la mode, il peut avoir une forte portée symbolique. Ainsi, pour beaucoup de femmes, l'ablation du sein dans le traitement du cancer est vécue comme une amputation de leur féminité. Des associations et des médecins ont trouvé une réponse : la création de tatouages, qui leur permet de se réapproprier leur corps et leur féminité.</desc>
+    <category lang="fr">magazine scientifique</category>
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5d46e0eb-5cfb-42a4-9550-691cb3addb67.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C377.api.telerama.fr" start="20200823234000 +0200" stop="20200824014000 +0200">
+    <title>Luna Park</title>
+    <desc lang="fr">Chaque jour, " Luna Park " présente une série de jeux de durées variables sous la forme de questions / réponses adressées aux téléspectateurs. Ces jeux sont classés par catégories (culture générale, sports, santé, alimentation, histoire, géographie, vocabulaire, orthographe... etc). Ils sont dotés d'enjeux variables. Les téléspectateurs qui souhaitent participer, peuvent répondre, en direct, par téléphone, et gagner des cadeaux ou de l'argent.</desc>
+    <category lang="fr">jeu</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/02802cd4-1d91-4e60-bc91-d371afc81ef9.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200823234900 +0200" stop="20200824003900 +0200">
+    <title>Caméléon</title>
+    <sub-title>Brésil : Les pitbulls de l'Amazonie</sub-title>
+    <desc lang="fr">Saison:2 - Traversé par le fleuve Amazone, la région du Para connait un fort développement du fait de ses ressources naturelles. Mais le fleuve et ses affluents subissent de nombreux actes de piraterie. Les cibles principales : les cargos de combustible. Durant 7 jours, Sebastian Perez Pezzani suit la brigade fluviale qui travaille à récupérer les marchandises dérobées. A la suite de braquages, une course contre la montre s'engage, à la poursuite des pirates de l'Amazone. Par sa taille, le Para est le deuxième état du Brésil. Lutter contre le crime organisé sur un tel périmètre relève de l'exploit.</desc>
+    <date>2016</date>
+    <category lang="fr">documentaire : société</category>
+    <length units="minutes">50</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f5675f34-5676-4df1-8dbe-b7c0e747603d.jpg" />
+    <episode-num system="xmltv_ns">1..</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C1280.api.telerama.fr" start="20200823205500 +0200" stop="20200824060000 +0200">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">545</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C23.api.telerama.fr" start="20200824002000 +0200" stop="20200824090000 +0200">
     <title>Journaallus</title>
     <sub-title>Doorlopende herhalingen</sub-title>

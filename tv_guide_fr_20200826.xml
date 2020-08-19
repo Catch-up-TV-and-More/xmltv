@@ -220,6 +220,24 @@
     <display-name>Franceinfo</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/2111.png" />
   </channel>
+  <programme channel="C184.api.telerama.fr" start="20200825210000" stop="20200826070000">
+    <title>Fin des programmes</title>
+    <category lang="fr">fin</category>
+    <length units="hours">10</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C226.api.telerama.fr" start="20200825210000" stop="20200826040000">
+    <title>L'édition de la nuit</title>
+    <category lang="fr">journal</category>
+    <length units="hours">7</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C4.api.telerama.fr" start="20200825231500" stop="20200826022500">
     <title>Monteverdi à Venise : Le couronnement de Poppée</title>
     <sub-title>Le Couronnement de Poppée</sub-title>
