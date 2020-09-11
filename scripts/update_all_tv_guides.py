@@ -168,7 +168,10 @@ def update_raw_files():
             xmltv_fp = RAW_DIRECTORY + country_infos['raw'].format('_' + day_to_grab.strftime("%Y%m%d"))
             print('\t\t- Grab TV guides of {} country in {}'.format(country_code, xmltv_fp), flush=True)
             run_cmd = True
-            if os.path.exists(xmltv_fp):
+            # If delta is 1, force grabber to run (fix issue #7)
+            if delta == 1:
+                print('\t\t\t* Force file update (delta is 1) --> run grabber', flush=True)
+            elif os.path.exists(xmltv_fp):
                 if os.path.getsize(xmltv_fp) < country_infos['raw_min_size']:
                     print('\t\t\t* This file already exists but its size is small 0_o --> run grabber again', flush=True)
                 else:
