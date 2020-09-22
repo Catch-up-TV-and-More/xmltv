@@ -142,10 +142,18 @@ COUNTRIES = {
 }
 
 
+def remove_xmltv_files():
+    """In root directory, remove all XMLTV files"""
+    print('\n# Remove all XMLTV files in root directory', flush=True)
+    for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
+        # print('\t* Remove file ' + f, flush=True)
+        os.remove(f)
+
+
 def remove_old_raw_files():
     """In 'raw' directory, remove old XMLTV files"""
     print('\n# Remove old XMLTV files of raw directory ({})'.format(RAW_DIRECTORY), flush=True)
-    today_minus_three = datetime.now() - timedelta(days=3)
+    today_minus_three = TODAY - timedelta(days=3)
     for f in glob.glob(RAW_DIRECTORY + '*.xml'):
         xmltv_date = f.split('_')[-1].split('.xml')[0]
         xmltv_date = datetime.strptime(xmltv_date, '%Y%m%d')
@@ -168,14 +176,15 @@ def update_raw_files():
             xmltv_fp = RAW_DIRECTORY + country_infos['raw'].format('_' + day_to_grab.strftime("%Y%m%d"))
             print('\t\t- Grab TV guides of {} country in {}'.format(country_code, xmltv_fp), flush=True)
             run_cmd = True
-            # If delta is 1, force grabber to run (fix issue #7)
-            if delta == 1:
+            # If delta is 1, force grabber to run (fix issue #7) (except when country_code == fr_tnt because we use the same file as fr)
+            if delta == 1 and country_code != 'fr_tnt':
                 print('\t\t\t* Force file update (delta is 1) --> run grabber', flush=True)
             elif os.path.exists(xmltv_fp):
-                if os.path.getsize(xmltv_fp) < country_infos['raw_min_size']:
-                    print('\t\t\t* This file already exists but its size is small 0_o --> run grabber again', flush=True)
+                xmltv_file_size = os.path.getsize(xmltv_fp)
+                if xmltv_file_size < country_infos['raw_min_size']:
+                    print('\t\t\t* This file already exists but its size is small 0_o ({} bytes) --> run grabber again'.format(xmltv_file_size), flush=True)
                 else:
-                    print('\t\t\t* This file already exists --> Nothing to do', flush=True)
+                    print('\t\t\t* This file already exists (size: {} bytes) --> Nothing to do'.format(xmltv_file_size), flush=True)
                     run_cmd = False
             if run_cmd:
                 cmd = country_infos['grabber_cmd']
@@ -183,18 +192,11 @@ def update_raw_files():
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
                 r = subprocess.run(cmd, env=my_env)
+                print('\t\t\t* Final file size: {} bytes'.format(os.path.getsize(xmltv_fp)), flush=True)
                 # if r.returncode != 0:
                 #     print('\t\t- Last command exited with no zero code :-/, remove xmltv file', flush=True)
                 #     if os.path.exists(xmltv_fp):
                 #         os.remove(xmltv_fp)
-
-
-def remove_xmltv_files():
-    """In root directory, remove all XMLTV files"""
-    print('\n# Remove all XMLTV files in root directory', flush=True)
-    for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
-        # print('\t* Remove file ' + f, flush=True)
-        os.remove(f)
 
 
 def generate_new_xmltv_files():
@@ -231,6 +233,7 @@ def generate_new_xmltv_files():
                     print('\t\t\t- This file does not contain any TV shows :-/, delete it', flush=True)
                     os.remove(xmltv_fp)
                 else:
+                    print('\t\t\t- This file contains {} TV shows'.format(len(programmes)), flush=True)
                     programmes_local_datetime_l = programmes_local_datetime_l + programmes
 
             except Exception:
@@ -347,13 +350,16 @@ def generate_new_xmltv_files():
                     print('\t\t\t- This file does not contain any TV shows :-/, do not write it', flush=True)
                     continue
 
+                cnt = 0
                 for p in programmes_l:
                     start_s = p['start'][0:8]
                     stop_s = p['stop'][0:8]
                     if start_s == date_s or stop_s == date_s:
                         w.addProgramme(p)
+                        cnt = cnt + 1
                 with open(dst_fp, 'wb') as f:
                     w.write(f, pretty_print=True)
+                print('\t\t\t- Final file will contains {} TV shows'.format(cnt), flush=True)
 
     print('\t* Merge all country tv guides in tv_guide_all.xml', flush=True)
 
@@ -366,15 +372,18 @@ def generate_new_xmltv_files():
             for c in country_infos['channels_l']:
                 w.addChannel(c)
 
+    cnt = 0
     for country_code, country_infos in COUNTRIES.items():
         if country_code == 'fr_tnt':
             continue
         if 'programmes_l' in country_infos:
             for p in country_infos['programmes_l']:
                 w.addProgramme(p)
+                cnt = cnt + 1
 
     with open(ROOT_DIRECTORY + 'tv_guide_all.xml', 'wb') as f:
         w.write(f, pretty_print=True)
+    print('\t\t- Final file will contains {} TV shows'.format(cnt), flush=True)
 
     print('\t* Merge all country tv guides in tv_guide_all_local.xml', flush=True)
 
@@ -387,22 +396,25 @@ def generate_new_xmltv_files():
             for c in country_infos['channels_l']:
                 w.addChannel(c)
 
+    cnt = 0
     for country_code, country_infos in COUNTRIES.items():
         if country_code == 'fr_tnt':
             continue
         if 'programmes_local_datetime_l' in country_infos:
             for p in country_infos['programmes_local_datetime_l']:
                 w.addProgramme(p)
+                cnt = cnt + 0
 
     with open(ROOT_DIRECTORY + 'tv_guide_all_local.xml', 'wb') as f:
         w.write(f, pretty_print=True)
+    print('\t\t- Final file will contains {} TV shows'.format(cnt), flush=True)
 
 
 def main():
     print('\n# Start script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
+    remove_xmltv_files()
     remove_old_raw_files()
     update_raw_files()
-    remove_xmltv_files()
     generate_new_xmltv_files()
     print('\n# Exit script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
 
