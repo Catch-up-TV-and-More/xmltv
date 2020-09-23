@@ -35,55 +35,8 @@ COUNTRIES = {
             'myoffset',
             '--output',
             'myoutput'
-        ]
-    },
-    'fr_tnt': {
-        'raw_min_size': 600000,
-        'raw': 'tv_guide_fr_telerama{}.xml',
-        'dst': 'tv_guide_fr_tnt{}.xml',
-        'tz': 'Europe/Paris',
-        'channels_to_add': [
-            'C192.api.telerama.fr',  # TF1
-            'C4.api.telerama.fr',  # France 2
-            'C80.api.telerama.fr',  # France 3
-            'C34.api.telerama.fr',  # Canal+
-            'C47.api.telerama.fr',  # France 5
-            'C118.api.telerama.fr',  # M6
-            'C111.api.telerama.fr',  # Arte
-            'C445.api.telerama.fr',  # C8
-            'C119.api.telerama.fr',  # W9
-            'C195.api.telerama.fr',  # TMC
-            'C446.api.telerama.fr',  # TFX
-            'C444.api.telerama.fr',  # NRJ 12
-            'C234.api.telerama.fr',  # LCP
-            'C78.api.telerama.fr',  # France 4
-            'C481.api.telerama.fr',  # BFM TV
-            'C226.api.telerama.fr',  # CNEWS
-            'C458.api.telerama.fr',  # CSTAR
-            'C482.api.telerama.fr',  # Gulli
-            'C160.api.telerama.fr',  # France O
-            'C1404.api.telerama.fr',  # TF1 Séries Films
-            'C1401.api.telerama.fr',  # L'équipe
-            'C1403.api.telerama.fr',  # 6ter
-            'C1402.api.telerama.fr',  # RMC Story
-            'C1400.api.telerama.fr',  # RMC Découverte
-            'C1399.api.telerama.fr',  # Chérie 25
-            'C112.api.telerama.fr',  # LCI
-            'C2111.api.telerama.fr'  # Franceinfo
         ],
-        'grabber_cmd': [
-            SCRIPTS_DIRECTORY + 'tv_grab_fr_telerama/tv_grab_fr_telerama',
-            '--config-file',
-            SCRIPTS_DIRECTORY + 'tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt',
-            '--no_htmltags',
-            '--casting',
-            '--days',
-            '1',
-            '--offset',
-            'myoffset',
-            '--output',
-            'myoutput'
-        ]
+        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
     },
     'be': {
         'raw_min_size': 150000,
@@ -102,7 +55,8 @@ COUNTRIES = {
             'myoffset',
             '--output',
             'myoutput'
-        ]
+        ],
+        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
     },
     'uk': {
         'raw_min_size': 150000,
@@ -119,7 +73,8 @@ COUNTRIES = {
             'myoffset',
             '--output',
             'myoutput'
-        ]
+        ],
+        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
     },
     'it': {
         'raw_min_size': 150000,
@@ -142,24 +97,24 @@ COUNTRIES = {
 }
 
 
-def remove_xmltv_files():
+def remove_root_xmltv_files():
     """In root directory, remove all XMLTV files"""
     print('\n# Remove all XMLTV files in root directory', flush=True)
     for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
-        # print('\t* Remove file ' + f, flush=True)
         os.remove(f)
 
 
 def remove_old_raw_files():
-    """In 'raw' directory, remove old XMLTV files"""
-    print('\n# Remove old XMLTV files of raw directory ({})'.format(RAW_DIRECTORY), flush=True)
-    today_minus_three = TODAY - timedelta(days=3)
-    for f in glob.glob(RAW_DIRECTORY + '*.xml'):
-        xmltv_date = f.split('_')[-1].split('.xml')[0]
-        xmltv_date = datetime.strptime(xmltv_date, '%Y%m%d')
-        if xmltv_date < today_minus_three:
-            print('\t* Remove file ' + f, flush=True)
-            os.remove(f)
+    """In 'raw' directory, remove old XMLTV and log files"""
+    print('\n# Remove old XMLTV and log files of raw directory', flush=True)
+    subexpr_to_remove = []
+    for delta in range(3, 20):
+        subexpr_to_remove.append((TODAY - timedelta(days=delta)).strftime("%Y%m%d"))
+    for f in glob.glob(RAW_DIRECTORY + '*'):
+        for expr in subexpr_to_remove:
+            if expr in f:
+                print('\t* Remove file ' + f, flush=True)
+                os.remove(f)
 
 
 def update_raw_files():
@@ -171,13 +126,12 @@ def update_raw_files():
         day_to_grab = TODAY + timedelta(days=delta)
         print('\t* Grab TV guides of day {}'.format(day_to_grab.strftime("%d/%m/%Y")), flush=True)
         for country_code, country_infos in COUNTRIES.items():
-            if 'allowed_offsets' in country_infos and delta not in country_infos['allowed_offsets']:
+            if delta not in country_infos['allowed_offsets']:
                 continue
             xmltv_fp = RAW_DIRECTORY + country_infos['raw'].format('_' + day_to_grab.strftime("%Y%m%d"))
             print('\t\t- Grab TV guides of {} country in {}'.format(country_code, xmltv_fp), flush=True)
             run_cmd = True
-            # If delta is 1, force grabber to run (fix issue #7) (except when country_code == fr_tnt because we use the same file as fr)
-            if delta == 1 and country_code != 'fr_tnt':
+            if delta == 1:  # If delta is 1, force grabber to run (fix issue #7)
                 print('\t\t\t* Force file update (delta is 1) --> run grabber', flush=True)
             elif os.path.exists(xmltv_fp):
                 xmltv_file_size = os.path.getsize(xmltv_fp)
@@ -187,16 +141,16 @@ def update_raw_files():
                     print('\t\t\t* This file already exists (size: {} bytes) --> Nothing to do'.format(xmltv_file_size), flush=True)
                     run_cmd = False
             if run_cmd:
+                stdout_f = open(xmltv_fp + 'stdout.log', 'w')
+                stderr_f = open(xmltv_fp + 'stderr.log', 'w')
                 cmd = country_infos['grabber_cmd']
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
-                r = subprocess.run(cmd, env=my_env)
+                subprocess.run(cmd, env=my_env, stdout=stdout_f, stderr=stderr_f)
+                stdout_f.close()
+                stderr_f.close()
                 print('\t\t\t* Final file size: {} bytes'.format(os.path.getsize(xmltv_fp)), flush=True)
-                # if r.returncode != 0:
-                #     print('\t\t- Last command exited with no zero code :-/, remove xmltv file', flush=True)
-                #     if os.path.exists(xmltv_fp):
-                #         os.remove(xmltv_fp)
 
 
 def generate_new_xmltv_files():
@@ -207,9 +161,10 @@ def generate_new_xmltv_files():
 
         # Retireve programmes from all raw xmltv files
         print('\t- Retireve TV shows from all xmltv files of this country', flush=True)
-        channels_l = []
-        programmes_local_datetime_l = []
-        data_d = {}
+        country_infos['channels_l'] = []
+        country_infos['programmes_local_datetime_l'] = []
+        country_infos['programmes_l'] = []
+        country_infos['data_d'] = {}
 
         for offset in range(-10, 20):
             date = TODAY + timedelta(days=offset)
@@ -220,10 +175,10 @@ def generate_new_xmltv_files():
 
             try:
                 # Channels and data are the same for all days
-                if not data_d:
-                    data_d = xmltv.read_data(open(xmltv_fp, 'r'))
-                if not channels_l:
-                    channels_l = xmltv.read_channels(open(xmltv_fp, 'r'))
+                if not country_infos['data_d']:
+                    country_infos['data_d'] = xmltv.read_data(open(xmltv_fp, 'r'))
+                if not country_infos['channels_l']:
+                    country_infos['channels_l'] = xmltv.read_channels(open(xmltv_fp, 'r'))
 
                 # But for the programmes, we need to append each day
                 programmes = xmltv.read_programmes(open(xmltv_fp, 'r'))
@@ -234,42 +189,19 @@ def generate_new_xmltv_files():
                     os.remove(xmltv_fp)
                 else:
                     print('\t\t\t- This file contains {} TV shows'.format(len(programmes)), flush=True)
-                    programmes_local_datetime_l = programmes_local_datetime_l + programmes
+                    country_infos['programmes_local_datetime_l'].extend(list(programmes))
+                    country_infos['programmes_l'].extend(list(programmes))
 
             except Exception:
                 print('\t\t\t- This file seems to be corrupt :-/, delete it', flush=True)
                 os.remove(xmltv_fp)
 
         # If data_d is still empty here, we can continue to the next country
-        if not data_d:
+        if not country_infos['data_d']:
             print('\t- None XMLTV file seems ok for this coutnry :-/', flush=True)
             continue
 
-        # XMLTV data stays untouched
-        country_infos['data_d'] = data_d
-
-        # If any filter on channels exists, remove unwanted channels
-        if 'channels_to_add' in country_infos:
-            country_infos['channels_l'] = []
-            for channel in channels_l:
-                if 'id' in channel and channel['id'] in country_infos['channels_to_add']:
-                    country_infos['channels_l'].append(channel)
-        else:
-            country_infos['channels_l'] = channels_l
-
-        # Programmes
-        country_infos['programmes_l'] = []
-        country_infos['programmes_local_datetime_l'] = []
-
-        for programme in programmes_local_datetime_l:
-            if 'start' in programme and 'stop' in programme:
-                if 'channels_to_add' in country_infos:
-                    if 'channel' in programme and programme['channel'] in country_infos['channels_to_add']:
-                        country_infos['programmes_l'].append(dict(programme))
-                        country_infos['programmes_local_datetime_l'].append(dict(programme))
-                else:
-                    country_infos['programmes_l'].append(dict(programme))
-                    country_infos['programmes_local_datetime_l'].append(dict(programme))
+        print('\t- This country have a total of {} TV shows'.format(len(country_infos['programmes_local_datetime_l'])), flush=True)
 
         # Replace local datetime by UTC datetime for programmes entries
         for programme in country_infos['programmes_l']:
@@ -359,23 +291,19 @@ def generate_new_xmltv_files():
                         cnt = cnt + 1
                 with open(dst_fp, 'wb') as f:
                     w.write(f, pretty_print=True)
-                print('\t\t\t- Final file will contains {} TV shows'.format(cnt), flush=True)
+                print('\t\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
     print('\t* Merge all country tv guides in tv_guide_all.xml', flush=True)
 
     w = xmltv.Writer()
 
     for country_code, country_infos in COUNTRIES.items():
-        if country_code == 'fr_tnt':
-            continue
         if 'channels_l' in country_infos:
             for c in country_infos['channels_l']:
                 w.addChannel(c)
 
     cnt = 0
     for country_code, country_infos in COUNTRIES.items():
-        if country_code == 'fr_tnt':
-            continue
         if 'programmes_l' in country_infos:
             for p in country_infos['programmes_l']:
                 w.addProgramme(p)
@@ -383,23 +311,19 @@ def generate_new_xmltv_files():
 
     with open(ROOT_DIRECTORY + 'tv_guide_all.xml', 'wb') as f:
         w.write(f, pretty_print=True)
-    print('\t\t- Final file will contains {} TV shows'.format(cnt), flush=True)
+    print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
     print('\t* Merge all country tv guides in tv_guide_all_local.xml', flush=True)
 
     w = xmltv.Writer()
 
     for country_code, country_infos in COUNTRIES.items():
-        if country_code == 'fr_tnt':
-            continue
         if 'channels_l' in country_infos:
             for c in country_infos['channels_l']:
                 w.addChannel(c)
 
     cnt = 0
     for country_code, country_infos in COUNTRIES.items():
-        if country_code == 'fr_tnt':
-            continue
         if 'programmes_local_datetime_l' in country_infos:
             for p in country_infos['programmes_local_datetime_l']:
                 w.addProgramme(p)
@@ -407,12 +331,12 @@ def generate_new_xmltv_files():
 
     with open(ROOT_DIRECTORY + 'tv_guide_all_local.xml', 'wb') as f:
         w.write(f, pretty_print=True)
-    print('\t\t- Final file will contains {} TV shows'.format(cnt), flush=True)
+    print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
 
 def main():
     print('\n# Start script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
-    remove_xmltv_files()
+    remove_root_xmltv_files()
     remove_old_raw_files()
     update_raw_files()
     generate_new_xmltv_files()
@@ -421,3 +345,54 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+"""
+    'fr_tnt': {
+        'raw_min_size': 600000,
+        'raw': 'tv_guide_fr_telerama{}.xml',
+        'dst': 'tv_guide_fr_tnt{}.xml',
+        'tz': 'Europe/Paris',
+        'channels_to_add': [
+            'C192.api.telerama.fr',  # TF1
+            'C4.api.telerama.fr',  # France 2
+            'C80.api.telerama.fr',  # France 3
+            'C34.api.telerama.fr',  # Canal+
+            'C47.api.telerama.fr',  # France 5
+            'C118.api.telerama.fr',  # M6
+            'C111.api.telerama.fr',  # Arte
+            'C445.api.telerama.fr',  # C8
+            'C119.api.telerama.fr',  # W9
+            'C195.api.telerama.fr',  # TMC
+            'C446.api.telerama.fr',  # TFX
+            'C444.api.telerama.fr',  # NRJ 12
+            'C234.api.telerama.fr',  # LCP
+            'C78.api.telerama.fr',  # France 4
+            'C481.api.telerama.fr',  # BFM TV
+            'C226.api.telerama.fr',  # CNEWS
+            'C458.api.telerama.fr',  # CSTAR
+            'C482.api.telerama.fr',  # Gulli
+            'C160.api.telerama.fr',  # France O
+            'C1404.api.telerama.fr',  # TF1 Séries Films
+            'C1401.api.telerama.fr',  # L'équipe
+            'C1403.api.telerama.fr',  # 6ter
+            'C1402.api.telerama.fr',  # RMC Story
+            'C1400.api.telerama.fr',  # RMC Découverte
+            'C1399.api.telerama.fr',  # Chérie 25
+            'C112.api.telerama.fr',  # LCI
+            'C2111.api.telerama.fr'  # Franceinfo
+        ],
+        'grabber_cmd': [
+            SCRIPTS_DIRECTORY + 'tv_grab_fr_telerama/tv_grab_fr_telerama',
+            '--config-file',
+            SCRIPTS_DIRECTORY + 'tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt',
+            '--no_htmltags',
+            '--casting',
+            '--days',
+            '1',
+            '--offset',
+            'myoffset',
+            '--output',
+            'myoutput'
+        ]
+"""

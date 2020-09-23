@@ -1,2032 +1,116 @@
 
-# Start script at 23/09/2020 01:00:02
+# Start script at 23/09/2020 12:00:01
 
 # Remove all XMLTV files in root directory
 
-# Remove old XMLTV files of raw directory (/home/admin/xmltv/scripts/../raw/)
-	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200920.xml
-	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200920.xml
+# Remove old XMLTV and log files of raw directory
 
 # Update raw XMLTV files from grabbers
 	* Grab TV guides of day 23/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
 			* This file already exists (size: 1791466 bytes) --> Nothing to do
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
-			* This file already exists (size: 1791466 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200923.xml
 			* This file already exists (size: 256882 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200923.xml
-			* This file already exists but its size is small 0_o (32046 bytes) --> run grabber again
+			* This file already exists but its size is small 0_o (27676 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200923.xml
-[Wed Sep 23 01:00:02 2020] Fetching listings:   0%
-[Wed Sep 23 01:00:25 2020] Fetching listings:   3%
-[Wed Sep 23 01:02:07 2020] Fetching listings:   7%
-[Wed Sep 23 01:02:21 2020] Fetching listings:  11%
-[Wed Sep 23 01:03:52 2020] Fetching listings:  15%
-[Wed Sep 23 01:04:08 2020] Fetching listings:  19%
-[Wed Sep 23 01:05:18 2020] Fetching listings:  23%
-[Wed Sep 23 01:05:35 2020] Fetching listings:  26%
-[Wed Sep 23 01:06:32 2020] Fetching listings:  30%
-[Wed Sep 23 01:07:11 2020] Fetching listings:  34%
-[Wed Sep 23 01:09:16 2020] Fetching listings:  38%
-[Wed Sep 23 01:09:38 2020] Fetching listings:  42%
-[Wed Sep 23 01:10:49 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 01:10:53 2020] Fetching listings:  50%
-No schedule found
-[Wed Sep 23 01:10:57 2020] Fetching listings:  53%
-[Wed Sep 23 01:10:59 2020] Fetching listings:  57%
-Unable to retrieve web page for 185
-[Wed Sep 23 01:11:09 2020] Fetching listings:  61%
-[Wed Sep 23 01:12:03 2020] Fetching listings:  65%
-[Wed Sep 23 01:12:05 2020] Fetching listings:  69%
-[Wed Sep 23 01:12:52 2020] Fetching listings:  73%
-[Wed Sep 23 01:12:59 2020] Fetching listings:  76%
-Unable to retrieve web page for 267
-[Wed Sep 23 01:13:31 2020] Fetching listings:  80%
-[Wed Sep 23 01:15:11 2020] Fetching listings:  84%
-[Wed Sep 23 01:15:27 2020] Fetching listings:  88%
-[Wed Sep 23 01:16:55 2020] Fetching listings:  92%
-			* Final file size: 1561 bytes
+			* Final file size: 32046 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200923.xml
-			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200923.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 0 from any backend!!
-##I couldn't fetch data for channel cartoonitodtt.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel www.cnbceurope.com, day 0 from any backend!!
-#I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 0 from any backend!!
-##I couldn't fetch data for channel discovery.guidatv.sky.it, day 0 from any backend!!
-#I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 0 from any backend!!
-##I couldn't fetch data for channel foxpiuuno.skylife.it, day 0 from any backend!!
-#I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 0 from any backend!!
-#I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 0 from any backend!!
-#I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 0 from any backend!!
-#I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 0 from any backend!!
-##I couldn't fetch data for channel manga.skytv.it, day 0 from any backend!!
-##I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 0 from any backend!!
-#I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 0 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 0 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 0 from any backend!!
-#I couldn't fetch data for channel primafila12.skytv.it, day 0 from any backend!!
-#I couldn't fetch data for channel primafila02.skytv.it, day 0 from any backend!!
-#I couldn't fetch data for channel primafila04.skytv.it, day 0 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 0 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 0 from any backend!!
-########I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 0 from any backend!!
-##I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 0 from any backend!!
-##I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 0 from any backend!!
-##I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 0 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 0 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 0 from any backend!!
-####
-			* Final file size: 2162494 bytes
+			* This file already exists (size: 2110486 bytes) --> Nothing to do
 	* Grab TV guides of day 24/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
-getting listings: (nothing to do)
-getting listings: (nothing to do)
-Aucun programme pour la chaîne 160 France Ô le 2020-09-23
-getting listings: (nothing to do)
-Grabber process finished in 245 seconds for 55 chans, 109 api calls : 106 api_casting, 2 api_grille, 1 api_init, 73 cached api_casting
-			* Final file size: 1707526 bytes
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
-			* This file already exists (size: 1707526 bytes) --> Nothing to do
+			* Final file size: 1768307 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200924.xml
-getting listings: (nothing to do)
-getting listings: (nothing to do)
-Grabber process finished in 99 seconds for 8 chans, 47 api calls : 45 api_casting, 1 api_init, 1 api_grille, 6 cached api_casting
-			* Final file size: 256641 bytes
+			* Final file size: 267807 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200924.xml
-[Wed Sep 23 01:30:44 2020] Fetching listings:   0%
-[Wed Sep 23 01:30:45 2020] Fetching listings:   3%
-[Wed Sep 23 01:32:24 2020] Fetching listings:   7%
-[Wed Sep 23 01:32:29 2020] Fetching listings:  11%
-[Wed Sep 23 01:33:52 2020] Fetching listings:  15%
-[Wed Sep 23 01:33:56 2020] Fetching listings:  19%
-[Wed Sep 23 01:34:58 2020] Fetching listings:  23%
-[Wed Sep 23 01:35:03 2020] Fetching listings:  26%
-[Wed Sep 23 01:35:57 2020] Fetching listings:  30%
-[Wed Sep 23 01:36:02 2020] Fetching listings:  34%
-[Wed Sep 23 01:38:25 2020] Fetching listings:  38%
-[Wed Sep 23 01:38:28 2020] Fetching listings:  42%
-[Wed Sep 23 01:39:45 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 01:39:50 2020] Fetching listings:  50%
-No schedule found
-[Wed Sep 23 01:39:51 2020] Fetching listings:  53%
-Unable to retrieve web page for 185
-[Wed Sep 23 01:40:48 2020] Fetching listings:  57%
-[Wed Sep 23 01:40:52 2020] Fetching listings:  61%
-[Wed Sep 23 01:41:25 2020] Fetching listings:  65%
-[Wed Sep 23 01:41:29 2020] Fetching listings:  69%
-[Wed Sep 23 01:42:16 2020] Fetching listings:  73%
-Unable to retrieve web page for 267
-[Wed Sep 23 01:42:56 2020] Fetching listings:  76%
-[Wed Sep 23 01:42:59 2020] Fetching listings:  80%
-[Wed Sep 23 01:44:14 2020] Fetching listings:  84%
-[Wed Sep 23 01:44:18 2020] Fetching listings:  88%
-[Wed Sep 23 01:45:32 2020] Fetching listings:  92%
-			* Final file size: 1561 bytes
+			* Final file size: 32595 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200924.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 1 from any backend!!
-##I couldn't fetch data for channel www.cnbceurope.com, day 1 from any backend!!
-#I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 1 from any backend!!
-##I couldn't fetch data for channel discovery.guidatv.sky.it, day 1 from any backend!!
-#I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 1 from any backend!!
-##I couldn't fetch data for channel foxpiuuno.skylife.it, day 1 from any backend!!
-#I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 1 from any backend!!
-#I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 1 from any backend!!
-#I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 1 from any backend!!
-#I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 1 from any backend!!
-##I couldn't fetch data for channel manga.skytv.it, day 1 from any backend!!
-##I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 1 from any backend!!
-#I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 1 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 1 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 1 from any backend!!
-#I couldn't fetch data for channel primafila12.skytv.it, day 1 from any backend!!
-I couldn't fetch data for channel primafila15.skytv.it, day 1 from any backend!!
-#I couldn't fetch data for channel primafila02.skytv.it, day 1 from any backend!!
-#I couldn't fetch data for channel primafila04.skytv.it, day 1 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 1 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 1 from any backend!!
-########I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 1 from any backend!!
-##I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 1 from any backend!!
-##I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 1 from any backend!!
-##I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 1 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 1 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 1 from any backend!!
-####
-			* Final file size: 2149845 bytes
+			* Final file size: 2128978 bytes
 	* Grab TV guides of day 25/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
-			* This file already exists (size: 832066 bytes) --> Nothing to do
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
 			* This file already exists (size: 832066 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200925.xml
 			* This file already exists (size: 230992 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200925.xml
-			* This file already exists but its size is small 0_o (30913 bytes) --> run grabber again
+			* This file already exists but its size is small 0_o (30833 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200925.xml
-[Wed Sep 23 01:53:51 2020] Fetching listings:   0%
-[Wed Sep 23 01:53:52 2020] Fetching listings:   3%
-[Wed Sep 23 01:55:32 2020] Fetching listings:   7%
-[Wed Sep 23 01:55:35 2020] Fetching listings:  11%
-[Wed Sep 23 01:56:39 2020] Fetching listings:  15%
-[Wed Sep 23 01:56:40 2020] Fetching listings:  19%
-[Wed Sep 23 01:57:44 2020] Fetching listings:  23%
-[Wed Sep 23 01:57:49 2020] Fetching listings:  26%
-[Wed Sep 23 01:58:54 2020] Fetching listings:  30%
-[Wed Sep 23 01:58:57 2020] Fetching listings:  34%
-[Wed Sep 23 02:01:08 2020] Fetching listings:  38%
-[Wed Sep 23 02:01:16 2020] Fetching listings:  42%
-[Wed Sep 23 02:02:22 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 02:02:28 2020] Fetching listings:  50%
-No schedule found
-[Wed Sep 23 02:02:31 2020] Fetching listings:  53%
-[Wed Sep 23 02:02:35 2020] Fetching listings:  57%
-[Wed Sep 23 02:03:13 2020] Fetching listings:  61%
-[Wed Sep 23 02:03:20 2020] Fetching listings:  65%
-[Wed Sep 23 02:03:53 2020] Fetching listings:  69%
-[Wed Sep 23 02:03:56 2020] Fetching listings:  73%
-Unable to retrieve web page for 279
-Unable to retrieve web page for 267
-[Wed Sep 23 02:05:04 2020] Fetching listings:  76%
-[Wed Sep 23 02:05:35 2020] Fetching listings:  80%
-[Wed Sep 23 02:06:56 2020] Fetching listings:  84%
-Unable to retrieve web page for 1014
-[Wed Sep 23 02:08:21 2020] Fetching listings:  88%
-			* Final file size: 14111 bytes
+			* Final file size: 30833 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200925.xml
-			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200925.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel aljazeeraintlhd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 2 from any backend!!
-##I couldn't fetch data for channel www.cnbceurope.com, day 2 from any backend!!
-#I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 2 from any backend!!
-##I couldn't fetch data for channel discovery.guidatv.sky.it, day 2 from any backend!!
-#I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 2 from any backend!!
-##I couldn't fetch data for channel foxpiuuno.skylife.it, day 2 from any backend!!
-#I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 2 from any backend!!
-#I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 2 from any backend!!
-#I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 2 from any backend!!
-#I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 2 from any backend!!
-##I couldn't fetch data for channel manga.skytv.it, day 2 from any backend!!
-##I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 2 from any backend!!
-#I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 2 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 2 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 2 from any backend!!
-#I couldn't fetch data for channel primafila12.skytv.it, day 2 from any backend!!
-#I couldn't fetch data for channel primafila02.skytv.it, day 2 from any backend!!
-#I couldn't fetch data for channel primafila04.skytv.it, day 2 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 2 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 2 from any backend!!
-########I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 2 from any backend!!
-##I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 2 from any backend!!
-##I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 2 from any backend!!
-##I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 2 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 2 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 2 from any backend!!
-####
-			* Final file size: 2071190 bytes
+			* This file already exists (size: 2062613 bytes) --> Nothing to do
 	* Grab TV guides of day 26/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
-			* This file already exists (size: 932918 bytes) --> Nothing to do
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
 			* This file already exists (size: 932918 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200926.xml
 			* This file already exists (size: 235698 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
-			* This file already exists but its size is small 0_o (33866 bytes) --> run grabber again
+			* This file already exists but its size is small 0_o (33834 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
-[Wed Sep 23 02:16:28 2020] Fetching listings:   0%
-[Wed Sep 23 02:16:44 2020] Fetching listings:   3%
-[Wed Sep 23 02:18:31 2020] Fetching listings:   7%
-[Wed Sep 23 02:18:44 2020] Fetching listings:  11%
-[Wed Sep 23 02:20:00 2020] Fetching listings:  15%
-[Wed Sep 23 02:20:19 2020] Fetching listings:  19%
-[Wed Sep 23 02:21:44 2020] Fetching listings:  23%
-[Wed Sep 23 02:22:00 2020] Fetching listings:  26%
-[Wed Sep 23 02:22:48 2020] Fetching listings:  30%
-[Wed Sep 23 02:23:22 2020] Fetching listings:  34%
-[Wed Sep 23 02:25:24 2020] Fetching listings:  38%
-[Wed Sep 23 02:25:24 2020] Fetching listings:  42%
-[Wed Sep 23 02:27:07 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 02:27:10 2020] Fetching listings:  50%
-Unable to retrieve web page for 1207
-[Wed Sep 23 02:27:16 2020] Fetching listings:  53%
-[Wed Sep 23 02:27:47 2020] Fetching listings:  57%
-[Wed Sep 23 02:27:49 2020] Fetching listings:  61%
-[Wed Sep 23 02:28:21 2020] Fetching listings:  65%
-Unable to retrieve web page for 279
-[Wed Sep 23 02:29:04 2020] Fetching listings:  69%
-[Wed Sep 23 02:29:05 2020] Fetching listings:  73%
-[Wed Sep 23 02:29:25 2020] Fetching listings:  76%
-[Wed Sep 23 02:29:26 2020] Fetching listings:  80%
-[Wed Sep 23 02:30:56 2020] Fetching listings:  84%
-[Wed Sep 23 02:30:58 2020] Fetching listings:  88%
-[Wed Sep 23 02:32:17 2020] Fetching listings:  92%
-			* Final file size: 33866 bytes
+			* Final file size: 33834 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200926.xml
-			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200926.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel bfc.guidatv.sky.it, day 3 from any backend!!
-##I couldn't fetch data for channel www.cnbceurope.com, day 3 from any backend!!
-#I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 3 from any backend!!
-##I couldn't fetch data for channel discovery.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel www.euronews.net, day 3 from any backend!!
-#I couldn't fetch data for channel foxpiuuno.skylife.it, day 3 from any backend!!
-#I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 3 from any backend!!
-##I couldn't fetch data for channel manga.skytv.it, day 3 from any backend!!
-#I couldn't fetch data for channel milantv.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 3 from any backend!!
-#I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 3 from any backend!!
-#I couldn't fetch data for channel primafila11.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila12.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila13.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila14.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila15.skytv.it, day 3 from any backend!!
-#I couldn't fetch data for channel primafila16.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila17.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila18.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila02.skytv.it, day 3 from any backend!!
-#I couldn't fetch data for channel primafila03.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila04.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila05.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila07.skytv.it, day 3 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel primafila09.skytv.it, day 3 from any backend!!
-I couldn't fetch data for channel radiofrecciahd.guidatv.sky.it, day 3 from any backend!!
-########I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 3 from any backend!!
-##I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 3 from any backend!!
-##I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 3 from any backend!!
-##I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 3 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 3 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 3 from any backend!!
-##I couldn't fetch data for channel torinochannel.guidatv.sky.it, day 3 from any backend!!
-##
-			* Final file size: 1968683 bytes
+			* This file already exists (size: 1997952 bytes) --> Nothing to do
 	* Grab TV guides of day 27/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200927.xml
-			* This file already exists (size: 743154 bytes) --> Nothing to do
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200927.xml
 			* This file already exists (size: 743154 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200927.xml
 			* This file already exists (size: 211313 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
-			* This file already exists but its size is small 0_o (30600 bytes) --> run grabber again
+			* This file already exists but its size is small 0_o (30625 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
-[Wed Sep 23 02:40:38 2020] Fetching listings:   0%
-[Wed Sep 23 02:40:39 2020] Fetching listings:   3%
-[Wed Sep 23 02:42:03 2020] Fetching listings:   7%
-[Wed Sep 23 02:42:06 2020] Fetching listings:  11%
-[Wed Sep 23 02:43:29 2020] Fetching listings:  15%
-[Wed Sep 23 02:43:32 2020] Fetching listings:  19%
-[Wed Sep 23 02:44:45 2020] Fetching listings:  23%
-[Wed Sep 23 02:44:49 2020] Fetching listings:  26%
-[Wed Sep 23 02:45:45 2020] Fetching listings:  30%
-[Wed Sep 23 02:45:46 2020] Fetching listings:  34%
-[Wed Sep 23 02:47:56 2020] Fetching listings:  38%
-[Wed Sep 23 02:48:00 2020] Fetching listings:  42%
-[Wed Sep 23 02:49:35 2020] Fetching listings:  46%
-Unable to retrieve web page for 1207
-No schedule found
-[Wed Sep 23 02:49:40 2020] Fetching listings:  50%
-[Wed Sep 23 02:49:45 2020] Fetching listings:  53%
-[Wed Sep 23 02:50:17 2020] Fetching listings:  57%
-[Wed Sep 23 02:50:18 2020] Fetching listings:  61%
-[Wed Sep 23 02:50:49 2020] Fetching listings:  65%
-[Wed Sep 23 02:50:49 2020] Fetching listings:  69%
-[Wed Sep 23 02:51:31 2020] Fetching listings:  73%
-[Wed Sep 23 02:51:31 2020] Fetching listings:  76%
-[Wed Sep 23 02:51:57 2020] Fetching listings:  80%
-[Wed Sep 23 02:51:59 2020] Fetching listings:  84%
-[Wed Sep 23 02:53:03 2020] Fetching listings:  88%
-[Wed Sep 23 02:53:08 2020] Fetching listings:  92%
-[Wed Sep 23 02:54:40 2020] Fetching listings:  96%
-			* Final file size: 30600 bytes
-		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200927.xml
+Traceback (most recent call last):
+  File "./update_all_tv_guides.py", line 347, in <module>
+    main()
+  File "./update_all_tv_guides.py", line 341, in main
+    update_raw_files()
+  File "./update_all_tv_guides.py", line 153, in update_raw_files
+    print('\t\t\t* Final file size: {} bytes'.format(os.path.getsize(xmltv_fp)), flush=True)
+  File "/usr/lib/python3.7/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml'
+
+- Push changes
+
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200927.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 4 from any backend!!
-##I couldn't fetch data for channel www.cnbceurope.com, day 4 from any backend!!
-#I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel dmax.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel dmax1.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel discovery.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 4 from any backend!!
-##I couldn't fetch data for channel foxpiuuno.skylife.it, day 4 from any backend!!
-#I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 4 from any backend!!
-##I couldn't fetch data for channel manga.skytv.it, day 4 from any backend!!
-##I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel natgeowildhd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel nickjr.guidatv.sky.it, day 4 from any backend!!
-#I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 4 from any backend!!
-#I couldn't fetch data for channel primafila11.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila12.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila13.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila14.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila15.skytv.it, day 4 from any backend!!
-#I couldn't fetch data for channel primafila16.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila17.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila18.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila02.skytv.it, day 4 from any backend!!
-#I couldn't fetch data for channel primafila03.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila04.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila05.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila07.skytv.it, day 4 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 4 from any backend!!
-I couldn't fetch data for channel primafila09.skytv.it, day 4 from any backend!!
-########I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 4 from any backend!!
-##I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 4 from any backend!!
-##I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 4 from any backend!!
-##I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel skyunohd.guidatv.sky.it, day 4 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 4 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 4 from any backend!!
-####
-			* Final file size: 1944361 bytes
+			* Final file size: 1978151 bytes
 	* Grab TV guides of day 28/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200928.xml
-			* This file already exists (size: 888266 bytes) --> Nothing to do
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200928.xml
 			* This file already exists (size: 888266 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200928.xml
 			* This file already exists (size: 225456 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200928.xml
-			* This file already exists but its size is small 0_o (32232 bytes) --> run grabber again
+			* This file already exists but its size is small 0_o (27228 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200928.xml
-[Wed Sep 23 03:03:41 2020] Fetching listings:   0%
-[Wed Sep 23 03:03:42 2020] Fetching listings:   3%
-[Wed Sep 23 03:05:16 2020] Fetching listings:   7%
-[Wed Sep 23 03:05:17 2020] Fetching listings:  11%
-[Wed Sep 23 03:06:24 2020] Fetching listings:  15%
-[Wed Sep 23 03:06:25 2020] Fetching listings:  19%
-[Wed Sep 23 03:07:21 2020] Fetching listings:  23%
-[Wed Sep 23 03:07:24 2020] Fetching listings:  26%
-[Wed Sep 23 03:08:30 2020] Fetching listings:  30%
-[Wed Sep 23 03:08:34 2020] Fetching listings:  34%
-[Wed Sep 23 03:11:11 2020] Fetching listings:  38%
-[Wed Sep 23 03:11:11 2020] Fetching listings:  42%
-[Wed Sep 23 03:12:26 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 03:12:27 2020] Fetching listings:  50%
-No schedule found
-[Wed Sep 23 03:12:29 2020] Fetching listings:  53%
-[Wed Sep 23 03:12:32 2020] Fetching listings:  57%
-[Wed Sep 23 03:13:16 2020] Fetching listings:  61%
-[Wed Sep 23 03:13:19 2020] Fetching listings:  65%
-Unable to retrieve web page for 182
-[Wed Sep 23 03:13:22 2020] Fetching listings:  69%
-Unable to retrieve web page for 279
-[Wed Sep 23 03:13:27 2020] Fetching listings:  73%
-Unable to retrieve web page for 267
-[Wed Sep 23 03:13:31 2020] Fetching listings:  76%
-[Wed Sep 23 03:15:07 2020] Fetching listings:  80%
-[Wed Sep 23 03:15:08 2020] Fetching listings:  84%
-Unable to retrieve web page for 1014
-			* Final file size: 27228 bytes
+			* Final file size: 32232 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200928.xml
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200928.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel frisbee.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel aljazeeraintlhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel bfc.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel babytv.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel blazehd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel www.bloomberg.it, day 5 from any backend!!
-I couldn't fetch data for channel boomerang.cartoonnetwork.it, day 5 from any backend!!
-I couldn't fetch data for channel boomerang1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel cacciaepesca.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel cartoonitodtt.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel www.cnbceurope.com, day 5 from any backend!!
-I couldn't fetch data for channel cnnintl.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel canale20hd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel canale5hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel piu1.cartoonnetwork.it, day 5 from any backend!!
-I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel cine34.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel classcnbc.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel classicahd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel comedy1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel paramountcomedy.skytv.it, day 5 from any backend!!
-#I couldn't fetch data for channel crimeinvhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel dazn1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel dmax.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel dmaxhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel dmax1.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel deajunior.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel deakids.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel deakids1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel www.deejay.it, day 5 from any backend!!
-I couldn't fetch data for channel discovery.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel discovery1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel doctorslife.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel emiliaromagna24.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel www.euronews.net, day 5 from any backend!!
-I couldn't fetch data for channel eurosport2hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel hd.eurosport.com, day 5 from any backend!!
-I couldn't fetch data for channel focus.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel foodnetworkhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel fox.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel foxpiuuno.skylife.it, day 5 from any backend!!
-I couldn't fetch data for channel foxbusiness.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel foxcrimehd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel foxhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel www.foxnews.com, day 5 from any backend!!
-I couldn't fetch data for channel foxcrime1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel france24englishhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel france24francaishd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel giallo.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel giallohd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel gamberorossohd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel history1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel historyhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel intertv.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel italia1hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel k2.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel la5.guidatv.sky.it, day 5 from any backend!!
-#errore get_nice at /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it line 2963.
-I couldn't fetch data for channel www.la7.it, day 5 from any backend!!
-errore get_nice at /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it line 2963.
-I couldn't fetch data for channel www.la7d.it, day 5 from any backend!!
-I couldn't fetch data for channel laf.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel laziostylech.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel manga.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel msmotortv.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel www.mtv.it, day 5 from any backend!!
-I couldn't fetch data for channel mtvmusic.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel mtvmusicdtt.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel mediasetitaliadue.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel milantv.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel motortrend.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel motortrendhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel nove.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel natgeowild1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel natgeowildhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel nationalgeo1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel nickjr.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel nickjr1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel nickelodeon.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel nickelodeon1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel paramountnetwork.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumactionhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumcrimehd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel premiumstorieshd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 5 from any backend!!
-#I couldn't fetch data for channel primafila11.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila12.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila13.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila14.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila15.skytv.it, day 5 from any backend!!
-#I couldn't fetch data for channel primafila16.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila17.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila18.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila02.skytv.it, day 5 from any backend!!
-#I couldn't fetch data for channel primafila03.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila04.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila05.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila07.skytv.it, day 5 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel primafila09.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel qvc.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel radiofrecciahd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel radionorbatv.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel rainews.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel raisport.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel rtdochd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel rthd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel rtl1025hd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel radioitaliatvhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel radiomontecarlo.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel rai1dtt.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel rai2dtt.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel rai3dtt.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel rainewsdtt.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel raipremium.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel raisport1dtt.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel rt.discovery-italia.com, day 5 from any backend!!
-I couldn't fetch data for channel realtime1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel realtimehd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel rete4hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel romatv.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel sanmarinortv.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skyartehd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel skyatlantic.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skyatlantichd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaactionhd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel skycinemacomedyhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemadramahd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaduehd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemafamilyhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaromancehd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel skycinemasuspensehd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaunohd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel skymeteo24.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel www.skynews.it, day 5 from any backend!!
-I couldn't fetch data for channel skysport.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportarena.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportcollectionhd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel skysportf1hd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportfootballhd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportmotogp.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportnba.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel skysportserieahd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportuno.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysportunohd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skysport24.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel skytg24.skytv.it, day 5 from any backend!!
-#I couldn't fetch data for channel skyuno.skytv.it, day 5 from any backend!!
-I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel skyunohd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel spike.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 5 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 5 from any backend!!
-I couldn't fetch data for channel super.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel supertennisdtt.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel supertennishd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel tgnorba24.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel trmh24.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel tv2000.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel tv2000dtt.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel tv8.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel tv8hd.guidatv.sky.it, day 5 from any backend!!
-#I couldn't fetch data for channel torinochannel.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel vh1.skylife.it, day 5 from any backend!!
-#I couldn't fetch data for channel cielo.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel cielohd.guidatv.sky.it, day 5 from any backend!!
-I couldn't fetch data for channel i24news.guidatv.sky.it, day 5 from any backend!!
-#
-			* Final file size: 290776 bytes
+			* Final file size: 316966 bytes
 	* Grab TV guides of day 29/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200929.xml
-			* This file already exists (size: 1452663 bytes) --> Nothing to do
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200929.xml
 			* This file already exists (size: 1452663 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200929.xml
 			* This file already exists (size: 230556 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200929.xml
 			* This file already exists but its size is small 0_o (30198 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200929.xml
-[Wed Sep 23 03:24:02 2020] Fetching listings:   0%
-[Wed Sep 23 03:24:03 2020] Fetching listings:   3%
-[Wed Sep 23 03:25:42 2020] Fetching listings:   7%
-[Wed Sep 23 03:25:46 2020] Fetching listings:  11%
-[Wed Sep 23 03:27:00 2020] Fetching listings:  15%
-[Wed Sep 23 03:27:03 2020] Fetching listings:  19%
-[Wed Sep 23 03:28:23 2020] Fetching listings:  23%
-[Wed Sep 23 03:28:25 2020] Fetching listings:  26%
-[Wed Sep 23 03:29:31 2020] Fetching listings:  30%
-[Wed Sep 23 03:29:34 2020] Fetching listings:  34%
-[Wed Sep 23 03:31:49 2020] Fetching listings:  38%
-[Wed Sep 23 03:31:52 2020] Fetching listings:  42%
-[Wed Sep 23 03:33:02 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 03:33:06 2020] Fetching listings:  50%
-No schedule found
-[Wed Sep 23 03:33:08 2020] Fetching listings:  53%
-[Wed Sep 23 03:33:11 2020] Fetching listings:  57%
-Unable to retrieve web page for 185
-Unable to retrieve web page for 182
-[Wed Sep 23 03:34:05 2020] Fetching listings:  61%
-Unable to retrieve web page for 279
-[Wed Sep 23 03:34:53 2020] Fetching listings:  65%
-Unable to retrieve web page for 267
-[Wed Sep 23 03:35:31 2020] Fetching listings:  69%
-[Wed Sep 23 03:35:35 2020] Fetching listings:  73%
-[Wed Sep 23 03:36:37 2020] Fetching listings:  76%
-Unable to retrieve web page for 1014
-[Wed Sep 23 03:37:59 2020] Fetching listings:  80%
-			* Final file size: 30198 bytes
+			* Final file size: 25550 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200929.xml
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200929.xml
-getting list of channels: ######***Channel |Sky Cinema Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Anni 90 Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Suspense HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Romance HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Drama HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Uno +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Cinema Due +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCin.1 +24 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |PremiumCinema3 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cine34| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 2| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Cinema 3| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NationalGeo +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Discovery Sci HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |History +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NatGeo Wild +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Focus| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Food Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Motor Trend| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Serie A HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Football HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Arena| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Collection HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport NBA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport MotoGP| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DAZN1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Roma TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |MS MOTORTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Milan TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Inter TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Lazio Style Ch| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Torino Channel| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CACCIA e Pesca| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Caccia e PESCA| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Sport Uno HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Meteo24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Class CNBC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RAI News| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TG NORBA 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |BFC| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Emilia Romagna 24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TRM h24| for 'skylife' is not in channel_ids, should be updated.
-***Channel |San Marino RTV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNN Intl.| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CNBC HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 English HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Al Jazeera Intl. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |i24news| for 'skylife' is not in channel_ids, should be updated.
-***Channel |France 24 Francais HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RT Doc HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAKids +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nick Jr +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Nickelodeon +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Cartoon Network HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Boomerang +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DeAJunior| for 'skylife' is not in channel_ids, should be updated.
-***Channel |-frisbee-| for 'skylife' is not in channel_ids, should be updated.
-***Channel |CARTOONITO DTT| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Monte Carlo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Radio Italia TV HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIONORBA TV| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RTL 102.5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |RADIOFRECCIA HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Uno +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic +1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxGrey's Anatomy| for 'skylife' is not in channel_ids, should be updated.
-***Channel |FoxCrime +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Crime + Inv. HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Blaze HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Comedy +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |LaF| for 'skylife' is not in channel_ids, should be updated.
-***Channel |NOVE| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 20 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Paramount Network| for 'skylife' is not in channel_ids, should be updated.
-***Channel |La 5| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Real Time +1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TOPcrime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Spike| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |DMAX+1| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Mediaset Italia Due| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Sky Atlantic| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Action| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Crime| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Premium Stories| for 'skylife' is not in channel_ids, should be updated.
-***Channel |TV8| for 'skylife' is not in channel_ids, should be updated.
-***Channel |cielo| for 'skylife' is not in channel_ids, should be updated.
-***Channel |GIALLO| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 1 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 2 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 6 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 8 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 10 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Primafila 12 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Rete 4 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Canale 5 HD| for 'skylife' is not in channel_ids, should be updated.
-***Channel |Italia 1 HD| for 'skylife' is not in channel_ids, should be updated.
-############***Channel |Premium Stories| for 'mediaset_guidatv' is not in channel_ids, should be updated.
-################################
-getting listings: I couldn't fetch data for channel frisbee.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel aljazeeraintlhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel bbcknowledge.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel bfc.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel babytv.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel blazehd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.bloomberg.it, day 6 from any backend!!
-I couldn't fetch data for channel boomerang.cartoonnetwork.it, day 6 from any backend!!
-I couldn't fetch data for channel boomerang1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel cacciaepesca.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel cartoonitodtt.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.cnbceurope.com, day 6 from any backend!!
-I couldn't fetch data for channel cnnintl.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel canale20hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.canale5.com, day 6 from any backend!!
-#I couldn't fetch data for channel canale5hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel piu1.cartoonnetwork.it, day 6 from any backend!!
-I couldn't fetch data for channel cartoonnetwork.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel cartoonito.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel cine34.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel classcnbc.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel classiccollectionhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel classicahd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel comedy1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel paramountcomedy.skytv.it, day 6 from any backend!!
-#I couldn't fetch data for channel crimeinvhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel dazn1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel dmax.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel dmaxhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel dmax1.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel deajunior.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel deakids.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel deakids1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.deejay.it, day 6 from any backend!!
-I couldn't fetch data for channel discovery.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel discovery1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel discoverysci.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel discoveryworld.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel disney.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel disney1.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel disneyjunior.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel doctorslife.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel dovetv.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel emiliaromagna24.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel www.euronews.net, day 6 from any backend!!
-I couldn't fetch data for channel eurosport2hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel hd.eurosport.com, day 6 from any backend!!
-I couldn't fetch data for channel focus.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel foodnetworkhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel fox.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel foxpiuuno.skylife.it, day 6 from any backend!!
-I couldn't fetch data for channel foxbusiness.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel foxcrimehd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel foxhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel foxlifehd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.foxnews.com, day 6 from any backend!!
-I couldn't fetch data for channel foxcrime1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel foxlife1.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel france24englishhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel france24francaishd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel giallo.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel giallohd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel ginxesportstv.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel gamberorossohd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel hiro.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel history1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel historyhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel horsetvhd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel intertv.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel iris.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel www.italia1.com, day 6 from any backend!!
-I couldn't fetch data for channel italia1hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel joi.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel joi1.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel k2.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel lei.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel lei1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel la5.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel la5.mediaset.it, day 6 from any backend!!
-errore get_nice at /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it line 2963.
-I couldn't fetch data for channel www.la7.it, day 6 from any backend!!
-errore get_nice at /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it line 2963.
-I couldn't fetch data for channel www.la7d.it, day 6 from any backend!!
-I couldn't fetch data for channel laf.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel laziostylech.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel manga.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel msmotortv.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.mtv.it, day 6 from any backend!!
-I couldn't fetch data for channel mtvmusic.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel mtvmusicdtt.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel mediasetextra.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel italia2.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel mediasetitaliadue.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel milantv.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel motortrend.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel motortrendhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel mya.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel mya1.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel nove.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel natgeowild1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel natgeowildhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel nationalgeo.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel nationalgeo1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel nickjr.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel nickjr1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel nickelodeon.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel nickelodeon1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel paramountnetwork.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel playhouse.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel steel.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumactionhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcalcio24.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel direttacalcio1.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel direttacalcio2.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel direttacalcio3.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel direttacalcio4.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel direttacalcio5.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel direttacalcio6.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel premiumcin24hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcinema.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcinemacomedy.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcinemaemotion.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcinemaenergy.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel premiumcinemahd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcomedy.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcomedyhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcrime.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumcrimehd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel premiumemotion.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumemotionhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumenergy.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumenergyhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumextra.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel premiumextra2.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumstories.mediaset_guidatv.it, day 6 from any backend!!
-I couldn't fetch data for channel premiumstorieshd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila01.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila10.skytv.it, day 6 from any backend!!
-#I couldn't fetch data for channel primafila11.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila12.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila13.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila14.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila15.skytv.it, day 6 from any backend!!
-#I couldn't fetch data for channel primafila16.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila17.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila18.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila02.skytv.it, day 6 from any backend!!
-#I couldn't fetch data for channel primafila03.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila04.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila05.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila06.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila07.skytv.it, day 6 from any backend!!
-#I couldn't fetch data for channel primafila08.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel primafila09.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel qvc.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel radiofrecciahd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel radionorbatv.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel rainews.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel raisport.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel rtdochd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel rthd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel rtl1025hd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel radioitaliatvhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel radiomontecarlo.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel rai1dtt.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel rai2dtt.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel rai3dtt.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel rainewsdtt.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel raipremium.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel raisport1dtt.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel rt.discovery-italia.com, day 6 from any backend!!
-I couldn't fetch data for channel realtime1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel realtimehd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel rete4hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.rete4.com, day 6 from any backend!!
-I couldn't fetch data for channel romatv.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel sanmarinortv.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skyartehd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel skyatlantic.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skyatlantic1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skyatlantichd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaactionhd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel skycinemacomedyhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemadramahd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaduehd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemafamilyhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaromancehd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel skycinemasuspensehd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaunohd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaperte1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaperte1hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skycinemaperte2hd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel skymeteo24.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel www.skynews.it, day 6 from any backend!!
-I couldn't fetch data for channel skysport.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportarena.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportcollectionhd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel skysportf1hd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportfootballhd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportmotogp.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportnba.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportseriea.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel skysportserieahd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportuno.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysportunohd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skysport24.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel skytg24.skytv.it, day 6 from any backend!!
-#I couldn't fetch data for channel skyuno.skytv.it, day 6 from any backend!!
-I couldn't fetch data for channel skyuno1.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel skyunohd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel spike.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel steel1.mediasetpremium.mediaset.it, day 6 from any backend!!
-#I couldn't fetch data for channel studiouniversal.mediasetpremium.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel super.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel supertennisdtt.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel supertennishd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel tgnorba24.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel trmh24.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel tv2000.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel tv2000dtt.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel tv8.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel tv8hd.guidatv.sky.it, day 6 from any backend!!
-#I couldn't fetch data for channel tgcom24.mediaset.it, day 6 from any backend!!
-I couldn't fetch data for channel topcrime.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel torinochannel.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel vh1.skylife.it, day 6 from any backend!!
-#I couldn't fetch data for channel cielo.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel cielohd.guidatv.sky.it, day 6 from any backend!!
-I couldn't fetch data for channel i24news.guidatv.sky.it, day 6 from any backend!!
-#
-			* Final file size: 195227 bytes
+			* Final file size: 278771 bytes
 	* Grab TV guides of day 30/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
-			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
-                                                  getting listings...Aucun programme pour la chaîne 160 France Ô le 2020-09-30
-Aucun programme pour la chaîne 1045 Mirabelle TV le 2020-09-30
-Grabber process finished in 222 seconds for 55 chans, 108 api calls : 105 api_casting, 2 api_grille, 1 api_init, 48 cached api_casting
-			* Final file size: 912023 bytes
-		- Grab TV guides of fr_tnt country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
 			* This file already exists (size: 912023 bytes) --> Nothing to do
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200930.xml
-			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200930.xml
-                                                  getting listings...Grabber process finished in 125 seconds for 8 chans, 47 api calls : 45 api_casting, 1 api_init, 1 api_grille, 1 cached api_casting
-			* Final file size: 209531 bytes
+			* This file already exists (size: 209531 bytes) --> Nothing to do
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200930.xml
+			* This file already exists but its size is small 0_o (32445 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200930.xml
-[Wed Sep 23 03:52:48 2020] Fetching listings:   0%
-[Wed Sep 23 03:52:49 2020] Fetching listings:   3%
-[Wed Sep 23 03:54:13 2020] Fetching listings:   7%
-[Wed Sep 23 03:54:14 2020] Fetching listings:  11%
-[Wed Sep 23 03:55:23 2020] Fetching listings:  15%
-[Wed Sep 23 03:55:27 2020] Fetching listings:  19%
-[Wed Sep 23 03:56:34 2020] Fetching listings:  23%
-[Wed Sep 23 03:56:37 2020] Fetching listings:  26%
-[Wed Sep 23 03:57:48 2020] Fetching listings:  30%
-[Wed Sep 23 03:57:52 2020] Fetching listings:  34%
-[Wed Sep 23 04:00:07 2020] Fetching listings:  38%
-[Wed Sep 23 04:00:07 2020] Fetching listings:  42%
-[Wed Sep 23 04:01:18 2020] Fetching listings:  46%
-No schedule found
-[Wed Sep 23 04:01:21 2020] Fetching listings:  50%
-No schedule found
-[Wed Sep 23 04:01:22 2020] Fetching listings:  53%
-Unable to retrieve web page for 185
-[Wed Sep 23 04:02:08 2020] Fetching listings:  57%
-[Wed Sep 23 04:02:13 2020] Fetching listings:  61%
-[Wed Sep 23 04:02:57 2020] Fetching listings:  65%
-[Wed Sep 23 04:03:00 2020] Fetching listings:  69%
-Unable to retrieve web page for 279
-[Wed Sep 23 04:03:04 2020] Fetching listings:  73%
-[Wed Sep 23 04:03:43 2020] Fetching listings:  76%
-[Wed Sep 23 04:03:45 2020] Fetching listings:  80%
-[Wed Sep 23 04:05:04 2020] Fetching listings:  84%
-[Wed Sep 23 04:05:05 2020] Fetching listings:  88%
-[Wed Sep 23 04:06:41 2020] Fetching listings:  92%
 			* Final file size: 32445 bytes
 
 # Generate new XMLTV files in root directory
@@ -2040,7 +124,7 @@ Unable to retrieve web page for 279
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
 			- This file contains 2342 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
-			- This file contains 2191 TV shows
+			- This file contains 2107 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
 			- This file contains 944 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
@@ -2053,115 +137,50 @@ Unable to retrieve web page for 279
 			- This file contains 1683 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
 			- This file contains 1013 TV shows
+	- This country have a total of 14616 TV shows
 	- Write full xmltv file in tv_guide_fr.xml
 	- Write full xmltv file in tv_guide_fr_local.xml
 	- Write one day xmltv files:
 		* Write day 20200921 in tv_guide_fr_20200921.xml
-			- Final file will contains 2183 TV shows
+			- Final file contains 2183 TV shows
 		* Write day 20200922 in tv_guide_fr_20200922.xml
-			- Final file will contains 328 TV shows
+			- Final file contains 165 TV shows
 		* Write day 20200923 in tv_guide_fr_20200923.xml
-			- Final file will contains 4312 TV shows
+			- Final file contains 2320 TV shows
 		* Write day 20200924 in tv_guide_fr_20200924.xml
-			- Final file will contains 73 TV shows
+			- Final file contains 2144 TV shows
 		* Write day 20200925 in tv_guide_fr_20200925.xml
-			- Final file will contains 1126 TV shows
+			- Final file contains 1128 TV shows
 		* Write day 20200926 in tv_guide_fr_20200926.xml
-			- Final file will contains 1018 TV shows
+			- Final file contains 1018 TV shows
 		* Write day 20200927 in tv_guide_fr_20200927.xml
-			- Final file will contains 897 TV shows
+			- Final file contains 897 TV shows
 		* Write day 20200928 in tv_guide_fr_20200928.xml
-			- Final file will contains 965 TV shows
+			- Final file contains 965 TV shows
 		* Write day 20200929 in tv_guide_fr_20200929.xml
-			- Final file will contains 1793 TV shows
+			- Final file contains 1793 TV shows
 		* Write day 20200930 in tv_guide_fr_20200930.xml
-			- Final file will contains 911 TV shows
+			- Final file contains 911 TV shows
 		* Write day 20200921 in tv_guide_fr_local_20200921.xml
-			- Final file will contains 2336 TV shows
+			- Final file contains 2183 TV shows
 		* Write day 20200922 in tv_guide_fr_local_20200922.xml
-			- Final file will contains 54 TV shows
+			- Final file contains 165 TV shows
 		* Write day 20200923 in tv_guide_fr_local_20200923.xml
-			- Final file will contains 4533 TV shows
+			- Final file contains 2320 TV shows
 		* Write day 20200924 in tv_guide_fr_local_20200924.xml
-			- Final file will contains 108 TV shows
+			- Final file contains 2144 TV shows
 		* Write day 20200925 in tv_guide_fr_local_20200925.xml
-			- Final file will contains 944 TV shows
+			- Final file contains 1128 TV shows
 		* Write day 20200926 in tv_guide_fr_local_20200926.xml
-			- Final file will contains 1112 TV shows
+			- Final file contains 1018 TV shows
 		* Write day 20200927 in tv_guide_fr_local_20200927.xml
-			- Final file will contains 847 TV shows
+			- Final file contains 897 TV shows
 		* Write day 20200928 in tv_guide_fr_local_20200928.xml
-			- Final file will contains 974 TV shows
+			- Final file contains 965 TV shows
 		* Write day 20200929 in tv_guide_fr_local_20200929.xml
-			- Final file will contains 1713 TV shows
+			- Final file contains 1793 TV shows
 		* Write day 20200930 in tv_guide_fr_local_20200930.xml
-			- Final file will contains 1066 TV shows
-
-* Processing of fr_tnt country:
-	- Retireve TV shows from all xmltv files of this country
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200921.xml
-			- This file contains 1401 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200922.xml
-			- This file contains 2283 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
-			- This file contains 2342 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
-			- This file contains 2191 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
-			- This file contains 944 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
-			- This file contains 1082 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200927.xml
-			- This file contains 817 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200928.xml
-			- This file contains 944 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200929.xml
-			- This file contains 1683 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
-			- This file contains 1013 TV shows
-	- Write full xmltv file in tv_guide_fr_tnt.xml
-	- Write full xmltv file in tv_guide_fr_tnt_local.xml
-	- Write one day xmltv files:
-		* Write day 20200921 in tv_guide_fr_tnt_20200921.xml
-			- Final file will contains 819 TV shows
-		* Write day 20200922 in tv_guide_fr_tnt_20200922.xml
-			- Final file will contains 115 TV shows
-		* Write day 20200923 in tv_guide_fr_tnt_20200923.xml
-			- Final file will contains 1553 TV shows
-		* Write day 20200924 in tv_guide_fr_tnt_20200924.xml
-			- Final file will contains 40 TV shows
-		* Write day 20200925 in tv_guide_fr_tnt_20200925.xml
-			- Final file will contains 748 TV shows
-		* Write day 20200926 in tv_guide_fr_tnt_20200926.xml
-			- Final file will contains 727 TV shows
-		* Write day 20200927 in tv_guide_fr_tnt_20200927.xml
-			- Final file will contains 672 TV shows
-		* Write day 20200928 in tv_guide_fr_tnt_20200928.xml
-			- Final file will contains 723 TV shows
-		* Write day 20200929 in tv_guide_fr_tnt_20200929.xml
-			- Final file will contains 732 TV shows
-		* Write day 20200930 in tv_guide_fr_tnt_20200930.xml
-			- Final file will contains 677 TV shows
-		* Write day 20200921 in tv_guide_fr_tnt_local_20200921.xml
-			- Final file will contains 867 TV shows
-		* Write day 20200922 in tv_guide_fr_tnt_local_20200922.xml
-			- Final file will contains 26 TV shows
-		* Write day 20200923 in tv_guide_fr_tnt_local_20200923.xml
-			- Final file will contains 1616 TV shows
-		* Write day 20200924 in tv_guide_fr_tnt_local_20200924.xml
-			- Final file will contains 52 TV shows
-		* Write day 20200925 in tv_guide_fr_tnt_local_20200925.xml
-			- Final file will contains 707 TV shows
-		* Write day 20200926 in tv_guide_fr_tnt_local_20200926.xml
-			- Final file will contains 731 TV shows
-		* Write day 20200927 in tv_guide_fr_tnt_local_20200927.xml
-			- Final file will contains 679 TV shows
-		* Write day 20200928 in tv_guide_fr_tnt_local_20200928.xml
-			- Final file will contains 725 TV shows
-		* Write day 20200929 in tv_guide_fr_tnt_local_20200929.xml
-			- Final file will contains 722 TV shows
-		* Write day 20200930 in tv_guide_fr_tnt_local_20200930.xml
-			- Final file will contains 731 TV shows
+			- Final file contains 911 TV shows
 
 * Processing of be country:
 	- Retireve TV shows from all xmltv files of this country
@@ -2172,7 +191,7 @@ Unable to retrieve web page for 279
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200923.xml
 			- This file contains 344 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200924.xml
-			- This file contains 344 TV shows
+			- This file contains 350 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200925.xml
 			- This file contains 304 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200926.xml
@@ -2185,113 +204,115 @@ Unable to retrieve web page for 279
 			- This file contains 306 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200930.xml
 			- This file contains 293 TV shows
+	- This country have a total of 3103 TV shows
 	- Write full xmltv file in tv_guide_be.xml
 	- Write full xmltv file in tv_guide_be_local.xml
 	- Write one day xmltv files:
 		* Write day 20200921 in tv_guide_be_20200921.xml
-			- Final file will contains 341 TV shows
+			- Final file contains 341 TV shows
 		* Write day 20200922 in tv_guide_be_20200922.xml
-			- Final file will contains 55 TV shows
+			- Final file contains 28 TV shows
 		* Write day 20200923 in tv_guide_be_20200923.xml
-			- Final file will contains 648 TV shows
+			- Final file contains 348 TV shows
 		* Write day 20200924 in tv_guide_be_20200924.xml
-			- Final file will contains 25 TV shows
+			- Final file contains 355 TV shows
 		* Write day 20200925 in tv_guide_be_20200925.xml
-			- Final file will contains 309 TV shows
+			- Final file contains 310 TV shows
 		* Write day 20200926 in tv_guide_be_20200926.xml
-			- Final file will contains 296 TV shows
+			- Final file contains 296 TV shows
 		* Write day 20200927 in tv_guide_be_20200927.xml
-			- Final file will contains 258 TV shows
+			- Final file contains 258 TV shows
 		* Write day 20200928 in tv_guide_be_20200928.xml
-			- Final file will contains 314 TV shows
+			- Final file contains 314 TV shows
 		* Write day 20200929 in tv_guide_be_20200929.xml
-			- Final file will contains 309 TV shows
+			- Final file contains 309 TV shows
 		* Write day 20200930 in tv_guide_be_20200930.xml
-			- Final file will contains 284 TV shows
+			- Final file contains 284 TV shows
 		* Write day 20200921 in tv_guide_be_local_20200921.xml
-			- Final file will contains 365 TV shows
+			- Final file contains 341 TV shows
 		* Write day 20200922 in tv_guide_be_local_20200922.xml
-			- Final file will contains 8 TV shows
+			- Final file contains 28 TV shows
 		* Write day 20200923 in tv_guide_be_local_20200923.xml
-			- Final file will contains 688 TV shows
+			- Final file contains 348 TV shows
 		* Write day 20200924 in tv_guide_be_local_20200924.xml
-			- Final file will contains 16 TV shows
+			- Final file contains 355 TV shows
 		* Write day 20200925 in tv_guide_be_local_20200925.xml
-			- Final file will contains 304 TV shows
+			- Final file contains 310 TV shows
 		* Write day 20200926 in tv_guide_be_local_20200926.xml
-			- Final file will contains 296 TV shows
+			- Final file contains 296 TV shows
 		* Write day 20200927 in tv_guide_be_local_20200927.xml
-			- Final file will contains 260 TV shows
+			- Final file contains 258 TV shows
 		* Write day 20200928 in tv_guide_be_local_20200928.xml
-			- Final file will contains 308 TV shows
+			- Final file contains 314 TV shows
 		* Write day 20200929 in tv_guide_be_local_20200929.xml
-			- Final file will contains 314 TV shows
+			- Final file contains 309 TV shows
 		* Write day 20200930 in tv_guide_be_local_20200930.xml
-			- Final file will contains 301 TV shows
+			- Final file contains 284 TV shows
 
 * Processing of uk country:
 	- Retireve TV shows from all xmltv files of this country
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200922.xml
 			- This file contains 51 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200923.xml
-			- This file does not contain any TV shows :-/, delete it
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200924.xml
-			- This file does not contain any TV shows :-/, delete it
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200925.xml
-			- This file contains 21 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
 			- This file contains 54 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
+		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200924.xml
+			- This file contains 54 TV shows
+		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200925.xml
+			- This file contains 50 TV shows
+		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
 			- This file contains 52 TV shows
+		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
+			- This file seems to be corrupt :-/, delete it
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200928.xml
-			- This file contains 45 TV shows
+			- This file contains 54 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200929.xml
-			- This file contains 51 TV shows
+			- This file contains 44 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200930.xml
 			- This file contains 54 TV shows
+	- This country have a total of 413 TV shows
 	- Write full xmltv file in tv_guide_uk.xml
 	- Write full xmltv file in tv_guide_uk_local.xml
 	- Write one day xmltv files:
 		* Write day 20200921 in tv_guide_uk_20200921.xml
-			- Final file will contains 11 TV shows
+			- Final file contains 11 TV shows
 		* Write day 20200922 in tv_guide_uk_20200922.xml
-			- Final file will contains 49 TV shows
+			- Final file contains 61 TV shows
 		* Write day 20200923 in tv_guide_uk_20200923.xml
-			- Final file will contains 0 TV shows
+			- Final file contains 63 TV shows
 		* Write day 20200924 in tv_guide_uk_20200924.xml
-			- Final file will contains 5 TV shows
+			- Final file contains 63 TV shows
 		* Write day 20200925 in tv_guide_uk_20200925.xml
-			- Final file will contains 30 TV shows
+			- Final file contains 58 TV shows
 		* Write day 20200926 in tv_guide_uk_20200926.xml
-			- Final file will contains 63 TV shows
+			- Final file contains 51 TV shows
 		* Write day 20200927 in tv_guide_uk_20200927.xml
-			- Final file will contains 60 TV shows
+			- Final file contains 12 TV shows
 		* Write day 20200928 in tv_guide_uk_20200928.xml
-			- Final file will contains 55 TV shows
+			- Final file contains 63 TV shows
 		* Write day 20200929 in tv_guide_uk_20200929.xml
-			- Final file will contains 61 TV shows
+			- Final file contains 54 TV shows
 		* Write day 20200930 in tv_guide_uk_20200930.xml
-			- Final file will contains 51 TV shows
+			- Final file contains 51 TV shows
 		* Write day 20200921 in tv_guide_uk_local_20200921.xml
-			- Final file will contains 0 TV shows
+			- Final file contains 11 TV shows
 		* Write day 20200922 in tv_guide_uk_local_20200922.xml
-			- Final file will contains 51 TV shows
+			- Final file contains 61 TV shows
 		* Write day 20200923 in tv_guide_uk_local_20200923.xml
-			- Final file will contains 0 TV shows
+			- Final file contains 63 TV shows
 		* Write day 20200924 in tv_guide_uk_local_20200924.xml
-			- Final file will contains 0 TV shows
+			- Final file contains 63 TV shows
 		* Write day 20200925 in tv_guide_uk_local_20200925.xml
-			- Final file will contains 21 TV shows
+			- Final file contains 58 TV shows
 		* Write day 20200926 in tv_guide_uk_local_20200926.xml
-			- Final file will contains 54 TV shows
+			- Final file contains 51 TV shows
 		* Write day 20200927 in tv_guide_uk_local_20200927.xml
-			- Final file will contains 52 TV shows
+			- Final file contains 12 TV shows
 		* Write day 20200928 in tv_guide_uk_local_20200928.xml
-			- Final file will contains 45 TV shows
+			- Final file contains 63 TV shows
 		* Write day 20200929 in tv_guide_uk_local_20200929.xml
-			- Final file will contains 51 TV shows
+			- Final file contains 54 TV shows
 		* Write day 20200930 in tv_guide_uk_local_20200930.xml
-			- Final file will contains 54 TV shows
+			- Final file contains 51 TV shows
 
 * Processing of it country:
 	- Retireve TV shows from all xmltv files of this country
@@ -2311,11 +332,83 @@ Unable to retrieve web page for 279
 			- This file seems to be corrupt :-/, delete it
 	- None XMLTV file seems ok for this coutnry :-/
 	* Merge all country tv guides in tv_guide_all.xml
-		- Final file will contains 18125 TV shows
+		- Final file contains 18132 TV shows
 	* Merge all country tv guides in tv_guide_all_local.xml
-		- Final file will contains 0 TV shows
+		- Final file contains 0 TV shows
 
-# Exit script at 23/09/2020 04:06:52
+# Exit script at 23/09/2020 13:19:57
 
 - Push changes
+
+[master 4916c62] Auto update TV guides (23/09/2020 10:11:25-CEST)
+ Date: Wed Sep 23 10:10:27 2020 +0200
+ 120 files changed, 202662 insertions(+), 536682 deletions(-)
+ create mode 100644 raw/tv_guide_be_telerama_20200924.xmlstderr.log
+ create mode 100644 raw/tv_guide_be_telerama_20200924.xmlstdout.log
+ create mode 100644 raw/tv_guide_fr_telerama_20200924.xmlstderr.log
+ create mode 100644 raw/tv_guide_fr_telerama_20200924.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200923.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200923.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200924.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200924.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200925.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200925.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200926.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200926.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200927.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200927.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200928.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200928.xmlstdout.log
+ create mode 100644 raw/tv_guide_it_20200929.xmlstderr.log
+ create mode 100644 raw/tv_guide_it_20200929.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200923.xml
+ create mode 100644 raw/tv_guide_uk_tvguide_20200923.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200923.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200924.xml
+ create mode 100644 raw/tv_guide_uk_tvguide_20200924.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200924.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200925.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200925.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200926.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200926.xmlstdout.log
+ delete mode 100644 raw/tv_guide_uk_tvguide_20200927.xml
+ create mode 100644 raw/tv_guide_uk_tvguide_20200927.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200927.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200928.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200928.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200929.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200929.xmlstdout.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200930.xmlstderr.log
+ create mode 100644 raw/tv_guide_uk_tvguide_20200930.xmlstdout.log
+ rewrite scripts/log.txt (90%)
+ rewrite tv_guide_be_local_20200922.xml (70%)
+ rewrite tv_guide_be_local_20200924.xml (65%)
+ rename tv_guide_fr_tnt_20200922.xml => tv_guide_fr_local_20200922.xml (50%)
+ rename tv_guide_fr_tnt_20200923.xml => tv_guide_fr_local_20200923.xml (51%)
+ delete mode 100644 tv_guide_fr_tnt.xml
+ delete mode 100644 tv_guide_fr_tnt_20200921.xml
+ delete mode 100644 tv_guide_fr_tnt_20200924.xml
+ delete mode 100644 tv_guide_fr_tnt_20200925.xml
+ delete mode 100644 tv_guide_fr_tnt_20200926.xml
+ delete mode 100644 tv_guide_fr_tnt_20200927.xml
+ delete mode 100644 tv_guide_fr_tnt_20200928.xml
+ delete mode 100644 tv_guide_fr_tnt_20200929.xml
+ delete mode 100644 tv_guide_fr_tnt_20200930.xml
+ delete mode 100644 tv_guide_fr_tnt_local.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200921.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200922.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200923.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200924.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200925.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200926.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200927.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200928.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200929.xml
+ delete mode 100644 tv_guide_fr_tnt_local_20200930.xml
+ rewrite tv_guide_uk_20200927.xml (77%)
+ rewrite tv_guide_uk_local_20200927.xml (88%)
+To github.com:Catch-up-TV-and-More/xmltv.git
+ + f283ca6...4916c62 master -> master (forced update)
+
+- Changes have been pushed --> exit
 

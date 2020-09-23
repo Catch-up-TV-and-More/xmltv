@@ -32,6 +32,16 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
+  <programme channel="C1280.api.telerama.fr" start="20200924195000" stop="20200925040000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">490</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C23.api.telerama.fr" start="20200924223000" stop="20200925000000">
     <title>Villa Politica</title>
     <category lang="fr">magazine politique</category>
