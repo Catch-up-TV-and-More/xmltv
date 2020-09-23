@@ -32,41 +32,10 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
-  <programme channel="C1280.api.telerama.fr" start="20200929195000" stop="20200930040000">
-    <title>Pause</title>
-    <category lang="fr">autre</category>
-    <length units="minutes">490</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C23.api.telerama.fr" start="20200929220500" stop="20200930070000">
-    <title>Journaallus</title>
-    <sub-title>Doorlopende herhalingen</sub-title>
-    <category lang="fr">journal</category>
-    <length units="minutes">535</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme channel="C23.api.telerama.fr" start="20200930070000" stop="20200930080000">
     <title>Herfstbeelden</title>
     <category lang="fr">emission spéciale</category>
     <length units="hours">1</length>
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C23.api.telerama.fr" start="20200930080000" stop="20200930100000">
-    <title>Radio 2 op Één</title>
-    <category lang="fr">divertissement</category>
-    <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <new />
     <rating system="CSA">
       <value>Tout public</value>
@@ -137,16 +106,6 @@
     <category lang="fr">divertissement</category>
     <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C23.api.telerama.fr" start="20200930120000" stop="20200930144500">
-    <title>Sporza</title>
-    <sub-title>Waalse Pijl</sub-title>
-    <category lang="fr">magazine sportif</category>
-    <length units="minutes">165</length>
-    <new />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -276,16 +235,6 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C23.api.telerama.fr" start="20200930205000" stop="20200930210500">
-    <title>Het journaal</title>
-    <category lang="fr">journal</category>
-    <length units="minutes">15</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a422aeb-fdfa-499c-afe7-966aa53b92e6.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme channel="C23.api.telerama.fr" start="20200930210500" stop="20200930211000">
     <title>Het weer</title>
     <category lang="fr">météo</category>
@@ -322,6 +271,28 @@
     <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
     <category lang="fr">magazine de télé-achat</category>
     <length units="minutes">210</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C50.api.telerama.fr" start="20200930030000" stop="20200930033000">
+    <title>RTL - De Journal</title>
+    <desc lang="fr">Suivez les actualités du journal télévisé en luxembourgeois.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C50.api.telerama.fr" start="20200930033000" stop="20200930042000">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">50</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -1037,6 +1008,15 @@
     <title>Boucle de nuit</title>
     <category lang="fr">emission spéciale</category>
     <length units="minutes">110</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C168.api.telerama.fr" start="20200930030000" stop="20200930062500">
+    <title>Bel RTL</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">205</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d20bfea1-5f8c-4003-baff-5998de6a3ecc.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -3384,16 +3364,6 @@
     <rating system="CSA">
       <value>-12</value>
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
-    </rating>
-  </programme>
-  <programme channel="C1280.api.telerama.fr" start="20200930195000" stop="20201001040000">
-    <title>Pause</title>
-    <category lang="fr">autre</category>
-    <length units="minutes">490</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
     </rating>
   </programme>
 </tv>

@@ -453,20 +453,20 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923095500 +0200" stop="20200923102500 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923095500 +0200" stop="20200923103000 +0200" channel="C4.api.telerama.fr">
     <title>Tout le monde a son mot à dire</title>
     <desc lang="fr">Une gymnastique quotidienne de l'esprit pour s'amuser avec la langue française et enrichir sa culture générale.</desc>
     <category lang="fr">jeu</category>
-    <length units="minutes">30</length>
+    <length units="minutes">35</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923102500 +0200" stop="20200923103500 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923103000 +0200" stop="20200923103500 +0200" channel="C4.api.telerama.fr">
     <title>Météo Outre-mer</title>
     <category lang="fr">météo</category>
-    <length units="minutes">10</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
@@ -492,37 +492,27 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923115000 +0200" stop="20200923125000 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923115000 +0200" stop="20200923124500 +0200" channel="C4.api.telerama.fr">
     <title>Tout le monde veut prendre sa place</title>
     <desc lang="fr">Un quiz, six candidats et, bien calé dans son fauteuil, un champion que tous rêvent de déloger. Chaque jour, un seul pourra se mesurer à lui et espérer devenir le nouveau champion.</desc>
     <category lang="fr">jeu</category>
-    <length units="hours">1</length>
+    <length units="minutes">55</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f91455d9-795e-4865-a30f-60b1b7f5f493.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923125000 +0200" stop="20200923130000 +0200" channel="C4.api.telerama.fr">
-    <title>Météo 2</title>
-    <category lang="fr">météo</category>
+  <programme start="20200923124500 +0200" stop="20200923125500 +0200" channel="C4.api.telerama.fr">
+    <title>Et vous, comment ça va ?</title>
+    <sub-title>Patricia Lariguet</sub-title>
+    <category lang="fr">magazine de services</category>
     <length units="minutes">10</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/bdc838b1-c330-48d4-81db-f5bf34dfbb81.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d303a3bf-21d9-477f-bca8-5844795803d5.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923130000 +0200" stop="20200923134000 +0200" channel="C4.api.telerama.fr">
-    <title>Journal 13h00</title>
-    <desc lang="fr">Tous les jours, à 13h, la rédaction de France 2 propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
-    <category lang="fr">journal</category>
-    <length units="minutes">40</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923134000 +0200" stop="20200923134500 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923125500 +0200" stop="20200923130000 +0200" channel="C4.api.telerama.fr">
     <title>Météo 2</title>
     <category lang="fr">météo</category>
     <length units="minutes">5</length>
@@ -531,8 +521,29 @@
       <value>Tout public</value>
     </rating>
   </programme>
+  <programme start="20200923130000 +0200" stop="20200923134300 +0200" channel="C4.api.telerama.fr">
+    <title>Journal 13h00</title>
+    <desc lang="fr">Tous les jours, à 13h, la rédaction de France 2 propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">43</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923134300 +0200" stop="20200923134500 +0200" channel="C4.api.telerama.fr">
+    <title>Météo 2</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/bdc838b1-c330-48d4-81db-f5bf34dfbb81.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme start="20200923134500 +0200" stop="20200923135500 +0200" channel="C4.api.telerama.fr">
     <title>La p'tite librairie</title>
+    <sub-title>Romances sans paroles/paul verlaine</sub-title>
     <category lang="fr">magazine littéraire</category>
     <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
@@ -616,21 +627,21 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923183500 +0200" stop="20200923191000 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923183500 +0200" stop="20200923191500 +0200" channel="C4.api.telerama.fr">
     <title>N'oubliez pas les paroles</title>
     <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
     <category lang="fr">jeu</category>
-    <length units="minutes">35</length>
+    <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f91455d9-795e-4865-a30f-60b1b7f5f493.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923191000 +0200" stop="20200923195000 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923191500 +0200" stop="20200923195000 +0200" channel="C4.api.telerama.fr">
     <title>N'oubliez pas les paroles</title>
     <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
     <category lang="fr">jeu</category>
-    <length units="minutes">40</length>
+    <length units="minutes">35</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f91455d9-795e-4865-a30f-60b1b7f5f493.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
@@ -665,20 +676,21 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923203800 +0200" stop="20200923203900 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923203800 +0200" stop="20200923204000 +0200" channel="C4.api.telerama.fr">
     <title>Simplissime</title>
     <sub-title>Le souffle au fromage</sub-title>
     <category lang="fr">magazine culinaire</category>
-    <length units="minutes">1</length>
+    <length units="minutes">2</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fec55851-118b-4b03-a3d3-9fca65bf6fbe.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923203900 +0200" stop="20200923204500 +0200" channel="C4.api.telerama.fr">
+  <programme start="20200923204000 +0200" stop="20200923204500 +0200" channel="C4.api.telerama.fr">
     <title>Basique, l'essentiel de la musique</title>
+    <sub-title>Squeezie</sub-title>
     <category lang="fr">magazine musical</category>
-    <length units="minutes">6</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/53f03499-1e38-4a03-a63e-df8ae7b78205.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
@@ -762,17 +774,28 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923010100 +0200" stop="20200923020400 +0200" channel="C34.api.telerama.fr">
+  <programme start="20200923010100 +0200" stop="20200923020200 +0200" channel="C34.api.telerama.fr">
     <title>Cinéma par... Olivier Nakache et Eric Toledano</title>
     <desc lang="fr">Au fil de témoignages spontanés et personnels, Olivier Nakache et Eric Toledano se racontent à travers leur passion pour 7e art. De nombreux proches et collaborateurs en disent plus sur leur parcours. Quels sont les films qui ont marqué leur vie ? Comment ont-ils trouvé leurs repères au sein du petit monde du cinéma français ? Tous deux semblent gérer le succès et l'après «Intouchables» avec sérénité. Leur sixième long-métrage, «Le sens de la fête» avec Jean-Pierre Bacri, a été unanimement salué par la critique. Ce documentaire-portrait mentionne aussi leurs influences et revient sur les étapes importantes de leur parcours. Les anecdotes sont nombreuses à ponctuer le récit.</desc>
     <category lang="fr">documentaire : cinéma</category>
-    <length units="minutes">63</length>
+    <length units="minutes">61</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/894bab79-e275-432b-9341-ef39a5c4a39b.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923020400 +0200" stop="20200923021700 +0200" channel="C34.api.telerama.fr">
+  <programme start="20200923020200 +0200" stop="20200923020600 +0200" channel="C34.api.telerama.fr">
+    <title>Le plus</title>
+    <sub-title>The Head date</sub-title>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923020600 +0200" stop="20200923021900 +0200" channel="C34.api.telerama.fr">
     <title>Rencontres de cinéma</title>
     <sub-title>"Mon cousin" de Yann Kounen</sub-title>
     <desc lang="fr">Laurent Weil reçoit le réalisateur de "99 Francs" Yann Kounen, au côté de l'acteur François Damiens, à l'occasion de la sortie sur grand écran de son nouveau film "Mon cousin", le 30 septembre.</desc>
@@ -784,7 +807,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923021700 +0200" stop="20200923031300 +0200" channel="C34.api.telerama.fr">
+  <programme start="20200923021900 +0200" stop="20200923031500 +0200" channel="C34.api.telerama.fr">
     <title>Engrenages</title>
     <sub-title>Episode 5</sub-title>
     <desc lang="fr">Saison:5 - Episode:5 - Désespéré d'être emprisonné et loin de son fils, Stéphane Jaulin essaie de mettre fin à ses jours. Pierre Clément est sous le choc après la tentative de suicide de son client, mais Roban ne faiblit pas. Il reste entièrement convaincu de sa culpabilité. Les hommes de la DPJ, occupés par le double homicide, sont chargés d'une nouvelle mission. Sur ordres du préfet, une opération d'envergure est lancée afin d'arrêter les arracheurs de colliers. Mais les méthodes peu orthodoxes de Gilou et Herville pourraient coûter cher à la DPJ...</desc>
@@ -810,7 +833,7 @@
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
     </rating>
   </programme>
-  <programme start="20200923031300 +0200" stop="20200923040900 +0200" channel="C34.api.telerama.fr">
+  <programme start="20200923031500 +0200" stop="20200923041000 +0200" channel="C34.api.telerama.fr">
     <title>Engrenages</title>
     <sub-title>Episode 6</sub-title>
     <desc lang="fr">Saison:5 - Episode:6 - Laure et son équipe enquêtent sur le gang des braqueurs. Ils réalisent bientôt que ce n'est pas Jaulin qui les connaissait, mais son épouse, Sandrine. Laure suit désormais la piste d'un certain Zacharie Gabbai, surnommé «Zak le barge», visiblement lié au double homicide. Djibril Merini, l'indic de Gilou, communique aux agents de précieuses informations, qui pourraient permettre de retrouver la trace de Zak. Pourtant, Fromentin doute sérieusement de la fiablité de Merini et ne manque pas de le faire savoir...</desc>
@@ -828,7 +851,7 @@
       <writer>Guy-Patrick Sainderichin</writer>
     </credits>
     <category lang="fr">série policière</category>
-    <length units="minutes">56</length>
+    <length units="minutes">55</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/77d4a524-eed4-419e-9c45-3457692fe01a.jpg" />
     <episode-num system="xmltv_ns">4.5.</episode-num>
     <rating system="CSA">
@@ -836,30 +859,55 @@
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
     </rating>
   </programme>
-  <programme start="20200923050900 +0200" stop="20200923052200 +0200" channel="C34.api.telerama.fr">
-    <title>Daily Sport</title>
+  <programme start="20200923041000 +0200" stop="20200923043100 +0200" channel="C34.api.telerama.fr">
+    <title>Les Deux Couillons</title>
+    <desc lang="fr">Deux frères qui vivent éloignés l'un de l'autre, l'un à Rennes, l'autre à Paris, se retrouvent le temps d'un week-end pour partir à la recherche de leur père qui a disparu subitement.</desc>
+    <credits>
+      <director>Thibault Segouin</director>
+      <actor>Pascal Greggory</actor>
+      <actor>Olivier Chantreau</actor>
+      <actor>Yvan Naubron</actor>
+      <actor>Sébastien Chassagne</actor>
+      <actor>Pierre Le Baleur</actor>
+      <actor>Cédric Ben Abdallah</actor>
+      <actor>Philippe Sohier</actor>
+      <actor>Tanios Nakhlé-Cerruti</actor>
+      <writer>Thibault Segouin</writer>
+      <composer>François Villevieille</composer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">film</category>
+    <length units="minutes">21</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/69aa7a5e-2c54-4696-b349-57719f37ee72.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923043100 +0200" stop="20200923043700 +0200" channel="C34.api.telerama.fr">
+    <title>Zapsport</title>
     <category lang="fr">sport : multisports</category>
-    <length units="minutes">13</length>
+    <length units="minutes">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/427376b2-8229-462a-945b-ae57acc8a493.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923043700 +0200" stop="20200923052400 +0200" channel="C34.api.telerama.fr">
+    <title>Golf+, le mag</title>
+    <category lang="fr">sport : golf</category>
+    <length units="minutes">47</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c7794f33-2790-4143-9793-144e780974ca.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923052200 +0200" stop="20200923061300 +0200" channel="C34.api.telerama.fr">
-    <title>Late Football Club</title>
-    <category lang="fr">sport : football</category>
-    <length units="minutes">51</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6c9b77d1-47a8-4a5c-bb96-4dcbd9b312b8.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923061300 +0200" stop="20200923070300 +0200" channel="C34.api.telerama.fr">
+  <programme start="20200923061500 +0200" stop="20200923070300 +0200" channel="C34.api.telerama.fr">
     <title>Le cercle</title>
     <desc lang="fr">Désireux de partager sa passion pour la culture, Augustin Trapenard convoque une petite bande de chroniqueurs afin de passer en revue les sorties et les tournages qui font l'actualité du grand écran. Une émission pleine d'enthousiasme destinée aux amoureux du cinéma.</desc>
     <category lang="fr">magazine du cinéma</category>
-    <length units="minutes">50</length>
+    <length units="minutes">48</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/af899de7-f564-4bc2-9364-8307aeaa53d1.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -880,7 +928,7 @@
       <actor role="Phyllis">Celia Imrie</actor>
       <actor role="David Miller">Matthew Broderick</actor>
       <writer>Pamela Adlon</writer>
-      <writer>Louis CK</writer>
+      <writer>Louis C.K.</writer>
       <writer>Pamela Adlon</writer>
       <writer>Ira Parker</writer>
     </credits>
@@ -1331,36 +1379,24 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923045500 +0200" stop="20200923060000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923045500 +0200" stop="20200923055500 +0200" channel="C47.api.telerama.fr">
     <title>C dans l'air</title>
+    <sub-title>Cour suprême : l'arme fatale de Trump</sub-title>
     <desc lang="fr">Du lundi au samedi, "C dans l'air" donne les clés pour comprendre dans sa globalité un événement ou un sujet de première importance, en permettant aux téléspectateurs d'intervenir dans le débat ou de poser des questions par SMS ou Internet. Plusieurs reportages illustrent le sujet et des spécialistes, sur le plateau, l'éclairent de leurs réflexions.</desc>
     <category lang="fr">magazine d'information</category>
-    <length units="minutes">65</length>
+    <length units="hours">1</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5819f406-a7ac-4126-b5ad-2d3a5c5dacd2.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923060000 +0200" stop="20200923060500 +0200" channel="C47.api.telerama.fr">
-    <title>Miffy *2015</title>
-    <sub-title>Où es-tu Grunty ?</sub-title>
-    <desc lang="fr">Saison:1 - Episode:30 - Avec ses amies Mélanie, Grunty et son adorable chien Snuffy, la petite lapine Miffy fait chaque jour de nouvelles découvertes.</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">5</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e8dcb97b-d3de-464d-bcb1-883e4b80527a.jpg" />
-    <episode-num system="xmltv_ns">0.29.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923060500 +0200" stop="20200923061000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923060000 +0200" stop="20200923061000 +0200" channel="C47.api.telerama.fr">
     <title>Miffy *2015</title>
     <sub-title>Miffy à la plage</sub-title>
     <desc lang="fr">Saison:1 - Episode:16 - Avec ses amies Mélanie, Grunty et son adorable chien Snuffy, la petite lapine Miffy fait chaque jour de nouvelles découvertes.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">5</length>
+    <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e8dcb97b-d3de-464d-bcb1-883e4b80527a.jpg" />
     <episode-num system="xmltv_ns">0.15.</episode-num>
     <previously-shown />
@@ -1368,12 +1404,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923061000 +0200" stop="20200923062000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923061000 +0200" stop="20200923061500 +0200" channel="C47.api.telerama.fr">
     <title>Miffy *2015</title>
     <sub-title>Miffy appelée à l'aide</sub-title>
     <desc lang="fr">Saison:1 - Episode:44 - Avec ses amies Mélanie, Grunty et son adorable chien Snuffy, la petite lapine Miffy fait chaque jour de nouvelles découvertes.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/a02ea812-979a-4e05-a3b9-cdefac05c842.jpg" />
     <episode-num system="xmltv_ns">0.43.</episode-num>
     <previously-shown />
@@ -1381,7 +1417,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923062000 +0200" stop="20200923062500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923061500 +0200" stop="20200923062000 +0200" channel="C47.api.telerama.fr">
     <title>Miffy *2015</title>
     <sub-title>La fée Miffy</sub-title>
     <desc lang="fr">Saison:1 - Episode:6 - Avec ses amies Mélanie, Grunty et son adorable chien Snuffy, la petite lapine Miffy fait chaque jour de nouvelles découvertes.</desc>
@@ -1394,7 +1430,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923062500 +0200" stop="20200923064000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923062000 +0200" stop="20200923063500 +0200" channel="C47.api.telerama.fr">
     <title>Becca et sa bande</title>
     <desc lang="fr">Petit oisillon au grand coeur, Becca adore l'aventure et aider les habitants du Bois des Bergeronnettes, la petite forêt où elle vit avec ses amis. Elle sait qu'avec à ses côtés, Russel l'écureuil fonceur, Sylvia, l'espiègle renarde et Pedro, le ver craintif, rien n'est impossible.</desc>
     <category lang="fr">série d'animation</category>
@@ -1404,7 +1440,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923064000 +0200" stop="20200923065000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923063500 +0200" stop="20200923064500 +0200" channel="C47.api.telerama.fr">
     <title>Becca et sa bande</title>
     <desc lang="fr">Petit oisillon au grand coeur, Becca adore l'aventure et aider les habitants du Bois des Bergeronnettes, la petite forêt où elle vit avec ses amis. Elle sait qu'avec à ses côtés, Russel l'écureuil fonceur, Sylvia, l'espiègle renarde et Pedro, le ver craintif, rien n'est impossible.</desc>
     <category lang="fr">série d'animation</category>
@@ -1414,7 +1450,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923065000 +0200" stop="20200923070000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923064500 +0200" stop="20200923065500 +0200" channel="C47.api.telerama.fr">
     <title>Becca et sa bande</title>
     <desc lang="fr">Petit oisillon au grand coeur, Becca adore l'aventure et aider les habitants du Bois des Bergeronnettes, la petite forêt où elle vit avec ses amis. Elle sait qu'avec à ses côtés, Russel l'écureuil fonceur, Sylvia, l'espiègle renarde et Pedro, le ver craintif, rien n'est impossible.</desc>
     <category lang="fr">série d'animation</category>
@@ -1424,7 +1460,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923070000 +0200" stop="20200923071500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923065500 +0200" stop="20200923071000 +0200" channel="C47.api.telerama.fr">
     <title>44 chats</title>
     <sub-title>La fugue de l'oeuf</sub-title>
     <desc lang="fr">Saison:1 - Episode:33 - Ruby la maman rouge-gorge attend que son petit sorte de son oeuf, mais quand elle revient au nid après avoir chanté avec les Mystichats, l'oeuf a pris la clé des champs...</desc>
@@ -1437,7 +1473,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923071500 +0200" stop="20200923072500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923071000 +0200" stop="20200923072000 +0200" channel="C47.api.telerama.fr">
     <title>44 chats</title>
     <desc lang="fr">Saison:1 - Episode:20 - Les aventures de quatre chatons qui forment un groupe musical appelé The Buffycats.</desc>
     <category lang="fr">série d'animation</category>
@@ -1448,7 +1484,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923072500 +0200" stop="20200923074000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923072000 +0200" stop="20200923073500 +0200" channel="C47.api.telerama.fr">
     <title>44 chats</title>
     <sub-title>Le jardin botanique</sub-title>
     <desc lang="fr">Saison:1 - Episode:35 - Gaby a un scoop : un monstre mystérieux aurait été aperçu dans le jardin botanique de la ville. Les Mystichat s'y rendent de pied ferme, mais la créature n'a rien de monstrueux...</desc>
@@ -1461,7 +1497,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923074000 +0200" stop="20200923074500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923073500 +0200" stop="20200923074000 +0200" channel="C47.api.telerama.fr">
     <title>T'choupi à l'école</title>
     <sub-title>Le safari en forêt</sub-title>
     <desc lang="fr">Saison:1 - Episode:37 - T'choupi a grandi, maintenant, il va à l'école et doit s'adapter à d'autres situations.</desc>
@@ -1473,7 +1509,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923074500 +0200" stop="20200923075500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923074000 +0200" stop="20200923075000 +0200" channel="C47.api.telerama.fr">
     <title>T'choupi à l'école</title>
     <sub-title>Le petit chouchou</sub-title>
     <desc lang="fr">Saison:2 - Episode:3 - Mehdi, l'animateur périscolaire, est très populaire auprès des enfants. Chacun d'eux aimerait bien être son chouchou. Pour lui faire plaisir et se faire bien voir, T'choupi lui offre une boîte de cookies faits maison...</desc>
@@ -1485,7 +1521,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923075500 +0200" stop="20200923080000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923075000 +0200" stop="20200923075500 +0200" channel="C47.api.telerama.fr">
     <title>T'choupi à l'école</title>
     <sub-title>La chasse aux fées</sub-title>
     <desc lang="fr">Saison:2 - Episode:28 - T'choupi a grandi, maintenant, il va à l'école et doit s'adapter à d'autres situations.</desc>
@@ -1497,7 +1533,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923080000 +0200" stop="20200923080500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923075500 +0200" stop="20200923080000 +0200" channel="C47.api.telerama.fr">
     <title>Peppa Pig</title>
     <sub-title>La pièce de théâtre</sub-title>
     <desc lang="fr">Saison:1 - Episode:52 - Peppa joue dans une pièce de théâtre. Elle est le Petit Chaperon rouge, tandis que Danny, le chien, est le grand méchant loup et Rebecca lapin, la grand-mère...</desc>
@@ -1509,7 +1545,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923080500 +0200" stop="20200923081000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923080000 +0200" stop="20200923080500 +0200" channel="C47.api.telerama.fr">
     <title>Peppa Pig</title>
     <sub-title>Les crêpes</sub-title>
     <desc lang="fr">Saison:1 - Episode:29 - Maman Cochon prépare des crêpes. Pendant que George et Peppa commencent à en dévorer bruyamment, Papa fait sauter la sienne un peu trop fort et la colle au plafond...</desc>
@@ -1521,7 +1557,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923081000 +0200" stop="20200923081500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923080500 +0200" stop="20200923081000 +0200" channel="C47.api.telerama.fr">
     <title>Peppa Pig</title>
     <sub-title>La pendule à coucou</sub-title>
     <desc lang="fr">Saison:2 - Episode:34 - La vieille horloge de la chambre de Peppa et George est tombée en panne. Alors papa la répare, et grâce à lui, l'horloge sonne et le coucou sort chaque heure. Peppa trouve cela très drôle...</desc>
@@ -1533,7 +1569,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923081500 +0200" stop="20200923082000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923081000 +0200" stop="20200923081500 +0200" channel="C47.api.telerama.fr">
     <title>Peppa Pig</title>
     <sub-title>La bosse de maman Rabbit</sub-title>
     <desc lang="fr">Saison:4 - Episode:10 - Maman Rabbit a un gros ventre. Les enfants sont excités à l'idée de découvrir le bébé lapin...</desc>
@@ -1545,7 +1581,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923082000 +0200" stop="20200923082500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923081500 +0200" stop="20200923082000 +0200" channel="C47.api.telerama.fr">
     <title>Peppa Pig</title>
     <sub-title>Le grand aquarium</sub-title>
     <desc lang="fr">Saison:4 - Episode:31 - Goldie, le poisson rouge de Peppa se sent seul. La famille Pig décide de l'emmener visiter le grand aquarium pour y voir d'autres poissons...</desc>
@@ -1557,7 +1593,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923082500 +0200" stop="20200923083500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923082000 +0200" stop="20200923083000 +0200" channel="C47.api.telerama.fr">
     <title>Hé, Oua-Oua</title>
     <sub-title>Le badge Coiffure</sub-title>
     <desc lang="fr">Saison:1 - Episode:3 - Le gros chien Oua-Oua anime le Club des Ecureuils, un centre d'activités extrascolaires. Quand un problème se pose, il accourt avec ses amis, Tag le rhino, Betty la pieuvre, Rouly l'hippopotame, Youpi le crocodile et Nini la souris futée, pour le régler dans la bonne humeur.</desc>
@@ -1569,7 +1605,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923083500 +0200" stop="20200923084000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923083000 +0200" stop="20200923083500 +0200" channel="C47.api.telerama.fr">
     <title>Hé, Oua-Oua</title>
     <desc lang="fr">Le gros chien Oua-Oua anime le Club des Ecureuils, un centre d'activités extrascolaires. Quand un problème se pose, il accourt avec ses amis, Tag le rhino, Betty la pieuvre, Rouly l'hippopotame, Youpi le crocodile et Nini la souris futée, pour le régler dans la bonne humeur.</desc>
     <category lang="fr">série d'animation</category>
@@ -1579,24 +1615,24 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923084000 +0200" stop="20200923084500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923083500 +0200" stop="20200923084500 +0200" channel="C47.api.telerama.fr">
     <title>Hé, Oua-Oua</title>
     <sub-title>Le badge petit déjeuner</sub-title>
     <desc lang="fr">Saison:3 - Le gros chien Oua-Oua anime le Club des Ecureuils, un centre d'activités extrascolaires. Quand un problème se pose, il accourt avec ses amis, Tag le rhino, Betty la pieuvre, Rouly l'hippopotame, Youpi le crocodile et Nini la souris futée, pour le régler dans la bonne humeur.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">5</length>
+    <length units="minutes">10</length>
     <episode-num system="xmltv_ns">2..</episode-num>
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923084500 +0200" stop="20200923085500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923084500 +0200" stop="20200923085000 +0200" channel="C47.api.telerama.fr">
     <title>Simon</title>
     <sub-title>J'ai pas peur de l’orage</sub-title>
     <desc lang="fr">Saison:2 - Episode:6 - Simon et Gaspard se sont fait une cabane dans le grenier, dans laquelle Mamie finit de leur lire une histoire. Mais une fois les enfants couchés, un orage éclate et Gaspard, apeuré, veut rejoindre ses grands-parents. Le périple commence dans l'obscurité de la maison. Une ombre dans la cuisine les fait sursauter. C'est Mamie qui était dans le grenier avec Papi car la toiture fuit à cause de l'orage. Simon, Gaspard et Mamie filent au grenier avec des bassines qu'ils installent sous les trous. Les sons des gouttes qui tombent dans les récipients font de la musique et tout le monde danse, même Gaspard...</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/0fcd50b3-edd6-4be5-a721-681086496e76.jpg" />
     <episode-num system="xmltv_ns">1.5.</episode-num>
     <previously-shown />
@@ -1604,7 +1640,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923085500 +0200" stop="20200923090000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923085000 +0200" stop="20200923085500 +0200" channel="C47.api.telerama.fr">
     <title>Simon</title>
     <sub-title>Trop timide</sub-title>
     <desc lang="fr">Saison:2 - Episode:18 - Au parc, tandis que Simon et Ferdinand font du vélo, Gaspard s'amuse avec son petit planeur. Mais il le lance loin et des filles le récupèrent. Gaspard est trop timide pour s'adresser à elles, aussi il demande à Simon de le faire à sa place. Le même scénario se reproduit et cette fois Simon dit à Gaspard d'y aller tout seul mais il l'aide en en lui soufflant quoi dire et ça marche…</desc>
@@ -1617,7 +1653,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923090000 +0200" stop="20200923090500 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923085500 +0200" stop="20200923090000 +0200" channel="C47.api.telerama.fr">
     <title>Simon</title>
     <sub-title>Le doudou, beuuurk...</sub-title>
     <desc lang="fr">Saison:2 - Episode:30 - Simon ne veut plus jouer avec Gaspard car son doudou sent trop mauvais. Gaspard accepte de le ranger mais en fait, il le cache dans son body. Comme ça sent toujours aussi mauvais, Simon lui demande de s'en débarrasser. Gaspard refuse et son frère le poursuit pour l'attraper. Maman décide alors de les emmener au parc. Simon y retrouve Lou et, avec Gaspard, ils foncent jouer au château fort du bac à sable. Malheureusement, deux grands s'accaparent le château et leur disent d'aller jouer ailleurs. Grâce au «doudou beurk», les trois petits font fuir les grands, dégoûtés...</desc>
@@ -1630,24 +1666,24 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923090500 +0200" stop="20200923090900 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923090000 +0200" stop="20200923090500 +0200" channel="C47.api.telerama.fr">
     <title>Les kiwis</title>
     <sub-title>Les bébés dinosures</sub-title>
     <desc lang="fr">Saison:3 - Twini et Twiki, deux oiseaux comiques en pâte à modeler également appelés les kiwis, se retrouvent dans différentes situations cocasses qui sont l'occasion d'apprendre des rudiments d'anglais. Dans la cuisine ou au cours d'une visite au musée, en faisant le ménage, en préparant un anniversaire ou en bricolant, toutes les circonstances sont bonnes pour découvrir quelques mots de vocabulaire ainsi que leur orthographe. Cette série ludo-éducative en stop-motion a notamment remporté le Prix du film éducatif au festival d'Athènes.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">4</length>
+    <length units="minutes">5</length>
     <episode-num system="xmltv_ns">2..</episode-num>
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923090900 +0200" stop="20200923091000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923090500 +0200" stop="20200923091000 +0200" channel="C47.api.telerama.fr">
     <title>Les kiwis</title>
     <sub-title>Les bébés dinosures</sub-title>
     <desc lang="fr">Saison:3 - Twini et Twiki, deux oiseaux comiques en pâte à modeler également appelés les kiwis, se retrouvent dans différentes situations cocasses qui sont l'occasion d'apprendre des rudiments d'anglais. Dans la cuisine ou au cours d'une visite au musée, en faisant le ménage, en préparant un anniversaire ou en bricolant, toutes les circonstances sont bonnes pour découvrir quelques mots de vocabulaire ainsi que leur orthographe. Cette série ludo-éducative en stop-motion a notamment remporté le Prix du film éducatif au festival d'Athènes.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">1</length>
+    <length units="minutes">5</length>
     <episode-num system="xmltv_ns">2..</episode-num>
     <previously-shown />
     <rating system="CSA">
@@ -1866,21 +1902,22 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923204500 +0200" stop="20200923205000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923204500 +0200" stop="20200923205100 +0200" channel="C47.api.telerama.fr">
     <title>Et vous, comment ça va ?</title>
     <sub-title>Alix Valat de Croix et Nathan Schweitzer</sub-title>
     <category lang="fr">magazine de services</category>
-    <length units="minutes">5</length>
+    <length units="minutes">6</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d303a3bf-21d9-477f-bca8-5844795803d5.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923205000 +0200" stop="20200923222000 +0200" channel="C47.api.telerama.fr">
+  <programme start="20200923205100 +0200" stop="20200923222000 +0200" channel="C47.api.telerama.fr">
     <title>La grande librairie</title>
-    <desc lang="fr">Saison:13 - Parmi les invités de François Busnel, Alain Mabanckou présente "Rumeurs d'Amérique", publié chez Plon. Dans ce livre, l'auteur, installé aux Etats-Unis depuis une quinzaine d'années, livre sa vision de l'Amérique. Une rencontre enregistrée avec David Joy sera diffusée au cours de l'émission. Le romancier américain publie "Ce lien entre nous", aux éditions Sonatine.</desc>
+    <sub-title>Dire le monde</sub-title>
+    <desc lang="fr">Saison:13 - Alain Mabanckou présente "Rumeurs d'Amérique", publié chez Plon. Dans ce livre, l'auteur, installé aux Etats-Unis depuis une quinzaine d'années, livre sa vision de l'Amérique. Il est entouré de Faïza Guène, auteure de "La Discrétion", paru chez Plon, et de Négar Djavadi, auteure de "Arène", publié aux éditions Liana Levi, dont les romans abordent la question de l'immigration et de l'intégration. A leurs côtés, le linguiste Jean Pruvost raconte l'histoire des mots de la langue française dans "La Story de la langue française', paru chez Tallandier. Une rencontre enregistrée avec David Joy est diffusée au cours de l'émission. Le romancier américain publie "Ce lien entre nous", aux éditions Sonatine, le récit noir et dramatique d'une vengeance.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">90</length>
+    <length units="minutes">89</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8f489b71-61c9-4605-90cd-ff454543a5b8.jpg" />
     <episode-num system="xmltv_ns">12..</episode-num>
     <new />
@@ -2017,6 +2054,19 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
+  <programme start="20200923060000 +0200" stop="20200923061000 +0200" channel="C78.api.telerama.fr">
+    <title>Molusco</title>
+    <sub-title>La mairie en folie</sub-title>
+    <desc lang="fr">Saison:1 - Episode:49 - La série préférée de Coco est annulée et Coco est déterminé à aller convaincre le maire de son erreur. Il parvient à hypnotiser le maire mais malheureusement son sytème a trop bien marché...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">10</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff40af64-b683-42b8-b070-83d77e7385c0.jpg" />
+    <episode-num system="xmltv_ns">0.48.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme start="20200923061000 +0200" stop="20200923062000 +0200" channel="C78.api.telerama.fr">
     <title>Molusco</title>
     <sub-title>Un nouvel ami. - Molusco</sub-title>
@@ -2053,12 +2103,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923064500 +0200" stop="20200923065500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923064500 +0200" stop="20200923070000 +0200" channel="C78.api.telerama.fr">
     <title>Martin Matin</title>
     <sub-title>Lucky Martin</sub-title>
     <desc lang="fr">Saison:4 - Martin est un petit garçon de sept ans qui semble tout à fait ordinaire. Mais il vit des aventures extraordinaires tous les matins, en se réveillant dans la peau d'un nouveau personnage. Ses histoires le mènent parfois jusqu'au bout du monde.</desc>
     <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">10</length>
+    <length units="minutes">15</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/a3a5c6b5-dd62-4615-81c1-4d98df7a5c13.jpg" />
     <episode-num system="xmltv_ns">3..</episode-num>
     <previously-shown />
@@ -2066,12 +2116,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923065500 +0200" stop="20200923071000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923070000 +0200" stop="20200923071000 +0200" channel="C78.api.telerama.fr">
     <title>Martin Matin</title>
     <sub-title>Martin et le parfum de Morphée</sub-title>
     <desc lang="fr">Saison:4 - Martin est un petit garçon de sept ans qui semble tout à fait ordinaire. Mais il vit des aventures extraordinaires tous les matins, en se réveillant dans la peau d'un nouveau personnage. Ses histoires le mènent parfois jusqu'au bout du monde.</desc>
     <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">15</length>
+    <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6a8f3616-6ad0-4794-bba0-9adb3797209c.jpg" />
     <episode-num system="xmltv_ns">3..</episode-num>
     <previously-shown />
@@ -2142,12 +2192,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923075500 +0200" stop="20200923080500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923075500 +0200" stop="20200923081000 +0200" channel="C78.api.telerama.fr">
     <title>Oscar &amp; Malika, toujours en retard</title>
     <sub-title>Le peuple de l'arbre</sub-title>
     <desc lang="fr">Saison:1 - Episode:32 - Tous les matins, Oscar et sa voisine Malika font ensemble le chemin jusqu'à l'école. Tous les matins, en dépit de leurs efforts, ils arrivent en retard à cause d'un événement extraordinaire.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
+    <length units="minutes">15</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/aa9e5ab3-9fdb-4357-8c3c-a196cd197484.jpg" />
     <episode-num system="xmltv_ns">0.31.</episode-num>
     <previously-shown />
@@ -2155,12 +2205,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923080500 +0200" stop="20200923082000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923081000 +0200" stop="20200923082000 +0200" channel="C78.api.telerama.fr">
     <title>Oscar &amp; Malika, toujours en retard</title>
     <sub-title>L'anneau de la chance</sub-title>
     <desc lang="fr">Saison:1 - Episode:33 - Tous les matins, Oscar et sa voisine Malika font ensemble le chemin jusqu'à l'école. Tous les matins, en dépit de leurs efforts, ils arrivent en retard à cause d'un événement extraordinaire.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">15</length>
+    <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/aa9e5ab3-9fdb-4357-8c3c-a196cd197484.jpg" />
     <episode-num system="xmltv_ns">0.32.</episode-num>
     <previously-shown />
@@ -2216,24 +2266,24 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923085000 +0200" stop="20200923085500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923085000 +0200" stop="20200923085900 +0200" channel="C78.api.telerama.fr">
     <title>Titeuf</title>
     <sub-title>Le complesque du dipe</sub-title>
     <desc lang="fr">Saison:3 - Episode:89 - Titeuf offre des fleurs rouges à sa maman. Ses copains font un diagnostic : Titeuf a le «Complesque du Dipe», c'est-à-dire qu'il est amoureux de sa maman. Consultée, Double-Airbag explique qu'il n'y a pas de quoi se prendre la tête, qu'il s'agit d'une étape normale et passagère du développement...</desc>
     <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/106afc80-0120-481a-881d-a5bdaa9c506f.jpg" />
     <episode-num system="xmltv_ns">2.88.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923085500 +0200" stop="20200923090000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923085900 +0200" stop="20200923090000 +0200" channel="C78.api.telerama.fr">
     <title>Un jour, une question</title>
     <sub-title>C'est quoi l'Himalaya ?</sub-title>
     <desc lang="fr">A quoi ça sert ? Ça veut dire quoi ? C'est qui ? Pourquoi c'est comme ça ? Les questions des enfants trouvent quotidiennement une réponse.</desc>
     <category lang="fr">emission jeunesse</category>
-    <length units="minutes">5</length>
+    <length units="minutes">1</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/42577ce7-b0c2-4d8d-8cd7-77ed08d7e6b7.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -2287,19 +2337,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923111500 +0200" stop="20200923112000 +0200" channel="C78.api.telerama.fr">
-    <title>Mily Miss Questions</title>
-    <sub-title>Vive la fête !</sub-title>
-    <desc lang="fr">Saison:2 - Petite fille de 9 ans, Mily se pose un tas de questions sur le monde qui l'entoure. Avec sa famille et ses amis, Maceo et Juliette, et accompagnée de son chien Pop, elle se lance dans des enquêtes pour trouver des réponses.</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">5</length>
-    <episode-num system="xmltv_ns">1..</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923112000 +0200" stop="20200923113000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923111500 +0200" stop="20200923112500 +0200" channel="C78.api.telerama.fr">
     <title>Mily Miss Questions</title>
     <sub-title>Vive la fête !</sub-title>
     <desc lang="fr">Saison:2 - Petite fille de 9 ans, Mily se pose un tas de questions sur le monde qui l'entoure. Avec sa famille et ses amis, Maceo et Juliette, et accompagnée de son chien Pop, elle se lance dans des enquêtes pour trouver des réponses.</desc>
@@ -2311,19 +2349,19 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923113000 +0200" stop="20200923113500 +0200" channel="C78.api.telerama.fr">
-    <title>Mick le mini chef</title>
-    <sub-title>Le cadeau du mini-chef</sub-title>
-    <desc lang="fr">Des guirlandes, des décorations, et des petits fours… Pas de doutes, Noël approche!</desc>
-    <category lang="fr">série culinaire</category>
+  <programme start="20200923112500 +0200" stop="20200923113000 +0200" channel="C78.api.telerama.fr">
+    <title>Mily Miss Questions</title>
+    <sub-title>Vive la fête !</sub-title>
+    <desc lang="fr">Saison:2 - Petite fille de 9 ans, Mily se pose un tas de questions sur le monde qui l'entoure. Avec sa famille et ses amis, Maceo et Juliette, et accompagnée de son chien Pop, elle se lance dans des enquêtes pour trouver des réponses.</desc>
+    <category lang="fr">série d'animation</category>
     <length units="minutes">5</length>
+    <episode-num system="xmltv_ns">1..</episode-num>
     <previously-shown />
-    <premiere />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923113500 +0200" stop="20200923114500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923113000 +0200" stop="20200923114000 +0200" channel="C78.api.telerama.fr">
     <title>Mick le mini chef</title>
     <sub-title>Le cadeau du mini-chef</sub-title>
     <desc lang="fr">Des guirlandes, des décorations, et des petits fours… Pas de doutes, Noël approche!</desc>
@@ -2335,58 +2373,70 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923114500 +0200" stop="20200923114800 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923114000 +0200" stop="20200923114500 +0200" channel="C78.api.telerama.fr">
+    <title>Mick le mini chef</title>
+    <sub-title>Le cadeau du mini-chef</sub-title>
+    <desc lang="fr">Des guirlandes, des décorations, et des petits fours… Pas de doutes, Noël approche!</desc>
+    <category lang="fr">série culinaire</category>
+    <length units="minutes">5</length>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923114500 +0200" stop="20200923115000 +0200" channel="C78.api.telerama.fr">
     <title>Mick le mini chef</title>
     <sub-title>Dessert surprise</sub-title>
     <desc lang="fr">Episode:11 - Mathilde et Léo, deux jeunes passionnés de cuisine, concoctent des recettes régionales, imaginées par le chef étoilé Nicolas Gautier. Mick, petit personnage espiègle surmonté d'une toque, et Spoonita, sa cuillère magique, leur viennent en aide.</desc>
-    <length units="minutes">3</length>
+    <length units="minutes">5</length>
     <episode-num system="xmltv_ns">.10.</episode-num>
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923114800 +0200" stop="20200923115000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923115000 +0200" stop="20200923115500 +0200" channel="C78.api.telerama.fr">
     <title>A table les enfants</title>
     <sub-title>Endive au jambon</sub-title>
     <desc lang="fr">Saison:2 - Les fruits et légumes prennent la parole en racontant leur vie aux enfants.</desc>
     <category lang="fr">jeunesse : dessin animé jeunesse</category>
-    <length units="minutes">2</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b4e99f21-81ee-46bf-95dd-7854bb8e00bc.jpg" />
     <episode-num system="xmltv_ns">1..</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923115000 +0200" stop="20200923120500 +0200" channel="C78.api.telerama.fr">
-    <title>Anatole Latuile</title>
-    <sub-title>Startruc</sub-title>
-    <desc lang="fr">Saison:1 - Anatole Latuile, un écolier dissipé mais plein de ressources, dépense toute son énergie à s'attirer des ennuis.</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">15</length>
-    <episode-num system="xmltv_ns">0..</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923120500 +0200" stop="20200923121500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923115500 +0200" stop="20200923120500 +0200" channel="C78.api.telerama.fr">
     <title>Anatole Latuile</title>
     <sub-title>Startruc</sub-title>
     <desc lang="fr">Saison:1 - Anatole Latuile, un écolier dissipé mais plein de ressources, dépense toute son énergie à s'attirer des ennuis.</desc>
     <category lang="fr">série d'animation</category>
     <length units="minutes">10</length>
     <episode-num system="xmltv_ns">0..</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923121500 +0200" stop="20200923123000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923120500 +0200" stop="20200923122000 +0200" channel="C78.api.telerama.fr">
     <title>Anatole Latuile</title>
     <sub-title>Startruc</sub-title>
     <desc lang="fr">Saison:1 - Anatole Latuile, un écolier dissipé mais plein de ressources, dépense toute son énergie à s'attirer des ennuis.</desc>
     <category lang="fr">série d'animation</category>
     <length units="minutes">15</length>
+    <episode-num system="xmltv_ns">0..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923122000 +0200" stop="20200923123000 +0200" channel="C78.api.telerama.fr">
+    <title>Anatole Latuile</title>
+    <sub-title>Startruc</sub-title>
+    <desc lang="fr">Saison:1 - Anatole Latuile, un écolier dissipé mais plein de ressources, dépense toute son énergie à s'attirer des ennuis.</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">10</length>
     <episode-num system="xmltv_ns">0..</episode-num>
     <previously-shown />
     <rating system="CSA">
@@ -2416,18 +2466,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923125500 +0200" stop="20200923130500 +0200" channel="C78.api.telerama.fr">
-    <title>Max &amp; Maestro</title>
-    <sub-title>Le triangle de Carmen</sub-title>
-    <desc lang="fr">Saison:1 - Max, un garçon de 11 ans fan de rap, rencontre par hasard le chef d'orchestre Daniel Barenboim. Il n'a dès lors plus qu'un objectif : devenir un pianiste classique. Le grand chef va devenir son professeur.</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
-    <episode-num system="xmltv_ns">0..</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923130500 +0200" stop="20200923132000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923125500 +0200" stop="20200923131000 +0200" channel="C78.api.telerama.fr">
     <title>Max &amp; Maestro</title>
     <sub-title>Le triangle de Carmen</sub-title>
     <desc lang="fr">Saison:1 - Max, un garçon de 11 ans fan de rap, rencontre par hasard le chef d'orchestre Daniel Barenboim. Il n'a dès lors plus qu'un objectif : devenir un pianiste classique. Le grand chef va devenir son professeur.</desc>
@@ -2438,35 +2477,46 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923132000 +0200" stop="20200923132900 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923131000 +0200" stop="20200923132000 +0200" channel="C78.api.telerama.fr">
     <title>Max &amp; Maestro</title>
     <sub-title>Le triangle de Carmen</sub-title>
     <desc lang="fr">Saison:1 - Max, un garçon de 11 ans fan de rap, rencontre par hasard le chef d'orchestre Daniel Barenboim. Il n'a dès lors plus qu'un objectif : devenir un pianiste classique. Le grand chef va devenir son professeur.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">9</length>
+    <length units="minutes">10</length>
     <episode-num system="xmltv_ns">0..</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923132900 +0200" stop="20200923133000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923132000 +0200" stop="20200923133000 +0200" channel="C78.api.telerama.fr">
+    <title>Max &amp; Maestro</title>
+    <sub-title>Le triangle de Carmen</sub-title>
+    <desc lang="fr">Saison:1 - Max, un garçon de 11 ans fan de rap, rencontre par hasard le chef d'orchestre Daniel Barenboim. Il n'a dès lors plus qu'un objectif : devenir un pianiste classique. Le grand chef va devenir son professeur.</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">10</length>
+    <episode-num system="xmltv_ns">0..</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923133000 +0200" stop="20200923133500 +0200" channel="C78.api.telerama.fr">
     <title>Un jour, une question</title>
     <sub-title>C'est quoi l'Himalaya ?</sub-title>
     <desc lang="fr">A quoi ça sert ? Ça veut dire quoi ? C'est qui ? Pourquoi c'est comme ça ? Les questions des enfants trouvent quotidiennement une réponse.</desc>
     <category lang="fr">emission jeunesse</category>
-    <length units="minutes">1</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/42577ce7-b0c2-4d8d-8cd7-77ed08d7e6b7.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923133000 +0200" stop="20200923140000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923133500 +0200" stop="20200923140000 +0200" channel="C78.api.telerama.fr">
     <title>Il était une fois... la vie</title>
     <sub-title>La peau</sub-title>
     <desc lang="fr">Saison:1 - Episode:13 - La peau est un tissu souple élastique, fait de différentes couches de cellules. Elle constitue l'enveloppe externe de notre organisme...</desc>
     <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">30</length>
+    <length units="minutes">25</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5f877963-cc87-48aa-880e-308b88615f55.jpg" />
     <episode-num system="xmltv_ns">0.12.</episode-num>
     <rating system="CSA">
@@ -2483,21 +2533,21 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923150500 +0200" stop="20200923160400 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923150500 +0200" stop="20200923160500 +0200" channel="C78.api.telerama.fr">
     <title>La maison des parents</title>
     <category lang="fr">magazine de société</category>
-    <length units="minutes">59</length>
+    <length units="hours">1</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923160400 +0200" stop="20200923160500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923160500 +0200" stop="20200923160900 +0200" channel="C78.api.telerama.fr">
     <title>Un jour, une question</title>
     <sub-title>C'est quoi l'Himalaya ?</sub-title>
     <desc lang="fr">A quoi ça sert ? Ça veut dire quoi ? C'est qui ? Pourquoi c'est comme ça ? Les questions des enfants trouvent quotidiennement une réponse.</desc>
     <category lang="fr">emission jeunesse</category>
-    <length units="minutes">1</length>
+    <length units="minutes">4</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/42577ce7-b0c2-4d8d-8cd7-77ed08d7e6b7.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -2542,12 +2592,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923165500 +0200" stop="20200923171400 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923165500 +0200" stop="20200923171500 +0200" channel="C78.api.telerama.fr">
     <title>Ninjago</title>
     <sub-title>La bourrasque de l'homme mort</sub-title>
     <desc lang="fr">Saison:8 - Episode:5 - Les ninja sont à bord de leur navire quand ils apprennent que Zane a découvert l'endroit où se cache le chef des fils de Garmadon...</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">19</length>
+    <length units="minutes">20</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fed1c77f-5c36-442a-a845-2de5e52ecd7a.jpg" />
     <episode-num system="xmltv_ns">7.4.</episode-num>
     <previously-shown />
@@ -2555,12 +2605,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923171500 +0200" stop="20200923172500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923171500 +0200" stop="20200923172000 +0200" channel="C78.api.telerama.fr">
     <title>Angelo la débrouille</title>
     <sub-title>Mon père ce héros</sub-title>
     <desc lang="fr">Saison:1 - Episode:50 - Le père d'Angelo doit venir parler de son travail devant toute la classe. Cela promet d'être ennuyeux, à moins qu'on arrive à l'en empêcher...</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e38af3f8-5957-44e3-b35d-188ec5c51fc4.jpg" />
     <episode-num system="xmltv_ns">0.49.</episode-num>
     <previously-shown />
@@ -2568,12 +2618,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923172500 +0200" stop="20200923173000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923172000 +0200" stop="20200923173000 +0200" channel="C78.api.telerama.fr">
     <title>Angelo la débrouille</title>
     <sub-title>La porte interdite</sub-title>
     <desc lang="fr">Saison:1 - Episode:51 - Alvina a caché un mystérieux paquet dans sa chambre. Angelo et ses amis n'ont pas le choix : ils doivent tenter le cambriolage du siècle...</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">5</length>
+    <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e38af3f8-5957-44e3-b35d-188ec5c51fc4.jpg" />
     <episode-num system="xmltv_ns">0.50.</episode-num>
     <previously-shown />
@@ -2619,12 +2669,12 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923175000 +0200" stop="20200923175900 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923175000 +0200" stop="20200923175500 +0200" channel="C78.api.telerama.fr">
     <title>Angelo la débrouille</title>
     <sub-title>Orientation 007</sub-title>
     <desc lang="fr">Saison:1 - Episode:72 - Le test d'orientation est formel : Victor a un avenir tout tracé de professeur, comme monsieur Roux...</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">9</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e38af3f8-5957-44e3-b35d-188ec5c51fc4.jpg" />
     <episode-num system="xmltv_ns">0.71.</episode-num>
     <previously-shown />
@@ -2632,30 +2682,30 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923175900 +0200" stop="20200923180000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923175500 +0200" stop="20200923180000 +0200" channel="C78.api.telerama.fr">
     <title>Minikeums</title>
     <sub-title>C'est dangereux</sub-title>
     <desc lang="fr">Saison:3 - Minikeums est la nouvelle version de cette production phare des années 90 avec les marionnettes de Rihanna, Kev Adams, Norman, Louane, Pogba...</desc>
     <category lang="fr">emission jeunesse</category>
-    <length units="minutes">1</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3c0f8355-6d0c-4ed4-bcc2-a407556bb657.jpg" />
     <episode-num system="xmltv_ns">2..</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923180000 +0200" stop="20200923181000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923180000 +0200" stop="20200923180500 +0200" channel="C78.api.telerama.fr">
     <title>Toc Toc !</title>
     <sub-title>Le bobo d'Aristide</sub-title>
     <desc lang="fr">Des phénomènes naturels ou des situations créées par la vie moderne, expliqués simplement et avec humour.</desc>
     <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
+    <length units="minutes">5</length>
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923182500 +0200" stop="20200923194500 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923182000 +0200" stop="20200923194000 +0200" channel="C78.api.telerama.fr">
     <title>Club Lumni</title>
     <sub-title>18</sub-title>
     <desc lang="fr">Rendez-vous avec Alex Goude et son équipe de professeurs et d'experts pour réviser, apprendre et relever des défis, tout en s'amusant ! Une émission riche, variée, divertissante et rythmée.</desc>
@@ -2666,11 +2716,11 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923194500 +0200" stop="20200923201000 +0200" channel="C78.api.telerama.fr">
+  <programme start="20200923194000 +0200" stop="20200923201000 +0200" channel="C78.api.telerama.fr">
     <title>Le jeu Lumni</title>
     <desc lang="fr">Saison:2 - Après les cours Lumni, ce nouveau programme, qui s'inscrit dans la continuité du dispositif Nation Apprenante, permet de réviser avec plaisir pendant les vacances d'été ! Deux enfants participent à un jeu inédit, depuis leur domicile ou leu lieu de vacances. Sur un parcours virtuel intégré dans un plateau, ils devront progresser en tentant de bien répondre chacun à 5 questions (soit 10 questions au total). Plus ils trouvent de bonnes réponses, plus ils avancent dans le parcours et peuvent remporter de nombreux cadeaux.</desc>
     <category lang="fr">magazine éducatif</category>
-    <length units="minutes">25</length>
+    <length units="minutes">30</length>
     <episode-num system="xmltv_ns">1..</episode-num>
     <premiere />
     <rating system="CSA">
@@ -2706,7 +2756,7 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
     <date>2017</date>
     <category lang="fr">documentaire : sciences et technique</category>
     <length units="minutes">125</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/398f0633-5e51-460b-b3d6-a326e0d85005.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d4aa3d60-ebfc-47c1-a68d-65c22722ffdf.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2774,23 +2824,23 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C80.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C80.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C80.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C80.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -2836,6 +2886,18 @@ Pour Isabelle Huppert, cette femme qui puise un terrible sadisme dans la souffra
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C80.api.telerama.fr">
+    <title>Plus belle la vie</title>
+    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
+    <category lang="fr">feuilleton réaliste</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
+    <episode-num system="xmltv_ns">16.4111.</episode-num>
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -4273,7 +4335,7 @@ On peut trouver cette évocation trop sage, trop retenue. C’est pourtant là s
     <date>2019</date>
     <category lang="fr">documentaire : société</category>
     <length units="minutes">55</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1903144b-c853-4a8e-8068-4422eacbd96d.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dd594435-b882-4aa8-838b-21aae7bb18ba.jpg" />
     <audio>
       <stereo>bilingual</stereo>
     </audio>
@@ -5644,9 +5706,9 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <title>Bienvenue chez nous</title>
     <sub-title>Béatrice et Pascal</sub-title>
     <desc lang="fr">Durant une semaine, quatre duos, propriétaires de maisons d'hôtes, se reçoivent à tour de rôle. Chacun est jugé et noté sur plusieurs critères : la convivialité, le cadre de la maison, la qualité des services proposés, la propreté de la chambre et les équipements, et le rapport qualité-prix. Chaque vendredi, le duo qui décroche le titre de meilleure maison d'hôtes de la semaine se voit remettre la somme de 3000 euros.</desc>
-    <category lang="fr">jeu</category>
+    <category lang="fr">magazine culinaire</category>
     <length units="hours">1</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fec55851-118b-4b03-a3d3-9fca65bf6fbe.jpg" />
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -6722,7 +6784,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <title>Si près de chez vous</title>
     <sub-title>Une femme trop belle pour lui</sub-title>
     <desc lang="fr">Saison:1 - Elsa, fraîchement arrivée dans un quartier résidentiel de Biarritz, fait une chute depuis le premier étage. Il ne s'agit pas d'un accident, puisqu'une personne a pris soin de refermer la fenêtre derrière elle. Qui pouvait avoir intérêt à se débarrasser d'Elsa ?</desc>
-    <category lang="fr">magazine de société</category>
+    <category lang="fr">magazine magazine de société</category>
     <length units="minutes">30</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6c9799a6-f06c-4650-a39f-fe95c66c0d34.jpg" />
     <episode-num system="xmltv_ns">0..</episode-num>
@@ -6735,7 +6797,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <title>Si près de chez vous</title>
     <sub-title>Dangereuse attirance</sub-title>
     <desc lang="fr">Saison:1 - Sandrine, une jeune femme de 23 ans, est retrouvée inanimée et blessée dans sa chambre. Elle devait se marier trois jours plus tard. Qui a pu vouloir briser son bonheur ?</desc>
-    <category lang="fr">magazine de société</category>
+    <category lang="fr">magazine magazine de société</category>
     <length units="hours">1</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6c9799a6-f06c-4650-a39f-fe95c66c0d34.jpg" />
     <episode-num system="xmltv_ns">0..</episode-num>
@@ -7061,23 +7123,53 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
     </rating>
   </programme>
-  <programme start="20200923001400 +0200" stop="20200923020100 +0200" channel="C445.api.telerama.fr">
+  <programme start="20200923001200 +0200" stop="20200923020700 +0200" channel="C445.api.telerama.fr">
     <title>La grosse rigolade ça continue</title>
     <sub-title>Best of</sub-title>
     <desc lang="fr">Devinettes, charades ou vannes : l'humour se décline sous toutes ses formes dans une émission qui a pour but de provoquer l'hilarité de ceux qui la regardent. Pour parvenir à ses fins, Cyril Hanouna donne la parole à des humoristes qui ne ménagent pas leur peine pour faire rire de bon coeur leur public.</desc>
     <category lang="fr">divertissement-humour</category>
-    <length units="minutes">107</length>
+    <length units="minutes">115</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923020100 +0200" stop="20200923021000 +0200" channel="C445.api.telerama.fr">
+  <programme start="20200923020700 +0200" stop="20200923021500 +0200" channel="C445.api.telerama.fr">
     <title>La minute mobilité</title>
     <sub-title>Le stationnement communautaire</sub-title>
     <category lang="fr">magazine de services</category>
-    <length units="minutes">9</length>
+    <length units="minutes">8</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d303a3bf-21d9-477f-bca8-5844795803d5.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923021500 +0200" stop="20200923023700 +0200" channel="C445.api.telerama.fr">
+    <title>Voyage au bout de la nuit</title>
+    <sub-title>Jeanne lit L'homme qui rit, Victor Hugo (n°9)</sub-title>
+    <category lang="fr">magazine littéraire</category>
+    <length units="minutes">22</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923023700 +0200" stop="20200923030300 +0200" channel="C445.api.telerama.fr">
+    <title>Voyage au bout de la nuit</title>
+    <sub-title>Jeanne lit L'homme qui rit, Victor Hugo (n°10)</sub-title>
+    <category lang="fr">magazine littéraire</category>
+    <length units="minutes">26</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923030300 +0200" stop="20200923060000 +0200" channel="C445.api.telerama.fr">
+    <title>Sélection C8</title>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">177</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ea42280e-b75f-4f51-94f1-57c2a88a51c7.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -7089,6 +7181,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
     <category lang="fr">fitness</category>
     <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c3aaa89d-bda8-43fa-bb29-dfed520f02c4.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -7099,6 +7192,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <desc lang="fr">De nouvelles personnalités invitées et toujours autant de vitalité incarnée par Sandrine Arcizet et son équipe de coachs du lundi au vendredi.</desc>
     <category lang="fr">fitness</category>
     <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c3aaa89d-bda8-43fa-bb29-dfed520f02c4.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -7109,6 +7203,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <category lang="fr">magazine de télé-achat</category>
     <length units="minutes">29</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -7156,7 +7251,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <desc lang="fr">Une bande de joyeux drilles décrypte avec humour l'actualité du petit écran, revenant sur les audiences ou évoquant les nouveautés à venir prochainement. Outre des scoops, différentes chroniques décalées sont également au programme.</desc>
     <category lang="fr">divertissement-humour</category>
     <length units="minutes">40</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/749266f5-29df-453b-a23d-06e0e9cddda9.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -7280,7 +7375,7 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <desc lang="fr">Un candidat ouvre une à une des boîtes, contenant différentes sommes, pour n'en garder qu'une et tenter de remporter un maximum d'argent.</desc>
     <category lang="fr">jeu</category>
     <length units="hours">1</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5952b788-0fc1-4aef-a3b7-af874da60fa0.jpg" />
     <new />
     <rating system="CSA">
       <value>Tout public</value>
@@ -7291,38 +7386,40 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <category lang="fr">divertissement-humour</category>
     <length units="minutes">90</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <new />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923204000 +0200" stop="20200923211500 +0200" channel="C445.api.telerama.fr">
+  <programme start="20200923204000 +0200" stop="20200923211600 +0200" channel="C445.api.telerama.fr">
     <title>Touche pas à mon poste !</title>
     <desc lang="fr">Une bande de joyeux drilles décrypte avec humour l'actualité du petit écran, revenant sur les audiences ou évoquant les nouveautés à venir prochainement. Outre des scoops, différentes chroniques décalées sont également au programme.</desc>
     <category lang="fr">divertissement-humour</category>
-    <length units="minutes">35</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <length units="minutes">36</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/749266f5-29df-453b-a23d-06e0e9cddda9.jpg" />
+    <new />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923211500 +0200" stop="20200923225700 +0200" channel="C445.api.telerama.fr">
+  <programme start="20200923211600 +0200" stop="20200923224900 +0200" channel="C445.api.telerama.fr">
     <title>Enquête sous haute tension</title>
     <sub-title>Gendarmes de Saint-Tropez : un été chaud sur la Côte d'Azur (n°2)</sub-title>
     <desc lang="fr">A Saint-Tropez, petit port de pêche popularisé par Brigitte Bardot, la population annuelle de 4000 habitants voit chaque année passer plus de 1,6 millions de vacanciers, des estivants ordinaires aux plus richissimes. La gendarmerie locale est donc mobilisée et doit souvent intervenir sur tous les fronts.</desc>
     <category lang="fr">magazine de reportages</category>
-    <length units="minutes">102</length>
+    <length units="minutes">93</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3a18b862-e976-48b8-aad0-0b8f0bfb8258.jpg" />
     <rating system="CSA">
       <value>-10</value>
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
     </rating>
   </programme>
-  <programme start="20200923225700 +0200" stop="20200924004200 +0200" channel="C445.api.telerama.fr">
+  <programme start="20200923224900 +0200" stop="20200924003000 +0200" channel="C445.api.telerama.fr">
     <title>Enquête sous haute tension</title>
     <sub-title>Gendarmes de Saint-Tropez : un été chaud sur la Côte d'Azur (n°1)</sub-title>
     <desc lang="fr">Saint-Tropez, qui abrite 4000 habitants à l'année, est devenu le lieu de villégiature des stars de la jet-set. La ville et les communes adjacentes accueillent chaque année richissimes estivants et touristes ordinaires. Des caméras ont suivi le quotidien des gendarmes de la presqu'île varoise.</desc>
     <category lang="fr">magazine de reportages</category>
-    <length units="minutes">105</length>
+    <length units="minutes">101</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d78d5b5e-b952-4cc3-aad9-97bf5bb9397d.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -7584,10 +7681,53 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923034000 +0200" stop="20200923060000 +0200" channel="C458.api.telerama.fr">
+  <programme start="20200923002600 +0200" stop="20200923013900 +0200" channel="C458.api.telerama.fr">
+    <title>Au coeur de l'enquête</title>
+    <sub-title>Gumball Race : 100 jours dans la course des milliardaires sans limites (n°2)</sub-title>
+    <desc lang="fr">A l'origine de la Gumball Race figure Maximilion Cooper, un ex-mannequin anglais de 43 ans. Il s'inspire du Cannonball, une course illégale des années 1970. Cette année, les participants partent de Londres et passent par la France et l'Italie. Ils n'ont que neuf jours pour rejoindre Tokyo au Japon.</desc>
+    <category lang="fr">magazine de reportages</category>
+    <length units="minutes">73</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/50437fe8-2e7f-47f7-b8ce-feb6bc4db653.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20200923013900 +0200" stop="20200923024700 +0200" channel="C458.api.telerama.fr">
+    <title>Au coeur de l'enquête</title>
+    <sub-title>Gumball Race : 100 jours dans la course des milliardaires sans limites (n°3)</sub-title>
+    <desc lang="fr">A l'origine de la Gumball Race figure Maximilion Cooper, un ex-mannequin anglais de 43 ans. Il s'inspire du Cannonball, une course illégale des années 1970. En 2018, les participants partent de Londres et passent par la France et l'Italie. Ils n'ont que neuf jours pour rejoindre Tokyo au Japon.</desc>
+    <category lang="fr">magazine de reportages</category>
+    <length units="minutes">68</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/50437fe8-2e7f-47f7-b8ce-feb6bc4db653.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20200923024700 +0200" stop="20200923033900 +0200" channel="C458.api.telerama.fr">
+    <title>Top France</title>
+    <desc lang="fr">Les meilleurs clips de la pop française selon CSTAR!</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">52</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923033900 +0200" stop="20200923051900 +0200" channel="C458.api.telerama.fr">
     <title>Nuit française</title>
     <category lang="fr">clips</category>
-    <length units="minutes">140</length>
+    <length units="minutes">100</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -7718,7 +7858,6 @@ Franc succès en Allemagne à sa sortie, ce téléfilm retrace la biographie d�
     <category lang="fr">clips</category>
     <length units="minutes">70</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/e7577f0e-e77f-488c-a6cd-4640c88050bf.jpg" />
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -7860,21 +7999,9 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>4/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923001400 +0200" stop="20200923001900 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923001500 +0200" stop="20200923001900 +0200" channel="C459.api.telerama.fr">
     <title>Clips Polynésie</title>
     <sub-title>Rainui Temanihi "Te pape"</sub-title>
-    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
-    <category lang="fr">clips</category>
-    <length units="minutes">5</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923001900 +0200" stop="20200923002300 +0200" channel="C459.api.telerama.fr">
-    <title>Clips Polynésie</title>
-    <sub-title>Mehani Teato / Corona viru'e</sub-title>
     <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
     <category lang="fr">clips</category>
     <length units="minutes">4</length>
@@ -7884,7 +8011,19 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923002300 +0200" stop="20200923002900 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923001900 +0200" stop="20200923002400 +0200" channel="C459.api.telerama.fr">
+    <title>Clips Polynésie</title>
+    <sub-title>Mehani Teato / Corona viru'e</sub-title>
+    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923002400 +0200" stop="20200923003000 +0200" channel="C459.api.telerama.fr">
     <title>Clips Polynésie</title>
     <sub-title>Koru "Ia heiva"</sub-title>
     <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
@@ -7896,7 +8035,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923002900 +0200" stop="20200923005200 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923003000 +0200" stop="20200923005300 +0200" channel="C459.api.telerama.fr">
     <title>Journal Polynésie</title>
     <desc lang="fr">Retrouvez toute l'actualité de Polynésie.</desc>
     <category lang="fr">journal</category>
@@ -7907,12 +8046,14 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923005200 +0200" stop="20200923005800 +0200" channel="C459.api.telerama.fr">
-    <title>La petite collection couleurs Outremers</title>
-    <sub-title>Mamas Shingos</sub-title>
-    <category lang="fr">documentaire : découvertes</category>
-    <length units="minutes">6</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d76fc5f3-b6f5-48e0-a02b-fa2e2a340060.jpg" />
+  <programme start="20200923005300 +0200" stop="20200923005800 +0200" channel="C459.api.telerama.fr">
+    <title>Clips Polynésie</title>
+    <sub-title>Teiva lc Tiare Tetoe "L'oiseau des océans"</sub-title>
+    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8056,66 +8197,6 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923050800 +0200" stop="20200923051600 +0200" channel="C459.api.telerama.fr">
-    <title>Yétili</title>
-    <sub-title>La Tempête</sub-title>
-    <desc lang="fr">Saison:1 - Episode:18 - Chaque jour, Nina et Léon, deux petites souris, retrouvent Yétili, la mascotte de la librairie du quartier. Ensemble, ils lisent et voyagent au pays des albums.</desc>
-    <category lang="fr">série jeunesse</category>
-    <length units="minutes">8</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b849b43b-65ca-4653-97dd-69dc22497c8f.jpg" />
-    <episode-num system="xmltv_ns">0.17.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923051600 +0200" stop="20200923052700 +0200" channel="C459.api.telerama.fr">
-    <title>Zou</title>
-    <sub-title>Zou l'entraîneur particulier</sub-title>
-    <desc lang="fr">Saison:3 - Episode:35 - Zou est d'avis que Zigmund et Zoroastre ont sérieusement besoin d'un entraînement physique. Il se propose comme entraîneur particulier. Mais lorsque la session d'entraînement devient un peu trop fatigante, ils décident de prendre une pause...</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">11</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/710c3c81-d036-48a5-9a74-ec90e36a88af.jpg" />
-    <episode-num system="xmltv_ns">2.34.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923052700 +0200" stop="20200923053900 +0200" channel="C459.api.telerama.fr">
-    <title>Zou</title>
-    <sub-title>Zou et le parcours à vélo</sub-title>
-    <desc lang="fr">Saison:3 - Episode:36 - Zowie organise un parcours à vélo dans le gymnase pour apprendre aux enfants à bien maîtriser leur engin. Zinnia est surexcitée et Zou, plus posé, lui montre ses erreurs...</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">12</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/710c3c81-d036-48a5-9a74-ec90e36a88af.jpg" />
-    <episode-num system="xmltv_ns">2.35.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053900 +0200" stop="20200923055100 +0200" channel="C459.api.telerama.fr">
-    <title>Martin Matin</title>
-    <sub-title>Lucky Martin</sub-title>
-    <desc lang="fr">Saison:4 - Martin est un petit garçon de sept ans qui semble tout à fait ordinaire. Mais il vit des aventures extraordinaires tous les matins, en se réveillant dans la peau d'un nouveau personnage. Ses histoires le mènent parfois jusqu'au bout du monde.</desc>
-    <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">12</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/a3a5c6b5-dd62-4615-81c1-4d98df7a5c13.jpg" />
-    <episode-num system="xmltv_ns">3..</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923055100 +0200" stop="20200923060100 +0200" channel="C459.api.telerama.fr">
-    <title>Sam le pompier</title>
-    <sub-title>Le chant des baleines</sub-title>
-    <desc lang="fr">Saison:3 - Episode:9 - A Pontypandy, armé de sa lance à incendie et de beaucoup de courage, Sam le pompier est sur tous les fronts.</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">10</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05d5905a-ef99-4553-86b1-0d8746db42d5.jpg" />
-    <episode-num system="xmltv_ns">2.8.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200923060100 +0200" stop="20200923061300 +0200" channel="C459.api.telerama.fr">
     <title>Sam le pompier</title>
     <sub-title>Un tour en montgolfière</sub-title>
@@ -8124,18 +8205,6 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <length units="minutes">12</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05d5905a-ef99-4553-86b1-0d8746db42d5.jpg" />
     <episode-num system="xmltv_ns">2.9.</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923061300 +0200" stop="20200923070000 +0200" channel="C459.api.telerama.fr">
-    <title>Fare Ma'ohi</title>
-    <sub-title>Silvio Cicéro</sub-title>
-    <desc lang="fr">Emere et Lovaina invitent ceux qui font bouger le quotidien polynésien! Dans ce magazine d'actualités se mêlent interviews, informations, conseils et prestations live de chanteurs, musiciens, danseurs, humoristes. Et pour encore plus de proximité, l'émission est régulièrement décentralisée lors d'événements importants.</desc>
-    <category lang="fr">magazine de l'art de vivre</category>
-    <length units="minutes">47</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1d3d4858-dacd-485d-b200-45bfd75e25d4.jpg" />
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8243,18 +8312,6 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923100500 +0200" stop="20200923101000 +0200" channel="C459.api.telerama.fr">
-    <title>Clips Polynésie</title>
-    <sub-title>Rainui Temanihi "Te pape"</sub-title>
-    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
-    <category lang="fr">clips</category>
-    <length units="minutes">5</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200923101000 +0200" stop="20200923110300 +0200" channel="C459.api.telerama.fr">
     <title>Les carnets de Julie</title>
     <sub-title>Le Perche</sub-title>
@@ -8278,22 +8335,22 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923110800 +0200" stop="20200923115000 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923110800 +0200" stop="20200923115100 +0200" channel="C459.api.telerama.fr">
     <title>Mara, une femme unique</title>
     <desc lang="fr">Saison:2 - Episode:178 - L'effondrement d'une grande banque nationale déclenche l'affrontement de deux réalités et le conflit entre deux familles.</desc>
     <category lang="fr">feuilleton sentimental</category>
-    <length units="minutes">42</length>
+    <length units="minutes">43</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b8528e51-e433-48a2-95b6-17628a7fca71.jpg" />
     <episode-num system="xmltv_ns">1.177.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923115000 +0200" stop="20200923120000 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923115100 +0200" stop="20200923120000 +0200" channel="C459.api.telerama.fr">
     <title>Ha'uti mai</title>
     <desc lang="fr">?"Ha'uti mai", votre divertissement de culture générale, c'est le nouveau rendez-vous fun de Polynésie la 1ère. Yépo testera vos connaissances de manière ludique et comique</desc>
     <category lang="fr">jeu</category>
-    <length units="minutes">10</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -8529,17 +8586,17 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923180600 +0200" stop="20200923181500 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923180600 +0200" stop="20200923181900 +0200" channel="C459.api.telerama.fr">
     <title>Ha'uti mai</title>
     <desc lang="fr">?"Ha'uti mai", votre divertissement de culture générale, c'est le nouveau rendez-vous fun de Polynésie la 1ère. Yépo testera vos connaissances de manière ludique et comique</desc>
     <category lang="fr">jeu</category>
-    <length units="minutes">9</length>
+    <length units="minutes">13</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923181500 +0200" stop="20200923181900 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923181900 +0200" stop="20200923182300 +0200" channel="C459.api.telerama.fr">
     <title>Sah ke bon camera</title>
     <desc lang="fr">SAH KE BON CAM : un programme de caméra cachée qui s'amuse à piéger des anonymes mais aussi des personnalités du fenua. Souriez, vous êtes piégés sur Polynésie la 1ère !</desc>
     <category lang="fr">divertissement</category>
@@ -8549,7 +8606,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923181900 +0200" stop="20200923182500 +0200" channel="C459.api.telerama.fr">
+  <programme start="20200923182300 +0200" stop="20200923182900 +0200" channel="C459.api.telerama.fr">
     <title>Spots cancer</title>
     <category lang="fr">magazine d'information</category>
     <length units="minutes">6</length>
@@ -8558,21 +8615,21 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923182500 +0200" stop="20200923182900 +0200" channel="C459.api.telerama.fr">
-    <title>Météo</title>
-    <category lang="fr">météo</category>
-    <length units="minutes">4</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+  <programme start="20200923182900 +0200" stop="20200923184000 +0200" channel="C459.api.telerama.fr">
+    <title>Ve'a Tahiti</title>
+    <desc lang="fr">La rédaction est au coeur de l'information avec des directs, des décryptages, des témoignages et des reportages de toute l'actualité.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">11</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923182900 +0200" stop="20200923185300 +0200" channel="C459.api.telerama.fr">
-    <title>Ve'a Tahiti</title>
-    <desc lang="fr">La rédaction est au coeur de l'information avec des directs, des décryptages, des témoignages et des reportages de toute l'actualité.</desc>
-    <category lang="fr">journal</category>
-    <length units="minutes">24</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+  <programme start="20200923184000 +0200" stop="20200923185300 +0200" channel="C459.api.telerama.fr">
+    <title>Météo</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">13</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8671,7 +8728,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>Le journal de la nuit</title>
     <category lang="fr">journal</category>
     <length units="minutes">270</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/9985e143-5f4c-4da5-80b4-2b7acf122ef8.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/86671421-82b9-4834-867b-eb0b7a997b6e.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8691,7 +8748,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <desc lang="fr">Du lundi au vendredi dès 6h, Adeline François et Christophe Delay donnent rendez-vous pour plusieurs heures d'info avec dynamisme et convivialité.</desc>
     <category lang="fr">journal</category>
     <length units="minutes">150</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b37030ec-3c97-40a8-b465-44ebc01f8cda.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6280c3d1-e234-4765-9a7c-5ee75b9600e5.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8710,7 +8767,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>Le Live Toussaint</title>
     <category lang="fr">magazine d'actualité</category>
     <length units="hours">3</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/df258386-eab9-42f8-b9e3-80093c62749a.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f0ec5771-941f-4a7d-8385-9ed3ff5c245a.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8729,7 +8786,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <desc lang="fr">Karine de Ménonville et François Gapihan sont aux commandes de la session d'information de l'après-midi. Ils mettent au service des téléspectateurs leur expertise de l'information. Ils nous font vivre en direct toute l'actualité du coeur de la journée.</desc>
     <category lang="fr">journal</category>
     <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b5e5772c-59f1-41d2-b224-5dca48cf7e6b.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/77aa7b08-e55d-4e56-8575-858fd217238c.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8739,7 +8796,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <desc lang="fr">Olivier Truchot reçoit chaque jour en plateau des invités qui se prêtent à l'exercice de l'interview ou du débat pour éclairer un point fort de l'actualité et aller plus loin sur le sujet.</desc>
     <category lang="fr">magazine d'actualité</category>
     <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ceca45a3-999a-4bd7-975b-e1dc988d83ca.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/15af99c2-63ac-48d7-9f85-5353d60a611d.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8748,7 +8805,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>120% NEWS</title>
     <category lang="fr">journal</category>
     <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fc49dff-2a01-4dab-99c2-92773ebc6fdc.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8757,7 +8814,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>Ligne rouge</title>
     <category lang="fr">magazine d'actualité</category>
     <length units="hours">1</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/df258386-eab9-42f8-b9e3-80093c62749a.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ef0bd9ab-2011-4d10-80a6-cd1cad9f0ab6.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -8766,7 +8823,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>22H MAX</title>
     <category lang="fr">magazine d'actualité</category>
     <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/df258386-eab9-42f8-b9e3-80093c62749a.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/074e8ed4-3c4c-4f77-8fa8-6bfb37675e49.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -9065,71 +9122,6 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923051000 +0200" stop="20200923051700 +0200" channel="C482.api.telerama.fr">
-    <title>Oggy et les cafards</title>
-    <sub-title>Oggy et le grand méchant loup</sub-title>
-    <desc lang="fr">Saison:7 - Episode:64 - Un loup s'échappe du pénitencier et rôde dans le quartier d'Oggy pour trouver à manger. Lorsqu'il avale Oggy et Joey, Marky et Dee Dee cherchent à les sortir de là. C'est Olivia dans le rôle du petit chaperon rouge qui aura raison de ce grand méchant loup...</desc>
-    <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">7</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/451fb749-c493-4180-925b-6fe919246876.jpg" />
-    <episode-num system="xmltv_ns">6.63.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923051700 +0200" stop="20200923052400 +0200" channel="C482.api.telerama.fr">
-    <title>Oggy et les cafards</title>
-    <sub-title>Mauvais perdants</sub-title>
-    <desc lang="fr">Saison:7 - Episode:65 - Lorsque les cafards sabotent un jeu virtuel dans lequel Oggy et Jack écrasent des cafards les chats décident de s'affronter en jouant à des jeux traditionnels. Les cafards s'amusent à semer la zizanie entre les deux joueurs que le meilleur gagne...</desc>
-    <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">7</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/451fb749-c493-4180-925b-6fe919246876.jpg" />
-    <episode-num system="xmltv_ns">6.64.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923052400 +0200" stop="20200923053500 +0200" channel="C482.api.telerama.fr">
-    <title>Oggy et les cafards</title>
-    <sub-title>Cafards XXL</sub-title>
-    <desc lang="fr">Saison:7 - Episode:66 - Oggy installe une paire de jumelles pour observer les cafards. Opportunistes et inspirées, les blattes profitent de son assoupissement pour placer sous chacune de ses paupières les lentilles des jumelles. Abusé par l'effet de loupe, Oggy émerge dans un décor familier qui a pris des proportions gigantesques et brusquement effrayantes. Eberlué, Oggy déambule avec précaution dans cette nouvelle dimension et se heurte à de curieux obstacles : des cafards géants...</desc>
-    <category lang="fr">jeunesse : dessin animé</category>
-    <length units="minutes">11</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/451fb749-c493-4180-925b-6fe919246876.jpg" />
-    <episode-num system="xmltv_ns">6.65.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923054700 +0200" channel="C482.api.telerama.fr">
-    <title>Maya l'abeille 3D</title>
-    <sub-title>Philibert</sub-title>
-    <desc lang="fr">Saison:1 - Episode:9 - Maya et Willy détruisent l'habitat d'un ver de pomme par mégarde. Maya lui cherche un nouvel endroit tranquille mais Philibert, craintif, abuse de sa gentillesse...</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">12</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d16d8bfe-79c1-4a5c-a312-9247b02bef06.jpg" />
-    <episode-num system="xmltv_ns">0.8.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923054700 +0200" stop="20200923060000 +0200" channel="C482.api.telerama.fr">
-    <title>Maya l'abeille 3D</title>
-    <sub-title>Choruche Line</sub-title>
-    <desc lang="fr">Saison:1 - Episode:10 - Maya n'arrive pas à apprendre la danse des abeilles qui sert à s'orienter. Flip va l'aider et grâce à son enseignement, Maya va pouvoir indiquer à la chef des butineuses un champs de fleurs qui permettra de nourrir la nouvelle couvée de larves...</desc>
-    <category lang="fr">série d'animation</category>
-    <length units="minutes">13</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/155778dd-4b56-4f9a-84e7-520b0b99ba66.jpg" />
-    <episode-num system="xmltv_ns">0.9.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200923060000 +0200" stop="20200923060700 +0200" channel="C482.api.telerama.fr">
     <title>Katuri</title>
     <sub-title>Episode 51</sub-title>
@@ -9398,7 +9390,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
   <programme start="20200923094500 +0200" stop="20200923095600 +0200" channel="C482.api.telerama.fr">
     <title>Bienvenue chez les Loud</title>
     <sub-title>La course au cadeau</sub-title>
-    <desc lang="fr">Saison:4 - Episode:12 - Lincoln et ses soeurs partent à la recherche d'un cadeau d'anniversaire pour leur papa.</desc>
+    <desc lang="fr">Saison:4 - Episode:12 - Lincoln et ses soeurs partent à la recherche d'un cadeau d'anniversaire pour leur papa...</desc>
     <category lang="fr">jeunesse : dessin animé</category>
     <length units="minutes">11</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45d58d03-714f-480a-9626-7e70e9ef434b.jpg" />
@@ -9843,6 +9835,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <length units="minutes">11</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/2c1ccffc-baec-43e1-b005-92dd4ba040a2.jpg" />
     <episode-num system="xmltv_ns">3.37.</episode-num>
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -10793,7 +10786,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     </credits>
     <category lang="fr">téléfilm policier</category>
     <length units="minutes">105</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/aef793e5-488b-4548-ac0f-abc308c27837.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/521a0bdb-f722-4c35-a201-f9014008918a.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -10875,7 +10868,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <sub-title>Les bouchées doubles</sub-title>
     <desc lang="fr">Saison:4 - Richard Rawlings et Aaron Kaufman sillonnent le Texas pour acheter des voitures classiques à l'abandon et les restaurent dans leur garage Gas Monkey à Dallas.</desc>
     <date>2016</date>
-    <category lang="fr">documentaire : téléréalité</category>
+    <category lang="fr">documentaire téléréalité</category>
     <length units="minutes">65</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a42828e-d04e-48cb-ab69-169a215802e0.jpg" />
     <episode-num system="xmltv_ns">3..</episode-num>
@@ -11256,7 +11249,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>Le Serial Killer de Long Island</title>
     <desc lang="fr">En décembre 2010, le long d'une route de Long Island dans l'Etat de New York, un détective découvre des restes humains. Suite à des recherches approfondies du secteur, 10 corps de femmes sont peu à peu retrouvés. La police est sur la piste d'un tueur en série. Les enquêteurs soupçonnent un habitant du quartier aisé d'Oak Beach, non loin de cette funeste route. La réalisatrice Louise Osmond s'est intéressé à ce dossier. Pendant des mois, elle a enquêté en partant à la recherche d'indices pouvant aider la résolution de ce fait divers sordide.</desc>
     <date>2011</date>
-    <category lang="fr">documentaire : justice</category>
+    <category lang="fr">documentaire justice</category>
     <length units="minutes">125</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fdac1b87-0bde-4132-9f27-2e504f4296bc.jpg" />
     <rating system="CSA">
@@ -11294,7 +11287,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>Les amants maudits</title>
     <sub-title>Fausse promesse</sub-title>
     <date>2018</date>
-    <category lang="fr">documentaire : justice</category>
+    <category lang="fr">documentaire justice</category>
     <length units="hours">1</length>
     <premiere />
     <rating system="CSA">
@@ -11306,7 +11299,7 @@ Steven Moffat, génial relecteur des classiques britanniques (Jekyll, c’était
     <title>Les amants maudits</title>
     <sub-title>Secrets et péchés</sub-title>
     <date>2018</date>
-    <category lang="fr">documentaire : justice</category>
+    <category lang="fr">documentaire justice</category>
     <length units="minutes">55</length>
     <premiere />
     <rating system="CSA">
@@ -12548,23 +12541,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1921.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1921.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1921.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1921.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -12610,18 +12603,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1921.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -13242,23 +13223,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1922.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1922.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1922.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1922.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -13304,18 +13285,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1922.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -13959,23 +13928,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1923.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1923.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1923.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1923.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -14021,18 +13990,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1923.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -14655,23 +14612,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1924.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1924.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1924.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1924.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -14717,18 +14674,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1924.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -15349,23 +15294,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1925.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1925.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1925.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1925.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -15411,18 +15356,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1925.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -16043,23 +15976,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1926.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1926.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1926.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1926.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -16105,18 +16038,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1926.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -16737,23 +16658,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1927.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1927.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1927.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1927.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -16799,18 +16720,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1927.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -17449,23 +17358,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1928.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1928.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1928.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1928.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -17511,6 +17420,18 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1928.api.telerama.fr">
+    <title>Plus belle la vie</title>
+    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
+    <category lang="fr">feuilleton réaliste</category>
+    <length units="minutes">25</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
+    <episode-num system="xmltv_ns">16.4111.</episode-num>
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -18137,23 +18058,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1929.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1929.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1929.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1929.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -18199,18 +18120,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1929.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -18850,23 +18759,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1931.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1931.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1931.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1931.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -18912,18 +18821,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1931.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -19572,23 +19469,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1932.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1932.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1932.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1932.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -19634,18 +19531,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1932.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -20264,23 +20149,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1933.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1933.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1933.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1933.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -20326,18 +20211,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1933.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -20958,23 +20831,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1934.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1934.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1934.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1934.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -21020,18 +20893,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1934.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -21652,23 +21513,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1935.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1935.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1935.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1935.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -21714,18 +21575,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1935.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -22328,23 +22177,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1936.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1936.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1936.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1936.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -22390,18 +22239,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1936.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -23022,23 +22859,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1937.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1937.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1937.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1937.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -23084,18 +22921,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1937.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -23716,23 +23541,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1938.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1938.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1938.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1938.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -23778,18 +23603,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1938.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -24301,23 +24114,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1939.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1939.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1939.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1939.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -24363,18 +24176,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1939.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -24906,23 +24707,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1940.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1940.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1940.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1940.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -24968,18 +24769,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1940.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -25566,23 +25355,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1941.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1941.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1941.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1941.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -25628,18 +25417,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1941.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -26240,23 +26017,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1942.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1942.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1942.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1942.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -26302,18 +26079,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1942.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -26903,23 +26668,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1943.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1943.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1943.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1943.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -26965,18 +26730,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1943.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -27628,23 +27381,23 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200923023500 +0200" stop="20200923024000 +0200" channel="C1944.api.telerama.fr">
+  <programme start="20200923023500 +0200" stop="20200923024400 +0200" channel="C1944.api.telerama.fr">
     <title>Un livre, un jour</title>
     <sub-title>Sous le ciel vide</sub-title>
     <desc lang="fr">Magazine littéraire.</desc>
     <category lang="fr">magazine littéraire</category>
-    <length units="minutes">5</length>
+    <length units="minutes">9</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7fe004f9-7d57-469c-851b-85140b3a6846.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200923024000 +0200" stop="20200923033500 +0200" channel="C1944.api.telerama.fr">
+  <programme start="20200923024400 +0200" stop="20200923033500 +0200" channel="C1944.api.telerama.fr">
     <title>Sport en suspens</title>
     <date>2020</date>
     <category lang="fr">documentaire : sport</category>
-    <length units="minutes">55</length>
+    <length units="minutes">51</length>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
@@ -27690,18 +27443,6 @@ A partir d’un scénario écrit par la crème du métier — Jacques Fansten, C
     <category lang="fr">jeu</category>
     <length units="minutes">40</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05efffbd-6136-4c5f-a831-9ad1c875f2ff.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200923053500 +0200" stop="20200923060000 +0200" channel="C1944.api.telerama.fr">
-    <title>Plus belle la vie</title>
-    <desc lang="fr">Saison:17 - Episode:4112 - Le comportement de Roland choque ses proches. Les préparatifs des mariages de Samia et Boher repartent d'un mauvais pied. Mouss et Mila se lancent un défi.</desc>
-    <category lang="fr">feuilleton réaliste</category>
-    <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/24a93b82-9cac-4218-9720-eed21d415a1e.jpg" />
-    <episode-num system="xmltv_ns">16.4111.</episode-num>
-    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>

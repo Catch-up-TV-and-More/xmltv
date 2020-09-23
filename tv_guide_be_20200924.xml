@@ -4092,7 +4092,7 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200924223400" stop="20200924224400">
+  <programme channel="C164.api.telerama.fr" start="20200924222400" stop="20200924223400">
     <title>Quel temps !</title>
     <desc lang="fr">Découvrez les coulisses du climat chez nous et à l'autre bout du monde. Des changements climatiques aux énergies renouvelables, toutes les questions scientifiques seront abordées.</desc>
     <category lang="fr">météo</category>
@@ -4103,7 +4103,7 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200924224400" stop="20200924224800">
+  <programme channel="C164.api.telerama.fr" start="20200924223400" stop="20200924223800">
     <title>Météo</title>
     <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
     <category lang="fr">météo</category>
@@ -4114,7 +4114,7 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200924224800" stop="20200924232400">
+  <programme channel="C164.api.telerama.fr" start="20200924223800" stop="20200924231400">
     <title>JT 19h30</title>
     <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
     <category lang="fr">journal</category>
@@ -4125,7 +4125,7 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200924232400" stop="20200925000700">
+  <programme channel="C164.api.telerama.fr" start="20200924231400" stop="20200924235700">
     <title>On n'est pas des pigeons</title>
     <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
     <category lang="fr">magazine du consommateur</category>
@@ -4136,10 +4136,21 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
+  <programme channel="C164.api.telerama.fr" start="20200924235700" stop="20200925000000">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C168.api.telerama.fr" start="20200924223500" stop="20200924224500">
     <title>Loïc, fou de cuisine</title>
+    <sub-title>Cordon bleu sauce Mornay</sub-title>
     <desc lang="fr">Saison:2 - Loïc n'est pas un " Chef " mais un fou de cuisine ! Ses grands-parents et parents sont à la base de son éducation culinaire et c'est grâce aux livres, à la télévision, Facebook, YouTube et Instagram que Loïc a poursuivi son apprentissage. Sa cuisine est super rapide, facile et toujours gourmande. Soucieux de son époque et du monde dans lequel il vit, il essaie de privilégier les produits de saison et locaux au travers des recettes qu'il nous présente.</desc>
-    <category lang="fr">magazine magazine culinaire</category>
+    <category lang="fr">magazine culinaire</category>
     <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fec55851-118b-4b03-a3d3-9fca65bf6fbe.jpg" />
     <episode-num system="xmltv_ns">1..</episode-num>
@@ -4181,34 +4192,45 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C187.api.telerama.fr" start="20200924220500" stop="20200924221200">
+  <programme channel="C187.api.telerama.fr" start="20200924221200" stop="20200924221800">
     <title>Vews</title>
     <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
     <category lang="fr">magazine d'actualité</category>
-    <length units="minutes">7</length>
+    <length units="minutes">6</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f5ccc318-19b5-4485-9922-2947fa2dcee7.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C187.api.telerama.fr" start="20200924221200" stop="20200924221600">
+  <programme channel="C187.api.telerama.fr" start="20200924221800" stop="20200924222100">
     <title>Météo</title>
     <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
     <category lang="fr">météo</category>
-    <length units="minutes">4</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <length units="minutes">3</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C187.api.telerama.fr" start="20200924221600" stop="20200925002000">
+  <programme channel="C187.api.telerama.fr" start="20200924222100" stop="20200924235400">
     <title>Le grand cactus</title>
-    <desc lang="fr">Jérôme de Warzée et toute sa bande animent une sixième saison du "Grand Cactus". Si le décor du plateau a changé, la bande de comédiens reste la même, pour décortiquer l'actualité belge et internationale sous le prisme de l'humour. Au programme : des parodies, des billets d'humeur et bien d'autres séquences.</desc>
+    <sub-title>Avec Maître Miyagi, Le chasseur Panpan Kiki, et la Famille Royale de Belgique</sub-title>
+    <desc lang="fr">Au programme : la sortie de la suite du film " Karaté Kid ", l'ouverture de la chasse en Wallonie et Delphine Boël qui souhaite obtenir le titre de Princesse de Belgique.</desc>
     <category lang="fr">divertissement</category>
-    <length units="minutes">124</length>
+    <length units="minutes">93</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200924235400" stop="20200925000000">
+    <title>Vews</title>
+    <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/df258386-eab9-42f8-b9e3-80093c62749a.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -4241,18 +4263,18 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C892.api.telerama.fr" start="20200924224200" stop="20200924231100">
+  <programme channel="C892.api.telerama.fr" start="20200924224100" stop="20200924230000">
     <title>OpinionS</title>
     <sub-title>Les coulisses du PS</sub-title>
     <desc lang="fr">OpinionS est un magazine sociétal qui laisse la parole aux grands partis politiques démocratiques présents en Belgique francophone et aux associations professionnelles tant patronales, comme la Fédération Wallonne de l'Agriculture et l'Union des Classes Moyennes, que syndicales, c'est-à-dire FGTB, CSC et CGSLB.</desc>
     <category lang="fr">magazine politique</category>
-    <length units="minutes">29</length>
+    <length units="minutes">19</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8c54e999-6001-4506-b435-58301e6ea2e4.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C892.api.telerama.fr" start="20200924231100" stop="20200924234600">
+  <programme channel="C892.api.telerama.fr" start="20200924230000" stop="20200924233500">
     <title>JT 19h30</title>
     <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
     <category lang="fr">journal</category>
@@ -4263,11 +4285,23 @@ Avec cette chômeuse tout droit sortie du cinéma réaliste, qui évoque a prior
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C892.api.telerama.fr" start="20200924234600" stop="20200924235000">
+  <programme channel="C892.api.telerama.fr" start="20200924233500" stop="20200924234000">
     <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
     <category lang="fr">météo</category>
-    <length units="minutes">4</length>
+    <length units="minutes">5</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C892.api.telerama.fr" start="20200924234000" stop="20200924235000">
+    <title>CQFD (Ce qui fait débat)</title>
+    <desc lang="fr">Du lundi au jeudi, un rendez-vous avec l'info : un fait du jour décrypté par Arnaud Ruyssen et Catherine Tonero, un face à face sur une question polémique, un débat contradictoire de 25 minutes opposant acteurs de terrain, observateurs et commentateurs de l'actualité. Le vendredi, c'est toute l'actu de la semaine qui est analysée par Arnaud Ruyssen et ses invités.</desc>
+    <category lang="fr">débat</category>
+    <length units="minutes">10</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/87c41bfa-32ff-4927-a96e-5894df2bb890.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>

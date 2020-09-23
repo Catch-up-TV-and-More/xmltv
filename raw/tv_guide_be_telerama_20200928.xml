@@ -54,16 +54,6 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200928100000 +0200" stop="20200928120000 +0200" channel="C23.api.telerama.fr">
-    <title>Radio 2 op Één</title>
-    <category lang="fr">divertissement</category>
-    <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200928120000 +0200" stop="20200928122000 +0200" channel="C23.api.telerama.fr">
     <title>Herfstbeelden</title>
     <category lang="fr">emission spéciale</category>
@@ -149,16 +139,6 @@
     <category lang="fr">magazine animalier</category>
     <length units="minutes">20</length>
     <episode-num system="xmltv_ns">2..</episode-num>
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200928160000 +0200" stop="20200928164500 +0200" channel="C23.api.telerama.fr">
-    <title>Destination Wild : Amérique centrale</title>
-    <sub-title>Wild Honduras</sub-title>
-    <category lang="fr">documentaire : animalier</category>
-    <length units="minutes">45</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/be9d5f4a-806c-4dfc-8754-1462122617b5.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -300,16 +280,6 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200928221500 +0200" stop="20200928223000 +0200" channel="C23.api.telerama.fr">
-    <title>Het journaal</title>
-    <category lang="fr">journal</category>
-    <length units="minutes">15</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a422aeb-fdfa-499c-afe7-966aa53b92e6.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200928223000 +0200" stop="20200928223500 +0200" channel="C23.api.telerama.fr">
     <title>Het weer</title>
     <category lang="fr">météo</category>
@@ -387,6 +357,28 @@
     <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
     <category lang="fr">magazine de télé-achat</category>
     <length units="minutes">295</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200928050000 +0200" stop="20200928053000 +0200" channel="C50.api.telerama.fr">
+    <title>RTL - De Journal</title>
+    <desc lang="fr">Suivez les actualités du journal télévisé en luxembourgeois.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200928053000 +0200" stop="20200928062000 +0200" channel="C50.api.telerama.fr">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">50</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -847,6 +839,16 @@ Après Du sang et des larmes (2013), où il dénonçait avec force les ratés de
     <length units="minutes">164</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200928055900 +0200" stop="20200928080000 +0200" channel="C164.api.telerama.fr">
+    <title>Le 6-8</title>
+    <desc lang="fr">Le 6-8 est la matinale qui vous réveille en images ! Rythmée par l'info-trafic et la météo, l'émission animée par Sara De Paduwa accueille chaque matin une bande sympathique pour des chroniques variées.</desc>
+    <category lang="fr">magazine de services</category>
+    <length units="minutes">121</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d303a3bf-21d9-477f-bca8-5844795803d5.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1373,32 +1375,6 @@ Ce thriller singulier est centré sur des personnages fragiles, a priori étrang
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200928133500 +0200" stop="20200928151500 +0200" channel="C168.api.telerama.fr">
-    <title>A Daughter's Plan To Kill</title>
-    <desc lang="fr">Greg et Katie Carlyle vivent une existence de rêve : belle maison, mariage heureux et enfants épanouis. Le couple décide de partager son bonheur avec Samantha, la fille que Greg a eue lors d'une précédente union. Mais, avec l'arrivée de l'adolescente, c'est tout un monde de violence, de jalousie et de drame qui entre dans leur foyer parfait...</desc>
-    <credits>
-      <director>Ian Niles</director>
-      <actor role="Katie">Claire Coffee</actor>
-      <actor role="Greg">Matt Dallas</actor>
-      <actor role="Trevor">Donald Dash</actor>
-      <actor role="Lauren">Lauren DiMario</actor>
-      <actor role="Ryan">Jabari Gray</actor>
-      <actor role="Heather">Chandler Lovelle</actor>
-      <actor role="Tommy">Liam Obergfoll</actor>
-      <actor role="Samantha">Jordan Lane Price</actor>
-      <writer>Chanon Finley</writer>
-      <writer>Charlie Phoenix</writer>
-      <composer>Andrew Akler</composer>
-    </credits>
-    <category lang="fr">téléfilm de suspense</category>
-    <length units="minutes">100</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5cab2189-c267-4443-bf09-91b8b890a620.jpg" />
-    <premiere />
-    <rating system="CSA">
-      <value>-10</value>
-      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
-    </rating>
-  </programme>
   <programme start="20200928151500 +0200" stop="20200928160500 +0200" channel="C168.api.telerama.fr">
     <title>Les mamans</title>
     <desc lang="fr">Pour cette nouvelle saison, 9 jeunes mamans nous font partager leur quotidien de mère, leur vie de femme, leurs petits succès, leurs grandes victoires et leurs combats : un mariage, une naissance, l'entrée à l'école maternelle, les premiers pas des enfants, les joies mais aussi les difficultés du quotidien… Durant plusieurs semaines, nous les avons suivies au gré de leur vie : entourées de leurs enfants, de leurs conjoints, de leurs familles et amis. Elles se livrent sans tabou et sous le regard toujours bienveillant de nos caméras !</desc>
@@ -1598,8 +1574,7 @@ Ce thriller singulier est centré sur des personnages fragiles, a priori étrang
   </programme>
   <programme start="20200928010600 +0200" stop="20200928015100 +0200" channel="C187.api.telerama.fr">
     <title>Inside</title>
-    <sub-title>Inside</sub-title>
-    <desc lang="fr">La nouvelle saison d'INSIDE débutera avec le mot clé : NOUVEAUTE. Nouveau duo, Olivier Fraipont co-animera l'émission aux côtés de Jessica. Ils évoqueront ensemble le nouveau média de la RTBF : TIPIK. Sans oublier, les rendez-vous habituels comme la mission de média Woman, le portrait, les coulisses du JT et enfin la question des médias qui s'intéressera à la conduite.</desc>
+    <desc lang="fr">Projet transversal de la RTBF présenté par Jessica Riga et Olivia Fraipont, "Inside" parle des médias, des réactions du public au traitement de l'information, des questions qui font débat, d'esprit critique et des coulisses de la télévision belge.</desc>
     <category lang="fr">magazine des médias</category>
     <length units="minutes">45</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/feb4297a-15c4-40f6-8d42-d5ac81770490.jpg" />
@@ -2940,8 +2915,7 @@ Ce thriller singulier est centré sur des personnages fragiles, a priori étrang
   </programme>
   <programme start="20200928230000 +0200" stop="20200928234200 +0200" channel="C892.api.telerama.fr">
     <title>Inside</title>
-    <sub-title>Inside</sub-title>
-    <desc lang="fr">La nouvelle saison d'INSIDE débutera avec le mot clé : NOUVEAUTE. Nouveau duo, Olivier Fraipont co-animera l'émission aux côtés de Jessica. Ils évoqueront ensemble le nouveau média de la RTBF : TIPIK. Sans oublier, les rendez-vous habituels comme la mission de média Woman, le portrait, les coulisses du JT et enfin la question des médias qui s'intéressera à la conduite.</desc>
+    <desc lang="fr">Projet transversal de la RTBF présenté par Jessica Riga et Olivia Fraipont, "Inside" parle des médias, des réactions du public au traitement de l'information, des questions qui font débat, d'esprit critique et des coulisses de la télévision belge.</desc>
     <category lang="fr">magazine des médias</category>
     <length units="minutes">42</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/feb4297a-15c4-40f6-8d42-d5ac81770490.jpg" />
@@ -3672,16 +3646,6 @@ Ce thriller singulier est centré sur des personnages fragiles, a priori étrang
     <rating system="CSA">
       <value>-12</value>
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
-    </rating>
-  </programme>
-  <programme start="20200928215000 +0200" stop="20200929060000 +0200" channel="C1280.api.telerama.fr">
-    <title>Pause</title>
-    <category lang="fr">autre</category>
-    <length units="minutes">490</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
     </rating>
   </programme>
 </tv>

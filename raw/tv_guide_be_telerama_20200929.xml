@@ -34,16 +34,6 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
-  <programme start="20200929000000 +0200" stop="20200929001500 +0200" channel="C23.api.telerama.fr">
-    <title>Het journaal</title>
-    <category lang="fr">journal</category>
-    <length units="minutes">15</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a422aeb-fdfa-499c-afe7-966aa53b92e6.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200929001500 +0200" stop="20200929002000 +0200" channel="C23.api.telerama.fr">
     <title>Het weer</title>
     <category lang="fr">météo</category>
@@ -64,31 +54,10 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929015000 +0200" stop="20200929090000 +0200" channel="C23.api.telerama.fr">
-    <title>Journaallus</title>
-    <sub-title>Doorlopende herhalingen</sub-title>
-    <category lang="fr">journal</category>
-    <length units="minutes">430</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme start="20200929090000 +0200" stop="20200929100000 +0200" channel="C23.api.telerama.fr">
     <title>Herfstbeelden</title>
     <category lang="fr">emission spéciale</category>
     <length units="hours">1</length>
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200929100000 +0200" stop="20200929120000 +0200" channel="C23.api.telerama.fr">
-    <title>Radio 2 op Één</title>
-    <category lang="fr">divertissement</category>
-    <length units="hours">2</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <new />
     <rating system="CSA">
       <value>Tout public</value>
@@ -176,7 +145,7 @@
     </rating>
   </programme>
   <programme start="20200929143000 +0200" stop="20200929170000 +0200" channel="C23.api.telerama.fr">
-    <title>BinckBank Tour</title>
+    <title>Cyclisme : BinckBank Tour (BinckBank Tour)</title>
     <category lang="fr">cyclisme</category>
     <length units="minutes">150</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/551108ee-dcfe-4a33-9d44-4e830fd67c66.jpg" />
@@ -311,16 +280,6 @@
     <category lang="fr">divertissement</category>
     <length units="minutes">50</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200929222000 +0200" stop="20200929223500 +0200" channel="C23.api.telerama.fr">
-    <title>Het journaal</title>
-    <category lang="fr">journal</category>
-    <length units="minutes">15</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a422aeb-fdfa-499c-afe7-966aa53b92e6.jpg" />
-    <new />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -787,6 +746,16 @@
     <length units="minutes">205</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
     <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929055900 +0200" stop="20200929080000 +0200" channel="C164.api.telerama.fr">
+    <title>Le 6-8</title>
+    <desc lang="fr">Le 6-8 est la matinale qui vous réveille en images ! Rythmée par l'info-trafic et la météo, l'émission animée par Sara De Paduwa accueille chaque matin une bande sympathique pour des chroniques variées.</desc>
+    <category lang="fr">magazine de services</category>
+    <length units="minutes">121</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d303a3bf-21d9-477f-bca8-5844795803d5.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -3732,16 +3701,6 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
     <rating system="CSA">
       <value>-12</value>
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
-    </rating>
-  </programme>
-  <programme start="20200929215000 +0200" stop="20200930060000 +0200" channel="C1280.api.telerama.fr">
-    <title>Pause</title>
-    <category lang="fr">autre</category>
-    <length units="minutes">490</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
-    <new />
-    <rating system="CSA">
-      <value>Tout public</value>
     </rating>
   </programme>
 </tv>

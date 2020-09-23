@@ -220,43 +220,6 @@
     <display-name>Franceinfo</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/2111.png" />
   </channel>
-  <programme channel="C184.api.telerama.fr" start="20200921210000" stop="20200922070000">
-    <title>Fin des programmes</title>
-    <category lang="fr">fin</category>
-    <length units="hours">10</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C1045.api.telerama.fr" start="20200921210000" stop="20200922050000">
-    <title>Graoully Match</title>
-    <category lang="fr">football</category>
-    <length units="hours">8</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d92693cd-b1c0-44f2-a3ef-c749e6c9faef.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C1400.api.telerama.fr" start="20200921215000" stop="20200922040000">
-    <title>Programmes de la nuit</title>
-    <category lang="fr">programme indéterminé</category>
-    <length units="minutes">370</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C1935.api.telerama.fr" start="20200921215500" stop="20200922040000">
-    <title>Programme national</title>
-    <category lang="fr">programme indéterminé</category>
-    <length units="minutes">365</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/652662c9-c14e-4f8a-9175-f29a6bd0112e.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme channel="C4.api.telerama.fr" start="20200922223200" stop="20200922225000">
     <title>Débat Infrarouge</title>
     <desc lang="fr">Après la diffusion du documentaire "L'Aventure Alzheimer", réalisé par Marie-Pierre Jaury, Marie Drucker anime un débat en compagnie de la psychiatre et gériatre Véronique Lefebvre des Noëttes et de Madeleine Gall, fondatrice des domiciles partagés pour personnes dépendantes.</desc>
@@ -313,11 +276,11 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C34.api.telerama.fr" start="20200922230100" stop="20200923000400">
+  <programme channel="C34.api.telerama.fr" start="20200922230100" stop="20200923000200">
     <title>Cinéma par... Olivier Nakache et Eric Toledano</title>
     <desc lang="fr">Au fil de témoignages spontanés et personnels, Olivier Nakache et Eric Toledano se racontent à travers leur passion pour 7e art. De nombreux proches et collaborateurs en disent plus sur leur parcours. Quels sont les films qui ont marqué leur vie ? Comment ont-ils trouvé leurs repères au sein du petit monde du cinéma français ? Tous deux semblent gérer le succès et l'après «Intouchables» avec sérénité. Leur sixième long-métrage, «Le sens de la fête» avec Jean-Pierre Bacri, a été unanimement salué par la critique. Ce documentaire-portrait mentionne aussi leurs influences et revient sur les étapes importantes de leur parcours. Les anecdotes sont nombreuses à ponctuer le récit.</desc>
     <category lang="fr">documentaire : cinéma</category>
-    <length units="minutes">63</length>
+    <length units="minutes">61</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/894bab79-e275-432b-9341-ef39a5c4a39b.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
@@ -801,12 +764,12 @@
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
     </rating>
   </programme>
-  <programme channel="C445.api.telerama.fr" start="20200922221400" stop="20200923000100">
+  <programme channel="C445.api.telerama.fr" start="20200922221200" stop="20200923000700">
     <title>La grosse rigolade ça continue</title>
     <sub-title>Best of</sub-title>
     <desc lang="fr">Devinettes, charades ou vannes : l'humour se décline sous toutes ses formes dans une émission qui a pour but de provoquer l'hilarité de ceux qui la regardent. Pour parvenir à ses fins, Cyril Hanouna donne la parole à des humoristes qui ne ménagent pas leur peine pour faire rire de bon coeur leur public.</desc>
     <category lang="fr">divertissement-humour</category>
-    <length units="minutes">107</length>
+    <length units="minutes">115</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
@@ -822,21 +785,41 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C459.api.telerama.fr" start="20200922221400" stop="20200922221900">
-    <title>Clips Polynésie</title>
-    <sub-title>Rainui Temanihi "Te pape"</sub-title>
-    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
-    <category lang="fr">clips</category>
-    <length units="minutes">5</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
+  <programme channel="C458.api.telerama.fr" start="20200922222600" stop="20200922233900">
+    <title>Au coeur de l'enquête</title>
+    <sub-title>Gumball Race : 100 jours dans la course des milliardaires sans limites (n°2)</sub-title>
+    <desc lang="fr">A l'origine de la Gumball Race figure Maximilion Cooper, un ex-mannequin anglais de 43 ans. Il s'inspire du Cannonball, une course illégale des années 1970. Cette année, les participants partent de Londres et passent par la France et l'Italie. Ils n'ont que neuf jours pour rejoindre Tokyo au Japon.</desc>
+    <category lang="fr">magazine de reportages</category>
+    <length units="minutes">73</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/50437fe8-2e7f-47f7-b8ce-feb6bc4db653.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
     <previously-shown />
     <rating system="CSA">
-      <value>Tout public</value>
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
     </rating>
   </programme>
-  <programme channel="C459.api.telerama.fr" start="20200922221900" stop="20200922222300">
+  <programme channel="C458.api.telerama.fr" start="20200922233900" stop="20200923004700">
+    <title>Au coeur de l'enquête</title>
+    <sub-title>Gumball Race : 100 jours dans la course des milliardaires sans limites (n°3)</sub-title>
+    <desc lang="fr">A l'origine de la Gumball Race figure Maximilion Cooper, un ex-mannequin anglais de 43 ans. Il s'inspire du Cannonball, une course illégale des années 1970. En 2018, les participants partent de Londres et passent par la France et l'Italie. Ils n'ont que neuf jours pour rejoindre Tokyo au Japon.</desc>
+    <category lang="fr">magazine de reportages</category>
+    <length units="minutes">68</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/50437fe8-2e7f-47f7-b8ce-feb6bc4db653.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme channel="C459.api.telerama.fr" start="20200922221500" stop="20200922221900">
     <title>Clips Polynésie</title>
-    <sub-title>Mehani Teato / Corona viru'e</sub-title>
+    <sub-title>Rainui Temanihi "Te pape"</sub-title>
     <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
     <category lang="fr">clips</category>
     <length units="minutes">4</length>
@@ -846,7 +829,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C459.api.telerama.fr" start="20200922222300" stop="20200922222900">
+  <programme channel="C459.api.telerama.fr" start="20200922221900" stop="20200922222400">
+    <title>Clips Polynésie</title>
+    <sub-title>Mehani Teato / Corona viru'e</sub-title>
+    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C459.api.telerama.fr" start="20200922222400" stop="20200922223000">
     <title>Clips Polynésie</title>
     <sub-title>Koru "Ia heiva"</sub-title>
     <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
@@ -858,7 +853,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C459.api.telerama.fr" start="20200922222900" stop="20200922225200">
+  <programme channel="C459.api.telerama.fr" start="20200922223000" stop="20200922225300">
     <title>Journal Polynésie</title>
     <desc lang="fr">Retrouvez toute l'actualité de Polynésie.</desc>
     <category lang="fr">journal</category>
@@ -869,12 +864,14 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C459.api.telerama.fr" start="20200922225200" stop="20200922225800">
-    <title>La petite collection couleurs Outremers</title>
-    <sub-title>Mamas Shingos</sub-title>
-    <category lang="fr">documentaire : découvertes</category>
-    <length units="minutes">6</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d76fc5f3-b6f5-48e0-a02b-fa2e2a340060.jpg" />
+  <programme channel="C459.api.telerama.fr" start="20200922225300" stop="20200922225800">
+    <title>Clips Polynésie</title>
+    <sub-title>Teiva lc Tiare Tetoe "L'oiseau des océans"</sub-title>
+    <desc lang="fr">La musique locale des artistes du fenua qui révèlent ou confirment leur talent dans un clip.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/b49e69d1-4c27-4f35-bb17-4e637753e2c2.jpg" />
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -905,7 +902,7 @@
     <title>Le journal de la nuit</title>
     <category lang="fr">journal</category>
     <length units="minutes">270</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/9985e143-5f4c-4da5-80b4-2b7acf122ef8.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/86671421-82b9-4834-867b-eb0b7a997b6e.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>

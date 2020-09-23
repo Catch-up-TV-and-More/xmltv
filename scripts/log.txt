@@ -1,5 +1,5 @@
 
-# Start script at 23/09/2020 12:00:01
+# Start script at 23/09/2020 13:40:44
 
 # Remove all XMLTV files in root directory
 
@@ -8,20 +8,22 @@
 # Update raw XMLTV files from grabbers
 	* Grab TV guides of day 23/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
-			* This file already exists (size: 1791466 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
+			* Final file size: 1774124 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200923.xml
-			* This file already exists (size: 256882 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200923.xml
+			* Final file size: 261823 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200923.xml
-			* This file already exists but its size is small 0_o (27676 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200923.xml
 			* Final file size: 32046 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200923.xml
-			* This file already exists (size: 2110486 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200923.xml
+			* Final file size: 2095288 bytes
 	* Grab TV guides of day 24/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
-			* Final file size: 1768307 bytes
+			* Final file size: 1758303 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200924.xml
@@ -33,83 +35,80 @@
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200924.xml
 			* Force file update (delta is 1) --> run grabber
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200924.xml
-			* Final file size: 2128978 bytes
+			* Final file size: 2088315 bytes
 	* Grab TV guides of day 25/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
-			* This file already exists (size: 832066 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
+			* Final file size: 1640314 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200925.xml
-			* This file already exists (size: 230992 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200925.xml
+			* Final file size: 250458 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200925.xml
-			* This file already exists but its size is small 0_o (30833 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200925.xml
 			* Final file size: 30833 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200925.xml
-			* This file already exists (size: 2062613 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200925.xml
+			* Final file size: 2080581 bytes
 	* Grab TV guides of day 26/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
-			* This file already exists (size: 932918 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
+			* Final file size: 2048124 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200926.xml
-			* This file already exists (size: 235698 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200926.xml
+			* Final file size: 235454 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
-			* This file already exists but its size is small 0_o (33834 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
 			* Final file size: 33834 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200926.xml
-			* This file already exists (size: 1997952 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200926.xml
+			* Final file size: 2027768 bytes
 	* Grab TV guides of day 27/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200927.xml
-			* This file already exists (size: 743154 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200927.xml
+			* Final file size: 1613743 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200927.xml
-			* This file already exists (size: 211313 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200927.xml
+			* Final file size: 213286 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
-			* This file already exists but its size is small 0_o (30625 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
-Traceback (most recent call last):
-  File "./update_all_tv_guides.py", line 347, in <module>
-    main()
-  File "./update_all_tv_guides.py", line 341, in main
-    update_raw_files()
-  File "./update_all_tv_guides.py", line 153, in update_raw_files
-    print('\t\t\t* Final file size: {} bytes'.format(os.path.getsize(xmltv_fp)), flush=True)
-  File "/usr/lib/python3.7/genericpath.py", line 50, in getsize
-    return os.stat(filename).st_size
-FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml'
-
-- Push changes
-
+			* Final file size: 30625 bytes
+		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200927.xml
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200927.xml
-			* Final file size: 1978151 bytes
+			* Final file size: 1986778 bytes
 	* Grab TV guides of day 28/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200928.xml
-			* This file already exists (size: 888266 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200928.xml
+			* Final file size: 1629412 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200928.xml
-			* This file already exists (size: 225456 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200928.xml
+			* Final file size: 223652 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200928.xml
-			* This file already exists but its size is small 0_o (27228 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200928.xml
 			* Final file size: 32232 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200928.xml
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200928.xml
-			* Final file size: 316966 bytes
+			* Final file size: 316905 bytes
 	* Grab TV guides of day 29/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200929.xml
-			* This file already exists (size: 1452663 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200929.xml
+			* Final file size: 1458028 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200929.xml
-			* This file already exists (size: 230556 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200929.xml
+			* Final file size: 228951 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200929.xml
-			* This file already exists but its size is small 0_o (30198 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200929.xml
-			* Final file size: 25550 bytes
+			* Final file size: 28028 bytes
 		- Grab TV guides of it country in /home/admin/xmltv/scripts/../raw/tv_guide_it_20200929.xml
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20200929.xml
-			* Final file size: 278771 bytes
+			* Final file size: 278633 bytes
 	* Grab TV guides of day 30/09/2020
 		- Grab TV guides of fr country in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
-			* This file already exists (size: 912023 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
+			* Final file size: 1479838 bytes
 		- Grab TV guides of be country in /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200930.xml
-			* This file already exists (size: 209531 bytes) --> Nothing to do
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama_be_config.txt --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200930.xml
+			* Final file size: 208989 bytes
 		- Grab TV guides of uk country in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200930.xml
-			* This file already exists but its size is small 0_o (32445 bytes) --> run grabber again
 			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200930.xml
 			* Final file size: 32445 bytes
 
@@ -117,142 +116,132 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scrip
 
 * Processing of fr country:
 	- Retireve TV shows from all xmltv files of this country
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200921.xml
-			- This file contains 1401 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200922.xml
-			- This file contains 2283 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200923.xml
-			- This file contains 2342 TV shows
+			- This file contains 2319 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200924.xml
-			- This file contains 2107 TV shows
+			- This file contains 2095 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200925.xml
-			- This file contains 944 TV shows
+			- This file contains 2001 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200926.xml
-			- This file contains 1082 TV shows
+			- This file contains 2430 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200927.xml
-			- This file contains 817 TV shows
+			- This file contains 1822 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200928.xml
-			- This file contains 944 TV shows
+			- This file contains 1954 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200929.xml
-			- This file contains 1683 TV shows
+			- This file contains 1676 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20200930.xml
-			- This file contains 1013 TV shows
-	- This country have a total of 14616 TV shows
+			- This file contains 1812 TV shows
+	- This country have a total of 16109 TV shows
 	- Write full xmltv file in tv_guide_fr.xml
 	- Write full xmltv file in tv_guide_fr_local.xml
 	- Write one day xmltv files:
 		* Write day 20200921 in tv_guide_fr_20200921.xml
-			- Final file contains 2183 TV shows
+			- Final file contains 0 TV shows
 		* Write day 20200922 in tv_guide_fr_20200922.xml
-			- Final file contains 165 TV shows
+			- Final file contains 163 TV shows
 		* Write day 20200923 in tv_guide_fr_20200923.xml
-			- Final file contains 2320 TV shows
+			- Final file contains 2296 TV shows
 		* Write day 20200924 in tv_guide_fr_20200924.xml
-			- Final file contains 2144 TV shows
+			- Final file contains 2136 TV shows
 		* Write day 20200925 in tv_guide_fr_20200925.xml
-			- Final file contains 1128 TV shows
+			- Final file contains 2182 TV shows
 		* Write day 20200926 in tv_guide_fr_20200926.xml
-			- Final file contains 1018 TV shows
+			- Final file contains 2413 TV shows
 		* Write day 20200927 in tv_guide_fr_20200927.xml
-			- Final file contains 897 TV shows
+			- Final file contains 1870 TV shows
 		* Write day 20200928 in tv_guide_fr_20200928.xml
-			- Final file contains 965 TV shows
+			- Final file contains 1975 TV shows
 		* Write day 20200929 in tv_guide_fr_20200929.xml
-			- Final file contains 1793 TV shows
+			- Final file contains 1785 TV shows
 		* Write day 20200930 in tv_guide_fr_20200930.xml
-			- Final file contains 911 TV shows
+			- Final file contains 1710 TV shows
 		* Write day 20200921 in tv_guide_fr_local_20200921.xml
-			- Final file contains 2183 TV shows
+			- Final file contains 0 TV shows
 		* Write day 20200922 in tv_guide_fr_local_20200922.xml
-			- Final file contains 165 TV shows
+			- Final file contains 163 TV shows
 		* Write day 20200923 in tv_guide_fr_local_20200923.xml
-			- Final file contains 2320 TV shows
+			- Final file contains 2296 TV shows
 		* Write day 20200924 in tv_guide_fr_local_20200924.xml
-			- Final file contains 2144 TV shows
+			- Final file contains 2136 TV shows
 		* Write day 20200925 in tv_guide_fr_local_20200925.xml
-			- Final file contains 1128 TV shows
+			- Final file contains 2182 TV shows
 		* Write day 20200926 in tv_guide_fr_local_20200926.xml
-			- Final file contains 1018 TV shows
+			- Final file contains 2413 TV shows
 		* Write day 20200927 in tv_guide_fr_local_20200927.xml
-			- Final file contains 897 TV shows
+			- Final file contains 1870 TV shows
 		* Write day 20200928 in tv_guide_fr_local_20200928.xml
-			- Final file contains 965 TV shows
+			- Final file contains 1975 TV shows
 		* Write day 20200929 in tv_guide_fr_local_20200929.xml
-			- Final file contains 1793 TV shows
+			- Final file contains 1785 TV shows
 		* Write day 20200930 in tv_guide_fr_local_20200930.xml
-			- Final file contains 911 TV shows
+			- Final file contains 1710 TV shows
 
 * Processing of be country:
 	- Retireve TV shows from all xmltv files of this country
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200921.xml
-			- This file contains 308 TV shows
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200922.xml
-			- This file contains 357 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200923.xml
-			- This file contains 344 TV shows
+			- This file contains 349 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200924.xml
 			- This file contains 350 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200925.xml
-			- This file contains 304 TV shows
+			- This file contains 326 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200926.xml
-			- This file contains 288 TV shows
+			- This file contains 285 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200927.xml
-			- This file contains 252 TV shows
+			- This file contains 255 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200928.xml
-			- This file contains 301 TV shows
+			- This file contains 299 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200929.xml
-			- This file contains 306 TV shows
+			- This file contains 302 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_be_telerama_20200930.xml
-			- This file contains 293 TV shows
-	- This country have a total of 3103 TV shows
+			- This file contains 291 TV shows
+	- This country have a total of 2457 TV shows
 	- Write full xmltv file in tv_guide_be.xml
 	- Write full xmltv file in tv_guide_be_local.xml
 	- Write one day xmltv files:
 		* Write day 20200921 in tv_guide_be_20200921.xml
-			- Final file contains 341 TV shows
+			- Final file contains 0 TV shows
 		* Write day 20200922 in tv_guide_be_20200922.xml
-			- Final file contains 28 TV shows
+			- Final file contains 27 TV shows
 		* Write day 20200923 in tv_guide_be_20200923.xml
-			- Final file contains 348 TV shows
+			- Final file contains 353 TV shows
 		* Write day 20200924 in tv_guide_be_20200924.xml
-			- Final file contains 355 TV shows
+			- Final file contains 358 TV shows
 		* Write day 20200925 in tv_guide_be_20200925.xml
-			- Final file contains 310 TV shows
+			- Final file contains 330 TV shows
 		* Write day 20200926 in tv_guide_be_20200926.xml
-			- Final file contains 296 TV shows
+			- Final file contains 292 TV shows
 		* Write day 20200927 in tv_guide_be_20200927.xml
-			- Final file contains 258 TV shows
+			- Final file contains 261 TV shows
 		* Write day 20200928 in tv_guide_be_20200928.xml
-			- Final file contains 314 TV shows
-		* Write day 20200929 in tv_guide_be_20200929.xml
-			- Final file contains 309 TV shows
-		* Write day 20200930 in tv_guide_be_20200930.xml
-			- Final file contains 284 TV shows
-		* Write day 20200921 in tv_guide_be_local_20200921.xml
-			- Final file contains 341 TV shows
-		* Write day 20200922 in tv_guide_be_local_20200922.xml
-			- Final file contains 28 TV shows
-		* Write day 20200923 in tv_guide_be_local_20200923.xml
-			- Final file contains 348 TV shows
-		* Write day 20200924 in tv_guide_be_local_20200924.xml
-			- Final file contains 355 TV shows
-		* Write day 20200925 in tv_guide_be_local_20200925.xml
 			- Final file contains 310 TV shows
+		* Write day 20200929 in tv_guide_be_20200929.xml
+			- Final file contains 304 TV shows
+		* Write day 20200930 in tv_guide_be_20200930.xml
+			- Final file contains 281 TV shows
+		* Write day 20200921 in tv_guide_be_local_20200921.xml
+			- Final file contains 0 TV shows
+		* Write day 20200922 in tv_guide_be_local_20200922.xml
+			- Final file contains 27 TV shows
+		* Write day 20200923 in tv_guide_be_local_20200923.xml
+			- Final file contains 353 TV shows
+		* Write day 20200924 in tv_guide_be_local_20200924.xml
+			- Final file contains 358 TV shows
+		* Write day 20200925 in tv_guide_be_local_20200925.xml
+			- Final file contains 330 TV shows
 		* Write day 20200926 in tv_guide_be_local_20200926.xml
-			- Final file contains 296 TV shows
+			- Final file contains 292 TV shows
 		* Write day 20200927 in tv_guide_be_local_20200927.xml
-			- Final file contains 258 TV shows
+			- Final file contains 261 TV shows
 		* Write day 20200928 in tv_guide_be_local_20200928.xml
-			- Final file contains 314 TV shows
+			- Final file contains 310 TV shows
 		* Write day 20200929 in tv_guide_be_local_20200929.xml
-			- Final file contains 309 TV shows
+			- Final file contains 304 TV shows
 		* Write day 20200930 in tv_guide_be_local_20200930.xml
-			- Final file contains 284 TV shows
+			- Final file contains 281 TV shows
 
 * Processing of uk country:
 	- Retireve TV shows from all xmltv files of this country
-		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200922.xml
-			- This file contains 51 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200923.xml
 			- This file contains 54 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200924.xml
@@ -262,21 +251,21 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scrip
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200926.xml
 			- This file contains 52 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200927.xml
-			- This file seems to be corrupt :-/, delete it
+			- This file contains 51 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200928.xml
 			- This file contains 54 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200929.xml
-			- This file contains 44 TV shows
+			- This file contains 48 TV shows
 		* Add TV shows from file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20200930.xml
 			- This file contains 54 TV shows
-	- This country have a total of 413 TV shows
+	- This country have a total of 417 TV shows
 	- Write full xmltv file in tv_guide_uk.xml
 	- Write full xmltv file in tv_guide_uk_local.xml
 	- Write one day xmltv files:
 		* Write day 20200921 in tv_guide_uk_20200921.xml
-			- Final file contains 11 TV shows
+			- Final file contains 0 TV shows
 		* Write day 20200922 in tv_guide_uk_20200922.xml
-			- Final file contains 61 TV shows
+			- Final file contains 12 TV shows
 		* Write day 20200923 in tv_guide_uk_20200923.xml
 			- Final file contains 63 TV shows
 		* Write day 20200924 in tv_guide_uk_20200924.xml
@@ -284,19 +273,19 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scrip
 		* Write day 20200925 in tv_guide_uk_20200925.xml
 			- Final file contains 58 TV shows
 		* Write day 20200926 in tv_guide_uk_20200926.xml
-			- Final file contains 51 TV shows
+			- Final file contains 61 TV shows
 		* Write day 20200927 in tv_guide_uk_20200927.xml
-			- Final file contains 12 TV shows
+			- Final file contains 61 TV shows
 		* Write day 20200928 in tv_guide_uk_20200928.xml
 			- Final file contains 63 TV shows
 		* Write day 20200929 in tv_guide_uk_20200929.xml
-			- Final file contains 54 TV shows
+			- Final file contains 58 TV shows
 		* Write day 20200930 in tv_guide_uk_20200930.xml
 			- Final file contains 51 TV shows
 		* Write day 20200921 in tv_guide_uk_local_20200921.xml
-			- Final file contains 11 TV shows
+			- Final file contains 0 TV shows
 		* Write day 20200922 in tv_guide_uk_local_20200922.xml
-			- Final file contains 61 TV shows
+			- Final file contains 12 TV shows
 		* Write day 20200923 in tv_guide_uk_local_20200923.xml
 			- Final file contains 63 TV shows
 		* Write day 20200924 in tv_guide_uk_local_20200924.xml
@@ -304,13 +293,13 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scrip
 		* Write day 20200925 in tv_guide_uk_local_20200925.xml
 			- Final file contains 58 TV shows
 		* Write day 20200926 in tv_guide_uk_local_20200926.xml
-			- Final file contains 51 TV shows
+			- Final file contains 61 TV shows
 		* Write day 20200927 in tv_guide_uk_local_20200927.xml
-			- Final file contains 12 TV shows
+			- Final file contains 61 TV shows
 		* Write day 20200928 in tv_guide_uk_local_20200928.xml
 			- Final file contains 63 TV shows
 		* Write day 20200929 in tv_guide_uk_local_20200929.xml
-			- Final file contains 54 TV shows
+			- Final file contains 58 TV shows
 		* Write day 20200930 in tv_guide_uk_local_20200930.xml
 			- Final file contains 51 TV shows
 
@@ -332,83 +321,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/admin/xmltv/scrip
 			- This file seems to be corrupt :-/, delete it
 	- None XMLTV file seems ok for this coutnry :-/
 	* Merge all country tv guides in tv_guide_all.xml
-		- Final file contains 18132 TV shows
+		- Final file contains 18983 TV shows
 	* Merge all country tv guides in tv_guide_all_local.xml
 		- Final file contains 0 TV shows
 
-# Exit script at 23/09/2020 13:19:57
+# Exit script at 23/09/2020 17:36:28
 
 - Push changes
-
-[master 4916c62] Auto update TV guides (23/09/2020 10:11:25-CEST)
- Date: Wed Sep 23 10:10:27 2020 +0200
- 120 files changed, 202662 insertions(+), 536682 deletions(-)
- create mode 100644 raw/tv_guide_be_telerama_20200924.xmlstderr.log
- create mode 100644 raw/tv_guide_be_telerama_20200924.xmlstdout.log
- create mode 100644 raw/tv_guide_fr_telerama_20200924.xmlstderr.log
- create mode 100644 raw/tv_guide_fr_telerama_20200924.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200923.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200923.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200924.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200924.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200925.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200925.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200926.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200926.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200927.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200927.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200928.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200928.xmlstdout.log
- create mode 100644 raw/tv_guide_it_20200929.xmlstderr.log
- create mode 100644 raw/tv_guide_it_20200929.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200923.xml
- create mode 100644 raw/tv_guide_uk_tvguide_20200923.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200923.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200924.xml
- create mode 100644 raw/tv_guide_uk_tvguide_20200924.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200924.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200925.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200925.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200926.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200926.xmlstdout.log
- delete mode 100644 raw/tv_guide_uk_tvguide_20200927.xml
- create mode 100644 raw/tv_guide_uk_tvguide_20200927.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200927.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200928.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200928.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200929.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200929.xmlstdout.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200930.xmlstderr.log
- create mode 100644 raw/tv_guide_uk_tvguide_20200930.xmlstdout.log
- rewrite scripts/log.txt (90%)
- rewrite tv_guide_be_local_20200922.xml (70%)
- rewrite tv_guide_be_local_20200924.xml (65%)
- rename tv_guide_fr_tnt_20200922.xml => tv_guide_fr_local_20200922.xml (50%)
- rename tv_guide_fr_tnt_20200923.xml => tv_guide_fr_local_20200923.xml (51%)
- delete mode 100644 tv_guide_fr_tnt.xml
- delete mode 100644 tv_guide_fr_tnt_20200921.xml
- delete mode 100644 tv_guide_fr_tnt_20200924.xml
- delete mode 100644 tv_guide_fr_tnt_20200925.xml
- delete mode 100644 tv_guide_fr_tnt_20200926.xml
- delete mode 100644 tv_guide_fr_tnt_20200927.xml
- delete mode 100644 tv_guide_fr_tnt_20200928.xml
- delete mode 100644 tv_guide_fr_tnt_20200929.xml
- delete mode 100644 tv_guide_fr_tnt_20200930.xml
- delete mode 100644 tv_guide_fr_tnt_local.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200921.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200922.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200923.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200924.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200925.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200926.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200927.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200928.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200929.xml
- delete mode 100644 tv_guide_fr_tnt_local_20200930.xml
- rewrite tv_guide_uk_20200927.xml (77%)
- rewrite tv_guide_uk_local_20200927.xml (88%)
-To github.com:Catch-up-TV-and-More/xmltv.git
- + f283ca6...4916c62 master -> master (forced update)
-
-- Changes have been pushed --> exit
 

@@ -32,11 +32,11 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
-  <programme channel="C50.api.telerama.fr" start="20200926215000" stop="20200927030000">
+  <programme channel="C50.api.telerama.fr" start="20200926212500" stop="20200927030000">
     <title>Télé-achat</title>
     <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
     <category lang="fr">magazine de télé-achat</category>
-    <length units="minutes">310</length>
+    <length units="minutes">335</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <previously-shown />
     <rating system="CSA">
@@ -238,7 +238,7 @@
   </programme>
   <programme channel="C23.api.telerama.fr" start="20200927205000" stop="20200927214000">
     <title>First Dates</title>
-    <category lang="fr">documentaire : téléréalité</category>
+    <category lang="fr">documentaire téléréalité</category>
     <length units="minutes">50</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f2429985-7cb7-4f72-8ca4-f481abfe4900.jpg" />
     <rating system="CSA">
@@ -250,28 +250,6 @@
     <category lang="fr">talk-show</category>
     <length units="hours">2</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dbc8f7e4-6bb2-4fcc-9334-732eff4f48da.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C50.api.telerama.fr" start="20200927030000" stop="20200927033000">
-    <title>RTL - De Journal</title>
-    <desc lang="fr">Suivez les actualités du journal télévisé en luxembourgeois.</desc>
-    <category lang="fr">journal</category>
-    <length units="minutes">30</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme channel="C50.api.telerama.fr" start="20200927033000" stop="20200927050000">
-    <title>Télé-achat</title>
-    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
-    <category lang="fr">magazine de télé-achat</category>
-    <length units="minutes">90</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -897,18 +875,6 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200927033700" stop="20200927041300">
-    <title>Les feux de l'amour</title>
-    <desc lang="fr">Saison:22 - Episode:45 - À l'Athletic Club, Hilary est à la recherche de personnalités fortes à interviewer pour sa nouvelle émission en direct. Alors qu'elle s'entretient avec Jordan au bar, celui-ci va la piéger à son propre jeu. Mariah prête main forte à Sharon au Néon Écarlate pour retarder le moment où elle devra aller parler avec Devon de leur relation. Pendant ce temps, Devon et Tessa discutent des retombées du scandale dans lequel Crystal est impliquée, sur la carrière de Tessa. Après un déjeuner avec sa mère, Victoria annonce d'abord à Abby qu'elle est rétrogradée suite au fiasco de Rendez-vous ciblé, puis à Scott qu'elle compte mettre fin à Hashtag...</desc>
-    <category lang="fr">feuilleton sentimental</category>
-    <length units="minutes">36</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/5da63861-c2f5-4813-8e45-82a5756ddde3.jpg" />
-    <episode-num system="xmltv_ns">21.44.</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
   <programme channel="C164.api.telerama.fr" start="20200927041300" stop="20200927045000">
     <title>Les feux de l'amour</title>
     <desc lang="fr">Saison:22 - Episode:46 - C'est le soir de Thanksgiving et tout le monde est réuni en famille pour l'occasion. Au ranch, Victor a invité Victoria, Abby, Tessa, Noah, Faith, Reed et Chelsea et chez les Abbott, Jack est en compagnie de Traci, Ashley, William et Dina.</desc>
@@ -968,22 +934,42 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200927072200" stop="20200927074500">
+  <programme channel="C164.api.telerama.fr" start="20200927065100" stop="20200927075200">
+    <title>Cultes protestants</title>
+    <category lang="fr">magazine religieux</category>
+    <length units="minutes">61</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3dc54c15-3448-4557-ad1a-413051dea95e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200927075200" stop="20200927081600">
     <title>En quête de sens</title>
     <sub-title>Il était une foi: Je voudrais retourner à l'école</sub-title>
     <desc lang="fr">En quête de sens est un magazine qui incite à la réflexion sur les grands thèmes qui traversent notre société.</desc>
     <category lang="fr">magazine religieux</category>
-    <length units="minutes">23</length>
+    <length units="minutes">24</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/64eff865-a9f8-4fe1-a782-81d299009b10.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C164.api.telerama.fr" start="20200927084900" stop="20200927092900">
+  <programme channel="C164.api.telerama.fr" start="20200927081600" stop="20200927084800">
+    <title>OpinionS</title>
+    <desc lang="fr">OpinionS est un magazine sociétal qui laisse la parole aux grands partis politiques démocratiques présents en Belgique francophone et aux associations professionnelles tant patronales, comme la Fédération Wallonne de l'Agriculture et l'Union des Classes Moyennes, que syndicales, c'est-à-dire FGTB, CSC et CGSLB.</desc>
+    <category lang="fr">magazine politique</category>
+    <length units="minutes">32</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8c54e999-6001-4506-b435-58301e6ea2e4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200927084800" stop="20200927092900">
     <title>Inside</title>
-    <desc lang="fr">Projet transversal de la RTBF présenté par Jessica Riga et Olivia Fraipont, "Inside" parle des médias, des réactions du public au traitement de l'information, des questions qui font débat, d'esprit critique et des coulisses de la télévision belge.</desc>
+    <sub-title>Inside</sub-title>
+    <desc lang="fr">La nouvelle saison d'INSIDE débutera avec le mot clé : NOUVEAUTE. Nouveau duo, Olivier Fraipont co-animera l'émission aux côtés de Jessica. Ils évoqueront ensemble le nouveau média de la RTBF : TIPIK. Sans oublier, les rendez-vous habituels comme la mission de média Woman, le portrait, les coulisses du JT et enfin la question des médias qui s'intéressera à la conduite.</desc>
     <category lang="fr">magazine des médias</category>
-    <length units="minutes">40</length>
+    <length units="minutes">41</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/feb4297a-15c4-40f6-8d42-d5ac81770490.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
@@ -1085,6 +1071,15 @@
       <value>Tout public</value>
     </rating>
   </programme>
+  <programme channel="C164.api.telerama.fr" start="20200927163000" stop="20200927172300">
+    <title>100% Sports</title>
+    <desc lang="fr">Week-end sportif fait peau neuve et change de nom pour s'appeler "100% Sports", avec un contenu annoncé comme plus dynamique. De nouvelles séquences sont au programme, et un nouvel animateur, Jérémie Baise, secondé par quelques coéquipiers, tous d'anciens sportifs.</desc>
+    <category lang="fr">magazine sportif</category>
+    <length units="minutes">53</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme channel="C164.api.telerama.fr" start="20200927172300" stop="20200927173000">
     <title>Météo</title>
     <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
@@ -1107,6 +1102,7 @@
   </programme>
   <programme channel="C164.api.telerama.fr" start="20200927180900" stop="20200927181500">
     <title>Sara Présente la Fédération Wallonie-Bruxelles</title>
+    <desc lang="fr">Sara De Paduwa part à la rencontre des métiers de la Fédération Wallonie-Bruxelles, des hommes et des femmes qui lèvent pour nous le voile sur des professions de passionnés.</desc>
     <category lang="fr">magazine d'information</category>
     <length units="minutes">6</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/a2f38954-d55f-4965-a7fa-26c4131595e8.jpg" />
@@ -1162,6 +1158,16 @@
     <length units="minutes">46</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/16f7d086-90e6-4bbb-b065-0a7fc70801b6.jpg" />
     <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C164.api.telerama.fr" start="20200927214600" stop="20200927223700">
+    <title>100% Sports</title>
+    <desc lang="fr">Week-end sportif fait peau neuve et change de nom pour s'appeler "100% Sports", avec un contenu annoncé comme plus dynamique. De nouvelles séquences sont au programme, et un nouvel animateur, Jérémie Baise, secondé par quelques coéquipiers, tous d'anciens sportifs.</desc>
+    <category lang="fr">magazine sportif</category>
+    <length units="minutes">51</length>
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1276,7 +1282,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C168.api.telerama.fr" start="20200927124000" stop="20200927131000">
+  <programme channel="C168.api.telerama.fr" start="20200927124000" stop="20200927130000">
     <title>C'est moi le chef !</title>
     <sub-title>Maudit Halloween</sub-title>
     <desc lang="fr">Saison:6 - Episode:5 - Comme tous les ans à Halloween, les Baxter sont ravis d'organiser une fête. Tous sauf Mike, qui accepte à contrecœur de choisir le thème de cette année. Pour leur gâcher la soirée, Mike leur impose à tous de se déguiser en d'autres membres de la famille. Ces déguisements virent à la mesquinerie, mais en fin de compte, les Baxter mettent de côté leurs conflits pour soutenir Vanessa lorsqu'elle apprend son licenciement...</desc>
@@ -1291,14 +1297,14 @@
       <writer>Jack Burditt</writer>
     </credits>
     <category lang="fr">série humoristique</category>
-    <length units="minutes">30</length>
+    <length units="minutes">20</length>
     <episode-num system="xmltv_ns">5.4.</episode-num>
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C168.api.telerama.fr" start="20200927131000" stop="20200927144500">
+  <programme channel="C168.api.telerama.fr" start="20200927130000" stop="20200927143500">
     <title>Séparée de ma fille à la naissance</title>
     <desc lang="fr">Une mère de famille retrouve la fille qu'elle avait abandonnée des années plus tôt. Elle ignore que celle-ci est en réalité très perturbée, et dangereuse.</desc>
     <credits>
@@ -1322,7 +1328,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C168.api.telerama.fr" start="20200927144500" stop="20200927153000">
+  <programme channel="C168.api.telerama.fr" start="20200927143500" stop="20200927152500">
     <title>MacGyver *2016</title>
     <sub-title>Deal mit dem Teufel</sub-title>
     <desc lang="fr">Saison:4 - Episode:6 -</desc>
@@ -1345,14 +1351,14 @@
       <writer>Andrew Klein</writer>
     </credits>
     <category lang="fr">série d'action</category>
-    <length units="minutes">45</length>
+    <length units="minutes">50</length>
     <episode-num system="xmltv_ns">3.5.</episode-num>
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme channel="C168.api.telerama.fr" start="20200927153000" stop="20200927162500">
+  <programme channel="C168.api.telerama.fr" start="20200927152500" stop="20200927162500">
     <title>MacGyver *2016</title>
     <sub-title>Mörderisches Date</sub-title>
     <desc lang="fr">Saison:4 - Episode:7 -</desc>
@@ -1375,7 +1381,7 @@
       <writer>Stephanie Hicks</writer>
     </credits>
     <category lang="fr">série d'action</category>
-    <length units="minutes">55</length>
+    <length units="hours">1</length>
     <episode-num system="xmltv_ns">3.6.</episode-num>
     <premiere />
     <rating system="CSA">
@@ -1510,6 +1516,30 @@ Philippe Piazzo</desc>
     <desc lang="fr">Ils vous ont fait bouger, transpirer durant tout le confinement ! Ils vous ont appris à sculpter votre body à même votre salon grâce à une bonne dose de volonté et de motivation... Manzul et Malik sont de retour sur Tipik ! Tous les jours de la semaine, dès 9h, nos coachs sportifs vous initient à de nouvelles séries d'entrainements. Toujours basée sur le même principe, la pratique du sport doux ne requiert ni accessoires, ni matériel spécifique... Une série d'entraînements variés qui fera travailler l'ensemble du corps ainsi que des zones plus précises telles que les abdos, les bras, les fessiers et les jambes.</desc>
     <category lang="fr">fitness</category>
     <length units="minutes">33</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200927031300" stop="20200927033500">
+    <title>Bouge à la maison</title>
+    <sub-title>Bouge à la maison</sub-title>
+    <desc lang="fr">Ils vous ont fait bouger, transpirer durant tout le confinement ! Ils vous ont appris à sculpter votre body à même votre salon grâce à une bonne dose de volonté et de motivation... Manzul et Malik sont de retour sur Tipik ! Tous les jours de la semaine, dès 9h, nos coachs sportifs vous initient à de nouvelles séries d'entrainements. Toujours basée sur le même principe, la pratique du sport doux ne requiert ni accessoires, ni matériel spécifique... Une série d'entraînements variés qui fera travailler l'ensemble du corps ainsi que des zones plus précises telles que les abdos, les bras, les fessiers et les jambes.</desc>
+    <category lang="fr">fitness</category>
+    <length units="minutes">22</length>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme channel="C187.api.telerama.fr" start="20200927033500" stop="20200927035900">
+    <title>Les Simpson</title>
+    <sub-title>La pêche au Ned</sub-title>
+    <desc lang="fr">Saison:22 - Episode:22 - Se sentant coupable d'avoir fait suspendre madame Krapabelle à cause d'une mauvaise blague, Bart lui vient en aide, avant que Ned Flanders lui sauve la vie. Edna et Ned commencent donc à se fréquenter et ce dernier est surpris du nombre élevé de conquêtes masculines de l'institutrice, dont fait partie le célèbre batteur Joey Kramer...</desc>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">24</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/05d834fd-9f47-4e05-bc54-23a1a2540055.jpg" />
+    <episode-num system="xmltv_ns">21.21.</episode-num>
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1871,7 +1901,7 @@ Car comment ne pas voir dans les regards perdus des enfants meurtris de Port-Ré
   <programme channel="C377.api.telerama.fr" start="20200927132500" stop="20200927142000">
     <title>Les reines du shopping</title>
     <sub-title>Spéciale mariage petit budget : c'est le jour de votre mariage (1/5)</sub-title>
-    <desc lang="fr">Saison:8 - Cette semaine, Débora, Jennifer, Audrey, Mathilde et Claire devront composer la tenue idéale sur le thème " C'est le jour de votre mariage " avec un budget limité à 800 euros. Chacune de nos 5 passionnées de mode fera tout pour démontrer qu'elle peut être la plus jolie des mariées avec un budget serré. Laquelle d'entre elles proposera le meilleur look pour le thème et décrochera le point bonus de Cristina Cordula ?</desc>
+    <desc lang="fr">Saison:8 - Cinq femmes, âgées de 18 à 70 ans et passionnées de shopping, viennent à Paris, capitale de la mode, disputer la première compétition de shopping en France sous le regard expert de Cristina Cordula.</desc>
     <category lang="fr">jeu</category>
     <length units="minutes">55</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dbce872b-b626-453e-8b40-885d927b452a.jpg" />
@@ -1884,7 +1914,7 @@ Car comment ne pas voir dans les regards perdus des enfants meurtris de Port-Ré
   <programme channel="C377.api.telerama.fr" start="20200927142000" stop="20200927151500">
     <title>Les reines du shopping</title>
     <sub-title>Spéciale mariage petit budget : c'est le jour de votre mariage (2/5)</sub-title>
-    <desc lang="fr">Saison:8 - Cette semaine, Débora, Jennifer, Audrey, Mathilde et Claire devront composer la tenue idéale sur le thème " C'est le jour de votre mariage " avec un budget limité à 800 euros. Chacune de nos 5 passionnées de mode fera tout pour démontrer qu'elle peut être la plus jolie des mariées avec un budget serré. Laquelle d'entre elles proposera le meilleur look pour le thème et décrochera le point bonus de Cristina Cordula ?</desc>
+    <desc lang="fr">Saison:8 - Cinq femmes, âgées de 18 à 70 ans et passionnées de shopping, viennent à Paris, capitale de la mode, disputer la première compétition de shopping en France sous le regard expert de Cristina Cordula.</desc>
     <category lang="fr">jeu</category>
     <length units="minutes">55</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dbce872b-b626-453e-8b40-885d927b452a.jpg" />
@@ -3282,8 +3312,7 @@ Car comment ne pas voir dans les regards perdus des enfants meurtris de Port-Ré
   </programme>
   <programme channel="C187.api.telerama.fr" start="20200927230600" stop="20200927235100">
     <title>Inside</title>
-    <sub-title>Inside</sub-title>
-    <desc lang="fr">La nouvelle saison d'INSIDE débutera avec le mot clé : NOUVEAUTE. Nouveau duo, Olivier Fraipont co-animera l'émission aux côtés de Jessica. Ils évoqueront ensemble le nouveau média de la RTBF : TIPIK. Sans oublier, les rendez-vous habituels comme la mission de média Woman, le portrait, les coulisses du JT et enfin la question des médias qui s'intéressera à la conduite.</desc>
+    <desc lang="fr">Projet transversal de la RTBF présenté par Jessica Riga et Olivia Fraipont, "Inside" parle des médias, des réactions du public au traitement de l'information, des questions qui font débat, d'esprit critique et des coulisses de la télévision belge.</desc>
     <category lang="fr">magazine des médias</category>
     <length units="minutes">45</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/feb4297a-15c4-40f6-8d42-d5ac81770490.jpg" />
