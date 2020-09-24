@@ -141,15 +141,13 @@ def update_raw_files():
                     print('\t\t\t* This file already exists (size: {} bytes) --> Nothing to do'.format(xmltv_file_size), flush=True)
                     run_cmd = False
             if run_cmd:
-                stdout_f = open(xmltv_fp + '_stdout.log', 'w')
-                stderr_f = open(xmltv_fp + '_stderr.log', 'w')
+                stdout_f = open(xmltv_fp + '_stdout_stderr.log', 'w')
                 cmd = country_infos['grabber_cmd']
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
-                subprocess.run(cmd, env=my_env, stdout=stdout_f, stderr=stderr_f)
+                subprocess.run(cmd, env=my_env, stdout=stdout_f, stderr=stdout_f)
                 stdout_f.close()
-                stderr_f.close()
                 print('\t\t\t* Final file size: {} bytes'.format(os.path.getsize(xmltv_fp)), flush=True)
 
 

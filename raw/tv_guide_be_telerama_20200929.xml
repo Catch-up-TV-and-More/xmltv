@@ -34,7 +34,7 @@
     <display-name>Ketnet</display-name>
     <icon src="http://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
   </channel>
-  <programme start="20200929001500 +0200" stop="20200929002000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929001000 +0200" stop="20200929001500 +0200" channel="C23.api.telerama.fr">
     <title>Het weer</title>
     <category lang="fr">météo</category>
     <length units="minutes">5</length>
@@ -44,7 +44,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929002000 +0200" stop="20200929015000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929001500 +0200" stop="20200929014500 +0200" channel="C23.api.telerama.fr">
     <title>Villa Politica</title>
     <category lang="fr">magazine politique</category>
     <length units="minutes">90</length>
@@ -54,10 +54,42 @@
       <value>Tout public</value>
     </rating>
   </programme>
+  <programme start="20200929014500 +0200" stop="20200929015000 +0200" channel="C23.api.telerama.fr">
+    <title>Journaallus</title>
+    <sub-title>Doorlopende herhalingen</sub-title>
+    <category lang="fr">journal</category>
+    <length units="minutes">5</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929015000 +0200" stop="20200929090000 +0200" channel="C23.api.telerama.fr">
+    <title>Journaallus</title>
+    <sub-title>Doorlopende herhalingen</sub-title>
+    <category lang="fr">journal</category>
+    <length units="minutes">430</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
   <programme start="20200929090000 +0200" stop="20200929100000 +0200" channel="C23.api.telerama.fr">
     <title>Herfstbeelden</title>
     <category lang="fr">emission spéciale</category>
     <length units="hours">1</length>
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929100000 +0200" stop="20200929120000 +0200" channel="C23.api.telerama.fr">
+    <title>Radio 2 op Één</title>
+    <category lang="fr">divertissement</category>
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
     <new />
     <rating system="CSA">
       <value>Tout public</value>
@@ -115,7 +147,7 @@
   </programme>
   <programme start="20200929133000 +0200" stop="20200929135500 +0200" channel="C23.api.telerama.fr">
     <title>Iedereen beroemd</title>
-    <category lang="fr">magazine de société</category>
+    <category lang="fr">magazine magazine de société</category>
     <length units="minutes">25</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <previously-shown />
@@ -125,11 +157,11 @@
   </programme>
   <programme start="20200929135500 +0200" stop="20200929142000 +0200" channel="C23.api.telerama.fr">
     <title>Thuis</title>
-    <desc lang="fr">Saison:23 - Episode:4335 -</desc>
+    <desc lang="fr">Episode:4334 -</desc>
     <category lang="fr">feuilleton sentimental</category>
     <length units="minutes">25</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/cc168634-a940-459b-998c-a1238b3069fb.jpg" />
-    <episode-num system="xmltv_ns">22.4334.</episode-num>
+    <episode-num system="xmltv_ns">.4333.</episode-num>
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -146,7 +178,7 @@
   </programme>
   <programme start="20200929143000 +0200" stop="20200929170000 +0200" channel="C23.api.telerama.fr">
     <title>Cyclisme : BinckBank Tour (BinckBank Tour)</title>
-    <category lang="fr">cyclisme</category>
+    <category lang="fr">sport : cyclisme</category>
     <length units="minutes">150</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/551108ee-dcfe-4a33-9d44-4e830fd67c66.jpg" />
     <new />
@@ -236,7 +268,7 @@
   </programme>
   <programme start="20200929194500 +0200" stop="20200929200500 +0200" channel="C23.api.telerama.fr">
     <title>Iedereen beroemd</title>
-    <category lang="fr">magazine de société</category>
+    <category lang="fr">magazine magazine de société</category>
     <length units="minutes">20</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <rating system="CSA">
@@ -263,19 +295,19 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929204000 +0200" stop="20200929213000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929204000 +0200" stop="20200929212500 +0200" channel="C23.api.telerama.fr">
     <title>Durf te vragen</title>
     <sub-title>Hiv</sub-title>
     <desc lang="fr">Saison:2 -</desc>
     <category lang="fr">divertissement</category>
-    <length units="minutes">50</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <length units="minutes">45</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1cde329a-1ba1-473e-814a-43f1beefd16a.jpg" />
     <episode-num system="xmltv_ns">1..</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929213000 +0200" stop="20200929222000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929212500 +0200" stop="20200929221500 +0200" channel="C23.api.telerama.fr">
     <title>Vandaag</title>
     <category lang="fr">divertissement</category>
     <length units="minutes">50</length>
@@ -284,7 +316,17 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929223500 +0200" stop="20200929224000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929221500 +0200" stop="20200929223000 +0200" channel="C23.api.telerama.fr">
+    <title>Het journaal</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">15</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/1a422aeb-fdfa-499c-afe7-966aa53b92e6.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929223000 +0200" stop="20200929223500 +0200" channel="C23.api.telerama.fr">
     <title>Het weer</title>
     <category lang="fr">météo</category>
     <length units="minutes">5</length>
@@ -294,7 +336,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929224000 +0200" stop="20200929232700 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929223500 +0200" stop="20200929232200 +0200" channel="C23.api.telerama.fr">
     <title>Beau Séjour</title>
     <desc lang="fr">Saison:1 - Episode:4 - En perquisitionnant le domicile de Jef, Marion et Dora dénichent des archives sur des affaires de mineures tuées ou disparues. Un cas retient leur attention : celui de Claudia De Wit, qui s'est volatilisée la même nuit que Kato cinq ans plus tôt. Marion se rend aux Pays-Bas pour une enquête officieuse. Alors que Léon et Sofia continuent de se rapprocher, Charlie confie à Kato qu'ils se sont eux-mêmes embrassés lors de la soirée au club de tir. Dora débarque à l'inauguration du Beau Séjour pour prélever l'ADN de Mélanie. En contrôlant la vidéosurveillance routière de la nuit du meurtre, Marion repère Kato à l'arrière d'une moto...</desc>
     <credits>
@@ -322,10 +364,11 @@
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/18f76ce7-304d-4d3f-ba38-08415641c626.jpg" />
     <episode-num system="xmltv_ns">0.3.</episode-num>
     <rating system="CSA">
-      <value>Tout public</value>
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
     </rating>
   </programme>
-  <programme start="20200929232700 +0200" stop="20200929232800 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929232200 +0200" stop="20200929232300 +0200" channel="C23.api.telerama.fr">
     <title>Keno</title>
     <category lang="fr">loterie</category>
     <length units="minutes">1</length>
@@ -333,7 +376,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929232800 +0200" stop="20200929233000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929232300 +0200" stop="20200929232500 +0200" channel="C23.api.telerama.fr">
     <title>Tirage de l'Euro Millions</title>
     <category lang="fr">loterie</category>
     <length units="minutes">2</length>
@@ -342,9 +385,9 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929233000 +0200" stop="20200929235000 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929232500 +0200" stop="20200929234500 +0200" channel="C23.api.telerama.fr">
     <title>Iedereen beroemd</title>
-    <category lang="fr">magazine de société</category>
+    <category lang="fr">magazine magazine de société</category>
     <length units="minutes">20</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <previously-shown />
@@ -352,7 +395,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929235000 +0200" stop="20200930000500 +0200" channel="C23.api.telerama.fr">
+  <programme start="20200929234500 +0200" stop="20200930000000 +0200" channel="C23.api.telerama.fr">
     <title>Dagelijkse kost</title>
     <sub-title>Maaltijdsalade met omeletsliertjes, zwarte rijst en gegrilde kip</sub-title>
     <desc lang="fr">Saison:11 -</desc>
@@ -360,6 +403,28 @@
     <length units="minutes">15</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fec55851-118b-4b03-a3d3-9fca65bf6fbe.jpg" />
     <episode-num system="xmltv_ns">10..</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929050000 +0200" stop="20200929053000 +0200" channel="C50.api.telerama.fr">
+    <title>RTL - De Journal</title>
+    <desc lang="fr">Suivez les actualités du journal télévisé en luxembourgeois.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929053000 +0200" stop="20200929062000 +0200" channel="C50.api.telerama.fr">
+    <title>Télé-achat</title>
+    <desc lang="fr">Tous vos produits préférés pour la cuisine, la salle de bain, votre voiture, votre bien-être, bref de quoi améliorer votre vie au quotidien, tout cela présenté en détail.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">50</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -461,7 +526,7 @@
   <programme start="20200929081500 +0200" stop="20200929084000 +0200" channel="C50.api.telerama.fr">
     <title>Pokémon: XY</title>
     <sub-title>Un hiver inattendu !</sub-title>
-    <desc lang="fr">Saison:18 - Episode:9 - À peine arrivée à Port Tempères, la petite troupe apprend que l'Infirmière Joëlle prend soin d'un Sorbébé. Nos héros se précipitent pour le voir ! Ils prennent un raccourci à travers le ranch de monsieur Amaro, qui élève de nombreux Pokémon de type Plante. Au Centre Pokémon, Clem est enchantée de pouvoir jouer avec le Sorbébé. Malheureusement, la Team Rocket se débrouille pour le kidnapper ! Mais tout le monde se rend vite compte que Sorbébé a des amis très puissants. Quand Sorboul et Sorbouboul arrivent, à la recherche de leur petit compagnon, ils plongent la ville entière dans une terrible tempête de neige ! Mais Amaro fait appel à ses Héliatronc pour arrêter la tempête, et c'est ainsi que nos héros envoient une fois de plus la Team Rocket voler vers d'autres cieux !</desc>
+    <desc lang="fr">Saison:18 - Episode:9 - A peine arrivée à Port Tempères, la petite troupe apprend que l'Infirmière Joëlle prend soin d'un Sorbébé. Nos héros se précipitent pour le voir. Ils prennent un raccourci à travers le ranch de monsieur Amaro, qui élève de nombreux Pokémon de type Plante. Au Centre Pokémon, Clem est enchantée de pouvoir jouer avec le Sorbébé. Malheureusement, la Team Rocket se débrouille pour le kidnapper.</desc>
     <category lang="fr">jeunesse : dessin animé manga</category>
     <length units="minutes">25</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/0ea56237-6a58-4e3e-b0ed-26dfdb62f190.jpg" />
@@ -661,18 +726,18 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929000800 +0200" stop="20200929005300 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929000500 +0200" stop="20200929005100 +0200" channel="C164.api.telerama.fr">
     <title>On n'est pas des pigeons</title>
     <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
-    <category lang="fr">magazine du consommateur</category>
-    <length units="minutes">45</length>
+    <category lang="fr">magazine magazine du consommateur</category>
+    <length units="minutes">46</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fc323d43-258f-48ab-bbce-aedb5a50001b.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929005300 +0200" stop="20200929010300 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929005100 +0200" stop="20200929010100 +0200" channel="C164.api.telerama.fr">
     <title>Quel temps !</title>
     <desc lang="fr">Découvrez les coulisses du climat chez nous et à l'autre bout du monde. Des changements climatiques aux énergies renouvelables, toutes les questions scientifiques seront abordées.</desc>
     <category lang="fr">météo</category>
@@ -683,7 +748,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929010300 +0200" stop="20200929010700 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929010100 +0200" stop="20200929010500 +0200" channel="C164.api.telerama.fr">
     <title>Météo</title>
     <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
     <category lang="fr">météo</category>
@@ -694,41 +759,84 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929010700 +0200" stop="20200929014400 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929010500 +0200" stop="20200929014100 +0200" channel="C164.api.telerama.fr">
     <title>JT 19h30</title>
     <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
     <category lang="fr">journal</category>
-    <length units="minutes">37</length>
+    <length units="minutes">36</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929014400 +0200" stop="20200929022800 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929014100 +0200" stop="20200929022400 +0200" channel="C164.api.telerama.fr">
     <title>On n'est pas des pigeons</title>
     <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
-    <category lang="fr">magazine du consommateur</category>
-    <length units="minutes">44</length>
+    <category lang="fr">magazine magazine du consommateur</category>
+    <length units="minutes">43</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fc323d43-258f-48ab-bbce-aedb5a50001b.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929022800 +0200" stop="20200929023000 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929022400 +0200" stop="20200929022700 +0200" channel="C164.api.telerama.fr">
     <title>43640966</title>
     <sub-title>Vaccination - 2e dose RRO ?</sub-title>
     <desc lang="fr">Pour mieux faire connaître aux familles les nombreux services gratuits que l'ONE met à leur disposition mais aussi les informer à propos de la santé et de l'éducation des enfants de 0 à 12 ans.</desc>
-    <category lang="fr">magazine de société</category>
-    <length units="minutes">2</length>
+    <category lang="fr">magazine magazine de société</category>
+    <length units="minutes">3</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929023000 +0200" stop="20200929023400 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929022700 +0200" stop="20200929023100 +0200" channel="C164.api.telerama.fr">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/c1daa841-dbf0-4dc4-a096-feba716c0035.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929023100 +0200" stop="20200929030500 +0200" channel="C164.api.telerama.fr">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">34</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929030500 +0200" stop="20200929034800 +0200" channel="C164.api.telerama.fr">
+    <title>On n'est pas des pigeons</title>
+    <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
+    <category lang="fr">magazine magazine du consommateur</category>
+    <length units="minutes">43</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fc323d43-258f-48ab-bbce-aedb5a50001b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929034800 +0200" stop="20200929035100 +0200" channel="C164.api.telerama.fr">
+    <title>43640966</title>
+    <sub-title>Vaccination - 2e dose RRO ?</sub-title>
+    <desc lang="fr">Pour mieux faire connaître aux familles les nombreux services gratuits que l'ONE met à leur disposition mais aussi les informer à propos de la santé et de l'éducation des enfants de 0 à 12 ans.</desc>
+    <category lang="fr">magazine magazine de société</category>
+    <length units="minutes">3</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929035100 +0200" stop="20200929035500 +0200" channel="C164.api.telerama.fr">
     <title>Météo</title>
     <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
     <category lang="fr">météo</category>
@@ -739,12 +847,23 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929023400 +0200" stop="20200929055900 +0200" channel="C164.api.telerama.fr">
+  <programme start="20200929035500 +0200" stop="20200929043000 +0200" channel="C164.api.telerama.fr">
     <title>JT 19h30</title>
     <desc lang="fr">Tous les jours, le JT de 19h30 vous informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
     <category lang="fr">journal</category>
-    <length units="minutes">205</length>
+    <length units="minutes">35</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929043000 +0200" stop="20200929055900 +0200" channel="C164.api.telerama.fr">
+    <title>On n'est pas des pigeons</title>
+    <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
+    <category lang="fr">magazine magazine du consommateur</category>
+    <length units="minutes">89</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fc323d43-258f-48ab-bbce-aedb5a50001b.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -784,7 +903,7 @@
   <programme start="20200929103200 +0200" stop="20200929112600 +0200" channel="C164.api.telerama.fr">
     <title>On n'est pas des pigeons</title>
     <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
-    <category lang="fr">magazine du consommateur</category>
+    <category lang="fr">magazine magazine du consommateur</category>
     <length units="minutes">54</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fc323d43-258f-48ab-bbce-aedb5a50001b.jpg" />
     <previously-shown />
@@ -903,10 +1022,10 @@
   </programme>
   <programme start="20200929151500 +0200" stop="20200929164800 +0200" channel="C164.api.telerama.fr">
     <title>Brokenwood</title>
-    <sub-title>Meurtre dans un nid de coucou</sub-title>
-    <desc lang="fr">Saison:5 - Episode:4 - L'hôpital psychiatrique désaffecté de Brokenwood Downes est devenu le lieu favori des adolescents. Au cours d'une nuit d'orage, un jeune couple est horrifié par la découverte du cadavre d'un homme, électrocuté par un appareil à électrochocs. Accrochée à son orteil, une étiquette «tortionnaire» semble indiquer un motif. La victime est l'ancien directeur du lieu, Jakob Deschler, qui aurait été invité par un journaliste inconnu à le rejoindre sur place. Au cours de son enquête, Mike Sheperd rencontre une psychothérapeute qui ne le laisse pas indifférent.</desc>
+    <sub-title>Dix petits héritiers</sub-title>
+    <desc lang="fr">Saison:5 - Episode:3 - Le cyclisme est de rigueur à Brokenwood, comme partout ailleurs. Lester Nyman, cycliste chevronné, atteint le sommet d'une côte après une progression exténuante. C'est là qu'il s'effondre, victime d'une crise cardiaque foudroyante. Lorsque Gina, le médecin légiste, révèle un taux de caféine astronomique dans le sang de la victime, Mike Shepherd est convaincu qu'il y a un lien avec les décès accidentels d'autres membres de la même famille. Le père de Lester, Carl Nyman, avait légué sa ferme et son compte en banque à dix personnes sous la forme d'une tontine...</desc>
     <credits>
-      <director>Mark Beesley</director>
+      <director>Thomas Robins</director>
       <actor role="Mike Shepherd">Neill Rea</actor>
       <actor role="Kristin Sims">Fern Sutherland</actor>
       <actor role="Sam Breen">Nic Sampson</actor>
@@ -914,17 +1033,18 @@
       <actor role="Hughes">Colin Moy</actor>
       <actor role="madame Marlowe">Elizabeth McRae</actor>
       <actor role="Kahu Taylor">Rawiri Jobe</actor>
-      <actor role="Jared">Pana Hema-Taylor</actor>
+      <actor role="Frankie «Frodo» Oades">Karl Willetts</actor>
       <writer>Mike Smith</writer>
       <writer>Joshua Frizzell</writer>
       <writer>Michael Hurst</writer>
       <writer>Timothy Balme</writer>
+      <writer>James Griffin</writer>
       <composer>Joel Haines</composer>
     </credits>
     <category lang="fr">série policière</category>
     <length units="minutes">93</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7510d37a-6dfe-498b-bd40-d54d2768f2cd.jpg" />
-    <episode-num system="xmltv_ns">4.3.</episode-num>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/78768423-82b1-4565-802e-8b484d40707c.jpg" />
+    <episode-num system="xmltv_ns">4.2.</episode-num>
     <rating system="CSA">
       <value>-10</value>
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
@@ -1012,7 +1132,7 @@
   <programme start="20200929183000 +0200" stop="20200929191400 +0200" channel="C164.api.telerama.fr">
     <title>On n'est pas des pigeons</title>
     <desc lang="fr">Présenté par Benjamin Maréchal, On n'est pas des pigeons ! décrypte les codes de la consommation et du marketing pour que chacun puisse faire son choix sans se faire " pigeonner ". Les chroniqueurs dénichent les arnaques et les bons plans, et vous aident à boucler vos fins de mois.</desc>
-    <category lang="fr">magazine du consommateur</category>
+    <category lang="fr">magazine magazine du consommateur</category>
     <length units="minutes">44</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fc323d43-258f-48ab-bbce-aedb5a50001b.jpg" />
     <rating system="CSA">
@@ -1170,32 +1290,40 @@
       <value>3/5</value>
     </star-rating>
   </programme>
-  <programme start="20200929000000 +0200" stop="20200929004000 +0200" channel="C168.api.telerama.fr">
+  <programme start="20200929000000 +0200" stop="20200929004500 +0200" channel="C168.api.telerama.fr">
     <title>RTL info 19 heures</title>
     <desc lang="fr">L'information est au coeur de RTL TVI. Cette année plus que jamais, l'ensemble des équipes de la rédaction se mobilise afin de faire preuve de réactivité dans n'importe quelles circonstances.</desc>
     <category lang="fr">journal</category>
-    <length units="minutes">40</length>
+    <length units="minutes">45</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/077ab6d9-eb7c-4a90-a25f-9973c09e69f0.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929004000 +0200" stop="20200929022500 +0200" channel="C168.api.telerama.fr">
-    <title>Jeux de nuit</title>
-    <desc lang="fr">Tous les jours de la semaine, à la fin des programmes, retrouvez un jeu télévisé interactif, en direct, permettant aux téléspectateurs de gagner un prix en argent ou en nature s'ils répondent correctement à la (aux) question(s) posée(s). Il s'agit d'une série de jeux interactifs (mots croisés, exercices d'observation, de connaissances ou de reconnaissance) auxquels les téléspectateurs peuvent ainsi participer par téléphone ou par SMS.</desc>
+  <programme start="20200929004500 +0200" stop="20200929024500 +0200" channel="C168.api.telerama.fr">
+    <title>Luna Park</title>
     <category lang="fr">jeu</category>
-    <length units="minutes">105</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3f1fb20f-12ab-4e2b-9e12-030d9cc2e502.jpg" />
+    <length units="hours">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/02802cd4-1d91-4e60-bc91-d371afc81ef9.jpg" />
     <premiere />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929022500 +0200" stop="20200929050000 +0200" channel="C168.api.telerama.fr">
+  <programme start="20200929024500 +0200" stop="20200929050000 +0200" channel="C168.api.telerama.fr">
     <title>Boucle de nuit</title>
     <category lang="fr">emission spéciale</category>
-    <length units="minutes">155</length>
+    <length units="minutes">135</length>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929050000 +0200" stop="20200929082500 +0200" channel="C168.api.telerama.fr">
+    <title>Bel RTL</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">205</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/d20bfea1-5f8c-4003-baff-5998de6a3ecc.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1222,19 +1350,7 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929120500 +0200" stop="20200929122000 +0200" channel="C168.api.telerama.fr">
-    <title>Loïc, fou de cuisine</title>
-    <desc lang="fr">Saison:2 - Loïc n'est pas un " Chef " mais un fou de cuisine ! Ses grands-parents et parents sont à la base de son éducation culinaire et c'est grâce aux livres, à la télévision, Facebook, YouTube et Instagram que Loïc a poursuivi son apprentissage. Sa cuisine est super rapide, facile et toujours gourmande. Soucieux de son époque et du monde dans lequel il vit, il essaie de privilégier les produits de saison et locaux au travers des recettes qu'il nous présente.</desc>
-    <category lang="fr">magazine culinaire</category>
-    <length units="minutes">15</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fec55851-118b-4b03-a3d3-9fca65bf6fbe.jpg" />
-    <episode-num system="xmltv_ns">1..</episode-num>
-    <previously-shown />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200929122000 +0200" stop="20200929124500 +0200" channel="C168.api.telerama.fr">
+  <programme start="20200929120500 +0200" stop="20200929123000 +0200" channel="C168.api.telerama.fr">
     <title>Un si grand soleil</title>
     <sub-title>Episode 493</sub-title>
     <desc lang="fr">Saison:3 - Episode:23 - Alors qu'Alex recueille d'étonnante révélations, Virgile est prêt à se remettre en selle pour aider une vieille amie. Eliott, quant à lui, n'est pas né de la dernière pluie…</desc>
@@ -1253,6 +1369,18 @@
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/dcd5e49f-db1a-4593-a9a6-a101cc4719d1.jpg" />
     <episode-num system="xmltv_ns">2.22.</episode-num>
     <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929123000 +0200" stop="20200929124500 +0200" channel="C168.api.telerama.fr">
+    <title>Loïc, fou de cuisine</title>
+    <desc lang="fr">Saison:2 - Loïc n'est pas un " Chef " mais un fou de cuisine ! Ses grands-parents et parents sont à la base de son éducation culinaire et c'est grâce aux livres, à la télévision, Facebook, YouTube et Instagram que Loïc a poursuivi son apprentissage. Sa cuisine est super rapide, facile et toujours gourmande. Soucieux de son époque et du monde dans lequel il vit, il essaie de privilégier les produits de saison et locaux au travers des recettes qu'il nous présente.</desc>
+    <category lang="fr">magazine culinaire</category>
+    <length units="minutes">15</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/fec55851-118b-4b03-a3d3-9fca65bf6fbe.jpg" />
+    <episode-num system="xmltv_ns">1..</episode-num>
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1314,7 +1442,7 @@
   <programme start="20200929151500 +0200" stop="20200929160500 +0200" channel="C168.api.telerama.fr">
     <title>Les mamans</title>
     <desc lang="fr">Pour cette nouvelle saison, 9 jeunes mamans nous font partager leur quotidien de mère, leur vie de femme, leurs petits succès, leurs grandes victoires et leurs combats : un mariage, une naissance, l'entrée à l'école maternelle, les premiers pas des enfants, les joies mais aussi les difficultés du quotidien… Durant plusieurs semaines, nous les avons suivies au gré de leur vie : entourées de leurs enfants, de leurs conjoints, de leurs familles et amis. Elles se livrent sans tabou et sous le regard toujours bienveillant de nos caméras !</desc>
-    <category lang="fr">documentaire : société</category>
+    <category lang="fr">documentaire société</category>
     <length units="minutes">50</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/784d2a79-d959-4647-9158-b2258a33543f.jpg" />
     <premiere />
@@ -1489,16 +1617,54 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929000300 +0200" stop="20200929003200 +0200" channel="C187.api.telerama.fr">
+  <programme start="20200929000200 +0200" stop="20200929002900 +0200" channel="C187.api.telerama.fr">
     <title>Formule 1 : Grand Prix de Russie (Grand Prix de Russie)</title>
     <category lang="fr">sport : formule 1</category>
-    <length units="minutes">29</length>
+    <length units="minutes">27</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45c703b8-6288-4986-9600-1df2e416261f.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929003200 +0200" stop="20200929003800 +0200" channel="C187.api.telerama.fr">
+  <programme start="20200929002900 +0200" stop="20200929003600 +0200" channel="C187.api.telerama.fr">
+    <title>Vews</title>
+    <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">7</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f5ccc318-19b5-4485-9922-2947fa2dcee7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929003600 +0200" stop="20200929004000 +0200" channel="C187.api.telerama.fr">
+    <title>Météo</title>
+    <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929004000 +0200" stop="20200929022000 +0200" channel="C187.api.telerama.fr">
+    <title>La tribune</title>
+    <category lang="fr">sport : football</category>
+    <length units="minutes">100</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6c9b77d1-47a8-4a5c-bb96-4dcbd9b312b8.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929022000 +0200" stop="20200929024300 +0200" channel="C187.api.telerama.fr">
+    <title>Boucle de nuit</title>
+    <category lang="fr">journal</category>
+    <length units="minutes">23</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929024300 +0200" stop="20200929024900 +0200" channel="C187.api.telerama.fr">
     <title>Vews</title>
     <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
     <category lang="fr">magazine d'actualité</category>
@@ -1509,31 +1675,34 @@
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929003800 +0200" stop="20200929004100 +0200" channel="C187.api.telerama.fr">
+  <programme start="20200929024900 +0200" stop="20200929025300 +0200" channel="C187.api.telerama.fr">
     <title>Météo</title>
     <desc lang="fr">Tout au long de la journée, retrouvez les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
     <category lang="fr">météo</category>
-    <length units="minutes">3</length>
+    <length units="minutes">4</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929004100 +0200" stop="20200929022000 +0200" channel="C187.api.telerama.fr">
+  <programme start="20200929025300 +0200" stop="20200929045600 +0200" channel="C187.api.telerama.fr">
     <title>La tribune</title>
     <category lang="fr">sport : football</category>
-    <length units="minutes">99</length>
+    <length units="minutes">123</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/6c9b77d1-47a8-4a5c-bb96-4dcbd9b312b8.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929022000 +0200" stop="20200929060000 +0200" channel="C187.api.telerama.fr">
-    <title>Boucle de nuit</title>
-    <category lang="fr">journal</category>
-    <length units="minutes">220</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+  <programme start="20200929045600 +0200" stop="20200929050200 +0200" channel="C187.api.telerama.fr">
+    <title>Vews</title>
+    <desc lang="fr">Vews propose des vidéos d'actualité destinées au web. Elles apportent un regard différent sur l'info avec un ton direct et authentique. L'expérience se prolonge sous la forme d'un JT basé sur les vidéos de la journée, enrichies avec des directs, du décryptage et de la découverte.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">6</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/f5ccc318-19b5-4485-9922-2947fa2dcee7.jpg" />
+    <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -1591,7 +1760,7 @@
     </rating>
   </programme>
   <programme start="20200929110000 +0200" stop="20200929191100 +0200" channel="C187.api.telerama.fr">
-    <title>Tennis : Internationaux de France (Finale messieurs)</title>
+    <title>Tennis : Internationaux de France (Internationaux de France 2020)</title>
     <category lang="fr">sport : tennis</category>
     <length units="minutes">491</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/344d3aca-e688-457b-9252-ae774eff1c31.jpg" />
@@ -1647,6 +1816,7 @@
   </programme>
   <programme start="20200929203500 +0200" stop="20200929220500 +0200" channel="C187.api.telerama.fr">
     <title>Martin Weill : Faut-il interdire le tourisme ?</title>
+    <sub-title>Faut-il interdire le tourisme ?</sub-title>
     <desc lang="fr">En 2019, 1 milliard 500 000 personnes ont voyagé. Tout le monde partage cette envie de voyager, mais ce phénomène menace de plus en plus l'environnement, le patrimoine et le bien-être animal. Alors, faut-il interdire le tourisme ? C'est la question à laquelle Martin Weill et ses équipes répondent.</desc>
     <category lang="fr">magazine de reportages</category>
     <length units="minutes">90</length>
@@ -1794,6 +1964,16 @@
     <length units="minutes">155</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929050000 +0200" stop="20200929090000 +0200" channel="C377.api.telerama.fr">
+    <title>Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="hours">4</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/45547c05-204d-4e02-be15-f455f6b407e6.jpg" />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -2030,10 +2210,6 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
       <actor>Benicio Del Toro</actor>
       <actor>Pete Postlethwaite</actor>
       <actor>Suzy Amis</actor>
-      <actor>Peter Greene</actor>
-      <actor>Giancarlo Esposito</actor>
-      <actor>Paul Bartel</actor>
-      <actor>Carl Bressler</actor>
       <writer>Christopher McQuarrie</writer>
       <composer>John Ottman</composer>
       <guest>Howard Cummings</guest>
@@ -2069,18 +2245,7 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929000200 +0200" stop="20200929001200 +0200" channel="C892.api.telerama.fr">
-    <title>OpinionS</title>
-    <sub-title>Présence protestante</sub-title>
-    <desc lang="fr">OpinionS est un magazine sociétal qui laisse la parole aux grands partis politiques démocratiques présents en Belgique francophone et aux associations professionnelles tant patronales, comme la Fédération Wallonne de l'Agriculture et l'Union des Classes Moyennes, que syndicales, c'est-à-dire FGTB, CSC et CGSLB.</desc>
-    <category lang="fr">magazine politique</category>
-    <length units="minutes">10</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/8c54e999-6001-4506-b435-58301e6ea2e4.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200929001200 +0200" stop="20200929004700 +0200" channel="C892.api.telerama.fr">
+  <programme start="20200929000000 +0200" stop="20200929003500 +0200" channel="C892.api.telerama.fr">
     <title>JT 19h30</title>
     <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
     <category lang="fr">journal</category>
@@ -2091,12 +2256,142 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929004700 +0200" stop="20200929060100 +0200" channel="C892.api.telerama.fr">
+  <programme start="20200929003500 +0200" stop="20200929003800 +0200" channel="C892.api.telerama.fr">
     <title>Météo internationale</title>
     <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
     <category lang="fr">météo</category>
-    <length units="minutes">314</length>
+    <length units="minutes">3</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929003800 +0200" stop="20200929010500 +0200" channel="C892.api.telerama.fr">
+    <title>CQFD (Ce qui fait débat)</title>
+    <desc lang="fr">Du lundi au jeudi, un rendez-vous avec l'info : un fait du jour décrypté par Arnaud Ruyssen et Catherine Tonero, un face à face sur une question polémique, un débat contradictoire de 25 minutes opposant acteurs de terrain, observateurs et commentateurs de l'actualité. Le vendredi, c'est toute l'actu de la semaine qui est analysée par Arnaud Ruyssen et ses invités.</desc>
+    <category lang="fr">débat</category>
+    <length units="minutes">27</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/87c41bfa-32ff-4927-a96e-5894df2bb890.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929010500 +0200" stop="20200929014600 +0200" channel="C892.api.telerama.fr">
+    <title>Sous couverture</title>
+    <desc lang="fr">Tournée dans un grand hôtel bruxellois, l'émission accueille une personnalité littéraire. Auteure belge de romans policiers, Barbara Abel est aujourd'hui l'invitée de l'émission. Son dernier livre, Et les vivants autour, est paru en 2020 chez Belfond.</desc>
+    <category lang="fr">magazine magazine de société</category>
+    <length units="minutes">41</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/0fc54441-7ac7-4424-9ed8-388676488b09.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929014600 +0200" stop="20200929015300 +0200" channel="C892.api.telerama.fr">
+    <title>KIOSK, le magazine des arts de la scène</title>
+    <sub-title>(Boucle de nuit)</sub-title>
+    <desc lang="fr">Pour un retour en salle en toute sécurité, suivez le guide, suivez KIOSK ! FOCUS To Play Or Not To Play / Théâtre du Parc KIOSKàVU Notre-Dame de Paris / Abbaye de Villers-La-Ville</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">7</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ea42280e-b75f-4f51-94f1-57c2a88a51c7.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929015300 +0200" stop="20200929022800 +0200" channel="C892.api.telerama.fr">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929022800 +0200" stop="20200929023000 +0200" channel="C892.api.telerama.fr">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">2</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929023000 +0200" stop="20200929025600 +0200" channel="C892.api.telerama.fr">
+    <title>CQFD (Ce qui fait débat)</title>
+    <desc lang="fr">Du lundi au jeudi, un rendez-vous avec l'info : un fait du jour décrypté par Arnaud Ruyssen et Catherine Tonero, un face à face sur une question polémique, un débat contradictoire de 25 minutes opposant acteurs de terrain, observateurs et commentateurs de l'actualité. Le vendredi, c'est toute l'actu de la semaine qui est analysée par Arnaud Ruyssen et ses invités.</desc>
+    <category lang="fr">débat</category>
+    <length units="minutes">26</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/87c41bfa-32ff-4927-a96e-5894df2bb890.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929025600 +0200" stop="20200929033800 +0200" channel="C892.api.telerama.fr">
+    <title>Sous couverture</title>
+    <desc lang="fr">Tournée dans un grand hôtel bruxellois, l'émission accueille une personnalité littéraire. Auteure belge de romans policiers, Barbara Abel est aujourd'hui l'invitée de l'émission. Son dernier livre, Et les vivants autour, est paru en 2020 chez Belfond.</desc>
+    <category lang="fr">magazine magazine de société</category>
+    <length units="minutes">42</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/0fc54441-7ac7-4424-9ed8-388676488b09.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929033800 +0200" stop="20200929041300 +0200" channel="C892.api.telerama.fr">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929041300 +0200" stop="20200929041600 +0200" channel="C892.api.telerama.fr">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/ff420106-f5cd-474d-93b8-813b0c03b835.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929041600 +0200" stop="20200929044200 +0200" channel="C892.api.telerama.fr">
+    <title>CQFD (Ce qui fait débat)</title>
+    <desc lang="fr">Du lundi au jeudi, un rendez-vous avec l'info : un fait du jour décrypté par Arnaud Ruyssen et Catherine Tonero, un face à face sur une question polémique, un débat contradictoire de 25 minutes opposant acteurs de terrain, observateurs et commentateurs de l'actualité. Le vendredi, c'est toute l'actu de la semaine qui est analysée par Arnaud Ruyssen et ses invités.</desc>
+    <category lang="fr">débat</category>
+    <length units="minutes">26</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/87c41bfa-32ff-4927-a96e-5894df2bb890.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929044200 +0200" stop="20200929052400 +0200" channel="C892.api.telerama.fr">
+    <title>Sous couverture</title>
+    <desc lang="fr">Tournée dans un grand hôtel bruxellois, l'émission accueille une personnalité littéraire. Auteure belge de romans policiers, Barbara Abel est aujourd'hui l'invitée de l'émission. Son dernier livre, Et les vivants autour, est paru en 2020 chez Belfond.</desc>
+    <category lang="fr">magazine magazine de société</category>
+    <length units="minutes">42</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/0fc54441-7ac7-4424-9ed8-388676488b09.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20200929052400 +0200" stop="20200929060100 +0200" channel="C892.api.telerama.fr">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, retrouvez le JT de 19h30 traduit en simultané en langue des signes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">37</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
     <previously-shown />
     <rating system="CSA">
       <value>Tout public</value>
@@ -3183,7 +3478,7 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
   </programme>
   <programme start="20200929084500 +0200" stop="20200929085500 +0200" channel="C1280.api.telerama.fr">
     <title>Karrewiet met VGT</title>
-    <category lang="fr">magazine de société</category>
+    <category lang="fr">magazine magazine de société</category>
     <length units="minutes">10</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/92731c63-4502-49e1-bc4f-b0d984ede315.jpg" />
     <rating system="CSA">
@@ -3261,10 +3556,11 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
   </programme>
   <programme start="20200929104500 +0200" stop="20200929111000 +0200" channel="C1280.api.telerama.fr">
     <title>Tous en selle avec Bibi et Tina</title>
+    <sub-title>Het westerntoernooi</sub-title>
     <desc lang="fr">Saison:2 - Episode:8 -</desc>
     <category lang="fr">jeunesse : dessin animé</category>
     <length units="minutes">25</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/3e172bcb-7006-4332-a66b-f20f3a024f6c.jpg" />
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/442f9a0e-16a8-47af-9f0e-ee55e98dc56a.jpg" />
     <episode-num system="xmltv_ns">1.7.</episode-num>
     <rating system="CSA">
       <value>Tout public</value>
@@ -3652,21 +3948,11 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
       <value>Tout public</value>
     </rating>
   </programme>
-  <programme start="20200929201500 +0200" stop="20200929205500 +0200" channel="C1280.api.telerama.fr">
+  <programme start="20200929201500 +0200" stop="20200929210000 +0200" channel="C1280.api.telerama.fr">
     <title>Het journaal met VGT</title>
     <category lang="fr">journal</category>
-    <length units="minutes">40</length>
+    <length units="minutes">45</length>
     <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/7de0fb1c-d452-42a8-ad43-5c27dddef2b4.jpg" />
-    <rating system="CSA">
-      <value>Tout public</value>
-    </rating>
-  </programme>
-  <programme start="20200929205500 +0200" stop="20200929210000 +0200" channel="C1280.api.telerama.fr">
-    <title>Pause</title>
-    <category lang="fr">autre</category>
-    <length units="minutes">5</length>
-    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
-    <new />
     <rating system="CSA">
       <value>Tout public</value>
     </rating>
@@ -3701,6 +3987,16 @@ Le film est aussi une délectable et ­sadique récréation, magistralement in­
     <rating system="CSA">
       <value>-12</value>
       <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20200929215000 +0200" stop="20200930060000 +0200" channel="C1280.api.telerama.fr">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">490</length>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/media/88b88b09-1af1-4e76-8466-c06c9ac324d7.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
     </rating>
   </programme>
 </tv>
