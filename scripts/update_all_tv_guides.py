@@ -293,7 +293,7 @@ def generate_new_xmltv_files():
                     w.write(f, pretty_print=True)
                 print('\t\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
-    print('\t* Merge all country tv guides in tv_guide_all.xml', flush=True)
+    print('\n* Merge all country tv guides in tv_guide_all.xml', flush=True)
 
     w = xmltv.Writer()
 
@@ -313,7 +313,7 @@ def generate_new_xmltv_files():
         w.write(f, pretty_print=True)
     print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
-    print('\t* Merge all country tv guides in tv_guide_all_local.xml', flush=True)
+    print('\n* Merge all country tv guides in tv_guide_all_local.xml', flush=True)
 
     w = xmltv.Writer()
 
@@ -327,7 +327,7 @@ def generate_new_xmltv_files():
         if 'programmes_local_datetime_l' in country_infos:
             for p in country_infos['programmes_local_datetime_l']:
                 w.addProgramme(p)
-                cnt = cnt + 0
+                cnt = cnt + 1
 
     with open(ROOT_DIRECTORY + 'tv_guide_all_local.xml', 'wb') as f:
         w.write(f, pretty_print=True)
