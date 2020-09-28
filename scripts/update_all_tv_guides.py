@@ -187,9 +187,9 @@ def generate_new_xmltv_files():
                     os.remove(xmltv_fp)
                 else:
                     print('\t\t\t- This file contains {} TV shows'.format(len(programmes)), flush=True)
-                    country_infos['programmes_local_datetime_l'].extend(list(programmes))
-                    country_infos['programmes_l'].extend(list(programmes))
-
+                    for programme in programmes:
+                        country_infos['programmes_local_datetime_l'].append(dict(programme))
+                        country_infos['programmes_l'].append(dict(programme))
             except Exception:
                 print('\t\t\t- This file seems to be corrupt :-/, delete it', flush=True)
                 os.remove(xmltv_fp)
@@ -229,9 +229,7 @@ def generate_new_xmltv_files():
         for fp_prefix in ['', '_local']:
             dst_fp = ROOT_DIRECTORY + country_infos['dst'].format(fp_prefix)
             print('\t- Write full xmltv file in {}'.format(os.path.basename(dst_fp)), flush=True)
-            w = xmltv.Writer(
-                source_info_url=country_infos['data_d']['source-info-url']
-            )
+            w = xmltv.Writer()
 
             # Add channels
             for c in country_infos['channels_l']:
@@ -262,9 +260,7 @@ def generate_new_xmltv_files():
                 date_s = date.strftime("%Y%m%d")
                 dst_fp = ROOT_DIRECTORY + country_infos['dst'].format(fp_prefix + '_' + date_s)
                 print('\t\t* Write day {} in {}'.format(date_s, os.path.basename(dst_fp)), flush=True)
-                w = xmltv.Writer(
-                    source_info_url=country_infos['data_d']['source-info-url']
-                )
+                w = xmltv.Writer()
 
                 # Add channels
                 for c in country_infos['channels_l']:
@@ -332,65 +328,89 @@ def generate_new_xmltv_files():
     print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
 
+def generate_other_xmltv_files():
+    print('\n# Generate "other" XMLTV files in root directory', flush=True)
+    OTHERS = {
+        'fr_tnt': {
+            'raw_expr': 'tv_guide_fr',
+            'dst_expr': 'tv_guide_fr_tnt',
+            'channels_to_add': [
+                'C192.api.telerama.fr',  # TF1
+                'C4.api.telerama.fr',  # France 2
+                'C80.api.telerama.fr',  # France 3
+                'C34.api.telerama.fr',  # Canal+
+                'C47.api.telerama.fr',  # France 5
+                'C118.api.telerama.fr',  # M6
+                'C111.api.telerama.fr',  # Arte
+                'C445.api.telerama.fr',  # C8
+                'C119.api.telerama.fr',  # W9
+                'C195.api.telerama.fr',  # TMC
+                'C446.api.telerama.fr',  # TFX
+                'C444.api.telerama.fr',  # NRJ 12
+                'C234.api.telerama.fr',  # LCP
+                'C78.api.telerama.fr',  # France 4
+                'C481.api.telerama.fr',  # BFM TV
+                'C226.api.telerama.fr',  # CNEWS
+                'C458.api.telerama.fr',  # CSTAR
+                'C482.api.telerama.fr',  # Gulli
+                'C160.api.telerama.fr',  # France O
+                'C1404.api.telerama.fr',  # TF1 Séries Films
+                'C1401.api.telerama.fr',  # L'équipe
+                'C1403.api.telerama.fr',  # 6ter
+                'C1402.api.telerama.fr',  # RMC Story
+                'C1400.api.telerama.fr',  # RMC Découverte
+                'C1399.api.telerama.fr',  # Chérie 25
+                'C112.api.telerama.fr',  # LCI
+                'C2111.api.telerama.fr'  # Franceinfo
+            ]
+        }
+    }
+
+    for country_code, country_infos in OTHERS.items():
+        print('\n* Processing of {} country:'.format(country_code), flush=True)
+        for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
+            if country_infos['raw_expr'] in f:
+                print('\t- Read {} XMLTV file:'.format(f), flush=True)
+                try:
+                    data = xmltv.read_data(open(f, 'r'))
+                    channels = xmltv.read_channels(open(f, 'r'))
+                    print('\t\t* This file contains {} channels'.format(len(channels)), flush=True)
+                    programmes = xmltv.read_programmes(open(f, 'r'))
+                    print('\t\t* This file contains {} TV shows'.format(len(programmes)), flush=True)
+
+                    # Write in final XMLTV file
+                    w = xmltv.Writer()
+                    cnt_channels = 0
+                    cnt_programmes = 0
+                    for channel in channels:
+                        if 'id' in channel and channel['id'] in country_infos['channels_to_add']:
+                            w.addChannel(channel)
+                            cnt_channels = cnt_channels + 1
+                    print('\t\t* We will keep only {} channels'.format(cnt_channels), flush=True)
+                    for programme in programmes:
+                        if 'channel' in programme and programme['channel'] in country_infos['channels_to_add']:
+                            w.addProgramme(programme)
+                            cnt_programmes = cnt_programmes + 1
+                    print('\t\t* We will keep only {} TV shows'.format(cnt_programmes), flush=True)
+
+                    final_fp = f.replace(country_infos['raw_expr'], country_infos['dst_expr'])
+                    print('\t- Write {} XMLTV file\n'.format(f), flush=True)
+                    with open(final_fp, 'wb') as f:
+                        w.write(f, pretty_print=True)
+
+                except Exception:
+                    print('\t- Failed to process {} XMLTV file\n'.format(f), flush=True)
+
+
 def main():
     print('\n# Start script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
     remove_root_xmltv_files()
     remove_old_raw_files()
     update_raw_files()
     generate_new_xmltv_files()
+    generate_other_xmltv_files()
     print('\n# Exit script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
 
 
 if __name__ == '__main__':
     main()
-
-
-"""
-    'fr_tnt': {
-        'raw_min_size': 600000,
-        'raw': 'tv_guide_fr_telerama{}.xml',
-        'dst': 'tv_guide_fr_tnt{}.xml',
-        'tz': 'Europe/Paris',
-        'channels_to_add': [
-            'C192.api.telerama.fr',  # TF1
-            'C4.api.telerama.fr',  # France 2
-            'C80.api.telerama.fr',  # France 3
-            'C34.api.telerama.fr',  # Canal+
-            'C47.api.telerama.fr',  # France 5
-            'C118.api.telerama.fr',  # M6
-            'C111.api.telerama.fr',  # Arte
-            'C445.api.telerama.fr',  # C8
-            'C119.api.telerama.fr',  # W9
-            'C195.api.telerama.fr',  # TMC
-            'C446.api.telerama.fr',  # TFX
-            'C444.api.telerama.fr',  # NRJ 12
-            'C234.api.telerama.fr',  # LCP
-            'C78.api.telerama.fr',  # France 4
-            'C481.api.telerama.fr',  # BFM TV
-            'C226.api.telerama.fr',  # CNEWS
-            'C458.api.telerama.fr',  # CSTAR
-            'C482.api.telerama.fr',  # Gulli
-            'C160.api.telerama.fr',  # France O
-            'C1404.api.telerama.fr',  # TF1 Séries Films
-            'C1401.api.telerama.fr',  # L'équipe
-            'C1403.api.telerama.fr',  # 6ter
-            'C1402.api.telerama.fr',  # RMC Story
-            'C1400.api.telerama.fr',  # RMC Découverte
-            'C1399.api.telerama.fr',  # Chérie 25
-            'C112.api.telerama.fr',  # LCI
-            'C2111.api.telerama.fr'  # Franceinfo
-        ],
-        'grabber_cmd': [
-            SCRIPTS_DIRECTORY + 'tv_grab_fr_telerama/tv_grab_fr_telerama',
-            '--config-file',
-            SCRIPTS_DIRECTORY + 'tv_grab_fr_telerama/tv_grab_fr_telerama_fr_config.txt',
-            '--no_htmltags',
-            '--casting',
-            '--days',
-            '1',
-            '--offset',
-            'myoffset',
-            '--output',
-            'myoutput'
-        ]
-"""
