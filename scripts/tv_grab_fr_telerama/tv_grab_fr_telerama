@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 #   coding: utf-8
 
 eval 'exec /usr/bin/perl  -S $0 ${1+"$@"}'
@@ -568,7 +568,7 @@ if ($mode eq 'configure') {
 
   my %channels = get_channels("configure.json");
   die 'No channels could be found' if not %channels;
-  
+
   my %asked;
   # Ask about each channel (unless already asked).
   my @chs = grep { not $asked{$_}++ } sort {$a <=> $b} keys %channels;
@@ -927,7 +927,7 @@ sub get_channels( $ ) {
 
 sub grab_day ($) {
   my $offset = shift;
-  
+
   my $dayoff = strftime("%Y-%m-%d", gmtime(time() + 3600 * 24 * $offset));
   my ($jsname, $nb);
   my $page = 1;

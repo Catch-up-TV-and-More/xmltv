@@ -12,7 +12,7 @@ force_pull () {
     git reset --hard "origin/$BRANCH"
 }
 
-push () {
+force_push () {
     git add --all
     git commit --amend -m "Auto update TV guides ($now)"
     git push -f origin master
@@ -28,15 +28,12 @@ move_log_file () {
 }
 
 
-# echo -e "- To avoid any git conflict we do a force pull first\n"
-# force_pull
-
 ./update_all_tv_guides.py
 
 move_log_file
 
-echo -e "\n- Push changes\n"
-push
+echo -e "\n- Force push changes\n"
+force_push
 
 echo -e "\n- Changes have been pushed --> exit\n"
 exit 0
