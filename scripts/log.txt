@@ -1,0 +1,515 @@
+
+# Start script at 17/10/2022 12:00:01
+
+# Remove all XMLTV files in root directory
+
+# Remove old XMLTV and log files of raw directory
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_it_20221014.xml_stdout_stderr.log
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221014.xml
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221014.xml_stdout_stderr.log
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_it_20221014.xml
+	* Remove file /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221014.xml_stdout_stderr.log
+
+# Update raw XMLTV files from grabbers
+	* Grab TV guides of day 17/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221017.xml
+			* This file already exists (size: 1638351 bytes) --> Nothing to do
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221017.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221017.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221017.xml
+			* This file already exists but its size is small 0_o (115504 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 0 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221017.xml
+			* Final file size: 115504 bytes
+	* Grab TV guides of day 18/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221018.xml
+			* Force file update (delta is 1) --> run grabber
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama.conf --no_htmltags --casting --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221018.xml
+			* Final file size: 1659352 bytes
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221018.xml
+			* Force file update (delta is 1) --> run grabber
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221018.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221018.xml
+			* Force file update (delta is 1) --> run grabber
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 1 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221018.xml
+			* Final file size: 112629 bytes
+	* Grab TV guides of day 19/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221019.xml
+			* This file already exists (size: 1500904 bytes) --> Nothing to do
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221019.xml
+			* This file already exists but its size is small 0_o (8587 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221019.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221019.xml
+			* This file already exists but its size is small 0_o (112922 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 2 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221019.xml
+			* Final file size: 112922 bytes
+	* Grab TV guides of day 20/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221020.xml
+			* This file already exists (size: 1564058 bytes) --> Nothing to do
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221020.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221020.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221020.xml
+			* This file already exists but its size is small 0_o (111114 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 3 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221020.xml
+			* Final file size: 111114 bytes
+	* Grab TV guides of day 21/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221021.xml
+			* This file already exists (size: 1548561 bytes) --> Nothing to do
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221021.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221021.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221021.xml
+			* This file already exists but its size is small 0_o (112388 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 4 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221021.xml
+			* Final file size: 112388 bytes
+	* Grab TV guides of day 22/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221022.xml
+			* This file already exists (size: 1406601 bytes) --> Nothing to do
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221022.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221022.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221022.xml
+			* This file already exists but its size is small 0_o (106279 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 5 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221022.xml
+			* Final file size: 106687 bytes
+	* Grab TV guides of day 23/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221023.xml
+			* This file already exists (size: 1320597 bytes) --> Nothing to do
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221023.xml
+			* This file already exists but its size is small 0_o (693 bytes) --> run grabber again
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221023.xml
+			* Final file size: 260 bytes
+		- Grab TV guide of tv_grab_it grabber in /home/admin/xmltv/scripts/../raw/tv_guide_it_20221023.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it --config-file /home/admin/xmltv/scripts/tv_grab_it/tv_grab_it.conf --days 1 --offset 6 --output /home/admin/xmltv/scripts/../raw/tv_guide_it_20221023.xml
+			* Final file size: 104493 bytes
+	* Grab TV guides of day 24/10/2022
+		- Grab TV guide of tv_grab_fr_telerama grabber in /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221024.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama --config-file /home/admin/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama.conf --no_htmltags --casting --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221024.xml
+			* Final file size: 873824 bytes
+		- Grab TV guide of tv_grab_uk_tvguide grabber in /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221024.xml
+			* Run cmd: /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide --config-file /home/admin/xmltv/scripts/tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf --days 1 --offset 7 --output /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221024.xml
+			* Final file size: 260 bytes
+
+# Parse all raw XMLTV files
+
+	* Processing of tv_grab_fr_telerama grabber's raw files:
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221015.xml file
+			- This file contains 79 channels
+			- This file contains 1835 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221016.xml file
+			- This file contains 79 channels
+			- This file contains 1760 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221017.xml file
+			- This file contains 79 channels
+			- This file contains 1847 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221018.xml file
+			- This file contains 79 channels
+			- This file contains 1878 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221019.xml file
+			- This file contains 79 channels
+			- This file contains 1779 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221020.xml file
+			- This file contains 79 channels
+			- This file contains 1790 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221021.xml file
+			- This file contains 79 channels
+			- This file contains 1775 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221022.xml file
+			- This file contains 79 channels
+			- This file contains 1625 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221023.xml file
+			- This file contains 79 channels
+			- This file contains 1506 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_fr_telerama_20221024.xml file
+			- This file contains 79 channels
+			- This file contains 942 TV shows
+
+	* Processing of tv_grab_uk_tvguide grabber's raw files:
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221016.xml file
+			- This file contains 1 channels
+			- This file contains 5 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221017.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221018.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221019.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221020.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221021.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221022.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221023.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_uk_tvguide_20221024.xml file
+			- This file seems to be corrupt :-/, delete it (no element found: line 4, column 187)
+
+	* Processing of tv_grab_it grabber's raw files:
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221015.xml file
+			- This file contains 12 channels
+			- This file contains 533 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221016.xml file
+			- This file contains 12 channels
+			- This file contains 514 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221017.xml file
+			- This file contains 12 channels
+			- This file contains 542 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221018.xml file
+			- This file contains 12 channels
+			- This file contains 530 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221019.xml file
+			- This file contains 12 channels
+			- This file contains 533 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221020.xml file
+			- This file contains 12 channels
+			- This file contains 526 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221021.xml file
+			- This file contains 12 channels
+			- This file contains 528 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221022.xml file
+			- This file contains 12 channels
+			- This file contains 510 TV shows
+		* Parse /home/admin/xmltv/scripts/../raw/tv_guide_it_20221023.xml file
+			- This file contains 12 channels
+			- This file contains 496 TV shows
+
+# Generate new XMLTV files in root directory
+
+	* Processing of fr country
+		- Write full xmltv file in tv_guide_fr.xml
+			- Final file contains 14330 TV shows
+		- Write full_local xmltv file in tv_guide_fr_local.xml
+			- Final file contains 14330 TV shows
+		- Write day 20221015 in tv_guide_fr_20221015.xml
+			- Final file contains 1589 TV shows
+		- Write day 20221015 in tv_guide_fr_local_20221015.xml
+			- Final file contains 1566 TV shows
+		- Write day 20221016 in tv_guide_fr_20221016.xml
+			- Final file contains 1551 TV shows
+		- Write day 20221016 in tv_guide_fr_local_20221016.xml
+			- Final file contains 1547 TV shows
+		- Write day 20221017 in tv_guide_fr_20221017.xml
+			- Final file contains 1625 TV shows
+		- Write day 20221017 in tv_guide_fr_local_20221017.xml
+			- Final file contains 1622 TV shows
+		- Write day 20221018 in tv_guide_fr_20221018.xml
+			- Final file contains 1649 TV shows
+		- Write day 20221018 in tv_guide_fr_local_20221018.xml
+			- Final file contains 1643 TV shows
+		- Write day 20221019 in tv_guide_fr_20221019.xml
+			- Final file contains 1547 TV shows
+		- Write day 20221019 in tv_guide_fr_local_20221019.xml
+			- Final file contains 1554 TV shows
+		- Write day 20221020 in tv_guide_fr_20221020.xml
+			- Final file contains 1553 TV shows
+		- Write day 20221020 in tv_guide_fr_local_20221020.xml
+			- Final file contains 1557 TV shows
+		- Write day 20221021 in tv_guide_fr_20221021.xml
+			- Final file contains 1554 TV shows
+		- Write day 20221021 in tv_guide_fr_local_20221021.xml
+			- Final file contains 1547 TV shows
+		- Write day 20221022 in tv_guide_fr_20221022.xml
+			- Final file contains 1377 TV shows
+		- Write day 20221022 in tv_guide_fr_local_20221022.xml
+			- Final file contains 1399 TV shows
+		- Write day 20221023 in tv_guide_fr_20221023.xml
+			- Final file contains 1318 TV shows
+		- Write day 20221023 in tv_guide_fr_local_20221023.xml
+			- Final file contains 1303 TV shows
+		- Write day 20221024 in tv_guide_fr_20221024.xml
+			- Final file contains 839 TV shows
+		- Write day 20221024 in tv_guide_fr_local_20221024.xml
+			- Final file contains 947 TV shows
+
+	* Processing of fr_tnt country
+		- Write full xmltv file in tv_guide_fr_tnt.xml
+			- Final file contains 8040 TV shows
+		- Write full_local xmltv file in tv_guide_fr_tnt_local.xml
+			- Final file contains 8040 TV shows
+		- Write day 20221015 in tv_guide_fr_tnt_20221015.xml
+			- Final file contains 882 TV shows
+		- Write day 20221015 in tv_guide_fr_tnt_local_20221015.xml
+			- Final file contains 869 TV shows
+		- Write day 20221016 in tv_guide_fr_tnt_20221016.xml
+			- Final file contains 870 TV shows
+		- Write day 20221016 in tv_guide_fr_tnt_local_20221016.xml
+			- Final file contains 867 TV shows
+		- Write day 20221017 in tv_guide_fr_tnt_20221017.xml
+			- Final file contains 904 TV shows
+		- Write day 20221017 in tv_guide_fr_tnt_local_20221017.xml
+			- Final file contains 901 TV shows
+		- Write day 20221018 in tv_guide_fr_tnt_20221018.xml
+			- Final file contains 915 TV shows
+		- Write day 20221018 in tv_guide_fr_tnt_local_20221018.xml
+			- Final file contains 906 TV shows
+		- Write day 20221019 in tv_guide_fr_tnt_20221019.xml
+			- Final file contains 786 TV shows
+		- Write day 20221019 in tv_guide_fr_tnt_local_20221019.xml
+			- Final file contains 795 TV shows
+		- Write day 20221020 in tv_guide_fr_tnt_20221020.xml
+			- Final file contains 822 TV shows
+		- Write day 20221020 in tv_guide_fr_tnt_local_20221020.xml
+			- Final file contains 824 TV shows
+		- Write day 20221021 in tv_guide_fr_tnt_20221021.xml
+			- Final file contains 838 TV shows
+		- Write day 20221021 in tv_guide_fr_tnt_local_20221021.xml
+			- Final file contains 832 TV shows
+		- Write day 20221022 in tv_guide_fr_tnt_20221022.xml
+			- Final file contains 756 TV shows
+		- Write day 20221022 in tv_guide_fr_tnt_local_20221022.xml
+			- Final file contains 766 TV shows
+		- Write day 20221023 in tv_guide_fr_tnt_20221023.xml
+			- Final file contains 738 TV shows
+		- Write day 20221023 in tv_guide_fr_tnt_local_20221023.xml
+			- Final file contains 731 TV shows
+		- Write day 20221024 in tv_guide_fr_tnt_20221024.xml
+			- Final file contains 730 TV shows
+		- Write day 20221024 in tv_guide_fr_tnt_local_20221024.xml
+			- Final file contains 782 TV shows
+
+	* Processing of be country
+		- Write full xmltv file in tv_guide_be.xml
+			- Final file contains 1801 TV shows
+		- Write full_local xmltv file in tv_guide_be_local.xml
+			- Final file contains 1801 TV shows
+		- Write day 20221015 in tv_guide_be_20221015.xml
+			- Final file contains 207 TV shows
+		- Write day 20221015 in tv_guide_be_local_20221015.xml
+			- Final file contains 207 TV shows
+		- Write day 20221016 in tv_guide_be_20221016.xml
+			- Final file contains 201 TV shows
+		- Write day 20221016 in tv_guide_be_local_20221016.xml
+			- Final file contains 198 TV shows
+		- Write day 20221017 in tv_guide_be_20221017.xml
+			- Final file contains 204 TV shows
+		- Write day 20221017 in tv_guide_be_local_20221017.xml
+			- Final file contains 204 TV shows
+		- Write day 20221018 in tv_guide_be_20221018.xml
+			- Final file contains 212 TV shows
+		- Write day 20221018 in tv_guide_be_local_20221018.xml
+			- Final file contains 206 TV shows
+		- Write day 20221019 in tv_guide_be_20221019.xml
+			- Final file contains 201 TV shows
+		- Write day 20221019 in tv_guide_be_local_20221019.xml
+			- Final file contains 200 TV shows
+		- Write day 20221020 in tv_guide_be_20221020.xml
+			- Final file contains 201 TV shows
+		- Write day 20221020 in tv_guide_be_local_20221020.xml
+			- Final file contains 204 TV shows
+		- Write day 20221021 in tv_guide_be_20221021.xml
+			- Final file contains 205 TV shows
+		- Write day 20221021 in tv_guide_be_local_20221021.xml
+			- Final file contains 206 TV shows
+		- Write day 20221022 in tv_guide_be_20221022.xml
+			- Final file contains 203 TV shows
+		- Write day 20221022 in tv_guide_be_local_20221022.xml
+			- Final file contains 210 TV shows
+		- Write day 20221023 in tv_guide_be_20221023.xml
+			- Final file contains 193 TV shows
+		- Write day 20221023 in tv_guide_be_local_20221023.xml
+			- Final file contains 189 TV shows
+		- Write day 20221024 in tv_guide_be_20221024.xml
+			- Final file contains 13 TV shows
+		- Write day 20221024 in tv_guide_be_local_20221024.xml
+			- Final file contains 31 TV shows
+
+	* Processing of it country
+		- Write full xmltv file in tv_guide_it.xml
+			- Final file contains 3821 TV shows
+		- Write full_local xmltv file in tv_guide_it_local.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221015 in tv_guide_it_20221015.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221015 in tv_guide_it_local_20221015.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221016 in tv_guide_it_20221016.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221016 in tv_guide_it_local_20221016.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221017 in tv_guide_it_20221017.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221017 in tv_guide_it_local_20221017.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221018 in tv_guide_it_20221018.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221018 in tv_guide_it_local_20221018.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221019 in tv_guide_it_20221019.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221019 in tv_guide_it_local_20221019.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221020 in tv_guide_it_20221020.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221020 in tv_guide_it_local_20221020.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221021 in tv_guide_it_20221021.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221021 in tv_guide_it_local_20221021.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221022 in tv_guide_it_20221022.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221022 in tv_guide_it_local_20221022.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221023 in tv_guide_it_20221023.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221023 in tv_guide_it_local_20221023.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221024 in tv_guide_it_20221024.xml
+			- Final file contains 3821 TV shows
+		- Write day 20221024 in tv_guide_it_local_20221024.xml
+			- Final file contains 3821 TV shows
+
+	* Processing of uk country
+		- Write full xmltv file in tv_guide_uk.xml
+			- Final file contains 5 TV shows
+		- Write full_local xmltv file in tv_guide_uk_local.xml
+			- Final file contains 5 TV shows
+		- Write day 20221015 in tv_guide_uk_20221015.xml
+			- Final file contains 1 TV shows
+		- Write day 20221015 in tv_guide_uk_local_20221015.xml
+			- Final file contains 0 TV shows
+		- Write day 20221016 in tv_guide_uk_20221016.xml
+			- Final file contains 5 TV shows
+		- Write day 20221016 in tv_guide_uk_local_20221016.xml
+			- Final file contains 5 TV shows
+		- Write day 20221017 in tv_guide_uk_20221017.xml
+			- Final file contains 0 TV shows
+		- Write day 20221017 in tv_guide_uk_local_20221017.xml
+			- Final file contains 0 TV shows
+		- Write day 20221018 in tv_guide_uk_20221018.xml
+			- Final file contains 0 TV shows
+		- Write day 20221018 in tv_guide_uk_local_20221018.xml
+			- Final file contains 0 TV shows
+		- Write day 20221019 in tv_guide_uk_20221019.xml
+			- Final file contains 0 TV shows
+		- Write day 20221019 in tv_guide_uk_local_20221019.xml
+			- Final file contains 0 TV shows
+		- Write day 20221020 in tv_guide_uk_20221020.xml
+			- Final file contains 0 TV shows
+		- Write day 20221020 in tv_guide_uk_local_20221020.xml
+			- Final file contains 0 TV shows
+		- Write day 20221021 in tv_guide_uk_20221021.xml
+			- Final file contains 0 TV shows
+		- Write day 20221021 in tv_guide_uk_local_20221021.xml
+			- Final file contains 0 TV shows
+		- Write day 20221022 in tv_guide_uk_20221022.xml
+			- Final file contains 0 TV shows
+		- Write day 20221022 in tv_guide_uk_local_20221022.xml
+			- Final file contains 0 TV shows
+		- Write day 20221023 in tv_guide_uk_20221023.xml
+			- Final file contains 0 TV shows
+		- Write day 20221023 in tv_guide_uk_local_20221023.xml
+			- Final file contains 0 TV shows
+		- Write day 20221024 in tv_guide_uk_20221024.xml
+			- Final file contains 0 TV shows
+		- Write day 20221024 in tv_guide_uk_local_20221024.xml
+			- Final file contains 0 TV shows
+
+	* Processing of ch country
+		- Write full xmltv file in tv_guide_ch.xml
+			- Final file contains 879 TV shows
+		- Write full_local xmltv file in tv_guide_ch_local.xml
+			- Final file contains 879 TV shows
+		- Write day 20221015 in tv_guide_ch_20221015.xml
+			- Final file contains 92 TV shows
+		- Write day 20221015 in tv_guide_ch_local_20221015.xml
+			- Final file contains 89 TV shows
+		- Write day 20221016 in tv_guide_ch_20221016.xml
+			- Final file contains 91 TV shows
+		- Write day 20221016 in tv_guide_ch_local_20221016.xml
+			- Final file contains 90 TV shows
+		- Write day 20221017 in tv_guide_ch_20221017.xml
+			- Final file contains 109 TV shows
+		- Write day 20221017 in tv_guide_ch_local_20221017.xml
+			- Final file contains 103 TV shows
+		- Write day 20221018 in tv_guide_ch_20221018.xml
+			- Final file contains 105 TV shows
+		- Write day 20221018 in tv_guide_ch_local_20221018.xml
+			- Final file contains 113 TV shows
+		- Write day 20221019 in tv_guide_ch_20221019.xml
+			- Final file contains 106 TV shows
+		- Write day 20221019 in tv_guide_ch_local_20221019.xml
+			- Final file contains 102 TV shows
+		- Write day 20221020 in tv_guide_ch_20221020.xml
+			- Final file contains 107 TV shows
+		- Write day 20221020 in tv_guide_ch_local_20221020.xml
+			- Final file contains 109 TV shows
+		- Write day 20221021 in tv_guide_ch_20221021.xml
+			- Final file contains 105 TV shows
+		- Write day 20221021 in tv_guide_ch_local_20221021.xml
+			- Final file contains 106 TV shows
+		- Write day 20221022 in tv_guide_ch_20221022.xml
+			- Final file contains 90 TV shows
+		- Write day 20221022 in tv_guide_ch_local_20221022.xml
+			- Final file contains 91 TV shows
+		- Write day 20221023 in tv_guide_ch_20221023.xml
+			- Final file contains 90 TV shows
+		- Write day 20221023 in tv_guide_ch_local_20221023.xml
+			- Final file contains 87 TV shows
+		- Write day 20221024 in tv_guide_ch_20221024.xml
+			- Final file contains 9 TV shows
+		- Write day 20221024 in tv_guide_ch_local_20221024.xml
+			- Final file contains 16 TV shows
+
+	* Processing of wo country
+		- Write full xmltv file in tv_guide_wo.xml
+			- Final file contains 1184 TV shows
+		- Write full_local xmltv file in tv_guide_wo_local.xml
+			- Final file contains 1184 TV shows
+		- Write day 20221015 in tv_guide_wo_20221015.xml
+			- Final file contains 924 TV shows
+		- Write day 20221015 in tv_guide_wo_local_20221015.xml
+			- Final file contains 923 TV shows
+		- Write day 20221016 in tv_guide_wo_20221016.xml
+			- Final file contains 918 TV shows
+		- Write day 20221016 in tv_guide_wo_local_20221016.xml
+			- Final file contains 921 TV shows
+		- Write day 20221017 in tv_guide_wo_20221017.xml
+			- Final file contains 919 TV shows
+		- Write day 20221017 in tv_guide_wo_local_20221017.xml
+			- Final file contains 919 TV shows
+		- Write day 20221018 in tv_guide_wo_20221018.xml
+			- Final file contains 923 TV shows
+		- Write day 20221018 in tv_guide_wo_local_20221018.xml
+			- Final file contains 922 TV shows
+		- Write day 20221019 in tv_guide_wo_20221019.xml
+			- Final file contains 921 TV shows
+		- Write day 20221019 in tv_guide_wo_local_20221019.xml
+			- Final file contains 922 TV shows
+		- Write day 20221020 in tv_guide_wo_20221020.xml
+			- Final file contains 921 TV shows
+		- Write day 20221020 in tv_guide_wo_local_20221020.xml
+			- Final file contains 920 TV shows
+		- Write day 20221021 in tv_guide_wo_20221021.xml
+			- Final file contains 925 TV shows
+		- Write day 20221021 in tv_guide_wo_local_20221021.xml
+			- Final file contains 924 TV shows
+		- Write day 20221022 in tv_guide_wo_20221022.xml
+			- Final file contains 921 TV shows
+		- Write day 20221022 in tv_guide_wo_local_20221022.xml
+			- Final file contains 922 TV shows
+		- Write day 20221023 in tv_guide_wo_20221023.xml
+			- Final file contains 919 TV shows
+		- Write day 20221023 in tv_guide_wo_local_20221023.xml
+			- Final file contains 919 TV shows
+		- Write day 20221024 in tv_guide_wo_20221024.xml
+			- Final file contains 918 TV shows
+		- Write day 20221024 in tv_guide_wo_local_20221024.xml
+			- Final file contains 920 TV shows
+
+	* Merge all country tv guides in tv_guide_all.xml
+		- Final file contains 21454 TV shows
+
+	* Merge all country tv guides in tv_guide_all_local.xml
+		- Final file contains 21454 TV shows
+
+# Compute MD5 hash of new XMLTV files
+
+# Exit script at 17/10/2022 12:27:48
+
+- Force push changes
+
