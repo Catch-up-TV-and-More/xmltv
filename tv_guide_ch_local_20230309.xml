@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C59.api.telerama.fr">
+    <display-name>SRF 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/59.png" />
+  </channel>
+  <channel id="C200.api.telerama.fr">
+    <display-name>RSI LA 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/200.png" />
+  </channel>
+  <channel id="C201.api.telerama.fr">
+    <display-name>RSI LA 2</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/201.png" />
+  </channel>
+  <channel id="C183.api.telerama.fr">
+    <display-name>RTS Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/183.png" />
+  </channel>
+  <channel id="C202.api.telerama.fr">
+    <display-name>RTS Un</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/202.png" />
+  </channel>
+  <programme start="20230308230000 +0100" channel="C59.api.telerama.fr" stop="20230309000500 +0100">
+    <title>Sternstunde Philosophie</title>
+    <sub-title>Chatbot GPT - Das Ende der Kreativität?</sub-title>
+    <desc lang="fr">Die Sendereihe geht den grossen philosophischen Fragen und den brennenden Themen unserer Gesellschaft auf den Grund.</desc>
+    <category lang="fr">interview</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/31/7765ecacfaf647c05a5307ee81f0d5bd59673cf9.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20230308233000 +0100" channel="C183.api.telerama.fr" stop="20230309011500 +0100">
+    <title>Junior</title>
+    <desc lang="fr">Les recherches du docteur Alex Hesse, un savant autrichien qui travaille aux Etats-Unis, sont sur le point d'aboutir : son traitement devrait enfin assurer aux femmes des grossesses sans risques. Mais les autorités estiment qu'elles ont assez attendu, et interrompent le financement du projet avant qu'il ait pu être testé sur les humains. Alex songe déjà à rentrer en Europe quand son associé, le gynécologue Larry Arbogast, lui suggère de vérifier les bienfaits de son traitement sur sa propre personne. Alex accepte de placer dans son abdomen un ovule fécondé, volé par Larry dans le stock du docteur Diana Reddin, et déjà prénommé Junior. Désormais "enceint", Alex s'installe chez Larry, dont l'ex-épouse, Angela, attend aussi un enfant...</desc>
+    <credits>
+      <director>Ivan Reitman</director>
+      <actor>Frank Langella</actor>
+      <actor>Aida Turturro</actor>
+      <actor>Emma Thompson</actor>
+      <actor>Danny DeVito</actor>
+      <actor>Arnold Schwarzenegger</actor>
+      <actor>Pamela Reed</actor>
+      <actor>Welker White</actor>
+      <actor>Judy Collins</actor>
+      <actor>James Eckhouse</actor>
+      <actor>Merle Kennedy</actor>
+      <actor>Megan Cavanagh</actor>
+      <actor>Mindy Seeger</actor>
+      <writer>Kevin Wade</writer>
+      <writer>Chris Conrad</writer>
+    </credits>
+    <date>1994</date>
+    <category lang="fr">film : comédie</category>
+    <length units="minutes">105</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/02/27/76f598d7cb3bbc953b93f2bb859ba73faac5ba11.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230308235500 +0100" channel="C202.api.telerama.fr" stop="20230309010500 +0100">
+    <title>Le pénitencier</title>
+    <desc lang="fr">En 1982, Patrice Berthelot rend compte de ses conditions d'enfermement dans le pénitencier de Sion à travers une correspondance avec la réalisatrice Anne Theurillat. Celle-ci met aujourd'hui ses mots en images en leur donnant une résonance inattendue.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/16/fcec7d5c7423a1ef647c35885c03d46d5d31e60a.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+</tv>

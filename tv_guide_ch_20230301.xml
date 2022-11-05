@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C59.api.telerama.fr">
+    <display-name>SRF 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/59.png" />
+  </channel>
+  <channel id="C200.api.telerama.fr">
+    <display-name>RSI LA 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/200.png" />
+  </channel>
+  <channel id="C201.api.telerama.fr">
+    <display-name>RSI LA 2</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/201.png" />
+  </channel>
+  <channel id="C183.api.telerama.fr">
+    <display-name>RTS Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/183.png" />
+  </channel>
+  <channel id="C202.api.telerama.fr">
+    <display-name>RTS Un</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/202.png" />
+  </channel>
+  <programme start="20230301230000" channel="C59.api.telerama.fr" stop="20230301231000">
+    <title>Newsflash</title>
+    <desc lang="fr">Hier werden die Zuschauer in wenigen Minuten auf den neuesten Stand gebracht. In kompakter Form berichtet "Newsflash" über alle wichtigen Ereignisse des Tages, die kurz und prägnant zusammengefasst werden. Zudem bietet die Sendung eine Aussicht auf die Wetterlage der kommenden Tage, kurze Interviews sowie Hintergrundinformationen aus Politik, Wirtschaft, Gesellschaft und Sport.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/10/11/e8ecdcc34fb853d28e02e0a50546ca01d0a28220.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230301231000" channel="C59.api.telerama.fr" stop="20230302001000">
+    <title>Au nom du père</title>
+    <desc lang="fr">Saison:2 - Episode:9 - Dans les papiers d'August, Christian trouve une lettre écrite par son frère avant son départ au Moyen-Orient en tant qu'aumônier militaire. August exprime ses dernières volontés : il souhaite que ses cendres soient dispersées à Jérusalem, où il a eu une révélation mystique. Christian tente de persuader Emilie de réaliser le voeu d'August, ce qui passerait par l'exhumation de ses cendres. Mais pour cela, Johannes doit donner son accord, et la jeune femme ne veut plus lui parler. Elle lui en veut en effet toujours pour baptême forcé d'Anton. Christian, troublé par les souvenirs que déclenchent ces révélations, revit la journée de la mort d'August...</desc>
+    <credits>
+      <director>Louise Friedberg</director>
+      <actor>Laura Bro</actor>
+      <actor>Julie Carlsen</actor>
+      <actor>Malin Elisabeth</actor>
+      <actor>Mikkel Arndt</actor>
+      <actor>Ole Dupont</actor>
+      <actor>Joachim Fjelstrup</actor>
+      <actor>Bertil De</actor>
+      <actor>Morten Hee Andersen</actor>
+      <actor>Johanne Dal-Lewkovitch</actor>
+      <actor>Regitze Estrup</actor>
+      <actor>Louise Fanny</actor>
+      <actor>Skov Victor</actor>
+      <writer>Price Adam</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">série dramatique</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/04/26/37a3ac8c-976e-495b-854c-4e8e2e9e42db.jpg" />
+    <episode-num system="xmltv_ns">1.8.</episode-num>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230301234500" channel="C183.api.telerama.fr" stop="20230302004500">
+    <title>Infrarouge</title>
+    <category lang="fr">débat</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/09/06/8c4d7342f684ea2ce72d404eae7e16e4155731f6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230301234000" channel="C202.api.telerama.fr" stop="20230301235900">
+    <title>Couleurs locales</title>
+    <desc lang="fr">Un magazine qui fait découvrir l'actualité de Suisse Romande.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">19</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/08/30/882679e4e895eb33c78da12c31c9aa6d41ddcebf.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230301235900" channel="C202.api.telerama.fr" stop="20230302000000">
+    <title>Météo</title>
+    <desc lang="fr">Quel temps fera-t-il demain en Suisse? Des informations météorologiques d'une grande exactitude pour toute la Suisse en général et pour la Romandie en particulier.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/05/31/06d2d7164edac7dddf279d1c6850138240aae3d2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+</tv>

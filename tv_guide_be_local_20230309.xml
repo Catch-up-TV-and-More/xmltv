@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme start="20230308235500 +0100" channel="C50.api.telerama.fr" stop="20230309005500 +0100">
+    <title>La boutique</title>
+    <desc lang="fr">Secrets de beauté, magie des bijoux, créations de mode, cuisine conviviale et gourmande, entretien et décoration de la maison, etc. La Boutique RTL TVI explore les nouvelles tendances et vous fait vivre une expérience d'achat unique.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/07/26/33bb50241ad5c74e2a4aa749cc8ac241e7a2c69b.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20230308231200 +0100" channel="C164.api.telerama.fr" stop="20230309000800 +0100">
+    <title>Casser les codes</title>
+    <desc lang="fr">Ce document répond à une série de questions afin de briser les stéréotypes, mais également les préjugés encore bien établis dans le domaine des technologies et du parcours des femmes dans ce domaine.</desc>
+    <category lang="fr">documentaire sciences et technique</category>
+    <length units="minutes">56</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/07/12/01148acb4c23424fab1cd82a68b3614c19e79f39.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20230308232000 +0100" channel="C168.api.telerama.fr" stop="20230309001000 +0100">
+    <title>NCIS : Nouvelle-Orléans</title>
+    <sub-title>En attendant Monroe</sub-title>
+    <desc lang="fr">Saison:6 - Episode:12 - Le NCIS doit identifier une tueuse mystérieuse qui a commis plusieurs meurtres à Athènes, Rome et Londres. Par ailleurs, le fils de Loretta obtient de suivre la police le temps d'une mission pour écrire un article sur le programme d'intégration des jeunes dans la police de la Nouvelle-Orléans...</desc>
+    <credits>
+      <director>James Whitmore</director>
+      <actor>Keith David</actor>
+      <actor>Scott Bakula</actor>
+      <actor>CCH Pounder</actor>
+      <actor>Daryl Mitchell</actor>
+      <actor>Vanessa Ferlito</actor>
+      <actor>Zadegan Necar</actor>
+      <actor>Rob Kerkovich</actor>
+      <actor>Neal Bledsoe</actor>
+      <actor>Alkoya Brunson</actor>
+      <actor>Adair Ellen</actor>
+      <actor>Desai Angel</actor>
+      <actor>M. Timeca</actor>
+      <writer>Sydney Mitchel</writer>
+      <writer>Corey Moore</writer>
+      <writer>Gary Glasberg</writer>
+      <writer>Beattie Katherine</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">série policière</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/15/e2151650265404f092e353cd9c476c888dc294f0.jpg" />
+    <episode-num system="xmltv_ns">5.11.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230308234100 +0100" channel="C187.api.telerama.fr" stop="20230309011700 +0100">
+    <title>Incarnate</title>
+    <desc lang="fr">Le docteur Ember, scientifique tétraplégique, est capable d'entrer en contact avec la psyché de ses patients. Le Vatican fait appel à lui pour exorciser Cameron, un adolescent de 14 ans. Le garçon serait possédé par un démon particulièrement puissant et insensible aux méthodes habituelles de l'Eglise. Sous le contrôle de l'esprit, Cameron a assassiné une sans-abri. Lorsqu'Ember rencontre Cameron, il comprend aussitôt que le démon auquel il a affaire ne lui est pas inconnu...</desc>
+    <credits>
+      <director>Brad Peyton</director>
+      <actor>Aaron Eckhart</actor>
+      <actor>Paul Vincent O'Connor</actor>
+      <actor>Carice van</actor>
+      <actor>Keir O'Donnell</actor>
+      <actor>Natalija Nogulich</actor>
+      <actor>Emjay Anthony</actor>
+      <actor>David Mazouz</actor>
+      <actor>John Pirruccello</actor>
+      <actor>Matt Nable</actor>
+      <actor>Breanne Parhiala</actor>
+      <actor>Catalina Sandino</actor>
+      <actor>Emily Jackson</actor>
+      <writer>Ronnie Christensen</writer>
+    </credits>
+    <date>2016</date>
+    <category lang="fr">film d'horreur</category>
+    <length units="minutes">96</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/02/27/218332c8aaac1852401ff6d406fb8c737309ce7c.jpg" />
+    <rating system="CSA">
+      <value>-16</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Moins16.svg/200px-Moins16.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230308235500 +0100" channel="C377.api.telerama.fr" stop="20230309005000 +0100">
+    <title>Les apprentis aventuriers</title>
+    <sub-title>Episode 19</sub-title>
+    <category lang="fr">téléréalité</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/11/28/3203c8fe096757020296704ac1654d3163181eeb.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230308234700 +0100" channel="C892.api.telerama.fr" stop="20230309003900 +0100">
+    <title>Génération écran : génération malade ?</title>
+    <desc lang="fr">Dans les pays occidentaux, l'utilisation des écrans a explosé ces dix dernières années. Télévision mais surtout tablettes et smartphones ont déferlé dans la vie des parents et des enfants, même tout-petits. Ainsi, un enfant passerait en moyenne quatre à six heures par jour devant un écran. Les pédiatres et les professionnels remarquent un développement des troubles du langage, une forte intolérance à la frustration et beaucoup de colères chez les enfants exposés trop souvent et trop longtemps aux écrans. Les études portant sur les adolescents pointent du doigt le risque addictif. Néanmoins, chez les plus grands, les jeux vidéo semblent avoir des bénéfices sur le cerveau, mais les études restent encore à parfaire. Ce document fait le tour de la question en fonction des âges, invitant à la prudence et à la vigilance.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">52</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/03/31/59bcee02-e66b-4470-9892-cb27914bc781.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+</tv>

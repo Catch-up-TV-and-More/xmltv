@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme start="20230305232000" channel="C50.api.telerama.fr" stop="20230306001500">
+    <title>Pékin express : itinéraire bis</title>
+    <sub-title>Episode 3</sub-title>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/02/03/5fa1858faf1ef16c3ddec3a26a2f44cdde123399.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20230305231500" channel="C168.api.telerama.fr" stop="20230306000500">
+    <title>Proven Innocent</title>
+    <sub-title>Une femme qui dérange</sub-title>
+    <desc lang="fr">Saison:1 - Episode:10 - Un commandant de la Navy est accusé d'avoir tué son supérieur. Madeline et son équipe sont déterminés à prouver son innocence. Levi fait davantage pression pour avoir un aperçu de la vie de Rosemary au collège, alors que Bellows prend une décision drastique dans le réexamen de son affaire de meurtre...</desc>
+    <credits>
+      <director>Elodie Keene</director>
+      <actor>Kelsey Grammer</actor>
+      <actor>John Rubinstein</actor>
+      <actor>Vincent Kartheiser</actor>
+      <actor>Riley B.</actor>
+      <actor>Russell Hornsby</actor>
+      <actor>Rachelle Lefevre</actor>
+      <actor>Nikki M.</actor>
+      <actor>Tiffany Dupont</actor>
+      <actor>Candice Coke</actor>
+      <actor>Caitlin Mehner</actor>
+      <actor>Clare O'Connor</actor>
+      <actor>Clifton Duncan</actor>
+      <writer>Aaron Carew</writer>
+      <writer>David Elliot</writer>
+      <writer>Adam Armus</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">série judiciaire</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/03/29/387c142a-d205-48c7-8569-bdc9c50b934e.jpg" />
+    <episode-num system="xmltv_ns">0.9.</episode-num>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230305230800" channel="C187.api.telerama.fr" stop="20230305235300">
+    <title>100% Sport</title>
+    <desc lang="fr">Ce magazine dominical développe l'actualité sportive de la semaine avec Jérémie Baise et ses coéquipiers, d'horizons différents mais qui partagent une même passion du sport. Plusieurs experts de la rédaction interviennent aussi en plateau pour commenter les moments forts de la semaine à travers des séquences récurrentes.</desc>
+    <category lang="fr">magazine sportif</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/10/25/e64ca03bf8197f2c13a19a3d6339e504138c1dc4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230305235300" channel="C187.api.telerama.fr" stop="20230306050000">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Rediffusion du programme en boucle toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">307</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/07/19/5136d02ad1932525abb717fbcc1988b3c43b3f30.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20230305233000" channel="C377.api.telerama.fr" stop="20230306013000">
+    <title>La boutique</title>
+    <desc lang="fr">Secrets de beauté, magie des bijoux, créations de mode, cuisine conviviale et gourmande, entretien et décoration de la maison, etc. La Boutique RTL TVI explore les nouvelles tendances et vous fait vivre une expérience d'achat unique.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/07/26/33bb50241ad5c74e2a4aa749cc8ac241e7a2c69b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
