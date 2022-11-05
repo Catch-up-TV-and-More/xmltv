@@ -147,7 +147,7 @@ def update_raw_files():
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
-                subprocess.run(cmd, env=my_env, stderr=stdout_f)
+                subprocess.run(cmd, env=my_env)
                 stdout_f.close()
                 try:
                     final_size = os.path.getsize(xmltv_fp)
