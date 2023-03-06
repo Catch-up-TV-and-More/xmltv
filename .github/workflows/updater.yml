@@ -4,8 +4,6 @@ name: Updater
 
        # Controls when the workflow will run
 on:
-  schedule:
-    - cron: "0 22 * * *"
   workflow_dispatch:
 
 
