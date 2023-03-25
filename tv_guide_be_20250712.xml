@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme start="20250711233300" channel="C164.api.telerama.fr" stop="20250712050000">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">327</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712050000" channel="C164.api.telerama.fr" stop="20250712070200">
+    <title>Viva week-end</title>
+    <desc lang="fr">En manque d'idée pour un week-end détente ou actif ? Ne ratez pas ce rendez-vous de tous les loisirs, il y en aura pour tout le monde... Les samedi et dimanche à partir de 06h00.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">122</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/4679e3bdc2ed48f5a188196835ceca6c.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712070200" channel="C164.api.telerama.fr" stop="20250712083300">
+    <title>Signé Taloche</title>
+    <sub-title>Spéciale magie avec Eric Antoine</sub-title>
+    <desc lang="fr">Pour la 60e de "Signé Taloche", l'humoriste et magicien Eric Antoine est mis à l'honneur pour une soirée entre rire et magie. A découvrir aussi : Arno le magicien aux oiseaux, Yann Stoz, Topick, la revue "Sois Belge et tais-toi" avec Baudouin Remy et Stéphanie Coerten, Jérôme de Warzée et Wally.</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">91</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/25/987a52d99fcc40f6aa51be6f4d15a737.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712083300" channel="C164.api.telerama.fr" stop="20250712091900">
+    <title>En quête de sens : Libres, ensemble</title>
+    <sub-title>En quête de sens - Libres ensemble...Loi IVG en Belgique : 35 ans de demi-mesures</sub-title>
+    <desc lang="fr">Le magazine "En quête de sens" accueille tour à tour les "émissions Libres, ensemble" (Centre d'action laïque), "Il était une foi" (CathoBel), "La Voix protestante" (Association protestante de radio et télévision), "Orthodoxie" (Eglise orthodoxe en Belgique), "Shema Israël" (Consistoire central israélite de Belgique).</desc>
+    <category lang="fr">magazine religieux</category>
+    <length units="minutes">46</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/25/27e10cadd1464f289aa94328f43184c2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712091900" channel="C164.api.telerama.fr" stop="20250712093300">
+    <title>Y'a pas de planète B</title>
+    <sub-title>Les meilleures vacances de ta vie (sans avion) !</sub-title>
+    <desc lang="fr">Le magazine tente de répondre aux questions liées à l'environnement, aux faits climatiques, et fait le point sur les différentes informations données ici ou là sur le sujet.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">14</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/09/0ab0a4e7cba24c7fa1b6e31468be66d9.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712093300" channel="C164.api.telerama.fr" stop="20250712100200">
+    <title>Le beau vélo de RAVeL</title>
+    <sub-title>Martelange</sub-title>
+    <desc lang="fr">Pour la 26e année, Adrien Joveneau passe l'été en notre compagnie, à vélo, avec "le Beau Vélo de RAVeL" et ses huit nouvelles étapes en Wallonie. Première étape : Martelange.</desc>
+    <category lang="fr">magazine de découvertes</category>
+    <length units="minutes">29</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/25/85e8b63cd85147789bbf41cc35fcd2e1.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712100200" channel="C164.api.telerama.fr" stop="20250712103900">
+    <title>J'ai les clés</title>
+    <sub-title>De l'œuvre d'un géant : Horta</sub-title>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">37</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/2ec5347ba84b4ebc873f787a8847b3ca.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712103900" channel="C164.api.telerama.fr" stop="20250712104400">
+    <title>EuroMillions</title>
+    <desc lang="fr">Tirage au sort de l'EuroMillions, loterie transnationale qui est proposée dans douze pays européens.</desc>
+    <category lang="fr">loterie</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/09/aa7de12a55944d16825e6e057a7da47e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712104400" channel="C164.api.telerama.fr" stop="20250712105200">
+    <title>Contacts</title>
+    <sub-title>Vis ma vie de détenteur de permis provisoire</sub-title>
+    <desc lang="fr">Passer son permis B, c'est toute une aventure. Et cette aventure, pour se dérouler parfaitement, nécessite de la préparation et le suivi de plusieurs étapes. Nous avons suivi un candidat et son guide lors d'une séance d'entraînement en région wallonne.</desc>
+    <category lang="fr">magazine éducatif</category>
+    <length units="minutes">8</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/08/8b0d67e2b7cc1e20a51ab8510c2d498a5b3ad0dc_32439869CE274D8AF807C74865A9B347.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712105200" channel="C164.api.telerama.fr" stop="20250712105800">
+    <title>Météo 12h50</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">6</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/77b8aa883fb34b089662a80507e0c4d1.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712105800" channel="C164.api.telerama.fr" stop="20250712112600">
+    <title>JT 13h (La Une)</title>
+    <desc lang="fr">Le Journal télévisé de 13 heures par toute la rédaction de la chaîne.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">28</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/2af0837d9fb648019f5497a917f08316.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712112600" channel="C164.api.telerama.fr" stop="20250712113300">
+    <title>Météo 13h30</title>
+    <category lang="fr">météo</category>
+    <length units="minutes">7</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/14/827f285a741a4a0e838e85904a262af9.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712113300" channel="C164.api.telerama.fr" stop="20250712162300">
+    <title>Cyclisme : Tour de France</title>
+    <desc lang="fr">Une pure étape de plaine pour quitter la Bretagne et rejoindre la Mayenne, des routes pour la plupart abritées du vent : les paramètres sont réunis pour que les équipes de sprinteurs se chargent de contrôler la course. La perspective d'un sprint massif tient la corde, avec toutefois une spécificité qui restreint légèrement le profil des candidats à la gagne. La ligne est dessinée au terme d'un dernier kilomètre en faux plat montant.</desc>
+    <category lang="fr">sport : cyclisme</category>
+    <length units="minutes">290</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/03/d63e64a1e81c4abaaf7e95d06af48167.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712162300" channel="C164.api.telerama.fr" stop="20250712172200">
+    <title>La vie secrète des chats</title>
+    <sub-title>Le tour de France des chats de Patrick Puydebat</sub-title>
+    <desc lang="fr">Saison:3 - Episode:1 - Cet épisode part du côté de Cancale à la rencontre de Nadine et Yvon, qui vont percer le mystère des nuits de Mimi, puis dans le Sud chez Grégory, un limonadier qui se demande ce que sa Brigitte adorée fait de ses nuits quand il part travailler. Dans le Nord, Mao et Chipette, chats d'une friterie, ont bon appétit. Suit la rubrique "chat de stars" avec Charlie, le chat de Patrick Puydebat.</desc>
+    <date>2019</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">59</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/20/8024f0b4d40f48879bb878fafd2075db.jpg" />
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712172200" channel="C164.api.telerama.fr" stop="20250712173000">
+    <title>Météo 19h25</title>
+    <desc lang="fr">Tout au long de la journée, les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">8</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/14/827f285a741a4a0e838e85904a262af9.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712173000" channel="C164.api.telerama.fr" stop="20250712180400">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">34</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712180400" channel="C164.api.telerama.fr" stop="20250712181000">
+    <title>Tirage Lotto - Samedi</title>
+    <desc lang="fr">Le tirage du jour de la loterie.</desc>
+    <category lang="fr">loterie</category>
+    <length units="minutes">6</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/02/220df72b231b40d98e10af3801e71448.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712181000" channel="C164.api.telerama.fr" stop="20250712181600">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">6</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/77b8aa883fb34b089662a80507e0c4d1.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712181600" channel="C164.api.telerama.fr" stop="20250712184900">
+    <title>Animal Rescue Team</title>
+    <desc lang="fr">En immersion dans le quotidien d'une caserne de pompiers pas comme les autres : l'Animal Rescue Team de la zone Hesbaye. Outre les humains, les pompiers sont régulièrement appelés pour venir en aide à des animaux domestiques ou exotiques.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">33</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/02/920ec35be1474d3082a0a8d9007b9766.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712184900" channel="C164.api.telerama.fr" stop="20250712203700">
+    <title>Capitaine Marleau</title>
+    <sub-title>Le domaine des soeurs Meyer</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - Que se passe-t-il sur le domaine des Meyer ? Qui s'acharne sur la famille et pour quelles raisons ? Le capitaine Marleau tente de démêler le vrai du faux, en utilisant des méthodes bien à elle. Coriace, instinctive, elle suit ses différentes pistes, n'excluant aucune possibilité. Malgré le charme certain qu'exercent les membres de cette petite communauté soudée, appartenant à la haute société, le capitaine ne tarde pas à découvrir les rivalités et les tensions existantes derrière l'unité de façade du clan, qui cherche à maintenir les apparences. L'équilibre ne tarde pas à voler en éclat... - Critique : Le succès donne des ailes à l’incontournable capitaine Marleau : la voilà qui revient pour enquêter sur une mort par empoisonnement dans un parc de loisirs dont elle sera, bien sûr, la principale attraction. Corinne Masiero défend toujours son personnage avec un extraordinaire aplomb. Et parle comme si elle avait avalé un Almanach Vermot : « Après “Mort aux rats à Venise”, “Arsenic ta mère et vieilles dentelles”, voici donc “Cyanure de Bergerac” ! » Au parc Walibi d’Agen, rebaptisé Spoutnik, Marleau a vite fait de repérer les manèges de tous les coupables en puissance… Et va leur mettre « un bon coup de pression dans le piston ».
+
+Fidèle à son amour des comédiens, la réalisatrice Josée Dayan s’en donne à cœur joie. Elle imagine une histoire d’amour improbable entre Joey Starr et Marina Hands, et crée soudain un formidable couple de télé qu’on aimerait revoir au cinéma. Tous les seconds rôles brillent, comme Bernard Verlet en vieux patron de MJC drapé dans un peignoir panthère. Le monde des saltimbanques et les frissons de fête foraine se marient bien avec le polar coloré façon Marleau.</desc>
+    <credits>
+      <actor>Catherine Samie</actor>
+      <actor>Bulle Ogier</actor>
+      <actor>Christine Brücher</actor>
+      <actor>Marius Colucci</actor>
+      <actor>Stévenin Sagamore</actor>
+      <actor>Sophie Quinton</actor>
+      <actor>Jean-Pierre Marielle</actor>
+      <actor>Sophie Cattani</actor>
+      <actor>Corinne Masiero</actor>
+      <actor>Morgane Nairaud</actor>
+      <actor>Verbeeck Sophie</actor>
+      <actor>Valéry Schatz</actor>
+      <writer>Elsa Marpeau</writer>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">série policière</category>
+    <length units="minutes">108</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/10/5694a0653d8141de8397cd0e120e5ed8.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250712203700" channel="C164.api.telerama.fr" stop="20250712204200">
+    <title>Tirage Lotto-Joker</title>
+    <desc lang="fr">Tirage du Lotto et du Joker.</desc>
+    <category lang="fr">loterie</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/05/15c428f047124c04a6940e49f3e9b1c6.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712204200" channel="C164.api.telerama.fr" stop="20250712221900">
+    <title>Crimes et Indices</title>
+    <sub-title>L'affaire Estelle Mouzin et l'affaire des disparus de Mirepoix</sub-title>
+    <desc lang="fr">Deux affaires criminelles marquantes. En 2003, Estelle Mouzin disparaît à Guermantes. Après 20 ans de combat, son père découvre qu'elle a été victime du tueur en série Michel Fourniret. En 2017, un père et sa fille disparaissent à Mirepoix. L'enquête révèle une machination criminelle.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">97</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/02/7b236c1e80534388a5d94375947d4307.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250712221700" channel="C164.api.telerama.fr" stop="20250712222100">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">4</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/77b8aa883fb34b089662a80507e0c4d1.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712222100" channel="C164.api.telerama.fr" stop="20250712225200">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">31</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712225200" channel="C164.api.telerama.fr" stop="20250712225700">
+    <title>Contacts</title>
+    <sub-title>Vis ma vie de détenteur de permis provisoire</sub-title>
+    <desc lang="fr">Passer son permis B, c'est toute une aventure. Et cette aventure, pour se dérouler parfaitement, nécessite de la préparation et le suivi de plusieurs étapes. Nous avons suivi un candidat et son guide lors d'une séance d'entraînement en région wallonne.</desc>
+    <category lang="fr">magazine éducatif</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/08/8b0d67e2b7cc1e20a51ab8510c2d498a5b3ad0dc_32439869CE274D8AF807C74865A9B347.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712225700" channel="C164.api.telerama.fr" stop="20250712230000">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/26/77b8aa883fb34b089662a80507e0c4d1.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712230000" channel="C164.api.telerama.fr" stop="20250712233100">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">31</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250712233100" channel="C164.api.telerama.fr" stop="20250713050000">
+    <title>Contacts</title>
+    <sub-title>Vis ma vie de détenteur de permis provisoire</sub-title>
+    <desc lang="fr">Passer son permis B, c'est toute une aventure. Et cette aventure, pour se dérouler parfaitement, nécessite de la préparation et le suivi de plusieurs étapes. Nous avons suivi un candidat et son guide lors d'une séance d'entraînement en région wallonne.</desc>
+    <category lang="fr">magazine éducatif</category>
+    <length units="minutes">329</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/08/8b0d67e2b7cc1e20a51ab8510c2d498a5b3ad0dc_32439869CE274D8AF807C74865A9B347.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
