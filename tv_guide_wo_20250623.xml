@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250622231000" channel="C111.api.telerama.fr" stop="20250623000500">
+    <title>Sur mesure</title>
+    <sub-title>La Compagnie Hervé Koubi, Jasser Haj Youssef et le Quatuor Voce</sub-title>
+    <desc lang="fr">Le romanesque décor du château d'Ormesson et son parc inspiré de Le Nôtre servent d'écrin à une chorégraphie avant-gardiste d'Hervé Koubi, accompagnée du Quatuor Voce.</desc>
+    <category lang="fr">musique : classique</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/09/fe2b00f0782f4bb886fa4ac039472ced.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623000500" channel="C111.api.telerama.fr" stop="20250623014500">
+    <title>Résurrection : Festival d'Aix-en-Provence 2022</title>
+    <desc lang="fr">La plus populaire des symphonies de Gustav Mahler, mise en scène par Romeo Castellucci dans le Stadium de Vitrolles, lieu en friche partiellement réhabilité.</desc>
+    <category lang="fr">drame lyrique</category>
+    <length units="minutes">100</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/09/7576f8dc505649ed8b51661f0741d3cc.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250623014500" channel="C111.api.telerama.fr" stop="20250623022700">
+    <title>Le fleuve Tagliamento, le roi des Alpes</title>
+    <desc lang="fr">Parcourant 170 kilomètres des Dolomites à la mer Adriatique, le Tagliamento est l'un des derniers fleuves sauvages d'Europe. Sa source jaillit dans les Alpes italiennes.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">42</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/24/3a8731c1959740378bc626dc826d6b3e.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623022700" channel="C111.api.telerama.fr" stop="20250623032500">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">58</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623032500" channel="C111.api.telerama.fr" stop="20250623035500">
+    <title>Le Liberland, une micronation libertarienne</title>
+    <desc lang="fr">Passionnée de cryptomonnaie, la jeune influenceuse tchèque Samuela Davidova est séduite par le projet du Liberland. Elle parcourt le monde pour faire reconnaître officiellement cet État minimaliste qui promet de simplifier les démarches administratives et de remplacer l'impôt par des contributions volontaires. Une "utopie" plus libérale que libertaire, qui rallie de plus en plus d'adeptes.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/15/a488f3b838c34848ab670f04b2e07a88.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623035500" channel="C111.api.telerama.fr" stop="20250623045000">
+    <title>Une histoire des jardins ouvriers</title>
+    <desc lang="fr">Elles séduisent de plus en plus de citadins en manque de vert : dans les cités européennes, les petites parcelles de terre mises à la disposition des habitants leur permettent de cultiver fleurs, arbres et légumes. En Allemagne, on en compte un peu plus d'un million, mais les règles y prolifèrent plus que les mauvaises herbes. Chaque paramètre est normalisé : la hauteur de la haie, la taille de la tonnelle, les graines qui peuvent être plantées et celles qui sont proscrites. Pourquoi ce besoin de nature s'accompagne-t-il, outre-Rhin, d'autant de garde-fous ? Faut-il en chercher la trace dans l'histoire, quand sont apparus ce qu'on appelait alors les "jardins ouvriers" ?</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/23/caad6f08045f4a848e1a208e2811d6c0.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623045000" channel="C111.api.telerama.fr" stop="20250623045500">
+    <title>ARTE Journal Junior</title>
+    <desc lang="fr">Lancé en 2014 dans un format magazine, "ARTE Journal junior" propose à l'heure du petit déjeuner une édition quotidienne présentée dans les deux langues. Au programme : un décryptage du monde et de ses enjeux à travers deux sujets d'actualité et, tout au long de la semaine, un feuilleton en cinq épisodes sur un même thème ou des réponses à des questions posées par des enfants.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/07/04/687ef86e9bfacae4043df66dfcd8fdd52c3d7464_38FB05BF7D401B8C05806A9C06D7C809.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623045500" channel="C111.api.telerama.fr" stop="20250623055000">
+    <title>Les pignons de cèdre, l'or de la taïga</title>
+    <desc lang="fr">En Sibérie, la récolte des pignons de cèdre fait l'objet d'une tradition millénaire : Aronat Bakchukov, 24 ans, et sa famille, partent pour la cueillette.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/27/f5c039c1a2a94acd8809c98064db3223.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623055000" channel="C111.api.telerama.fr" stop="20250623063500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Arrow, roi de Montserrat - En Suède, on ne plaisante pas avec les droits des femmes - À Melbourne, on danse pour sauver le monde.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/07/5c43a8c145ed4b86ae9a10d18962ca80.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623063500" channel="C111.api.telerama.fr" stop="20250623072500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Nouvelle-Calédonie, la palabre de Déwé Gorodé - L'olivier, ami millénaire des Pouilles - Coucy, un Picard voit grand.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/07/4ea9b7b2c7fa4c928ce364b75c8f5cf2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623072500" channel="C111.api.telerama.fr" stop="20250623084500">
+    <title>Orient-Express, le voyage d'une légende</title>
+    <desc lang="fr">Sublimé par Agatha Christie, l'Orient-Express est le train le plus célèbre du monde. Et pourtant, qui connaît sa véritable histoire ? De Paris à Istanbul, le film part à la recherche des voitures perdues du légendaire train avec un archéologue ferroviaire. Relier Paris à Constantinople, dès 1883, fut le pari insensé de l'entrepreneur belge Georges Nagelmackers. Cet illustre inconnu, contemporain de Gustave Eiffel et de Ferdinand de Lesseps, a créé la Compagnie Internationale des Wagons-Lits, qui exploita le palace sur rail pendant près d'un siècle. Premier trait d'union d'une Europe politique morcelée, l'Orient-Express a ouvert une nouvelle voie entre l'Orient et l'Occident grâce aux traités signés avec chaque pays européen traversé. Arthur Mettetal, historien et chercheur en patrimoine industriel, part à la recherche de wagons perdus.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/12/24/851b52d85a5be891053435bb764d33f267cfa9b7.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250623084500" channel="C111.api.telerama.fr" stop="20250623102000">
+    <title>L'invention du luxe à la française</title>
+    <desc lang="fr">A la veille de la Révolution française, toute l'Europe accourt dans la capitale du luxe pour s'approvisionner en draps fins, porcelaines de Sèvres, miroirs de Saint-Gobain, soieries lyonnaises, dentelles d'Alençon et autres témoignages éclatants d'un savoir-faire admiré dans toutes les cours du continent. Plus de deux siècles plus tard, la France reste un symbole international du luxe, entre haute couture, cosmétiques et grands vins, mais on a oublié qu'elle le doit à l'ambition de Louis XIV et à la vision de son ministre Colbert, qui ont créé de toutes pièces un appareil industriel sophistiqué pour se lancer à la conquête des marchés.</desc>
+    <category lang="fr">documentaire histoire</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/03/31/3dd8bcad-2b5e-4244-a2ae-e9c925a5b92d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250623102000" channel="C111.api.telerama.fr" stop="20250623110000">
+    <title>Alsace, terre d'orgues</title>
+    <desc lang="fr">De toutes les régions de France, l'Alsace est celle où l'on trouve le plus grand nombre d'orgues. Patrick Armand, facteur d'orgues, dirige une des manufactures les plus anciennes.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/08/5184620971ab43d29ded23d89a9dfe45.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623110000" channel="C111.api.telerama.fr" stop="20250623113500">
+    <title>Influenceurs d'extrême droite</title>
+    <desc lang="fr">À l'ère des réseaux sociaux, les influenceurs d'extrême droite sont des acteurs incontournables du marché de l'information. Ils jouent désormais un rôle clé dans la montée du nationalisme autoritaire en Europe. Caisse de résonance des désirs et des peurs de leur communauté, ils font mouche, particulièrement auprès des jeunes.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/10/14998af95a6a4878b7f7cdf045e2a7f8.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623113500" channel="C111.api.telerama.fr" stop="20250623132000">
+    <title>Seule dans la nuit</title>
+    <desc lang="fr">A l'aéroport de New York, Lisa, un jeune mannequin, se voit contrainte de confier une poupée remplie d'héroïne à Sam Hendrix, un photographe, qui ignore bien entendu le contenu du jouet. Lisa espère ainsi tromper les trafiquants pour lesquels elle travaille depuis quelque temps. Mais Roat, le chef du gang, découvre rapidement le stratagème. Il assassine Lisa et contraint Mike Talman et Carlino, ses acolytes, à faire disparaître le corps. Puis, ayant retrouvé la trace de Sam Hendrix et compris qu'il détenait toujours le précieux objet, Roat et ses complices se rendent chez lui. Ils ne trouvent que Susy, sa femme, une aveugle. Profitant de son handicap, ils lui font croire que son mari la trompe et qu'il est compromis dans le meurtre de sa maîtresse. Les truands se mettent alors à fouiller la maison, à la recherche de la poupée... - Critique : Susy est aveugle, et, comme elle a perdu la vue depuis moins d’un an, elle a souvent peur quand elle se retrouve seule : un cendrier qui prend feu et la voilà paniquée, impuissante, réduite à néant. Par un sombre concours de circonstances, elle se trouve en possession d’une poupée bourrée d’héroïne. Plusieurs malfrats sont à sa recherche. Son mari est envoyé à l’autre bout de la ville pour un rendez-vous d’affaires fictif : Susy, seule, reçoit la visite de plusieurs inconnus, faux inspecteur de police et vrai méchant, et les événements s’affolent…
+
+Terence Young ne renie jamais l’héritage théâtral de son film (le scénario est adapté d’une pièce de Frederick Knott, ­déjà auteur de Le crime était presque parfait et de La Corde), il en fait un usage totalement cinématographique en jouant avec la topographie du lieu unique, un appartement en entresol, fermé, presque aveugle lui aussi. Les personnages fouillent dans toutes les pièces, se cachent, vont et viennent sans cesse et permettent au spectateur d’enregistrer les lieux. La scène finale, partie de cache-cache partiellement tournée dans l’obscurité, atteint un paroxysme terrifiant. Les rôles s’inversent à volonté : l’héroïne est aveugle, le tueur, non ; elle a les yeux écarquillés, il porte de petites lunettes noires même dans le noir. Aucune certitude ne dure très longtemps, aucune feinte n’est définitive. L’obscurité est tour à tour inquiétante et salvatrice — la faible lumière d’un frigo peut être fatale. Audrey Hepburn, vulnérable, fait de son handicap une arme redoutable face à un tueur cabotin et sinistre.</desc>
+    <credits>
+      <director>Terence Young</director>
+      <actor>Jack Weston</actor>
+      <actor>Audrey Hepburn</actor>
+      <actor>Richard Crenna</actor>
+      <actor>Alan Arkin</actor>
+      <actor>Robby Benson</actor>
+      <actor>Efrem Zimbalist</actor>
+      <actor>Herrod Julie</actor>
+      <actor>O'Brien Frank</actor>
+      <actor>Del Jean</actor>
+      <actor>Samantha Jones</actor>
+      <writer>Carrington Robert</writer>
+      <writer>Howard-Carrington Jane</writer>
+    </credits>
+    <date>1967</date>
+    <category lang="fr">film de suspense</category>
+    <length units="minutes">105</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/02/749a71d8734c4ce58e658e307c7260a8.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250623132000" channel="C111.api.telerama.fr" stop="20250623145500">
+    <title>L'affaire Marianne Voss</title>
+    <desc lang="fr">Vingt-quatre heures après sa disparition, Marianne Voss est retrouvée morte dans un bois par sa fille Heike et son mari Karsten. Immédiatement, les soupçons des enquêteurs se tournent vers ce dernier, qui n'est autre que le sympathique et dynamique maire de la petite ville du Brandebourg, où vivait le couple. La défunte, qui tenait un salon de coiffure, et le veuf, déjà retraité, étaient mariés depuis près de cinquante ans. D'après les témoignages de leur entourage, ils formaient un couple uni. Mais au fil du procès, des indices apportent peu à peu une version différente des faits.</desc>
+    <credits>
+      <director>Uljana Havemann</director>
+      <actor>Jörg Schüttauf</actor>
+      <actor>Marie-Lou Sellem</actor>
+      <actor>Pierre Besson</actor>
+      <actor>Steffi Kühnert</actor>
+      <actor>Bernhard Schütz</actor>
+      <actor>Koch Valerie</actor>
+      <actor>Thorsten Merten</actor>
+      <actor>Atheer Adel</actor>
+      <actor>Arne Fiedler</actor>
+      <actor>Hannah Ehrlichmann</actor>
+      <actor>Julia Effertz</actor>
+      <actor>Ponny Distakul</actor>
+      <writer>Karin Kaci</writer>
+    </credits>
+    <category lang="fr">téléfilm policier</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/07/b06ab4b9ca024b4f96e227ef9798545e.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623145500" channel="C111.api.telerama.fr" stop="20250623152500">
+    <title>Enquêtes archéologiques</title>
+    <sub-title>Teotihuacan : naissance d'une métropole</sub-title>
+    <desc lang="fr">Saison:2 - Episode:10 - La célèbre cité de Teotihuacan, au Mexique, serait la plus ancienne métropole d'Amérique, créée au IIe siècle avant l'ère chrétienne : gros plan.</desc>
+    <date>2018</date>
+    <category lang="fr">documentaire civilisations</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/21/0162b5a79775411bb87e8d4270d86376.jpg" />
+    <episode-num system="xmltv_ns">1.9.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623152500" channel="C111.api.telerama.fr" stop="20250623161000">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Claire Keegan, écrivaine des tabous irlandais - Les tatouages, talismans des Thaïlandais - La Nouvelle-Calédonie, un bagne pour les Kabyles.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/10/018dcb8767a1408bb1b794a144939158.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623161000" channel="C111.api.telerama.fr" stop="20250623170000">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Tina Modotti, photographe hors cadre de la révolution mexicaine - Les carrières, cœur de pierre de Paris - Au Sri Lanka, un Robinson avant l'heure.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/10/8878373a5381495590781a3dcb5f5050.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623170000" channel="C111.api.telerama.fr" stop="20250623174500">
+    <title>Associations de bienfaiteurs</title>
+    <sub-title>La montagne</sub-title>
+    <desc lang="fr">Saison:1 - Episode:1 - En montagne, la faune et la flore ont dû déployer une grande ingéniosité et nouer des alliances pour affronter l'altitude et l'extrême rudesse des éléments.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/07/07827a62bb1d4295aa18966978d55f3c.jpg" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623174500" channel="C111.api.telerama.fr" stop="20250623180500">
+    <title>Arte journal</title>
+    <desc lang="fr">ARTE Journal - 23/06/2025</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623180500" channel="C111.api.telerama.fr" stop="20250623185200">
+    <title>28 minutes</title>
+    <desc lang="fr">28 minutes samedi apporte un éclairage tout particulier à l'actualité sociétale et internationale de la semaine écoulée. Renaud Dély invite chaque semaine une personnalité connue et reconnue dans son domaine. À ses côtés tout au long de l'émission, elle réagira aux débats et autres séquences de ce rendez-vous hebdomadaire.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">47</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/01/25/10121f8f31744a5984c1db50e809c0bf.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623185200" channel="C111.api.telerama.fr" stop="20250623185500">
+    <title>Tu mourras moins bête</title>
+    <sub-title>Bavissimo !</sub-title>
+    <desc lang="fr">Saison:4 - Episode:16 - Est-ce une bonne idée d'utiliser sa salive pour nettoyer des trucs ? Au vu de la composition de la salive, ce n'est scientifiquement pas une mauvaise idée.</desc>
+    <date>2024</date>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/05/ad005110e8704bd988218cd2051d0e8e.jpg" />
+    <episode-num system="xmltv_ns">3.15.</episode-num>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623185500" channel="C111.api.telerama.fr" stop="20250623211000">
+    <title>Eve</title>
+    <desc lang="fr">L'actrice Eve Harrington reçoit la suprême récompense théâtrale de l'année, le Sarah Siddons Award. Plusieurs témoins se rappellent son irrésistible ascension. Il y a quelques mois, elle n'était qu'une admiratrice passionnée de la grande star Margo Channing. Misant sur la sympathie qu'elle inspire à Karen Richards, l'épouse de l'auteur dramatique Lloyd Richards, Eve parvient à faire la connaissance de son idole. Celle-ci, bouleversée par le récit de sa triste mais fervente existence, l'engage comme intendante. L'influent critique Addison De Witt perce rapidement son jeu mais n'en souffle mot, attentif au drame qui se noue. Lloyd Richards, qui écrit une nouvelle pièce pour Margo, se montre plus naïf. Il ne tarde pas à succomber au charme ensorceleur et vénéneux de l'irremplaçable Eve... - Critique : Eve Harrington s’apprête à recevoir la plus haute distinction pour une interprétation théâtrale. Sur cette première image, Mankiewicz greffe une question : comment en est-elle arrivée là, quelques mois seulement après avoir été engagée comme secrétaire par la grande comédienne Margo Channing ? Après ce prologue, qui propose d’aller au-delà des apparences, Mankiewicz use de son procédé préféré, le flash-back, pour décortiquer, en trois témoignages, le parcours fulgurant de cette intrigante hors pair. Rien de mieux que le milieu du théâtre pour aborder ses deux thèmes chéris, l’ambition et la manipulation… On ne voit jamais Eve sur scène ? C’est exprès : son talent saute tellement aux yeux dans la vie, quand elle joue la douce et modeste fan. Face à cette jeune vipère qui cherche à lui voler la vedette, Margo, la diva de déjà 40 ans, va rugir, taper du pied, puis finir par se retirer du jeu. L’épilogue lui donne raison : dans la quête dévorante de reconnaissance, il y a toujours une nouvelle Eve…
+
+Distillés comme du poison par Anne Baxter, Bette Davis et George Sanders, les dialogues de Mankiewicz sont brillants, blessants, et plus encore. Le langage est déterminant, il commande l’action plus que dans tout autre film du cinéaste.</desc>
+    <credits>
+      <actor>Gary Merrill</actor>
+      <actor>Celeste Holm</actor>
+      <actor>Hampden Walter</actor>
+      <actor>Bette Davis</actor>
+      <actor>Randy Stuart</actor>
+      <actor>Barbara Bates</actor>
+      <actor>Gregory Ratoff</actor>
+      <actor>Marilyn Monroe</actor>
+      <actor>Hugh Marlowe</actor>
+      <actor>Thelma Ritter</actor>
+      <actor>Anne Baxter</actor>
+      <actor>George Sanders</actor>
+      <writer>L. Joseph</writer>
+    </credits>
+    <date>1950</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">135</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/10/0d62eb24c0ab4ba4ae19cf915b26f38b.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>5/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250623211000" channel="C111.api.telerama.fr" stop="20250623230000">
+    <title>Kill Bill : Volume 1</title>
+    <desc lang="fr">Dans le désert, un mariage est organisé, entre une jeune femme, autrefois tueuse à gages mais bien décidée à mener une existence rangée, et son futur époux. Mais Bill, l'ancien chef de la belle, ne l'entend pas de cette oreille. Aussi envoie-t-il ses hommes pour massacrer son ancienne recrue et son entourage. Ce qui devait être un moment de grâce et de bonheur se transforme en un véritable carnage, à l'issue duquel toutes les personnes présentes sont laissées pour mortes. Cinq ans plus tard, enfin sortie de son coma, la mariée décide de venger la mort des siens. Elle n'a désormais plus qu'un seul objectif : assassiner un à un les membres du gang de Bill... - Critique : Celle qui veut tuer Bill n'a pas de nom. Ce qu'on sait d'elle : le jour de ses noces, enceinte jusqu'aux yeux, elle a vu débarquer ses anciens collègues, les tueurs du Détachement international des vipères assassines. On l'a crue morte. Quatre ans de coma plus tard, elle crie vengeance. La minceur du sujet n'est qu'apparente. Elle offre au cinéaste une liberté totale. Dans une chronologie chamboulée par des flash-backs, Tarantino vient à bout de son projet le plus personnel : une anthologie du cinéma de genre. Intro choc : l'élimination d'une rivale. Parenthèse sur un double suspense hospitalier.
+
+Puis Tarantino enchaîne à sa façon : un dessin animé à la japonaise raconte le début de l'ascension d'O-Ren Ishii, reine du crime tokyoïte. Quand sa bande, les Crazy 88, pénètre dans la Villa bleue, quand avancent au ralenti, aux côtés de la chef de gang, ses adjointes, la belle Sofie Fatale et la perverse Gogo Yubari, l'image atteint une beauté saisissante. De cette oeuvre sensualiste - qui n'exclut pas le malaise mais procure des moments de jubilation - se dégage un sentiment insolite : la mélancolie promise par la chanson du générique. Le regret de l'enfance qui s'est éloignée, et le poids des trahisons des adultes.</desc>
+    <credits>
+      <actor>Daryl Hannah</actor>
+      <actor>Chiba Sonny</actor>
+      <actor>Michael Parks</actor>
+      <actor>Uma Thurman</actor>
+      <actor>Michael Bowen</actor>
+      <actor>Vivica A.</actor>
+      <actor>Gordon Liu</actor>
+      <actor>Dreyfus Julie</actor>
+      <actor>Lucy Liu</actor>
+      <actor>Chiaki Kuriyama</actor>
+      <actor>David Carradine</actor>
+      <actor>Michael Madsen</actor>
+      <writer>Quentin Tarantino</writer>
+      <guest>Chiba Sonny</guest>
+    </credits>
+    <date>2003</date>
+    <category lang="fr">film d'action</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/28/a00e78f995404bdd88f6874a77103c9b.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-16</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Moins16.svg/200px-Moins16.svg.png" />
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250623225500" channel="C111.api.telerama.fr" stop="20250623235000">
+    <title>Uma Thurman : L'émancipation d'une guerrière</title>
+    <desc lang="fr">Devenue mannequin à 15 ans après une enfance paisible dans un milieu intellectuel bohème, Uma Thurman s'est très tôt sentie capturée par le regard des hommes. Une expérience qu'elle va vivre plusieurs fois dans sa carrière, avec plus ou moins de violence : notamment à ses débuts, lorsqu'on ne lui propose que des rôles fondés sur son sex-appeal, comme dans "Les Liaisons dangereuses", où elle campait de jeunes ingénues à la sensualité prête à déborder. Ce sera encore le cas plus tard, devant la caméra de Quentin Tarantino, qui en a fait une égérie du cinéma indépendant ("Pulp Fiction"), puis un emblème de la revanche des femmes ("Kill Bill"). Enfin, en tant que victime d'agression sexuelle de la part du producteur Harvey Weinstein, à qui elle est parvenue à tenir tête.</desc>
+    <category lang="fr">documentaire cinéma</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/10/f245f58ae7f248e2ad0ac11bd8015e0e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250623235000" channel="C111.api.telerama.fr" stop="20250624011500">
+    <title>Bye bye Tibériade</title>
+    <desc lang="fr">Guidée par son rêve de devenir comédienne, Hiam Abbass a quitté sa Palestine natale au début des années 1990 pour rejoindre l'Europe, laissant derrière elle sa mère, sa grand-mère et ses sept soeurs. Trois décennies plus tard, elle retourne sur place, dans son village, accompagnée de sa fille Lina, réalisatrice. Ensemble, les deux femmes partent à la découverte des traces de lieux aujourd'hui pour la plupart disparus. A travers des images d'archives, elles se lancent dans une exploration des mémoires dispersées de quatre générations de femmes libres, résistantes, et avant tout préparées à tout quitter pour tout recommencer... - Critique : À la fin des années 1980, l’actrice palestinienne Hiam Abbass a quitté son village de Galilée pour poursuivre son rêve de cinéma et de théâtre. Cette histoire de déchirement et d’exil, elle ne l’a racontée que partiellement à sa fille, Lina Soualem, réalisatrice de documentaires aux accents personnels (Leur Algérie), qui fait de ces manques le point de départ de ce film, en salles cette semaine après sa diffusion sur Arte en décembre dernier.
+
+« Née de la rupture entre deux mondes », la jeune femme entraîne sa mère dans un voyage sur les lieux perdus de son enfance, près du lac de Tibériade, et dans la mémoire familiale. Peu à peu, au fil des questions un peu brusques et d’approches plus subtiles faites de poèmes et de scènes jouées, elle cerne la force déployée par sa mère pour s’affranchir de la tradition patriarcale et assumer son choix de liberté. « J’étouffais, j’avais besoin de respirer, de me trouver », confie Hiam Abbas. Revenir à Deir Hanna, c’est aussi mettre en lumière les figures féminines de la lignée, elles aussi marquées par le déracinement. Um Ali, l’arrière-grand-mère, a été expulsée de son village natal lors de la Nakba, (« catastrophe » en arabe, qui désigne l’exode forcé de sept cent mille Palestiniens lors de la création d’Israël en 1948). Nemat, la grand-mère, est devenue institutrice, malgré les obstacles dressés par la guerre…
+
+Entrelacement d’images du présent, de films familiaux, d’archives historiques, Bye bye Tibériade navigue entre le récit intime et l’histoire collective, ravivant les douleurs mais aussi la capacité de résistance de quatre générations de femmes palestiniennes. Son regard tendre, parfois hésitant, embrasse le chagrin comme les moments de drôlerie, et compose une méditation émouvante sur la liberté d’être soi, la transmission et la puissance des héritages.</desc>
+    <credits>
+      <director>Lina Soualem</director>
+      <actor>Hiam Abbass</actor>
+      <actor>Lina Soualem</actor>
+      <actor>Amer Khalil</actor>
+      <actor>Nemat Abbass</actor>
+      <actor>Buthayna Abbas Hajo</actor>
+      <actor>Diana Hussein</actor>
+      <actor>Wafa Malgo</actor>
+      <actor>Said Abbas</actor>
+      <actor>Zahera Bounechada</actor>
+      <actor>Omaya Younes</actor>
+      <actor>Hanan Abbas Diab</actor>
+      <actor>Johayna Hussein Abbas</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film documentaire</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/10/1136dd27bb90420b9d1d454c2dd563cb.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+</tv>
