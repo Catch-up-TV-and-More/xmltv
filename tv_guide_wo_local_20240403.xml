@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20240402232500 +0200" channel="C111.api.telerama.fr" stop="20240403002000 +0200">
+    <title>Irlande du Nord, la frontière de tous les dangers</title>
+    <desc lang="fr">Parmi les nombreuses secousses occasionnées par le Brexit du 30 janvier 2020, le ravivement des tensions en Irlande du Nord n'est pas la moins inquiétante. Les heurts entre protestants loyalistes et catholiques républicains se sont multipliés depuis le départ du Royaume-Uni de l'Union européenne, entre défilés des groupes extrémistes et incendies de bus à Belfast. En cause, les nouvelles règles post-Brexit qui prévoient que les marchandises en provenance de l'île de Grande-Bretagne soient contrôlées à leur arrivée en Irlande du Nord, toujours intégrée au marché commun et à l'union douanière de l'UE. Cet accord présente l'avantage d'empêcher le retour d'une frontière physique sur l'île d'Irlande, qui fragiliserait les accords de paix de 1998.</desc>
+    <category lang="fr">documentaire politique</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/93771e1a9b1c4d73858518cb4f024625.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403002000 +0200" channel="C111.api.telerama.fr" stop="20240403011500 +0200">
+    <title>Rail Baltica : Le train des pays baltes</title>
+    <desc lang="fr">Destiné à relier les capitales des pays baltes au reste de l'Europe, le mégaprojet ferroviaire "Rail Baltica" revêt des enjeux géostratégiques complexes.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/591bdd6985cc45e7bbaef0cbb96dcfa1.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403011500 +0200" channel="C111.api.telerama.fr" stop="20240403015000 +0200">
+    <title>Tracks East</title>
+    <sub-title>Hongrie : pourquoi Orban est-il si populaire ?</sub-title>
+    <desc lang="fr">"Tracks" met le cap vers les pays de l'Est et rencontre des journalistes et des artistes qui portent un regard différent sur le conflit actuel.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/15/14a116a4998b41f18214854654224863.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403015000 +0200" channel="C111.api.telerama.fr" stop="20240403024000 +0200">
+    <title>Charité</title>
+    <sub-title>L'heure zéro</sub-title>
+    <desc lang="fr">Saison:2 - Episode:6 - Alors que les premiers tirs d'artillerie de l'armée russe résonnent dans Berlin et que la défaite semble désormais inévitable, le personnel de la Charité se bat pour sauver des patients. Jour et nuit, des blessés sont transportés à l'hôpital. Sauerbruch et les autres chirurgiens opèrent jusqu'à l'épuisement, sans eau, ni électricité, sans médicaments ni bandages. De leur côté, Anni et Artur travaillent côte à côte dans le sous-sol de l'hôpital pour enfants...</desc>
+    <credits>
+      <director>Anno Saul</director>
+      <actor>Lukas Miko</actor>
+      <actor>Marek Harloff</actor>
+      <actor>Ulrich Noethen</actor>
+      <actor>Susanne Böwe</actor>
+      <actor>Jacob Matschenz</actor>
+      <actor>Jannik Schümann</actor>
+      <actor>Hans Löw</actor>
+      <actor>Luise Wolfram</actor>
+      <actor>Mala Emde</actor>
+      <actor>Frida-Lovisa Hamann</actor>
+      <actor>Sarah Bauerett</actor>
+      <actor>Artjom Gilz</actor>
+      <writer>Dorothee Schön</writer>
+      <writer>Thor-Wiedemann Sabine</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">série historique</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/2442f71c663f48dda9b963a6818dbd3b.jpg" />
+    <episode-num system="xmltv_ns">1.5.</episode-num>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240403024000 +0200" channel="C111.api.telerama.fr" stop="20240403033000 +0200">
+    <title>Charité</title>
+    <sub-title>Poumon d'acier</sub-title>
+    <desc lang="fr">Saison:3 - Episode:1 - La jeune docteure Ella Wendt arrive de province à l'hôpital de la Charité pendant l'été 1961. L'hôpital est alors confronté à de gros problèmes : de plus en plus de médecins et de membres du personnel médical passent à l'Ouest et la Charité souffre terriblement du manque de personnel. Cette mutation arrive à point nommé pour Ella, qui fait depuis longtemps des recherches sur le diagnostic précoce du cancer et qui espère obtenir le soutien du célèbre sérologue et pathologiste Otto Prokop...</desc>
+    <credits>
+      <actor>Uwe Ochsenknecht</actor>
+      <actor>Kunzendorf Nina</actor>
+      <actor>Philipp Hochmair</actor>
+      <actor>Anatole Taubman</actor>
+      <actor>Nina Gummich</actor>
+      <actor>Amber Bongard</actor>
+      <actor>Uwe Preuss</actor>
+      <actor>Reinke Nicholas</actor>
+      <actor>Hildegard Schroedter</actor>
+      <actor>Franz Hartwig</actor>
+      <actor>Patricia Meeden</actor>
+      <actor>Max Wagner</actor>
+      <writer>Christine Hartmann</writer>
+      <writer>Dähnert Stefan</writer>
+      <writer>Thomas Laue</writer>
+      <writer>Sarah Wallers</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">série historique</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/2ba22230d5e945feaf719522ac015ffe.jpg" />
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240403033000 +0200" channel="C111.api.telerama.fr" stop="20240403041900 +0200">
+    <title>Charité</title>
+    <sub-title>Les sangsues</sub-title>
+    <desc lang="fr">Saison:3 - Episode:2 - Le supérieur d'Ella déménage à l'Ouest et le service se retrouve temporairement sans supervision. Ella continue ses recherche et observe des changements dans le sang du patient cancéreux. Elle y voit l'opportunité d'étayer sa théorie concernant la reconnaissance du cancer à son stade précoce.</desc>
+    <credits>
+      <director>Sönke Wortmann</director>
+      <director>Anno Saul</director>
+      <actor>Uwe Ochsenknecht</actor>
+      <actor>Ulrich Noethen</actor>
+      <actor>Kunzendorf Nina</actor>
+      <actor>Philipp Hochmair</actor>
+      <actor>Anatole Taubman</actor>
+      <actor>Nina Gummich</actor>
+      <actor>Uwe Preuss</actor>
+      <actor>Reinke Nicholas</actor>
+      <actor>Hildegard Schroedter</actor>
+      <actor>Franz Hartwig</actor>
+      <actor>Max Bretschneider</actor>
+      <actor>Max Wagner</actor>
+      <writer>John-Hendrik Karsten</writer>
+      <writer>Christine Hartmann</writer>
+      <writer>Dähnert Stefan</writer>
+      <writer>Thomas Laue</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">série historique</category>
+    <length units="minutes">49</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/2ba22230d5e945feaf719522ac015ffe.jpg" />
+    <episode-num system="xmltv_ns">2.1.</episode-num>
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240403041900 +0200" channel="C111.api.telerama.fr" stop="20240403051500 +0200">
+    <title>Pause</title>
+    <desc lang="fr">Une usine de jouets en Thaïlande. Placé sous le joug d'un contremaître ultra violent, et soumis à des cadences infernales, un jeune enfant fabrique des poupée ninja. Un jour, l'une d'elles, frappée par la foudre, prend vie. Le jouet tombe entre les mains du jeune Alex ; il va changer la vie du jeune garçon timide, souffre-douleur du caïd du collège.</desc>
+    <category lang="fr">autre</category>
+    <length units="minutes">56</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240403051500 +0200" channel="C111.api.telerama.fr" stop="20240403054500 +0200">
+    <title>Vivre sur un supervolcan en Italie</title>
+    <desc lang="fr">Près de Naples, la région volcanique des champs Phlégréens connaît un regain d'activité sismique : les tremblements de terre se font de plus en plus fréquents et intenses, la croûte terrestre s'est soulevée d'un mètre, au risque de se fracturer. La situation inquiète les millions d'habitants de la région, à commencer par ceux du golfe de Pouzzoles.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/2f7b2455bdd448aca84e824804cf72b4.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403054500 +0200" channel="C111.api.telerama.fr" stop="20240403055500 +0200">
+    <title>Le dessous des images</title>
+    <sub-title>Cargo capturé, terrorisme en vidéo</sub-title>
+    <desc lang="fr">Cette vidéo de propagande a fait le tour du monde. À travers elle, les rebelles houthis affichent leur soutien aux Palestiniens. Dans des guerres où l'importance de l'image ne cesse de croître, la propagande produit des clips aux allures de superproductions hollywoodiennes. Présenté par Sonia Devillers, le magazine qui analyse les images de notre époque.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/26/ea285d4262594f6ca5d01500d39243c3.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403055500 +0200" channel="C111.api.telerama.fr" stop="20240403064500 +0200">
+    <title>28 minutes</title>
+    <desc lang="fr">Le point sur l'actualité, avec un invité témoin et un débat sur le sujet chaud du jour, en compagnie de plusieurs journalistes. Chaque vendredi, un club d'intellectuels revisite l'actualité de la semaine.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/02/28/65efa4450d104d2f9cb65e2c3cab4d8a.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403064500 +0200" channel="C111.api.telerama.fr" stop="20240403065000 +0200">
+    <title>Le dessous des cartes : l'essentiel</title>
+    <desc lang="fr">"Le dessous des cartes" met son expertise géopolitique au service d'une pastille quotidienne dédiée à l'actualité ukrainienne.</desc>
+    <category lang="fr">magazine de géopolitique</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/04/20/fa612c4825d73884c9c20d110ba343ef0e137f57.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403065000 +0200" channel="C111.api.telerama.fr" stop="20240403065500 +0200">
+    <title>ARTE Journal Junior</title>
+    <desc lang="fr">Lancé en 2014 dans un format magazine, "ARTE Journal junior" propose à l'heure du petit déjeuner une édition quotidienne présentée dans les deux langues. Au programme : un décryptage du monde et de ses enjeux à travers deux sujets d'actualité et, tout au long de la semaine, un feuilleton en cinq épisodes sur un même thème ou des réponses à des questions posées par des enfants.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/26/fb5a9e25843441c28dcd857951e6b28c.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403065500 +0200" channel="C111.api.telerama.fr" stop="20240403075000 +0200">
+    <title>Estonie, au secours des grenouilles</title>
+    <desc lang="fr">A l'arrivée du printemps, des milliers d'amphibiens sortent de leur torpeur hivernale et, guidés par leur instinct, gagnent leurs zones de reproduction. En Estonie, les habitants se mobilisent alors pour les aider à traverser sans danger les routes du pays. C'est également le cas à Tallin, la capitale, où crapauds et grenouilles sont menacés dans leur migration.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/04/18/3a521ae4eb500621adf3256a95463f1837b24971.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403075000 +0200" channel="C111.api.telerama.fr" stop="20240403083500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">En Azerbaïdjan, le peintre de la vie soviétique - Guillaume le Conquérant et la Normandie - Au Nouveau-Mexique, cachez ces peintures.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/37338394_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403083500 +0200" channel="C111.api.telerama.fr" stop="20240403092500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">En façade, Copenhague est une ville design et rayonnante, transformée par d'audacieux architectes. C'est cette image trop parfaite que vient brutaliser le réalisateur danois Nicolas Winding Refn en 1996 avec son premier film, le thriller underground "Pusher".</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/37338394_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403092500 +0200" channel="C111.api.telerama.fr" stop="20240403104500 +0200">
+    <title>Lynx</title>
+    <desc lang="fr">Réintroduit il y a 50 ans en Europe, le lynx boréal est désormais présent dans le Jura. Laurent Geslin suit pendant plusieurs années une famille de ces élégants félins. Cet animal est réputé difficile à suivre : il peut disparaître pendant des mois avant de réapparaître brusquement. Le photographe observe le mâle, qui dispose d'un territoire qui s'étend parfois sur plusieurs centaines de kilomètres. Il "chante", pour attirer la femelle qui lui répond généralement la nuit, et il conserve quantité de nourriture pour se restaurer toute l'année. Leur mode de vie se dévoile peu à peu, après avoir fait preuve de beaucoup de patience... - Critique : Ce documentaire animalier, tourné sur les contreforts du Jura, évoque les bienfaits régulateurs de l’intégration du lynx boréal, prédateur des herbivores qui abondent dans ses massifs forestiers. Le résultat se démarque du tout-venant en accordant une place inhabituelle aux sons de la nature, se gardant de les noyer sous une musique surabondante. Il se distingue aussi par une façon de prendre son temps, en suivant, durant deux ans, l’histoire d’une famille et les beautés d’un écosystème où prolifèrent chamois, chevreuils ou renards. L’œuvre d’un photographe, auteur d’un livre du même nom, et qui vit depuis quelques années dans cette belle ­région.</desc>
+    <credits />
+    <date>2021</date>
+    <category lang="fr">film documentaire</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/15/0d7afbe4a2fd492da2700c9e7967c05f.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240403104500 +0200" channel="C111.api.telerama.fr" stop="20240403114000 +0200">
+    <title>Puma, le fantôme du Gévaudan</title>
+    <desc lang="fr">A la suite d'une rumeur persistante, est-il possible de déterminer si, au coeur du mythique territoire du Gévaudan, un puma n'aurait pas fait son apparition dans la région ?</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/7f7e6d9c63f94c41b0088c98c4b8f679.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403114000 +0200" channel="C111.api.telerama.fr" stop="20240403122500 +0200">
+    <title>Chats et chiens sauvages</title>
+    <sub-title>Félins d'Afrique : l'espoir au bout des griffes</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - Les lions, guépards, caracals, servals, lynx, chats forestiers, loups, chiens viverrins, chacals, lycaons et dingos sont des prédateurs redoutables. Mais ces grands félins et canidés sauvages n'en subissent pas moins la pression de la présence et des activités humaines. Leur habitat naturel s'est drastiquement réduit. Heureusement, sur tous les continents, des initiatives sont mises en oeuvre pour les protéger.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/3f5e73918035425e83e010dd31b847ed.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403122500 +0200" channel="C111.api.telerama.fr" stop="20240403133500 +0200">
+    <title>L'Europe dans tous ses (petits) Etats</title>
+    <sub-title>Luxembourg</sub-title>
+    <desc lang="fr">Saison:1 - Episode:4 - Membre fondateur de l'Union européenne, le Luxembourg est connu pour les institutions dont il abrite le siège. Mais le grand-duché constitue aussi un petit paradis naturel.</desc>
+    <date>2021</date>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/32503487_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403133500 +0200" channel="C111.api.telerama.fr" stop="20240403155000 +0200">
+    <title>L'affaire Marianne Voss</title>
+    <desc lang="fr">Vingt-quatre heures après sa disparition, Marianne Voss est retrouvée morte dans un bois par sa fille Heike et son mari Karsten. Immédiatement, les soupçons des enquêteurs se tournent vers ce dernier, qui n'est autre que le sympathique et dynamique maire de la petite ville du Brandebourg, où vivait le couple. La défunte, qui tenait un salon de coiffure, et le veuf, déjà retraité, étaient mariés depuis près de cinquante ans. D'après les témoignages de leur entourage, ils formaient un couple uni. Mais au fil du procès, des indices apportent peu à peu une version différente des faits.</desc>
+    <credits>
+      <director>Uljana Havemann</director>
+      <actor>Jörg Schüttauf</actor>
+      <actor>Marie-Lou Sellem</actor>
+      <actor>Pierre Besson</actor>
+      <actor>Steffi Kühnert</actor>
+      <actor>Bernhard Schütz</actor>
+      <actor>Koch Valerie</actor>
+      <actor>Thorsten Merten</actor>
+      <actor>Atheer Adel</actor>
+      <actor>Arne Fiedler</actor>
+      <actor>Hannah Ehrlichmann</actor>
+      <actor>Julia Effertz</actor>
+      <actor>Ponny Distakul</actor>
+      <writer>Karin Kaci</writer>
+    </credits>
+    <category lang="fr">téléfilm policier</category>
+    <length units="minutes">135</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/4eb3dcc313654a59b8d235bfd0e995b9.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403155000 +0200" channel="C111.api.telerama.fr" stop="20240403163500 +0200">
+    <title>Animaux, l'art d'être parent</title>
+    <sub-title>Quand la famille s'agrandit</sub-title>
+    <desc lang="fr">Dans la nature aussi, l'art d'être parent prend des formes très variées. Tout commence par la recherche du bon partenaire. Mais les pucerons ne connaissent pas ces tracas.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/160dfcfc3c924e26968538bab6bda82a.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403163500 +0200" channel="C111.api.telerama.fr" stop="20240403172000 +0200">
+    <title>Animaux, l'art d'être parent</title>
+    <sub-title>Toute une éducation !</sub-title>
+    <desc lang="fr">Chez les manchots royaux, lorsqu'un couple se forme, les partenaires restent ensemble jusqu'à ce qu'ils aient accompli tous leurs devoirs parentaux.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/160dfcfc3c924e26968538bab6bda82a.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403172000 +0200" channel="C111.api.telerama.fr" stop="20240403180500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Au pays des clichés sur Rio, il y a les plages, le pain de sucre, et les airs entêtants fredonnés par Carmen Miranda. Cette chanteuse et actrice fut la première Latino-Américaine à conquérir Hollywood, devenant même dans les années 40 l'artiste féminine la mieux payée des États-Unis.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/37338394_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403180500 +0200" channel="C111.api.telerama.fr" stop="20240403185500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Les Pyrénées glaçantes de Bernard Minier - Dans le Manipur, les femmes règnent sur le lac - À Kos, une leçon d'anatomie.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/37338394_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403185500 +0200" channel="C111.api.telerama.fr" stop="20240403193000 +0200">
+    <title>La loterie espagnole profite aux aveugles</title>
+    <desc lang="fr">Au-delà de sa situation personnelle, Juan pense aussi aux autres. Il aspire à rendre l'art plus accessible aux aveugles et déficients visuels. Dans cette optique, il a fait imprimer des photos en 3D dès 2010. Ces impressions permettent au public de découvrir les images par le toucher. Son projet a été soutenu par de grands noms de la musique, tels que Herbie Hancock ou Paco de Lucia, le célèbre guitariste espagnol.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/19/9451abf13f4fcc8821ab869d7ba9011c6f02a4b5_1707CB75AF02E8AE0A1E5E8DA019DF4B.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403193000 +0200" channel="C111.api.telerama.fr" stop="20240403194500 +0200">
+    <title>Le dessous des images</title>
+    <sub-title>Tourisme, foule monumentale</sub-title>
+    <desc lang="fr">Cette photo sert à informer mais surtout à alerter. L'accès au voyage s'est démocratisé mais le tourisme est devenu excessif dans certains lieux. Le patrimoine historique et la qualité de vie des populations locales sont menacés. Et, c'est chaque année un peu plus problématique. Présenté par Sonia Devillers, le magazine qui analyse les images de notre époque.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/26/ea285d4262594f6ca5d01500d39243c3.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403194500 +0200" channel="C111.api.telerama.fr" stop="20240403200500 +0200">
+    <title>Arte journal</title>
+    <desc lang="fr">ARTE Journal - 03/04/2024</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403200500 +0200" channel="C111.api.telerama.fr" stop="20240403205000 +0200">
+    <title>28 minutes</title>
+    <desc lang="fr">Le point sur l'actualité, avec un invité témoin et un débat sur le sujet chaud du jour, en compagnie de plusieurs journalistes. Chaque vendredi, un club d'intellectuels revisite l'actualité de la semaine.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/02/28/65efa4450d104d2f9cb65e2c3cab4d8a.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403205000 +0200" channel="C111.api.telerama.fr" stop="20240403205500 +0200">
+    <title>Le dessous des cartes : l'essentiel</title>
+    <desc lang="fr">"Le dessous des cartes" met son expertise géopolitique au service d'une pastille quotidienne dédiée à l'actualité ukrainienne.</desc>
+    <category lang="fr">magazine de géopolitique</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/04/20/fa612c4825d73884c9c20d110ba343ef0e137f57.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403205500 +0200" channel="C111.api.telerama.fr" stop="20240403224500 +0200">
+    <title>La confession</title>
+    <desc lang="fr">Dans un village français, pendant l'Occupation, Léon Morin, le nouveau prêtre, jeune et beau, provoque l'émoi chez les habitantes. Les hommes du village sont soit morts au front soit emprisonnés. Barny, une jeune communiste qui ne croit pas en Dieu, est la seule à ne pas s'enthousiasmer. En confession, elle tente de le défier, et lui reprocher son attitude vis-à-vis des Allemands. Or, Morin n'est pas du genre à se laisser déstabiliser facilement. Ils se rencontrent souvent, évoquent la religion et l'existence de Dieu. Alors qu'ils commencent à être attirés l'un par l'autre, les Allemands viennent arrêter dix otages... - Critique : Pas facile de venir après Léon Morin, prêtre (1961), le film de Melville avec Belmondo en soutane. Ni, de toute façon, après le roman de Béatrix Beck, autrice très originale, oubliée à tort. Le réalisateur du Convoyeur et de Made in France s’en sort pourtant avec ce qu’il sait le mieux faire : un thriller sentimental. Là où Melville misait sur le décalage et une certaine perversion, Nicolas Boukhrief choisit le mélodrame à suspense.
+
+Nous revoici donc sous l’Occupation, dans une petite ville de province où l’arrivée d’un nouveau prêtre met en émoi toutes les femmes. Jeune employée à la poste, communiste athée, sans nouvelles de son mari prisonnier, Barny s’agace de l’aveuglement généralisé de ses collègues. Et décide de défier l’abbé dans le confessionnal. Le rapprochement se traduit par le recours croissant aux gros plans, à mesure que Barny défaille. À mesure aussi que l’oppression grandissante de l’occupant, ses représailles terribles contre la Résistance resserrent l’étau…
+
+Servi par une photo délicate, le film est un face-à-face, au sens propre comme au figuré. Entre deux visages, l’un pâle, pur, magnifique, de Marine Vacth ; l’autre opaque, sombre, de Romain Duris. Il est clair, en revanche, qu’on se serait bien passé des moments montrant Barny, en fin de vie, confessant son secret à un jeune prêtre…</desc>
+    <credits>
+      <actor>Anne Le</actor>
+      <actor>Romain Duris</actor>
+      <actor>Amandine Dewasmes</actor>
+      <actor>Lucas Tavernier</actor>
+      <actor>Titus De</actor>
+      <actor>Gaëtan Lejeune</actor>
+      <actor>Marine Vacth</actor>
+      <actor>Solène Rigot</actor>
+      <actor>Lucie Debay</actor>
+      <actor>Marie-Jeanne Maldague</actor>
+      <actor>Nina Boukhrief</actor>
+      <actor>Murielle Texier</actor>
+      <writer>Nicolas Boukhrief</writer>
+    </credits>
+    <date>2016</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/4d4e5450de84447ab47518e5d7d0205e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240403224500 +0200" channel="C111.api.telerama.fr" stop="20240403234000 +0200">
+    <title>Récit de l'enfer d'Auschwitz : "Maus" d'Art Spiegelman</title>
+    <desc lang="fr">Avec son récit graphique "Maus" ("souris" en allemand), en deux tomes, Art Spiegelman a accompli une double révolution : il a fait entrer la Shoah dans la bande dessinée et, de ce fait, dans la culture mainstream, sans jamais trahir la rigueur historique et narrative requise pour en transmettre l'expérience. En restituant à la fois le témoignage de son père Vladek, juif polonais rescapé d'Auschwitz, émigré à New York après la guerre, et son dialogue souvent difficile avec celui-ci, il a aussi consacré la BD comme un art du réel. Pourtant, en 1980, quand ses premières planches apparaissent dans Raw, la revue de bande dessinée alternative qu'il dirige, son entreprise est impensable : une BD sur les camps d'extermination, mettant en scène les juifs sous forme de souris, les nazis en chats et les Polonais goy en cochons ?</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/47ee8c9867144ec99b49390ca057e2dc.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240403234000 +0200" channel="C111.api.telerama.fr" stop="20240404005500 +0200">
+    <title>Pour l'éternité</title>
+    <desc lang="fr">Un père et sa fille sont en chemin pour une fête d'anniversaire sous une pluie battante. Une femme a un talon cassé, ce qui lui vaut des regards désapprobateurs. Un prêtre tourmenté se pose des questions sur sa foi. Une femme aime vraiment le champagne, Hitler fait son apparition. Un homme pleure dans un bus. Tout ce petit monde se retrouve dans un café, dans la rue, devant une boutique, dans un bureau... - Critique : Avec son couple qui survole les toits, la première scène évoque une peinture de Marc Chagall, Au-dessus de la ville . C’est une des très belles images de ce film avec ­lequel le Suédois Roy Andersson reste fidèle à ses tableaux vivants, qui sont toujours une méditation à la fois ­tragique et comique sur l’existence. Mais la légèreté, cette fois, y est rare. Un ­pessimisme qui semble un peu convenu rend même parfois cette Éternité pesante. Et puis, soudain, ce cinéma unique en son genre retrouve sa clairvoyance. Comme dans ce plan où un couple assis sur un banc contemple Stockholm. « C’est déjà septembre », dit la femme. La condition humaine en un clin d’œil.</desc>
+    <credits>
+      <actor>Jan Steen</actor>
+      <actor>Flygel Thore</actor>
+      <actor>Jan-Eje Ferling</actor>
+      <actor>Conny Block</actor>
+      <actor>Bengt Bergius</actor>
+      <actor>Tatiana Delaunay</actor>
+      <actor>Anders Hellström</actor>
+      <actor>Martin Serner</actor>
+      <actor>Nova Ania</actor>
+      <actor>Lisa Blohm</actor>
+      <actor>Florencio Urbano</actor>
+      <actor>Aurora Önneby</actor>
+      <writer>Andersson Roy</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">75</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/25/0596934667494748bc3bf3f2681778c5.jpg" />
+    <premiere />
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+</tv>

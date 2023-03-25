@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20240330234000" channel="C111.api.telerama.fr" stop="20240331004000">
+    <title>Court-circuit</title>
+    <desc lang="fr">Un numéro consacré au Festival Music &amp; Cinéma de Marseille. Avec deux courts métrages, "Les corneilles blanches" et "Pavane".</desc>
+    <category lang="fr">magazine du court métrage</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/37089479_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331013000" channel="C111.api.telerama.fr" stop="20240331021800">
+    <title>Charité</title>
+    <sub-title>Tempête impériale</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - Ida souffre de la sévérité de la diaconesse Martha, qui se lie d'amitié avec la jeune infirmière timide Thérèse. Cette dernière est attirée par Ida, tout comme l'étudiant en médecine Georg Tischendorf. Alors que le travail d'Ida à la clinique l'intéresse beaucoup, Georg, talentueux artiste, étudie pour le bien de son père. Behring dit à Ida que les femmes peuvent étudier la médecine en Suisse, mais pas sous le Reich allemand, et lui donne ses livres. Koch a eu une liaison avec Hedwige. Les réformateurs libéraux du Reich, tels que Virchow, espèrent un dégel politique maintenant que Kaiser Friedrich III est monté sur le trône...</desc>
+    <credits>
+      <director>Sönke Wortmann</director>
+      <actor>Matthias Koeberlin</actor>
+      <actor>Matthias Brenner</actor>
+      <actor>Bach Christoph</actor>
+      <actor>Ramona Kunze-Libnow</actor>
+      <actor>Tanja Schleiff</actor>
+      <actor>Emilia Schüle</actor>
+      <actor>Alicia von</actor>
+      <actor>Thomas Loibl</actor>
+      <actor>Klara Deutschmann</actor>
+      <actor>Ernst Stötzner</actor>
+      <actor>Max Bretschneider</actor>
+      <actor>Justus von</actor>
+      <writer>Dorothee Schön</writer>
+      <writer>Thor-Wiedemann Sabine</writer>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">série historique</category>
+    <length units="minutes">48</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/2ba22230d5e945feaf719522ac015ffe.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240331021800" channel="C111.api.telerama.fr" stop="20240331030000">
+    <title>Pause</title>
+    <desc lang="fr">Une usine de jouets en Thaïlande. Placé sous le joug d'un contremaître ultra violent, et soumis à des cadences infernales, un jeune enfant fabrique des poupée ninja. Un jour, l'une d'elles, frappée par la foudre, prend vie. Le jouet tombe entre les mains du jeune Alex ; il va changer la vie du jeune garçon timide, souffre-douleur du caïd du collège.</desc>
+    <category lang="fr">autre</category>
+    <length units="minutes">42</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240331030000" channel="C111.api.telerama.fr" stop="20240331034500">
+    <title>Charité</title>
+    <sub-title>La lumière du monde</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - L'épouse du docteur Paul Ehrlich, Hedda, est prête à accoucher, mais la sage-femme n'arrive pas à faire tourner le foetus dans la bonne direction. Lorsque le pouls de l'enfant commence à faiblir et que la situation devient critique, il ne reste plus qu'un chirurgien à la clinique qui peut l'aider : Emil Behring. Behring sauve la vie d'Hedda, mais pas celle de son fils. Pendant ce temps, des milliers de médecins du monde entier se rendent à Berlin à l'occasion de la Convention médicale mondiale pour entendre Koch. Son annonce prudente d'un éventuel remède contre la tuberculose provoque une vague d'enthousiasme dans la communauté médicale internationale. Mais le médicament n'a jamais été testé sur l'homme. Georg Tischendorf veut épouser Ida, même si elle n'est pas socialement acceptable pour une personne de son rang...</desc>
+    <credits>
+      <director>Sönke Wortmann</director>
+      <actor>Matthias Koeberlin</actor>
+      <actor>Matthias Brenner</actor>
+      <actor>Bach Christoph</actor>
+      <actor>Ramona Kunze-Libnow</actor>
+      <actor>Tanja Schleiff</actor>
+      <actor>Emilia Schüle</actor>
+      <actor>Alicia von</actor>
+      <actor>Thomas Loibl</actor>
+      <actor>Klara Deutschmann</actor>
+      <actor>Ernst Stötzner</actor>
+      <actor>Max Bretschneider</actor>
+      <actor>Justus von</actor>
+      <writer>Dorothee Schön</writer>
+      <writer>Thor-Wiedemann Sabine</writer>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">série historique</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/2ba22230d5e945feaf719522ac015ffe.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240331034500" channel="C111.api.telerama.fr" stop="20240331053000">
+    <title>Charité</title>
+    <sub-title>Remède miracle</sub-title>
+    <desc lang="fr">Saison:1 - Episode:4 - Traiter des cas contagieux comporte des risques : Thérèse, atteinte de tuberculose, est invitée à quitter la Charité pour finir ses jours dans un établissement pour femmes. Mais avec l'aide de Virchow, Ida convainc la diaconnesse de laisser Thérèse rester à la Charité. Pendant ce temps, Robert Koch teste son nouveau remède contre la tuberculose sur lui-même et sur son amoureuse, Hedwig. Sa tuberculine ayant des effets secondaires graves, Ida est secrètement recrutée pour soigner Koch...</desc>
+    <credits>
+      <director>Sönke Wortmann</director>
+      <actor>Matthias Koeberlin</actor>
+      <actor>Matthias Brenner</actor>
+      <actor>Bach Christoph</actor>
+      <actor>Ramona Kunze-Libnow</actor>
+      <actor>Tanja Schleiff</actor>
+      <actor>Emilia Schüle</actor>
+      <actor>Alicia von</actor>
+      <actor>Thomas Loibl</actor>
+      <actor>Klara Deutschmann</actor>
+      <actor>Ernst Stötzner</actor>
+      <actor>Max Bretschneider</actor>
+      <actor>Justus von</actor>
+      <writer>Dorothee Schön</writer>
+      <writer>Thor-Wiedemann Sabine</writer>
+      <writer>Andreas Drost</writer>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">série historique</category>
+    <length units="minutes">105</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/2ba22230d5e945feaf719522ac015ffe.jpg" />
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20240331053000" channel="C111.api.telerama.fr" stop="20240331062500">
+    <title>Le mystérieux voyage des oiseaux de rivage</title>
+    <desc lang="fr">Depuis la nuit des temps, les limicoles, les oiseaux de rivage, effectuent la plus longue migration du monde animal, la plus mystérieuse aussi. Deux fois l'an, ils parcourent la planète du nord au sud, bravant tous les dangers, en quête de nourriture et d'un abri sûr pour se reproduire. Longtemps, marins, poètes et ornithologues ont été fascinés par ce voyage au long cours, ignorant son motif, sa destination et le mode de navigation de ces nomades volants. Réfugié en Australie l'hiver, le courlis de Sibérie, le plus gros des limicoles, se reproduit au nord de l'Asie, empruntant la voie migratoire périlleuse de l'Australasie.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/9edce6f1a72848999cb36619778d5167.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240331062500" channel="C111.api.telerama.fr" stop="20240331064000">
+    <title>ARTE Junior, le mag</title>
+    <desc lang="fr">Pour les 10-14 ans, l'actualité internationale et européenne traitée à hauteur d'enfant, à partir de questions posées par des élèves du primaire français et allemand. Sans oublier le portrait d'un enfant du monde.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/ec9cabe438904e02a6da1ec501b77892" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331064000" channel="C111.api.telerama.fr" stop="20240331071000">
+    <title>Des rêves de vacances en béton</title>
+    <sub-title>Ex-Yougoslavie</sub-title>
+    <desc lang="fr">Saison:2 - Episode:3 - Dans les décennies de l'après-guerre, l'ex-Yougoslavie a joué un rôle important dans l'essor du tourisme de masse, comme dans la station balnéaire Haludovo.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/866679bbfa024e01898a16df4b678497" />
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331071000" channel="C111.api.telerama.fr" stop="20240331074000">
+    <title>Twist</title>
+    <sub-title>Comment vivre simplement ?</sub-title>
+    <desc lang="fr">Rencontre avec les artistes d'une métropole européenne autour d'une question en lien avec l'actualité.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/34490097_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331074000" channel="C111.api.telerama.fr" stop="20240331082500">
+    <title>La clinique des poupées à Naples : Une passion, un savoir-faire</title>
+    <desc lang="fr">Au cœur du quartier historique de Naples, le palais Marigliano abrite une clinique peu ordinaire. Ours en peluche, poupées de porcelaine, figurines de dragons et même statues de saints : les patients arrivent de toute l'Italie pour subir une opération en urgence ou retrouver une seconde jeunesse. Souvenirs de famille et doudous adorés sont confiés par des propriétaires anxieux à la médecin en chef Tiziana, qui applique religieusement un savoir-faire perpétué depuis plusieurs générations, consciente d'avoir entre les mains de précieux fragments d'existence. Bienvenue à la clinique des poupées, un sanctuaire préservé où le monde de l'enfance reprend inconditionnellement ses droits.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/224209a9a235426c85f14a35bd72b25f" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331082500" channel="C111.api.telerama.fr" stop="20240331085500">
+    <title>Cuisines des terroirs</title>
+    <sub-title>La Lituanie</sub-title>
+    <desc lang="fr">"Zeppelinai", longs feuilletés aux pommes de terre fourrés de viande de porc et "kugelis", soufflés de pommes de terres au poulet, fricassées de poissons et sandres enrobés de pâte sont les principaux plats de la roborative cuisine lituanienne.</desc>
+    <category lang="fr">documentaire gastronomie</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/57de6f8d8b934a46bbbdf0728273a02b" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331085500" channel="C111.api.telerama.fr" stop="20240331094000">
+    <title>Cuba, l'île bleue</title>
+    <desc lang="fr">Face à l'essor attendu du tourisme de masse, Cuba veut protéger son patrimoine maritime, jusqu'à présent préservé de la pêche industrielle et des navigations.</desc>
+    <category lang="fr">documentaire environnement</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/750b8b7d20f2411caff65c654f167516" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331094000" channel="C111.api.telerama.fr" stop="20240331103500">
+    <title>La mort au bout des crocs : Serpents venimeux d'Afrique</title>
+    <desc lang="fr">Pour s'adapter aux environnements extrêmes du continent africain, les serpents ont développé des comportements inventifs et des styles de prédation variés.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/091147fc113e4d39ab9dc858d32b866d.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331103500" channel="C111.api.telerama.fr" stop="20240331113000">
+    <title>La mort au bout des crocs : Serpents venimeux d'Australie</title>
+    <desc lang="fr">L'Australie abrite plus de cent quarante espèces de serpents qui se sont adaptés au fil des siècles à l'assèchement progressif du climat de l'île.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/5308eb6c9e004c228b8bb5f7dd8163e0" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331113000" channel="C111.api.telerama.fr" stop="20240331133500">
+    <title>Cartouche</title>
+    <desc lang="fr">Fils d'un marchand de vin de la Courtille, Louis-Dominique Bourguignon, alias Cartouche, est devenu l'un des voleurs à la tire les plus habiles de Paris. Il supporte de plus en plus mal l'autorité tyrannique du roi des gueux, le déplaisant Malichot et, pour s'en affranchir, s'en va voir si les servitudes de l'armée sont plus amusantes. Sous l'uniforme, il gagne deux amis, La Taupe et La Douceur, un éclat de gloire militaire et surtout la caisse du régiment, qu'il emporte dans sa désertion lorsqu'il a fini de constater que, décidément, la discipline n'est pas faite pour lui. Le trio revient à Paris. En chemin, Cartouche se laisse séduire par Vénus, une jolie bohémienne dont il fait sa maîtresse... - Critique : Le bandit Cartouche, de son vrai nom Louis-Dominique Bourguignon, sévit plusieurs années à Paris avec sa bande, avant d’être rompu vif, en 1721, en place de Grève. En prenant des libertés avec l’histoire de ce voleur qui fit trembler les riches, Philippe de Broca réussit le plus beau film de cape et d’épée français.Dominique fuit après avoir bravé l’autorité de son chef, le cruel Malichot. Il s’engage dans l’armée aux côtés de la Taupe et de la Douceur, qui deviendront ses « lieutenants ». Le temps de dérober la solde du régiment et de s’attacher la fière Vénus, il ­rejoint Paris et évince Malichot. Désormais, Cartouche et ses ­coquins ne détrousseront que les grands…Au croisement des (grands) chemins de Fanfan la Tulipe, de Robin des bois et d’une certaine insolence Nouvelle Vague, ­Belmondo est magnifique, bondissant du léger au grave. Derrière le burlesque des capes et des épées, l’éclat des bleus et des rouges annonce le temps révolutionnaire. Le drame romantique prend le pas sur la fantaisie. Une fois enrichi, le bandit s’ennuie. Un ­cadavre et une séquence de funérailles inoubliable finiront de plonger le film dans un lyrisme désespéré et superbe.</desc>
+    <credits>
+      <actor>Jean-Paul Belmondo</actor>
+      <actor>Claudia Cardinale</actor>
+      <actor>Marcel Dalio</actor>
+      <actor>Jean Rochefort</actor>
+      <actor>Jacques Balutin</actor>
+      <actor>Odile Versois</actor>
+      <actor>Roquevert Noël</actor>
+      <actor>Lucien Raimbourg</actor>
+      <actor>Jess Hahn</actor>
+      <actor>Philippe Lemaire</actor>
+      <actor>Charon Jacques</actor>
+      <actor>Alain Dekok</actor>
+      <writer>Charles Spaak</writer>
+      <writer>Daniel Boulanger</writer>
+      <writer>Philippe de</writer>
+    </credits>
+    <date>1962</date>
+    <category lang="fr">film d'aventures</category>
+    <length units="minutes">125</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/19170030_DAE06D1227A8798FB64476F0944C0FF3.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240331133500" channel="C111.api.telerama.fr" stop="20240331142000">
+    <title>Cuba, l'île verte</title>
+    <desc lang="fr">Les forêts, les rivières et les mangroves de Cuba sont des paradis naturels : des dizaines d'espèces, qui ont disparu ailleurs, continuent à vivre ici.</desc>
+    <category lang="fr">documentaire environnement</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/3d0cd7aa22464b9ab2e0728813849470" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331142000" channel="C111.api.telerama.fr" stop="20240331161000">
+    <title>Pavarotti</title>
+    <desc lang="fr">Souvent cité comme le plus grand et le plus populaire chanteur d'opéra depuis Enrico Caruso, Luciano pavarotti a chanté les plus grands airs du bel canto et n'a pas hésité faire des ponts entre les genres musicaux en chantant avec Eros Ramazzotti, Bryan Adams, Mariah Carey, Jon Bon Jovi, Eric Clapton, Queen, Florent Pagny, U2, Sting, Elton John, Céline Dion, Barry White, James Brown, Zucchero, Dolores O'Riordan4, ou encore les Spice Girls. Celui qui a beaucoup sacrifié à sa carrière, notamment sa vie de famille, a contribué à populariser la musique classique notamment lors des séries de représentations des Trois Ténors (Plácido Domingo et José Carreras)... - Critique : Le documentaire s’ouvre sur une séquence qui ne déplairait pas au James Gray de The Lost city of Z. Saisi au camescope par son flûtiste en 1995, Luciano Pavarotti descend l’Amazone en canot, à la recherche non pas d’une cité perdue mais d’un théâtre mythique de Manaus où son idole, Caruso, chanta cent ans plus tôt. Il faut voir sa joie enfantine, son émotion aussi, lorsque, foulant la même scène que son illustre prédécesseur napolitain, le géant de Modène se met à donner de la voix, avant de partir de son grand rire !
+
+Des raretés de cet acabit, Pavarotti n’en manque pas. On peut même dire que le film réalisé par l’Américain Ron Howard (Apollo 13, Da Vinci Code), visible en salles jusqu’au dimanche 10 novembre puis disponible en DVD dès le 27 novembre, croule littéralement sous la documentation : extraits de concerts et d’entretiens télévisés, films et photos de famille, interviews de proches - ses deux épouses, ses trois filles aînées - et d’artistes renommés (Placido Domingo, Angela Gheorghiu, Bono)… Soient cent dix minutes menées allegrissimo, sans un temps mort, sans une respiration. Sans un angle, non plus.
+
+De fait, au bout de vingt minutes syncopées comme une bande-annonce, on comprend l’ambition du projet : faire le tour de Pavarotti. Luciano et ses contre-uts insensés, Luciano et les femmes, Luciano et l’argent (quarante-six ans de carrière, un manager redoutable, cent millions d’albums vendus), Luciano et la pop, Luciano et la princesse Diana, Luciano en Chine, Luciano et les spaghetti, Luciano et ses copains des « Trois ténors », tout ça au pas de charge, circulez, il y a trop à voir ! Ron Howard, qui avait pourtant signé en 2016 The Beatles : Eight days a week, un documentaire enthousiasmant resserré sur les tournées des Fab Four de 1962 à 1966, a péché par gourmandise. Ce n’est pas désagréable, évidemment, mais c’est indigeste.</desc>
+    <credits>
+      <actor>Placido Domingo</actor>
+      <actor>Luciano Pavarotti</actor>
+      <actor>Angela Gheorghiu</actor>
+      <actor>Zubin Mehta</actor>
+      <actor>Vittorio Grigolo</actor>
+      <actor>Carol Vaness</actor>
+      <actor>Madelyn Renée</actor>
+      <actor>Nicoletta Mantovani</actor>
+      <actor>Adua Veroni</actor>
+      <actor>Giuliana Pavarotti</actor>
+      <actor>Lorenza Pavarotti</actor>
+      <actor>Andrea Griminelli</actor>
+      <writer>Mark Monroe</writer>
+      <writer>Cassidy Hartmann</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">film documentaire</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/659dd34e7a6744f5b968ee16f83cf43c" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240331161000" channel="C111.api.telerama.fr" stop="20240331173000">
+    <title>Luciano Pavarotti à Hyde Park</title>
+    <desc lang="fr">En 1991, Luciano Pavarotti fêtait ses trente ans de carrière avec un grand concert gratuit, dans un cadre célèbre, à la mesure de son talent et de sa renommée : Hyde Park, à Londres. Cette soirée exceptionnelle le vit interpréter pas moins de vingt airs d'opéra parmi les plus beaux et les plus fameux, signés Verdi, Wagner ou Puccini. Le prince et la princesse de Galles en personne assistèrent à cette manifestation.</desc>
+    <category lang="fr">musique : classique</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/0ecf6693d6f148c6950ddb42c5f66fe1" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331173000" channel="C111.api.telerama.fr" stop="20240331174500">
+    <title>Karambolage</title>
+    <desc lang="fr">Gros plan sur un objet très allemand (la sandale Birkenstock) et sur un couple de mots dont les traductions renvoient à des images différentes ("tiroir" et "Schublade") - Petit comparatif de la fraude dans le métro parisien et berlinois.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/09/04/dda96042153f541f690c459d7e5f25a902ed52ae_0D06C6C797893FF04978AECC277E5D04.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331174500" channel="C111.api.telerama.fr" stop="20240331180500">
+    <title>Arte journal</title>
+    <desc lang="fr">ARTE Journal - 31/03/2024</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331180500" channel="C111.api.telerama.fr" stop="20240331190000">
+    <title>Simone Signoret</title>
+    <desc lang="fr">Actrice intransigeante, multirécompensée, Simone Signoret s'est racontée en 1976 dans un livre ("La Nostalgie n'est plus ce qu'elle était"). Elle a aussi répondu avec un franc-parler rafraîchissant aux mille questions des journalistes sur des sujets aussi variés que le métier d'acteur, ses rôles au cinéma, sa conception de l'engagement politique, du couple ou du temps qui passe. Trente-cinq ans après sa disparition, en 1985, Michèle Dominici compose à partir d'archives, d'interviews et d'extraits de ses films le portrait d'une actrice qui refusa toute sa vie d'être une star, d'une militante qui ne fut jamais encartée, d'une artiste qui a fait le choix de l'amour et de la liberté.</desc>
+    <category lang="fr">documentaire cinéma</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/59d1c138708d4c3481c9ca25fbed8963" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240331190000" channel="C111.api.telerama.fr" stop="20240331203500">
+    <title>Katia</title>
+    <desc lang="fr">En 1861, en Russie. Le tsar Alexandre II, dont l'épouse est de santé fragile, rencontre la jeune Katia Dolgorouki alors qu'il visite une institution pour jeunes filles pauvres. Immédiatement séduit par le charme et la grâce de la jeune femme, il préfère sagement l'éloigner de lui et l'envoie en France. Ils se retrouvent toutefois à l'occasion d'un voyage officiel et, incapables de cacher plus longtemps leur attirance réciproque, deviennent amants. De retour en Russie, Alexandre doit affronter les complots que trament contre lui des terroristes nihilistes, en même temps que les réticences de son propre entourage à l'égard de la constitution libérale qu'il désire instaurer. Katia, qui tremble pour la vie du tsar, tente de l'aider de son mieux...</desc>
+    <credits>
+      <director>Robert Siodmak</director>
+      <actor>Françoise Brion</actor>
+      <actor>Yves Barsacq</actor>
+      <actor>Blanchar Pierre</actor>
+      <actor>Curd Jürgens</actor>
+      <actor>Margo Lion</actor>
+      <actor>Monique Melinand</actor>
+      <actor>Michel Bouquet</actor>
+      <actor>Romy Schneider</actor>
+      <actor>Antoine Balpêtré</actor>
+      <actor>Hubert Noël</actor>
+      <actor>Bernard Dhéran</actor>
+      <actor>Jacqueline Marbaux</actor>
+      <writer>Charles Spaak</writer>
+      <writer>Georges Neveux</writer>
+    </credits>
+    <date>1959</date>
+    <category lang="fr">film : mélodrame</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/ddea109e41c84686b431c814af8918e6" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331203500" channel="C111.api.telerama.fr" stop="20240331213000">
+    <title>Conversation avec Romy Schneider</title>
+    <desc lang="fr">En décembre 1976, à Cologne, Romy Schneider accorde le temps d'une nuit une interview unique en français, la langue des confidences, à la féministe allemande Alice Schwarzer. Quarante ans après, Alice confie à Patrick Jeudy les enregistrements sonores de cette conversation et revient devant sa caméra sur cette nuit unique lors de laquelle Romy Schneider a levé le voile sur sa vie. De la petite Autrichienne de Sissi à l'icône des années 1970, ce portrait sans tabou lève le voile sur l'intimité d'une femme pleine de contradictions. Elle apparaît ici courageuse et craintive, révoltée et conformiste, surdouée et rongée par le doute.</desc>
+    <category lang="fr">documentaire cinéma</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/0727e1b84a3644e288d3206b095c5a8c" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240331213000" channel="C111.api.telerama.fr" stop="20240331222500">
+    <title>Claudia Cardinale, la créature du secret</title>
+    <desc lang="fr">Claudia Cardinale a illuminé de son sourire radieux plus d'une centaine de films, dont quelques monuments de l'histoire du cinéma, parmi lesquels "Le Guépard", de Visconti, et "Huit et demi", de Fellini. Alors qu'elle travaille sans relâche sous l'égide d'un producteur pygmalion, Franco Cristaldi, nul ne devine que cette star paradoxale, aussi secrète qu'exposée, porte dans la vie un masque plus trompeur qu'à l'écran. Ce portrait sensible déroule le parcours follement romanesque d'une belle personne devenue grande actrice à son corps défendant.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/ff24a5cd27c344119095820c43797154" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20240331222500" channel="C111.api.telerama.fr" stop="20240331232000">
+    <title>"Le carnaval des animaux", un conte musical</title>
+    <desc lang="fr">Parmi les quelque 600 compositions de Camille Saint-Saëns, mort le 16 décembre 1921 à Alger, la suite fantaisiste "Le carnaval des animaux "reste son oeuvre la plus célèbre.</desc>
+    <category lang="fr">documentaire musique classique</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/cfc99a5780bf45468a2851cf82032ff0" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20240331232000" channel="C111.api.telerama.fr" stop="20240401004500">
+    <title>Joseph Haydn : "Les sept dernières paroles de Notre Sauveur sur la croix"</title>
+    <desc lang="fr">À Berlin, Vladimir Jurowski interprète "Les Sept Dernières Paroles du Christ en croix" de Joseph Haydn ainsi que de courtes pièces contemporaines.</desc>
+    <category lang="fr">musique : classique</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/ext/1111x625/uri/simages.media-press.cloud/2ea2bbf403af4e99b08c267693936a94" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
