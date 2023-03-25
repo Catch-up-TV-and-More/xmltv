@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250105233500" channel="C111.api.telerama.fr" stop="20250106012500">
+    <title>Richard Strauss : "Salomé"</title>
+    <desc lang="fr">En Galilée, au début de notre ère, le roi Hérode a épousé sa belle-sœur Hérodiade, mais il est irrésistiblement attiré par la fille de cette dernière, la princesse Salomé. Alors que ses mœurs sont fortement réprouvées par le prophète Jochanaan (Jean-Baptiste), le roi ordonne l'arrestation du prédicateur et le fait enfermer dans une citerne. Quand Salomé l'entend prêcher depuis sa geôle, elle est fascinée et exige qu'on lui amène le prisonnier, et son intérêt se transforme en désir.</desc>
+    <category lang="fr">drame lyrique</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/23/2a064fd1e4794da8913c0aab0748600c.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106012500" channel="C111.api.telerama.fr" stop="20250106031400">
+    <title>L'Empire du silence</title>
+    <desc lang="fr">Depuis plus d'un quart de siècle, une guerre fratricide déchire la République démocratique du Congo, un pays théâtre de massacres perpétrés par les rebelles et les divers groupes armés qui s'affrontent. Les conséquences de cette tragédie sont effrayantes et les morts se comptent par millions. Thierry Michel, un réalisateur belge, a immortalisé, caméra au poing et pendant plus de trois décennies, toutes les souffrances des peuples d'un pays désormais en ruines, victime de la cupidité d'hommes guidés par l'appât du gain et souhaitant mettre la main sur ses immenses sources de richesse à tout prix, même celui d'horribles exactions...</desc>
+    <credits>
+      <actor>Thierry Michel</actor>
+      <actor>Paul Kagame</actor>
+      <actor>Denis Mukwege Mukengere</actor>
+      <actor>Mobutu Sese Seko</actor>
+      <actor>Laurent-Désiré Kabila</actor>
+      <writer>Thierry Michel</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">film documentaire</category>
+    <length units="minutes">109</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/23/35732a9494a64e2a83e42c8cdd78ee9b.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250106031400" channel="C111.api.telerama.fr" stop="20250106041000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">56</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250106041000" channel="C111.api.telerama.fr" stop="20250106045500">
+    <title>Un monde de ponts</title>
+    <sub-title>Les colosses</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - L'industrialisation galopante de l'Angleterre au XIXe siècle ouvre la voie à la construction de nouveaux ponts, bientôt exportés à travers tout l'Empire.</desc>
+    <date>2020</date>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/02/07/58000ed4249e588a9ea03c482a07ea2450f1a0fb.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106045500" channel="C111.api.telerama.fr" stop="20250106052500">
+    <title>La fièvre du maquillage</title>
+    <desc lang="fr">Les ados d'aujourd'hui sont prêts à tout pour avoir une peau parfaite et le montrer. Adeptes des cosmétiques pas toujours à la portée de toutes les bourses, ils partagent leurs soins du visage sur les réseaux sociaux. Mais les dermatologues tirent la sonnette d'alarme : les produits vantés par ces jeunes influenceurs sont souvent conçus pour une clientèle adulte.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/21/e58d01af22f84869ab7549839847a195.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106052500" channel="C111.api.telerama.fr" stop="20250106053500">
+    <title>ARTE Journal Junior</title>
+    <desc lang="fr">Lancé en 2014 dans un format magazine, "ARTE Journal junior" propose à l'heure du petit déjeuner une édition quotidienne présentée dans les deux langues. Au programme : un décryptage du monde et de ses enjeux à travers deux sujets d'actualité et, tout au long de la semaine, un feuilleton en cinq épisodes sur un même thème ou des réponses à des questions posées par des enfants.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/dc18781c2e90dc8c03ed4b7b66da2fa348c6c3af.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106053500" channel="C111.api.telerama.fr" stop="20250106061000">
+    <title>Délices de Sicile</title>
+    <sub-title>Le sud fertile</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - Dans leur ferme du sud sicilien, Michele et Vittoria Russo font pousser des figuiers de Barbarie en permaculture au coeur de la réserve naturelle Bosco Di Santo Pietro.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire gastronomie</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/04/03/2c8c63ab20be02fbb96b9415ea36350358375834.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106061000" channel="C111.api.telerama.fr" stop="20250106065000">
+    <title>Arapaïma, le poisson géant d'Amazonie</title>
+    <desc lang="fr">Dès l'ouverture de la saison de la pêche en octobre, les pêcheurs se mettent en route en amont de l'Amazone, au Brésil. Installés dans des canoës vacillants et munis de harpons, ils partent à la chasse à l'arapaïma, un poisson qui peut atteindre 3 mètres de long et peser jusqu'à 200 kilos. L'espèce, qui a traversé des millions d'années d'évolution sans changement notable, est menacée d'extinction et a déjà disparu dans une grande partie du Brésil.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/04/18/3a521ae4eb500621adf3256a95463f1837b24971.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106065000" channel="C111.api.telerama.fr" stop="20250106074000">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Au Québec, Xavier Dolan sort du cadre - La Rochelle, insoumise cité maritime - En Uruguay, la grande évasion.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/25/12450f2aff65b36be22b616760a28d3f8d326a9b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106074000" channel="C111.api.telerama.fr" stop="20250106082500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">En Estonie, Arvo Pärt compose avec le silence - Le Cap-Vert, une île dans le vent - L'acropole fait de la résistance.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/05/6f0336f0c3a64425876f7e2ca106ee62.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106082500" channel="C111.api.telerama.fr" stop="20250106091000">
+    <title>Voyage vers nos cimes</title>
+    <sub-title>Survivre dans les hauteurs</sub-title>
+    <desc lang="fr">Riches d'une biodiversité exceptionnelle, les Alpes se distinguent par leurs terrains accidentés, leurs hivers interminables et leurs importantes variations de température. Face à ces conditions extrêmes, les animaux luttent chaque jour pour survivre aux privations et aux dangers qui les menacent. Mais si elle est habituée à affronter le grand froid, comment la faune s'adapte-t-elle aux changements de son habitat liés au dérèglement climatique ?</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/03/26f7fb6b92e84aebb51b010df134c1f7.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106091000" channel="C111.api.telerama.fr" stop="20250106095500">
+    <title>Voyage vers nos cimes</title>
+    <sub-title>Les Alpes bavaroises en mutation</sub-title>
+    <desc lang="fr">La région alpine est en train de changer en raison de l'activité humaine. Exemple en images au bord de la rivière sauvage Isar, en Allemagne.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/04/3383d133e19d4072be2fd2668ab8116f.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106095500" channel="C111.api.telerama.fr" stop="20250106104000">
+    <title>Voyage vers nos cimes</title>
+    <sub-title>La moyenne montagne en mutation</sub-title>
+    <desc lang="fr">Les forêts du Harz et de Bavière dépérissent rapidement, avec des conséquences désastreuses pour la biodiversité. Mais dans le massif du Kaiserstuhl, la nature reprend ses droits.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/04/77de342c0d7046bd897063a6045bc87e.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106104000" channel="C111.api.telerama.fr" stop="20250106120000">
+    <title>Grande-Bretagne, voyage aux sources de l'alpinisme</title>
+    <desc lang="fr">Des falaises blanches de Douvres aux îles Orcades en Écosse, une expédition avec Catherine Destivelle sur les traces des pionniers britanniques de l'alpinisme.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/24/25bbe5f3276d4d829aa3dea1784e59bc.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106120000" channel="C111.api.telerama.fr" stop="20250106123500">
+    <title>Le couturier du pape</title>
+    <desc lang="fr">Filippo Sorcinelli est un couturier de renommée internationale, réputé en Italie pour ses habits religieux. C'est lui qui crée les vêtements et accessoires portés par le pape lors de ses apparitions publiques. Ce catholique pratiquant vit au grand jour son homosexualité, dans un environnement où tradition et modernité ne font pas toujours bon ménage.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/24/557a7eeba6564f8987636db400b04289.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106123500" channel="C111.api.telerama.fr" stop="20250106145000">
+    <title>Hors d'atteinte</title>
+    <desc lang="fr">Jack Foley est un gangster de petite envergure, spécialisé dans les hold-up. Il purge l'une de ses multiples peines en prison et ne rêve que d'en sortir. Aidé de son ami Buddy Bragg, il parvient à prendre la poudre d'escampette. Karen Sisco, officier au FBI, sur les lieux au moment de l'évasion, tente d'intercepter les deux compères. Mais la jeune femme devient rapidement leur prisonnière et se voit dans l'obligation de cohabiter avec Jack dans le coffre d'une voiture. Tout oppose ces deux personnages qui, pourtant, se sentent irrésistiblement attirés l'un vers l'autre. Lors d'un changement de véhicule, Karen parvient à échapper à la vigilance de ses ravisseurs... - Critique : Depuis sa Palme d’or pour Sexe, mensonges et vidéo (1989), Steven Soderbergh n’a cessé d’aborder les genres les plus divers. On est ici dans le registre de la comédie policière, comme dans Ocean’s Eleven, Twelve et Thirteen. Le danger existe, certes. Mais l’élégance moqueuse de la mise en scène laisse deviner, à chaque instant, que le jeu va l’emporter sur le sérieux.
+
+Fidèle à l’univers du romancier Elmore Leonard, Steven Soderbergh s’est visiblement amusé à soigner (et parfois à inventer) des seconds rôles excentriques et excentrés : Glenn, le traîne-savates à l’accent traînant ; ou Buddy, le copain fidèle qui téléphone à sa sœur pour lui confesser les mauvais coups qu’il s’apprête à commettre…
+
+Au tout début, on voit George Clooney arracher rageusement sa cravate avant de se ruer dans une banque pour y perpétrer, avec un sang-froid digne d’Arsène Lupin, un hold-up qui, pourtant, finira mal. Mais pourquoi diable a-t-il ainsi arraché sa cravate, se demande-t-on ? On ne le saura qu’une heure et demie plus tard, lorsque se seront assemblés tous les morceaux du puzzle, tous les indices que Soderbergh a semés avec une intelligence joueuse.</desc>
+    <credits>
+      <director>Steven Soderbergh</director>
+      <actor>Jennifer Lopez</actor>
+      <actor>Catherine Keener</actor>
+      <actor>Albert Brooks</actor>
+      <actor>Isaiah Washington</actor>
+      <actor>Don Cheadle</actor>
+      <actor>Ving Rhames</actor>
+      <actor>Steve Zahn</actor>
+      <actor>Luis Guzmán</actor>
+      <actor>George Clooney</actor>
+      <actor>Loneker Keith</actor>
+      <actor>Dennis Farina</actor>
+      <actor>Jim Robinson</actor>
+      <writer>Scott Frank</writer>
+    </credits>
+    <date>1998</date>
+    <category lang="fr">film policier</category>
+    <length units="minutes">135</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/09/2998d4c426fd4442ba78c7a6849edb58.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250106145000" channel="C111.api.telerama.fr" stop="20250106153500">
+    <title>Extraordinary Australia</title>
+    <sub-title>Les forêts sauvages d'Australie</sub-title>
+    <desc lang="fr">Saison:1 - Episode:1 - Sur l'île de Tasmanie, en Australie, les zones boisées constituent le dernier refuge des marsupiaux les plus rares de la planète : les chats mouchetés.</desc>
+    <date>2024</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/06/6d6d42c6471b44b8b28273eb1d3e871d.jpg" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106153500" channel="C111.api.telerama.fr" stop="20250106162000">
+    <title>La Nouvelle-Zélande, un paradis sur terre</title>
+    <sub-title>Fjords et forêts tropicales</sub-title>
+    <desc lang="fr">Saison:1 - Episode:1 - Après les fjords Milford Sound et Doubtful Sound, le voyage continue vers Queenstown, l'une des rares villes du Sud, paradis des amateurs de parachutisme.</desc>
+    <date>2012</date>
+    <category lang="fr">documentaire voyage</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/01/22/26216105e607a2eeb8cb7f5c6677bec70fa05cc3.jpg" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106162000" channel="C111.api.telerama.fr" stop="20250106170500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Le Kazakhstan du réalisateur Adilkhan Yerzhanov se place sous le signe de la fable. Dans son pays fictif, les steppes rugueuses et infinies sont le symbole du paradis.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/24/05fac7c51a644246853a26b5a1dfc083.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106170500" channel="C111.api.telerama.fr" stop="20250106175000">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Arrow, roi de Montserrat - En Suède, on ne plaisante pas avec les droits des femmes - À Melbourne, on danse pour sauver le monde.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/05/6f0336f0c3a64425876f7e2ca106ee62.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106175000" channel="C111.api.telerama.fr" stop="20250106183000">
+    <title>Voyage en cuisine</title>
+    <sub-title>Corée du Sud : le poulet frit</sub-title>
+    <desc lang="fr">Au pays du matin calme, tout n'est pas entièrement paisible. Dans les rues de Séoul, manger sur le pouce est devenu le quotidien des Coréens, et la star de ce restaurant à ciel ouvert c'est le poulet frit. Rencontre avec Park Soon-Hee et son mari pour découvrir les secrets de cette recette.</desc>
+    <category lang="fr">magazine culinaire</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/24/ddb93a1cda984e70b8727d250d88e654.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106183000" channel="C111.api.telerama.fr" stop="20250106184500">
+    <title>Le dessous des images</title>
+    <sub-title>Moo Deng : le trop mignon va-t-il trop loin ?</sub-title>
+    <desc lang="fr">Star des réseaux sociaux, l'hippopotame pygmée Moo Deng captive le monde entier. Devenu célèbre grâce à des vidéos TikTok, ce mammifère menacé est devenu une mascotte mondiale en quelques semaines. Un phénomène qui questionne la frontière entre sensibilisation et exploitation animale.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/d3e9993ee565459fa01bd2039e7b6ac8.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106184500" channel="C111.api.telerama.fr" stop="20250106190500">
+    <title>Arte journal</title>
+    <desc lang="fr">Chaque jour à 19.45, la rédaction franco-allemande d'ARTE Journal propose une approche européenne et culturelle de l'actualité, qui tranche avec l'approche habituelle des JT du soir. Un regard original sur le monde.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106190500" channel="C111.api.telerama.fr" stop="20250106195000">
+    <title>28 minutes</title>
+    <desc lang="fr">Le point sur l'actualité, avec un invité témoin et un débat sur le sujet chaud du jour, en compagnie de plusieurs journalistes. Chaque vendredi, un club d'intellectuels revisite l'actualité de la semaine.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/02/28/65efa4450d104d2f9cb65e2c3cab4d8a.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106195000" channel="C111.api.telerama.fr" stop="20250106200000">
+    <title>Samuel</title>
+    <sub-title>Le goûter</sub-title>
+    <desc lang="fr">Saison:1 - Episode:16 - Samuel rêve d'une dame au long cou qui le pourchasse. Il en parle à ses amis au QG, c'est-à-dire la maison d'Anouar. Il découvre que tous les garçons aiment Julie.</desc>
+    <date>2024</date>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/08/23/84166ab8cf5344cda99293a89664afcb.jpg" />
+    <episode-num system="xmltv_ns">0.15.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250106200000" channel="C111.api.telerama.fr" stop="20250106223000">
+    <title>There Will Be Blood</title>
+    <desc lang="fr">Alors que la voiture commence à peine à se développer en Amérique, Daniel Plainview tente de faire fortune en installant des puits de pétrole à travers le pays. Toujours à l'affût de la moindre occasion de s'enrichir, il apprend que le sous-sol de Little Boston, petite commune de Californie, regorge d'or noir. Plainview s'y rend avec son fils. Se faisant passer pour un chasseur pour éviter toute spéculation, il parvient à convaincre le vieil Abel Sunday de lui vendre une importante parcelle de terrain, présentée comme giboyeuse. Dès lors, Plainview prospecte sur sa nouvelle propriété, acquise à moindre coût. Mais la population locale s'offusque de voir ainsi les richesses de Little Boston exploitées par un étranger. Eli Sunday, le pasteur, prend la tête de la contestation... - Critique : Durant de longues minutes, il n’y a pas de dialogues. Rien que des bruits : de pelles, de pioches qui creusent le sol à la recherche de l’or. Puis de l’or noir. Bruits, souffles, ahanements. Stridences, aussi, qui composent l’une des plus belles musiques de film de ces dernières années (signée Jonny Greenwood, de Radiohead)…
+
+Le film, magistral, est une fresque intimiste. Un duel où s’affrontent deux Julien Sorel américains, face à leurs « rouge et noir » à eux : l’or et la foi. D’un côté, un self-made-man à l’ambition forcenée et à la paranoïa insidieuse (Daniel Day-Lewis, le seul comédien suffisamment génial, actuellement, pour nous persuader qu’en faire trop c’est encore pas assez). De l’autre, un être hâve, pâle, malingre, effacé (Paul Dano), qui, pour la gloire de Dieu, s’empare de l’âme de ses ouailles à coups de sermons et d’exorcismes. Entre capitalisme et Eglise, c’est une lutte à mort. Entre ces deux fous, la violence circule comme le sang dans les veines. Elle leur est si naturelle qu’on dirait qu’elle les vivifie…
+
+Pour ce film, Anderson a changé de style. Les plans-séquences à la Ophuls de Boogie Nights ont cédé la place à des travellings intenses et secs, qui évoquent plutôt le Stroheim des Rapaces. Intense, rageur, magnifique…</desc>
+    <credits>
+      <actor>Kevin J.</actor>
+      <actor>Daniel Day-Lewis</actor>
+      <actor>Ciarán Hinds</actor>
+      <actor>David Warshofsky</actor>
+      <actor>Paul Dano</actor>
+      <actor>Foy Colleen</actor>
+      <actor>Hope Elizabeth</actor>
+      <actor>Colton Woodward</actor>
+      <actor>Dillon Freasier</actor>
+      <actor>Mary Elizabeth</actor>
+      <actor>David Willis</actor>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">150</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/0d7e9bc936d846578f1eccf667257294.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>5/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250106223000" channel="C111.api.telerama.fr" stop="20250106232500">
+    <title>Daniel Day-Lewis : l'héritier</title>
+    <desc lang="fr">Daniel Day-Lewis est connu pour se fondre dans ses personnages au point d'en devenir méconnaissable. C'est le cas dès sa révélation au cinéma en jeune punk homosexuel dans "My Beautiful Laundrette" de Stephen Frears, puis, à l'opposé du spectre, en aristocrate coincé dans "Chambre avec vue", de James Ivory, respectivement sortis en 1985 et 1986. Né à Londres en 1957 d'un père poète, Cecil Day-Lewis, et d'une mère fille du producteur, Jill Balcon, Daniel quitte l'Angleterre pour les Etats-Unis, où il obtient l'Oscar du meilleur acteur à trois reprises. Trois films du cinéaste irlandais Jim Sheridan ont marqué sa carrière, dont le premier, "My Left Foot", lui vaut son Oscar inaugural en 1990.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/12/6f30c1e294954e9984efe733b1e12102.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250106232500" channel="C111.api.telerama.fr" stop="20250107005000">
+    <title>Harka</title>
+    <desc lang="fr">A la suite du décès de son père, Ali, un jeune Tunisien de Sidi Bouzid, se retrouve seul avec ses deux soeurs cadettes. Tous trois étant sous la menace d'une expulsion de leur maison, Ali, qui vit chichement du trafic d'essence, doit trouver d'autres sources de revenus. Dans un pays miné par la crise économique et gangréné par la corruption, le jeune homme multiplie les activités illégales. Il prend notamment un gros risque en acceptant une mission dangereuse à la frontière avec la Libye. Peu à peu, la misère et les injustices subies quotidiennement pèsent sur le moral d'Ali qui s'enfonce dans la dépression... - Critique : Pour survivre, Ali, jeune Tunisien solitaire, vend de l’essence de contrebande au marché noir. Une responsabilité soudaine — s’occuper de ses deux sœurs cadettes à la mort de leur père — accroît son sentiment d’impuissance face à la précarité, l’injustice et la corruption ambiantes. Comment joindre les deux bouts ? Comment rester debout ? Sa colère enfle… Cette chronique tendue d’un quotidien de débrouille et d’une révolte criante — inspirée de faits réels — se meut en thriller fatal et pointe, avec une tragique acuité, le désir d’une génération de se faire entendre, dix ans après la « révolution de jasmin » et les printemps arabes. Dans le rôle principal, Adam Bessa offre un corps fiévreux à une mise en scène imparable.</desc>
+    <credits>
+      <actor>Jamal Madani</actor>
+      <actor>Adam Bessa</actor>
+      <actor>Khaled Brahem</actor>
+      <actor>Najib Allagui</actor>
+      <actor>Salima Maatoug</actor>
+      <actor>Ikbal Harbi</actor>
+      <actor>Mohamed Ouni</actor>
+      <actor>Elyes Riahi</actor>
+      <actor>Mohamed Nsibi</actor>
+      <actor>Moez Hannachi</actor>
+      <actor>Khaled Barsaoui</actor>
+      <actor>Yahya Faidi</actor>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/01/25/37087631_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <premiere />
+    <subtitles type="onscreen">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+</tv>
