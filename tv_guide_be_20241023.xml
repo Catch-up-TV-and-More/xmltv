@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme start="20241022215500" channel="C50.api.telerama.fr" stop="20241023030000">
+    <title>Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">305</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/12/22/511c0119dfff71edffb19ff8b2315e0abff9e0e2_ED23E8D4BFD0C5345B3EE5D8EE77695C.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241022234100" channel="C164.api.telerama.fr" stop="20241023001300">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023001300" channel="C164.api.telerama.fr" stop="20241023002200">
+    <title>QR l'actu</title>
+    <desc lang="fr">Dans la foulée du JT 19h30, le lundi et le mardi soir, "QR L'actu" permet de poser les questions sur l'actu du jour et apporte des réponses d'experts.</desc>
+    <category lang="fr">magazine d'information</category>
+    <length units="minutes">9</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/cdbaab758a56451d9cca4498fe9bae57.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023002200" channel="C164.api.telerama.fr" stop="20241023013300">
+    <title>C'est pas fini</title>
+    <desc lang="fr">Patrick Weber épingle l'actualité. Avec une incroyable bande de débatteurs, il revient sur les moments forts de la journée dans la bonne humeur.</desc>
+    <category lang="fr">talk-show</category>
+    <length units="minutes">71</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/75a4949b9d1e421991705eb5df64bac7.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023013300" channel="C164.api.telerama.fr" stop="20241023013500">
+    <title>Alors on sort ?</title>
+    <desc lang="fr">L'émission met à l'honneur les régions, leurs habitants, leurs langues régionales et leur humour. Un moment privilégié de proximité présenté par Fanny Jandrain, en compagnie d'un invité.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/9957f1735ab64048a01d72209daf79e6.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023013500" channel="C164.api.telerama.fr" stop="20241023021800">
+    <title>On n'est pas des pigeons</title>
+    <desc lang="fr">Un décryptage précieux des codes de la consommation et du marketing afin d'éclairer les consommateurs au quotidien. Les chroniqueurs dénichent les bons plans du moment et aident ainsi les téléspectateurs à économiser de l'argent.</desc>
+    <category lang="fr">magazine du consommateur</category>
+    <length units="minutes">43</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/10/b217174ebed84965a41daa81d7eac439.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023021800" channel="C164.api.telerama.fr" stop="20241023023000">
+    <title>Quel temps !</title>
+    <desc lang="fr">En 11 minutes et 30 secondes, un panorama complet des phénomènes météo, de l'évolution du climat, et des initiatives positives pour un avenir durable.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">12</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/5d4dad2edfcf4c8880cad87de1f69dbc.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023023000" channel="C164.api.telerama.fr" stop="20241023023300">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/17/e42b7edeb5db4780988a98688c42aaf7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023023300" channel="C164.api.telerama.fr" stop="20241023030500">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023222100" channel="C164.api.telerama.fr" stop="20241023223300">
+    <title>Quel temps !</title>
+    <desc lang="fr">En 11 minutes et 30 secondes, un panorama complet des phénomènes météo, de l'évolution du climat, et des initiatives positives pour un avenir durable.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">12</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/5d4dad2edfcf4c8880cad87de1f69dbc.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023223300" channel="C164.api.telerama.fr" stop="20241023223600">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/17/e42b7edeb5db4780988a98688c42aaf7.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023223600" channel="C164.api.telerama.fr" stop="20241023231000">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">34</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023231000" channel="C164.api.telerama.fr" stop="20241024002000">
+    <title>C'est pas fini</title>
+    <desc lang="fr">Patrick Weber épingle l'actualité. Avec une incroyable bande de débatteurs, il revient sur les moments forts de la journée dans la bonne humeur.</desc>
+    <category lang="fr">talk-show</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/75a4949b9d1e421991705eb5df64bac7.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241022231500" channel="C168.api.telerama.fr" stop="20241023010500">
+    <title>Moments d'évasion</title>
+    <desc lang="fr">Une invitation à l'évasion et au rêve, destinée à toutes les générations, à la découverte de nombreuses merveilles, aux quatre coins du monde.</desc>
+    <category lang="fr">divertissement : jeu</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/04/09/3b2889b546a84a6687795d7a00bdfcad.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023010500" channel="C168.api.telerama.fr" stop="20241023030000">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Retrouvez le programme diffusé en boucle du journal, des magazines, des séries pendant toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">emission spéciale</category>
+    <length units="minutes">115</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/173b592109c94ec59ca38784bf4cc7e4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023223500" channel="C168.api.telerama.fr" stop="20241023234500">
+    <title>Le Golden Bachelor</title>
+    <desc lang="fr">Landry, le Golden Bachelor, le sait : on ne séduit pas de la même manière à 60 ans qu'à 20 ans. Mais devant une vingtaine de prétendantes toutes charmantes, on peut aussi craquer ou au contraire déceler plus rapidement les relations sans lendemain. Comment Landry va aborder ce nouvel épisode ?</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/09/06/3da95014c8b74d9ab05b37b42477e15e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023234500" channel="C168.api.telerama.fr" stop="20241023235000">
+    <title>Météo soir</title>
+    <desc lang="fr">Quel temps fera-t-il demain ? Les bulletins météo tiennent au courant des prévisions. La pluie et le beau temps, annoncés par des spécialistes.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/387c6b3a4a2c4621af0d1d7a374e140d.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023235000" channel="C168.api.telerama.fr" stop="20241024002000">
+    <title>RTL info 19 heures</title>
+    <desc lang="fr">L'information est au cœur de RTL TVI. Cette année plus que jamais, l'ensemble des équipes de la rédaction se mobilise afin de faire preuve de réactivité dans n'importe quelles circonstances.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/07/03/2a9b62a40eea87fcfd3eab16d9acf0adb4e4a763_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241022230300" channel="C187.api.telerama.fr" stop="20241023040000">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Rediffusion du programme en boucle toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">297</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/cf48076d83654e159b3d895332d719cd.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20241023222800" channel="C187.api.telerama.fr" stop="20241023233300">
+    <title>Wolf</title>
+    <sub-title>Torture</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - L'inspecteur Jack Caffery accepte la mission de l'homme qui marche : il doit retrouver le propriétaire du chien, mais son passé lui met des bâtons dans les roues. L'invasion du domicile des Anchor-Ferrers prend une tournure terrifiante... - Critique : Les polars de Mo Hayder sont déconseillés aux âmes sensibles. La romancière britannique, morte en 2021, y mêle suspense anxiogène et sursauts gore avec un goût immodéré pour les excès. Pour la première fois, une de ses œuvres est adaptée en série, avec Wolf, relecture par la BBC de l’ultime aventure du détective Jack Caffery, publiée en 2014 et délicatement titrée Viscères en France.
+
+On y suit deux récits parallèles : d’une part l’enquête obsessionnelle de Caffery pour résoudre un double meurtre commis cinq ans plus tôt au pays de Galles, d’autre part la prise d’otage d’une famille bourgeoise à quelques encablures des lieux du crime. On se doute que les deux événements sont liés, mais comment ?
+
+Une disparition d’enfant, un pédophile, un double meurtre sanglant, une prise d’otages, une secte, un repris de justice planqué dans les bois… Le moins qu’on puisse dire, c’est que Wolf n’a pas peur d’en faire des tonnes. La scénariste Megan Gallagher (Suspicion) cherche à ne rien perdre de la folie du roman de Hayder, tout en le rendant compréhensible et suffisamment émouvant.
+
+Joyeusement bordélique
+
+Elle s’applique donc dans un premier temps à dessiner le caractère de Jack Caffery (Ukweli Roach), flic solitaire et paranoïaque qui passe ses nuits à épier son voisin, qu’il suspecte d’avoir enlevé son petit frère alors qu’il n’avait que 8 ans. C’est presque par hasard que cet enquêteur borné va se rendre compte que le double meurtre qui a marqué son début de carrière n’est en réalité toujours pas résolu. Et que, presque malgré lui, il va se mettre sur la piste des deux hommes responsables de la prise d’otages.
+
+Tout au long de ses six épisodes, Wolf oscille entre enquête classique, flash-back cauchemardesques et comédie noire façon Funny Games, de Michael Haneke (1997). Les amateurs d’enquêtes au cordeau fuiront, noyés sous les rebondissements improbables, les révélations tombées de nulle part et les effets gore. Les autres se laisseront surprendre par cette série B assumée, joyeusement bordélique, frôlant régulièrement le grand-guignol et portée par des acteurs ravis d’en faire des tonnes – à commencer par Iwan Rheon, l’affreux Ramsay Bolton de Game of Thrones, encore une fois parfaitement méchant.
+
+Wolf, saison 1, polar créé par Megan Gallagher, d’après l’oeuvre de Mo Hayder (Grande-Bretagne, 6x60mn, 2023). Avec Ukweli Roach, Iwan Rheon, Sacha Dhawan, Owen Teale, Juliet Stevenson.</desc>
+    <credits>
+      <director>Nyholm Kristoffer</director>
+      <actor>Juliet Stevenson</actor>
+      <actor>Owen Teale</actor>
+      <actor>Sacha Dhawan</actor>
+      <actor>Kai Owen</actor>
+      <actor>Iwan Rheon</actor>
+      <actor>Ukweli Roach</actor>
+      <actor>Kezia Burrows</actor>
+      <actor>Annes Elwy</actor>
+      <actor>Reese-Williams Sian</actor>
+      <actor>Clare Hingot</actor>
+      <actor>Emily Adara</actor>
+      <actor>Gwïon Morris Jones</actor>
+      <writer>Megan Gallagher</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">série de suspense</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/11/27/43e686f678a28f9607ae1656574bbd4e2bd58840_DFC0C10F5467B8B1C328C55FE8E6925D.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20241023233300" channel="C187.api.telerama.fr" stop="20241024000300">
+    <title>Culture Club</title>
+    <sub-title>Best of vacances d'automne</sub-title>
+    <desc lang="fr">Cathy Immelen et ses chroniqueur·euse·s décryptent avec humour et pertinence les nouvelles tendances, les dernières sorties cinéma, scéniques, littéraires et musicales. Retrouverez également des séquences incontournables comme l'interview de la semaine, une rencontre décalée avec une personnalité !</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/09/12/a12951b90929286f6ffdb5f40cffccf49f2ad69b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20241022231000" channel="C377.api.telerama.fr" stop="20241023000000">
+    <title>Les cinquante</title>
+    <desc lang="fr">Le Lion et ses amis sont de retour pour la troisième édition de ce grand divertissement. Les cinquante joueurs sont tous plus déterminés les uns que les autres à devenir le grand gagnant et ainsi remporter le titre très convoité d'Elu. Mais le Lion est joueur et a envie de se divertir. Les Cinquante devront donc être prêts à tout, à chaque instant, car le danger rôde.</desc>
+    <category lang="fr">divertissement : jeu</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/09/26/ac847781e27849c986e07ac41e329aa4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023000000" channel="C377.api.telerama.fr" stop="20241023030000">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="hours">3</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/05/11/051207380eae4f56b17aee24f406437c9450275c.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023224000" channel="C377.api.telerama.fr" stop="20241023233000">
+    <title>La villa des cœurs brisés</title>
+    <desc lang="fr">Pour cette neuvième saison, "La Villa des coeurs brisés" s'installe dans un décor majestueux, sur l'île de Lombok, en Indonésie. Lucie Mariotti, la love coach, continue d'apporter son expertise. Son empathie profonde et son expertise en coaching sentimental viennent guider les coeurs brisés sur le chemin de l'amour-propre et de la relation saine.</desc>
+    <category lang="fr">téléréalité</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/10/11/48fc065e6c274b22a4d3290b7ec6b105.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241023233000" channel="C377.api.telerama.fr" stop="20241024002000">
+    <title>Les cinquante</title>
+    <desc lang="fr">Le Lion et ses amis sont de retour pour la troisième édition de ce grand divertissement. Les cinquante joueurs sont tous plus déterminés les uns que les autres à devenir le grand gagnant et ainsi remporter le titre très convoité d'Elu. Mais le Lion est joueur et a envie de se divertir. Les Cinquante devront donc être prêts à tout, à chaque instant, car le danger rôde.</desc>
+    <category lang="fr">divertissement : jeu</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/09/26/ac847781e27849c986e07ac41e329aa4.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241022230100" channel="C892.api.telerama.fr" stop="20241023035900">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">298</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/02/14/0992273c68da38635776091d45afc82cfc60d62b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20241023223700" channel="C892.api.telerama.fr" stop="20241023230600">
+    <title>En quête de sens : Il était une foi</title>
+    <desc lang="fr">Le magazine "En quête de sens" accueille tour à tour les "émissions Libres, ensemble" (Centre d'action laïque), "Il était une foi" (CathoBel), "La Voix protestante" (Association protestante de radio et télévision), "Orthodoxie" (Eglise orthodoxe en Belgique), "Shema Israël" (Consistoire central israélite de Belgique).</desc>
+    <category lang="fr">magazine religieux</category>
+    <length units="minutes">29</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/dd22562e8ae2479b8f5a660bf5dd83bd.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20241023230600" channel="C892.api.telerama.fr" stop="20241023234100">
+    <title>JT 19h30 avec interprétation en langue des signes</title>
+    <desc lang="fr">"JT 19h30 avec interprétation en langue des signes " est une émission qui revient sur toutes sortes d'actualités quotidiennes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/0e1cc36e028b44f9bdfacfc0d422b1a3.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20241023234100" channel="C892.api.telerama.fr" stop="20241024035900">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">météo</category>
+    <length units="minutes">258</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/02/14/0992273c68da38635776091d45afc82cfc60d62b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+</tv>
