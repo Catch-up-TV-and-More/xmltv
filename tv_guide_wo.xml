@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250805221500" channel="C111.api.telerama.fr" stop="20250805231000">
+    <title>La chaîne humaine de 1989 : quand les Baltes défiaient lʹURSS</title>
+    <desc lang="fr">À la fin des années 1980, les pays baltes expriment de plus en plus ouvertement leur aspiration à l'indépendance. En 1988, des "Fronts populaires" se forment en Estonie, en Lettonie et en Lituanie. L'été suivant, un grand festival de musique à Tallinn réunit des centaines de milliers de personnes : celles-ci entonnent des mélodies traditionnelles interdites par le régime, dont les paroles sont devenues des symboles de résistance, pérennisant le mouvement de la "révolution chantante". Le 23 août 1989, cinquante ans après la signature du pacte germano-soviétique qui se traduisit par l'annexion des États baltes, une initiative sans précédent est lancée : 2 millions de Lituaniens, de Lettons et d'Estoniens sont invités à se donner la main pour former une chaîne humaine de 675 kilomètres reliant Vilnius, Riga et Tallinn.</desc>
+    <category lang="fr">documentaire histoire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/23/3aa96f85f2534572a09cd505155d550a.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250805231000" channel="C111.api.telerama.fr" stop="20250806000500">
+    <title>Pouvons-nous refroidir la planète ?</title>
+    <desc lang="fr">Chaque année, l'activité humaine génère 37 milliards de tonnes de CO2, qui s'ajoutent aux 1000 milliards de tonnes libérées dans l'atmosphère depuis le début de la révolution industrielle. Une fois émis, le dioxyde de carbone met un millénaire à disparaître, d'où l'urgence de trouver des solutions si l'on veut éviter de léguer aux générations futures une planète bouillante. Ce défi fait phosphorer les cerveaux de chercheurs du monde entier et des solutions se profilent.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/4ca0161eb0e84fd1820b26623a5d5f08.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250806000500" channel="C111.api.telerama.fr" stop="20250806010000">
+    <title>Mitard, l'angle mort</title>
+    <desc lang="fr">Le 27 mai 2019, peu de temps après son placement au quartier disciplinaire, Amara Fofana mourait à la prison de Réau, officiellement par pendaison. Comme son codétenu, son frère Mahamadou n'a jamais cru à la version du suicide et se bat depuis pour connaître la vérité : "Amara n'était pas suicidaire." Les dernières images de vidéosurveillance le montrent marchant dans les couloirs, guitare à la main, avant l'intervention des surveillants. Mais sur ces bandes, remises aux enquêteurs par l'administration pénitentiaire, il manque vingt-quatre minutes : un élément troublant sur lequel s'appuie aujourd'hui Mahamadou pour relancer l'affaire.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/23/fdf740b7c1404f809f72b988c6003ed2.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250806010000" channel="C111.api.telerama.fr" stop="20250806022000">
+    <title>¡Cincuentañero! Les 50 ans de Rolando Villazón</title>
+    <desc lang="fr">À l'occasion de son 50e anniversaire, le ténor franco-mexicain Rolando Villazón organise un concert au profit de la Fondation Mozarteum de Salzbourg, entouré d'amis musiciens.</desc>
+    <category lang="fr">musique : classique</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/23/55b0790235a5479ab1c9808078cde68e.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250806022000" channel="C111.api.telerama.fr" stop="20250806024600">
+    <title>Cuisines des terroirs</title>
+    <sub-title>Le Lake District (Grande-Bretagne)</sub-title>
+    <desc lang="fr">Cuisines des terroirs</desc>
+    <category lang="fr">documentaire gastronomie</category>
+    <length units="minutes">26</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/07/23/4b088346a8b94b2286de0819489451de.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250806024600" channel="C111.api.telerama.fr" stop="20250806032000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">34</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
