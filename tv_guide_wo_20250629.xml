@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250628235000" channel="C111.api.telerama.fr" stop="20250629004500">
+    <title>Mon coeur ne bat pour personne</title>
+    <desc lang="fr">Entre documentaire et fiction, une cinéaste accompagne l'un de ses amis à Milwaukee, Wisconsin, sur les traces d'un célèbre tueur en série américain.</desc>
+    <credits>
+      <writer>Diane Sara Bouzgarrou</writer>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">film : court métrage dramatique</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/15/725023c6b6934201bfcd38d21e5e1687.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629004500" channel="C111.api.telerama.fr" stop="20250629014000">
+    <title>Les super-prédateurs des mers</title>
+    <sub-title>S'adapter ou mourir</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - Le changement climatique et les modifications des écosystèmes mettent en présence des espèces qui ne se sont jamais rencontrées avant. Exemple en Argentine.</desc>
+    <date>2020</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/15/7469e17708cf43f69e9b8d2690914cd5.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629014000" channel="C111.api.telerama.fr" stop="20250629023400">
+    <title>Le grand théâtre du monde : Salzbourg et son festival</title>
+    <desc lang="fr">A l'occasion du centenaire du Festival de Salzbourg, retour sur l'histoire de ce rendez-vous artistique aussi incontournable qu'avant-gardiste.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">54</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/15/256f432cac9745e9aeca0e08e5bb3825.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629023400" channel="C111.api.telerama.fr" stop="20250629033000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">56</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629033000" channel="C111.api.telerama.fr" stop="20250629040000">
+    <title>42, la réponse à presque tout</title>
+    <sub-title>A quoi servent les parasites ?</sub-title>
+    <desc lang="fr">Saison:1 - Episode:24 - Les parasites ont mauvaise presse : ils peuvent rendre malades voire tuer. Depuis des siècles, nous essayons de nous en prémunir, notamment par des mesures d'hygiène. Pourtant, la moitié des êtres vivants sur cette Terre sont des parasites. S'ils sont vraiment partout, c'est peut-être qu'ils ne sont pas foncièrement inutiles ?</desc>
+    <date>2021</date>
+    <category lang="fr">documentaire sciences et technique</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/4178aa08002c482fa4c3248e04bbe7ac.jpg" />
+    <episode-num system="xmltv_ns">0.23.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629040000" channel="C111.api.telerama.fr" stop="20250629042500">
+    <title>42, la réponse à presque tout</title>
+    <sub-title>Pouvons-nous vivre sans agriculture ?</sub-title>
+    <desc lang="fr">Saison:1 - Episode:38 - Bienfait et malédiction, l'agriculture nourrit la planète autant qu'elle contribue à l'abîmer. L'exploitation des terres à des fins agricoles a radicalement transformé le monde et les modes de vie. Aujourd'hui, la culture cellulaire ouvre la voie à une production artificielle diversifiée, de la viande aux laitages en passant par le café. Les biotechnologies sonneront-elles le glas de l'agriculture ?</desc>
+    <date>2021</date>
+    <category lang="fr">documentaire sciences et technique</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/a83f9c43dfaf46cda4c0bcba048123e3.jpg" />
+    <episode-num system="xmltv_ns">0.37.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629042500" channel="C111.api.telerama.fr" stop="20250629060000">
+    <title>Pegasus, un espion dans votre poche</title>
+    <desc lang="fr">Grâce à une fuite de données sans précédent, l'enquête internationale menée par le collectif de journalistes Forbidden Stories, a révélé l'existence de plus de 50 000 victimes potentielles de Pegasus, un logiciel espion sophistiqué vendu par la société israélienne NSO Group. Parmi ces victimes figurent des journalistes, des défenseurs des droits de l'homme, des avocats, des politiciens, des universitaires, des hommes d'affaires, et même des membres de familles royales et des chefs d'état, notamment le président français Emmanuel Macron.</desc>
+    <category lang="fr">documentaire politique</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/5e39ebfd534c427bbc39174d12c1293d.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629060000" channel="C111.api.telerama.fr" stop="20250629061500">
+    <title>ARTE Junior, le mag</title>
+    <desc lang="fr">Pour les 10-14 ans, l'actualité internationale et européenne traitée à hauteur d'enfant, à partir de questions posées par des élèves du primaire français et allemand. Sans oublier le portrait d'un enfant du monde.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/28/5f403df3357f4b2585198955fc301689.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629061500" channel="C111.api.telerama.fr" stop="20250629064500">
+    <title>42, la réponse à presque tout</title>
+    <sub-title>Et si on s'ennuyait davantage ?</sub-title>
+    <desc lang="fr">L'ennui a mauvaise réputation. Personne n'admet volontiers s'ennuyer. D'autant plus que le désoeuvrement s'accompagne d'un sentiment de vacuité aussi insupportable que diffus.</desc>
+    <category lang="fr">documentaire sciences et technique</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/b4b922664e5a4fb184e521bf743dfbca.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629064500" channel="C111.api.telerama.fr" stop="20250629071500">
+    <title>Tatouages : énigme des mers du sud</title>
+    <sub-title>Puissance</sub-title>
+    <desc lang="fr">Heretu Tetahiotupa s'intéresse au pouvoir que ces tatouages sont censés octroyer. Cette tradition marquisienne pourrait bientôt entrer au patrimoine mondial de l'Unesco.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/9d9884e279e94530a604fb77544ffc64.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629071500" channel="C111.api.telerama.fr" stop="20250629074500">
+    <title>Twist</title>
+    <sub-title>Les arts de la rue ont-ils la vie dure ?</sub-title>
+    <desc lang="fr">Techno, breaking, street art : partout en Europe, les artistes investissent l'espace urbain pour gagner en visibilité sans se produire dans une salle de spectacle. De Belgrade à Barcelone, leurs contestations et leurs performances transforment l'espace public en terrain d'expression. S'ils gagnent ainsi leur vie, ils se heurtent aussi à de nombreux obstacles.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/01/4bce7dfe18c147cda8937f2af1c6b61f.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629074500" channel="C111.api.telerama.fr" stop="20250629083000">
+    <title>Séville, le quartier des nouveaux artisans</title>
+    <desc lang="fr">En plein cœur de Séville, rencontre avec les artisans installés à Rompemoldes, une cour d'habitation transformée en espace de création qui mêle avant-garde et tradition.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/2e45be83ea8644eebe7994066ffcf302.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629083000" channel="C111.api.telerama.fr" stop="20250629090000">
+    <title>Cuisines des terroirs</title>
+    <sub-title>Les Pyrénées-Atlantiques</sub-title>
+    <desc lang="fr">Dans les Pyrénées-Atlantiques, Marie-Laure utilise le piment d'espelette pour assaisonner des plats basques typiques tels que la piperade ou le xilindron.</desc>
+    <category lang="fr">documentaire gastronomie</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/4354477c29104f27b8acd58fa1e34a80.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629090000" channel="C111.api.telerama.fr" stop="20250629094500">
+    <title>Les détroits, entre terre et mer</title>
+    <sub-title>Gibraltar, un refuge aux portes de la Méditerranée</sub-title>
+    <desc lang="fr">Saison:1 - Episode:1 - A la croisée de l'Afrique et de l'Europe, l'étroit détroit de Gibraltar, malgré l'intensité de son trafic, demeure un refuge pour de nombreuses espèces.</desc>
+    <date>2024</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/03/684904173e7f4ea5ae109cba5c2ce2cc.jpg" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629094500" channel="C111.api.telerama.fr" stop="20250629103000">
+    <title>Les détroits, entre terre et mer</title>
+    <sub-title>Magellan, une oasis en terre extrême</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - Séparant la Terre de Feu du continent sud-américain, entre Pacifique et Atlantique, le détroit de Magellan accueille des espèces venues des pôles comme des tropiques.</desc>
+    <date>2024</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/04/365fcfe5f8424bf9a6e16114ad419d50.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629103000" channel="C111.api.telerama.fr" stop="20250629113000">
+    <title>Les détroits, entre terre et mer</title>
+    <sub-title>Pas-de-Calais, un passage en perpétuel mouvement</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - Reliant la Manche à la mer du Nord, le détroit du Pas-de-Calais sépare le Royaume-Uni de l'Europe. Ici, faune, flore et humains doivent réinventer leur cohabitation.</desc>
+    <date>2024</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/05/07bd5eebf10f4ebf82a3ee4bfdc0c5ef.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629113000" channel="C111.api.telerama.fr" stop="20250629130000">
+    <title>Trois cavaliers pour Fort Yuma</title>
+    <desc lang="fr">Entre le Colorado et le Nouveau-Mexique, Fort Yuma est en danger. Huit-cents Sudistes, placés sous les ordres du major Sanders, se préparent à l'attaquer. Ils projettent de partager la caisse du fort avec Riggs, un impitoyable bandit. Le commandant nordiste Davis décide d'envoyer immédiatement un message à Fort Yuma. Il lui faut trouver quelqu'un pour le porter, ses hommes ne connaissant pas la région. Un jeune lieutenant sudiste prisonnier, Gary Hammond, accepte de servir de guide au capitaine Lefèvre et au sergent Pitt. En chemin, ils sont attaqués. Il semble bien qu'un traître se trouve parmi le régiment chargé du message...</desc>
+    <credits>
+      <director>Ferroni Giorgio</director>
+      <actor>Giuliano Gemma</actor>
+      <actor>Sernas Jacques</actor>
+      <actor>Sophie Daumier</actor>
+      <actor>Dan Vadis</actor>
+      <actor>Jacques Herlin</actor>
+      <actor>Benito Stefanelli</actor>
+      <actor>Martín José</actor>
+      <actor>Bosic Andrea</actor>
+      <actor>Nello Pazzafini</actor>
+      <actor>José Calvo</actor>
+      <actor>Antonio Molino</actor>
+      <actor>Angel Del</actor>
+      <writer>Del Remigio</writer>
+      <writer>Finocchi Augusto</writer>
+      <writer>Martín Leonardo</writer>
+      <writer>Sandro Continenza</writer>
+      <writer>Capriccioli Massimiliano</writer>
+      <writer>Morris-Dumoulin Gilles</writer>
+    </credits>
+    <date>1966</date>
+    <category lang="fr">film : western</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/38cae199ffaa499596e3e17121ecb0d8.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629130000" channel="C111.api.telerama.fr" stop="20250629143500">
+    <title>Sugar Colt</title>
+    <desc lang="fr">Dans le but de venger la mort d'un ami et d'exaucer ses derniers voeux, Rocco tente de découvrir ce qu'il a bien pu advenir du 5e bataillon de tireurs d'élite, qui s'est mystérieusement volatilisé. Sous l'identité d'un médecin, il commence ses investigations dans une petite ville de l'Ouest américain...</desc>
+    <credits>
+      <actor>Miranda Soledad</actor>
+      <actor>Rigaud Georges</actor>
+      <actor>Gina Rovere</actor>
+      <actor>Betts Jack</actor>
+      <actor>Magalotti Paolo</actor>
+      <actor>Luis Barboo</actor>
+      <actor>José Canalejas</actor>
+      <actor>Israel Víctor</actor>
+      <actor>Manuel Muñiz</actor>
+      <actor>Giuliano Raffaelli</actor>
+      <actor>James Parker</actor>
+      <writer>Di Fernando</writer>
+      <writer>Franco Giraldi</writer>
+      <writer>Mangione Giuseppe</writer>
+      <writer>Finocchi Augusto</writer>
+      <writer>Sandro Continenza</writer>
+    </credits>
+    <date>1967</date>
+    <category lang="fr">film : western</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/09/7162617024b049579558f31426507e65.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629143500" channel="C111.api.telerama.fr" stop="20250629153000">
+    <title>Oliver Stone, l'Amérique au vitriol</title>
+    <desc lang="fr">En 1968, de retour du Viêtnam où, engagé volontaire, il a servi pendant quinze mois, Oliver Stone, 22 ans, tente de donner du sens à son expérience, qu''il va chercher à exprimer par le cinéma. Il sera d'abord scénariste à succès ("Midnight Express", "Scarface"…), puis réalisateur, producteur et même acteur, avec pour seul but revendiqué la recherche de la vérité. Mais toutes les vérités sont-elles bonnes à dire ? De "Salvador" à "JFK", de "Platoon" à "Né un 4 juillet", en passant par "Wall Street" ou "Snowden", Stone s'est obstiné à faire la lumière sur les mensonges, les hypocrisies et les failles de l'Amérique, au risque d'être parfois incompris.</desc>
+    <category lang="fr">documentaire cinéma</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/19/00b83db46bb34f82bcc652c8322192a1.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629153000" channel="C111.api.telerama.fr" stop="20250629160000">
+    <title>Enquêtes archéologiques</title>
+    <sub-title>Teotihuacan : naissance d'une métropole</sub-title>
+    <desc lang="fr">Saison:2 - Episode:10 - La célèbre cité de Teotihuacan, au Mexique, serait la plus ancienne métropole d'Amérique, créée au IIe siècle avant l'ère chrétienne : gros plan.</desc>
+    <date>2018</date>
+    <category lang="fr">documentaire civilisations</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/05/21/0162b5a79775411bb87e8d4270d86376.jpg" />
+    <episode-num system="xmltv_ns">1.9.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629160000" channel="C111.api.telerama.fr" stop="20250629165500">
+    <title>Paul Cézanne : Pionnier de l'art moderne</title>
+    <desc lang="fr">À l'occasion de la réouverture de la bastide familiale aixoise où Paul Cézanne créa une grande partie de son œuvre, ce documentaire revisite la trajectoire du maître.</desc>
+    <category lang="fr">documentaire beaux-arts</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/a844ce271072468e80c45dd2e8b38473.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629165500" channel="C111.api.telerama.fr" stop="20250629174500">
+    <title>La trompette selon Lucienne Renaudin Vary</title>
+    <desc lang="fr">Avec pour fil conducteur le concert qu'elle a donné dans l'église Saint-Michel de Hambourg, déambulations en compagnie de la jeune trompettiste Lucienne Renaudin Vary.</desc>
+    <category lang="fr">documentaire musique</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/0338a26d3d7a49128ac2e4f142822eb5.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629174500" channel="C111.api.telerama.fr" stop="20250629180500">
+    <title>Arte journal</title>
+    <desc lang="fr">ARTE Journal - 29/06/2025</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629180500" channel="C111.api.telerama.fr" stop="20250629190000">
+    <title>L'apocalypse selon "Mad Max"</title>
+    <desc lang="fr">En un peu plus de quatre décennies, l'Australien George Miller a livré dans cinq films sa vision violente et vrombissante d'un monde postapocalyptique.</desc>
+    <category lang="fr">documentaire cinéma</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/a5b11d4388fa4838bf615245377fec9b.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629190000" channel="C111.api.telerama.fr" stop="20250629203500">
+    <title>Mad Max</title>
+    <desc lang="fr">Chevauchant un bolide, l'"Aigle de la route" sème la panique sur le bitume. Les représentants de la loi se lancent dans une folle course-poursuite. Après avoir provoqué de nombreux accidents, l'homme, acculé par le policier Max Rockatansky, périt tragiquement. Un peu plus tard, Max et son collègue Jim Goose se rendent sur les lieux d'une agression. Max réussit à arrêter Johnny Môme, le chef d'une bande de pillards motorisés. Par peur des représailles, le procureur chargé du dossier acquitte le criminel. Avec la complicité de ses sbires, il décide de se venger de Max en massacrant sa famille. Fou de douleur, Max va leur faire payer leurs crimes...</desc>
+    <credits>
+      <actor>Mel Gibson</actor>
+      <actor>Gil Vince</actor>
+      <actor>Samuel Joanne</actor>
+      <actor>Steve Bisley</actor>
+      <actor>Roger Ward</actor>
+      <actor>Keays-Byrne Hugh</actor>
+      <actor>Cadart Bertrand</actor>
+      <actor>Geoff Parry</actor>
+      <actor>Bracks David</actor>
+      <actor>Johnstone Paul</actor>
+      <actor>Tim Burns</actor>
+      <actor>Lisa Aldenhoven</actor>
+      <writer>McCausland James</writer>
+      <writer>George Miller</writer>
+    </credits>
+    <date>1979</date>
+    <category lang="fr">film d'action</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/02/16/10b7d229645a4056abfb4424dcdf751c.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250629203500" channel="C111.api.telerama.fr" stop="20250629221000">
+    <title>Mad Max 2 : le défi</title>
+    <desc lang="fr">Peu après l'an 2000. Une terrible guerre du pétrole a mis la Terre à feu et à sang. Les réserves mondiales du précieux or noir ont été pillées. L'essence est devenue l'enjeu de luttes sanglantes entre les survivants, organisés en hordes sauvages. Max, un policier, a assisté impuissant au massacre de sa famille. A présent, il ne songe plus qu'à assouvir sa vengeance. Au volant de son bolide, il poursuit sans relâche les motards de Wez, les assassins. Un pilote d'autogire, rencontré par hasard, lui fait découvrir une ancienne raffinerie, occupée par un groupe d'hommes et de femmes et encerclée par les motards tueurs... - Critique : Sans doute le meilleur épisode de la série apocalyptique et visionnaire (la fin du pétrole) de George Miller. Revoir ce deuxième Mad Max en connaissant désormais le tardif et quatrième volet (Mad Max : Fury Road) permet de constater la ­cohérence du travail du cinéaste australien, fidèle à l’esprit et à la lettre de sa vrombissante saga, maintes fois copiée mais jamais égalée, dont il a pris soin de (co)signer tous les épisodes.
+
+Après avoir vengé sa femme et son fils dans le premier volet, Max, on the road again, accepte de convoyer un camion-­citerne pour le compte d’une tribu d’archers du désert. Dialogues et intrigue réduits au minimum : seule compte l’énergie déployée et l’essence cramée pour mener à bon port cette équipée sauvage aux accents de western baroque à la Sergio Leone. Quatre-vingt-dix minutes muti­ques d’action pure, de ­tenues SM (voir le chef Humungus, harnais cuir et fesses à l’air), de doigts coupés (au boomerang-rasoir) et de poursuites au ras du bitume.</desc>
+    <credits>
+      <actor>Mel Gibson</actor>
+      <actor>Bruce Spence</actor>
+      <actor>Max Phipps</actor>
+      <actor>Emil Minty</actor>
+      <actor>Kjell</actor>
+      <actor>William Zappa</actor>
+      <actor>Virginia Hey</actor>
+      <actor>Mike Preston</actor>
+      <actor>David Downer</actor>
+      <actor>Steve J Spears</actor>
+      <actor>Moira</actor>
+      <actor>Vernon Wells</actor>
+      <writer>Terry Hayes</writer>
+      <writer>Brian Hannant</writer>
+      <writer>George Miller</writer>
+    </credits>
+    <date>1981</date>
+    <category lang="fr">film d'action</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/321b8d032a4e4a36a7190cbc3b466678.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250629221000" channel="C111.api.telerama.fr" stop="20250630000000">
+    <title>Bandits, bandits</title>
+    <desc lang="fr">Le jeune Kevin s'échappe de l'univers mécanisé et aseptisé de sa maison par le rêve. Il a décoré sa chambre avec les affiches de ses héros. Une nuit de tempête, six nains font irruption chez lui et l'entraînent, à travers le temps, dans de fabuleuses aventures, où le Bien et le Mal s'affrontent. Grâce à une carte mystérieuse, Kevin est d'abord transporté à l'époque napoléonienne, puis au Moyen Age. Il se retrouve également dans la forêt de Sherwood, en compagnie de Robin des Bois, et sur le Titanic. Au fil du temps, son aventure se poursuit dans des endroits de plus en plus extraordinaires. Il rencontre ainsi le roi légendaire Agamemnon... - Critique : Une nuit, le jeune Kevin voit débarquer dans sa chambre six nains qui ont dérobé une carte magique leur permettant de voyager dans le temps et de piller à leur guise. Kevin part avec eux et se retrouve propulsé à l'époque napoléonienne… À sa sortie, ce deuxième film en solo (après Jabberwocky) de Terry Gilliam, ex-Monty Python, époustoufla par sa fantaisie baroque et son énergie romanesque. Aujourd'hui, le film a un peu vieilli, surtout sa facette parodique. Mais sa profusion d'idées continue d'enchanter. De Napoléon obsédé par sa petite taille à Robin des bois entouré de crapules finies, en passant par Agamemnon, on croise du beau monde dans ce voyage hétéroclite, au confluent du rêve et du cauchemar. Les épisodes de l'ogre rhumatisant, de Gulliver et du Titanic sont les plus originaux. La bonne idée, c'est d'avoir choisi des nains filous et ripailleurs pour guides, manipulés par un Satan suffisant, lequel est surveillé par un « Etre suprême » las de ce remue-ménage spatio-temporel. Cette forme pyramidale réserve pas mal de basculements inattendus et de clins d'œil poétiques.</desc>
+    <credits>
+      <actor>John Cleese</actor>
+      <actor>David Warner</actor>
+      <actor>Helmond Katherine</actor>
+      <actor>Ian Holm</actor>
+      <actor>Sean Connery</actor>
+      <actor>Shelley Duvall</actor>
+      <actor>David Rappaport</actor>
+      <actor>Kenny Baker</actor>
+      <actor>Malcolm Dixon</actor>
+      <actor>Jack Purvis</actor>
+      <actor>Craig Warnock</actor>
+      <writer>Michael Palin</writer>
+      <guest>Tom Jobe</guest>
+    </credits>
+    <date>1981</date>
+    <category lang="fr">film d'aventures</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/06/16/7dd4ba0797424d4fbe5754023ba33d30.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+</tv>
