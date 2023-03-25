@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C23.api.telerama.fr">
+    <display-name>één</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/23.png" />
+  </channel>
+  <channel id="C50.api.telerama.fr">
+    <display-name>Club RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL TVI</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>La Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>Plug RTL</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/892.png" />
+  </channel>
+  <channel id="C1280.api.telerama.fr">
+    <display-name>Ketnet</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/1280.png" />
+  </channel>
+  <programme start="20250419235500 +0200" channel="C50.api.telerama.fr" stop="20250420050000 +0200">
+    <title>Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine de télé-achat</category>
+    <length units="minutes">305</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/05/6aad4f611e874bcf92b09167f67741e3.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250419235700 +0200" channel="C164.api.telerama.fr" stop="20250420002400 +0200">
+    <title>Incognito</title>
+    <sub-title>Frank Dubosc et Hugues Hamelynck</sub-title>
+    <desc lang="fr">Franck Dubosc, l'humoriste, acteur, scénariste et réalisateur français s'est fait remarqué récemment avec son discours lors de la dernière cérémonie des César. Hugues Hamelynck, après avoir passé trois mois à enseigner le théâtre aux élèves de la Star Academy, a repris le chemin des studios de VivaCité depuis le 8 février dernier.</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">27</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/12/04/61a7f6c5f2374671b9f7a880a3bac232.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250419233000 +0200" channel="C168.api.telerama.fr" stop="20250420000500 +0200">
+    <title>Waldorado</title>
+    <category lang="fr">magazine de découvertes</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/06/81032cace28f45348dde3860272f070d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250419223000 +0200" channel="C187.api.telerama.fr" stop="20250420000700 +0200">
+    <title>Ils avaient tout pour être heureux... Ils ont tout perdu</title>
+    <desc lang="fr">Comme Lucie, nous sommes tous confrontés aux épreuves que la vie peut nous imposer : accidents, maladies, escroqueries en ligne ou catastrophes naturelles. Du jour au lendemain, tout peut basculer. En Charente-Maritime, Mathieu a vu sa maison devenir inhabitable après un séisme et il se bat pour que les assurances relogent temporairement les sinistrés. Anna, de son côté, pensait avoir trouvé l'amour sur Internet, mais elle est tombée dans le piège d'un arnaqueur à qui elle a versé de l'argent, perdant ainsi tout contact avec ses enfants. Même les célébrités ne sont pas épargnées : Jérôme Thomas, double médaillé olympique, est tombé dans l'alcool après sa carrière. Dans sa ville des Hauts-de-France, il mène aujourd'hui un combat difficile contre ses propres démons.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">97</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/16/edee0ac753794cf7adbe61cd9b894464.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250419220000 +0200" channel="C377.api.telerama.fr" stop="20250420000000 +0200">
+    <title>The Island</title>
+    <desc lang="fr">Au large de la Malaisie, sur l'île de Ko Tarutao, 10 personnalités vont lutter, ensemble, pour atteindre leur unique objectif : se rendre au point d'exfiltration en 10 jours.</desc>
+    <category lang="fr">téléréalité</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/02/069a0bc001364246b1629d9482feee5b.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250419233300 +0200" channel="C892.api.telerama.fr" stop="20250420002900 +0200">
+    <title>Tokyo la nuit : dans les secrets d'un Japon sans tabou</title>
+    <desc lang="fr">40 millions d'habitants se croisent chaque jour dans la plus grande mégalopole du monde. Lla nuit, Tokyo se métamorphose. On y croise des personnages hors-norme qui racontent un Japon mystérieux, un univers où s'expriment les traditions, mais aussi les failles et les travers de la société nippone.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">56</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/02/260596a071584c0b9015a27a026cee97.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+</tv>

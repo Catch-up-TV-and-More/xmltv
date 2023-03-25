@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C59.api.telerama.fr">
+    <display-name>SRF 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/59.png" />
+  </channel>
+  <channel id="C200.api.telerama.fr">
+    <display-name>RSI LA 1</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/200.png" />
+  </channel>
+  <channel id="C201.api.telerama.fr">
+    <display-name>RSI LA 2</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/201.png" />
+  </channel>
+  <channel id="C183.api.telerama.fr">
+    <display-name>RTS Deux</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/183.png" />
+  </channel>
+  <channel id="C202.api.telerama.fr">
+    <display-name>RTS Un</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/202.png" />
+  </channel>
+  <programme start="20250419234000 +0200" channel="C59.api.telerama.fr" stop="20250420011500 +0200">
+    <title>Commissaire Anders</title>
+    <sub-title>Auf dunkler See</sub-title>
+    <desc lang="fr">Idéalement située sur l'île suédoise de Gotland, la petite ville médiévale de Visby ressemble à une carte postale. Mais derrière les façades de ses maisons aux couleurs vives se cachent parfois des individus peu recommandables, escrocs, kidnappeurs ou tueurs.</desc>
+    <credits>
+      <actor>Inger Nilsson</actor>
+      <actor>Walter Sittler</actor>
+      <actor>Floberg Bjørn</actor>
+      <actor>Sven Gielnik</actor>
+      <actor>Dag Malmberg</actor>
+      <actor>Jens Hultén</actor>
+      <actor>Jannike Grut</actor>
+      <actor>Andy Gätjen</actor>
+      <actor>Grim Lohman</actor>
+      <actor>Albin Grenholm</actor>
+      <actor>Franziska Nylén</actor>
+      <actor>Dennis Lennartsson</actor>
+      <writer>Alexandre Miguel</writer>
+      <writer>Göckeritz Harald</writer>
+    </credits>
+    <category lang="fr">série policière</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/16/5ce66c36dc764d8fb3b9b22a5aebb1d7.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250419233500 +0200" channel="C183.api.telerama.fr" stop="20250420001500 +0200">
+    <title>Antoine le merveilleux</title>
+    <desc lang="fr">Un documentaire qui suit Antoine, un jeune comédien de 16 ans polyhandicapé, dans son quotidien avec sa famille, à son école et sur le plateau de tournage.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/16/81d0aa4c710b42968b6b6ac8bebe3ca4.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250419222000 +0200" channel="C202.api.telerama.fr" stop="20250420001000 +0200">
+    <title>Après le mariage</title>
+    <desc lang="fr">Isabel Andersen, une Américaine, dirige un orphelinat en Inde. Quand on lui annonce que la riche femme d'affaires Theresa Young veut faire une importante donation à son établissement, elle doit abandonner pour un temps ses protégés afin de retourner aux Etats-Unis. Theresa se montre très amicale et l'invite au mariage de sa fille, Grace. Là, Isabel a la surprise de constater que le mari de Theresa, Oscar, est son amour de jeunesse. Cette rencontre la trouble et lui rappelle des événements qu'elle avait cherché à oublier en se rendant en Inde...</desc>
+    <credits>
+      <actor>Billy Crudup</actor>
+      <actor>Julianne Moore</actor>
+      <actor>Blackwell Susan</actor>
+      <actor>Eisa Davis</actor>
+      <actor>Michelle Williams</actor>
+      <actor>Anjula Bedi</actor>
+      <actor>Will Chase</actor>
+      <actor>Esola Alex</actor>
+      <actor>Abby Quinn</actor>
+      <actor>Azhy Robertson</actor>
+      <actor>Tre Ryder</actor>
+      <actor>Vir Pachisia</actor>
+      <writer>Susanne Bier</writer>
+      <writer>Anders Thomas</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/16/869f04df8fe54e6080e7d964c5a3eb97.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10.svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+</tv>
