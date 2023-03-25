@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250507003500 +0200" channel="C111.api.telerama.fr" stop="20250507011000 +0200">
+    <title>Tracks East</title>
+    <sub-title>La Seconde Guerre mondiale : une arme politique contemporaine</sub-title>
+    <desc lang="fr">Quelle est l'influence de la Seconde Guerre mondiale sur la politique et la culture en Europe ? Alors qu'en Pologne, le traumatisme est toujours présent, la Russie utilise cette période à des fins de propagande, notamment pour légitimer la guerre menée contre l'Ukraine.</desc>
+    <category lang="fr">magazine de société</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/89e4020237a94a65bd667648e25e6046.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Moins12.svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250507011000 +0200" channel="C111.api.telerama.fr" stop="20250507015500 +0200">
+    <title>Constructions animales</title>
+    <sub-title>Des cités durables</sub-title>
+    <desc lang="fr">Saison:1 - Episode:2 - Les villes édifiées par les animaux bâtisseurs, toujours pleinement intégrées à leur environnement, coopèrent avec lui plutôt qu'elles ne l'épuisent.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/21/8eb4bef177124058a5f18a495913d8b9.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507015500 +0200" channel="C111.api.telerama.fr" stop="20250507025000 +0200">
+    <title>La harde sauvage : Libres chevaux de Sardaigne</title>
+    <desc lang="fr">Sur le plateau volcanique de Giara di Gesturi, en Sardaigne, des centaines de chevaux sauvages galopent en liberté sous le regard d'un marcheur solitaire.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/22/4a54efbfdb794b9b910e6b73d6404707.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507025000 +0200" channel="C111.api.telerama.fr" stop="20250507041000 +0200">
+    <title>Turangalîla-Symphonie : Olivier Messiaen</title>
+    <desc lang="fr">Sous la baguette du chef finlandais Esa-Pekka Salonen, l'Orchestre de Paris interprète l'oeuvre la plus célèbre d'Olivier Messiaen : l'ambitieuse "Turangalîla-Symphonie".</desc>
+    <category lang="fr">musique : classique</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/42446c2c1fcf43a1833bec5d36effc2e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507041000 +0200" channel="C111.api.telerama.fr" stop="20250507043600 +0200">
+    <title>Cuisines des terroirs</title>
+    <sub-title>La Styrie du Sud, Autriche</sub-title>
+    <desc lang="fr">Les agriculteurs Nicole et Hannes Karner détaillent les préparatifs culinaires de la fête de Pâques : pour colorer les oeufs, on les plonge dans l'eau de cuisson des légumes.</desc>
+    <category lang="fr">documentaire gastronomie</category>
+    <length units="minutes">26</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/07/c2a1d7e4470444939679eeb33450d146.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507043600 +0200" channel="C111.api.telerama.fr" stop="20250507051000 +0200">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">34</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507051000 +0200" channel="C111.api.telerama.fr" stop="20250507055500 +0200">
+    <title>Merveilles d'Europe</title>
+    <sub-title>Le tumulte des fleuves</sub-title>
+    <desc lang="fr">Saison:1 - Episode:5 - Des marais d'Estonie aux cascades des lacs de Plitvice, en Croatie, les zones aquatiques du continent européen façonnent d'étonnants paysages habités par une faune diverse.</desc>
+    <date>2023</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/11/2d56a60c78b94663ab64a8a52678af6b.jpg" />
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507055500 +0200" channel="C111.api.telerama.fr" stop="20250507062500 +0200">
+    <title>Une île grecque et ses vestiges de guerre</title>
+    <desc lang="fr">En 1943, l'armée allemande envahissait la petite île grecque de Léros. Aujourd'hui encore, les eaux qui l'entourent sont considérées, après celles de Normandie, comme l'un des plus grands cimetières d'épaves de la Seconde Guerre mondiale.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/25/97846bc624d745eaabb1fcc06b76a9b7.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507062500 +0200" channel="C111.api.telerama.fr" stop="20250507063000 +0200">
+    <title>ARTE Journal Junior</title>
+    <desc lang="fr">Lancé en 2014 dans un format magazine, "ARTE Journal junior" propose à l'heure du petit déjeuner une édition quotidienne présentée dans les deux langues. Au programme : un décryptage du monde et de ses enjeux à travers deux sujets d'actualité et, tout au long de la semaine, un feuilleton en cinq épisodes sur un même thème ou des réponses à des questions posées par des enfants.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/07/04/687ef86e9bfacae4043df66dfcd8fdd52c3d7464_38FB05BF7D401B8C05806A9C06D7C809.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507063000 +0200" channel="C111.api.telerama.fr" stop="20250507071500 +0200">
+    <title>Ankara, une deuxième vie pour les livres</title>
+    <desc lang="fr">A Ankara, les éboueurs collectent désormais les livres jetés dans les poubelles. Des écoliers explorent les rayonnages de cette collection éclectique.</desc>
+    <category lang="fr">documentaire culture</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/12/8cb8a99c50e7464db60be1733fb2e047.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507071500 +0200" channel="C111.api.telerama.fr" stop="20250507075000 +0200">
+    <title>Voyage en cuisine</title>
+    <sub-title>Chicago : le jibarito</sub-title>
+    <desc lang="fr">Dans le jibarito, un sandwich issu de la gastronomie portoricaine où le pain fait place à la banane plantain, sauce de fromage et viande grillée dégoulinent.</desc>
+    <category lang="fr">magazine culinaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/b2bdf9ec482e4e859c75d78ff5fcf75d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507075000 +0200" channel="C111.api.telerama.fr" stop="20250507083500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">En Corse, le fantôme de Leonor Fini - Le joropo, musique des cow-boys colombiens - Dans le Vermont, la chasse aux flocons.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/1831c76417f843eea0e0990f89f01a2d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507083500 +0200" channel="C111.api.telerama.fr" stop="20250507092500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">L'Ecosse, pays imaginaire de Peter Pan. - Paris, l'autre capitale égyptienne. - En Grèce, les aubergines farcies de Vassilis. - A New York, de l'électricité dans les rues.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/1a0c968888b249b3b1ce42baf041cd7d.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507092500 +0200" channel="C111.api.telerama.fr" stop="20250507104000 +0200">
+    <title>La révolution selon François : Changement d'époque au Vatican</title>
+    <desc lang="fr">Quel avenir pour l'Eglise catholique ? En plein synode à ce sujet convoqué par le pape François, état des lieux d'une institution profondément divisée.</desc>
+    <category lang="fr">documentaire religions</category>
+    <length units="minutes">75</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/23/648b4c2e045d4ce0877e162b5a81fb7e.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507104000 +0200" channel="C111.api.telerama.fr" stop="20250507113500 +0200">
+    <title>Plages d'Europe</title>
+    <sub-title>Santorin</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - Haut lieu du tourisme, célèbre pour ses magnifiques couchers de soleil et ses villages perchés aux maisons immaculées, Santorin regorge de secrets. Cette île du sud des Cyclades est née d'une éruption volcanique il y a près de 3 600 ans : son sable teinté et son sol fertile sont le fruit de l'érosion des matériaux volcaniques balayés par le vent et les vagues.</desc>
+    <date>2023</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/69a196832f1d4e238d4029bc36e4f47c.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507113500 +0200" channel="C111.api.telerama.fr" stop="20250507123000 +0200">
+    <title>Plages d'Europe</title>
+    <sub-title>Sardaigne</sub-title>
+    <desc lang="fr">Saison:1 - Episode:4 - Entre ses criques secrètes, ses longues plages et ses eaux cristallines, la Sardaigne offre un véritable paradis naturel aux touristes qui y affluent en masse.</desc>
+    <date>2023</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/141ef3c070bc4134a689e5344acfe9d2.jpg" />
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507123000 +0200" channel="C111.api.telerama.fr" stop="20250507130000 +0200">
+    <title>Des volcans et des hommes</title>
+    <sub-title>La Réunion, au coeur des volcans</sub-title>
+    <desc lang="fr">Saison:1 - Episode:13 - L'île de La Réunion invite à un voyage dans le temps volcanique. Le tout jeune Piton de la Fournaise est aujourd'hui l'un des volcans les plus actifs au monde.</desc>
+    <date>2019</date>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/22/084276199e6c435aaa83e6cbef514e63.jpg" />
+    <episode-num system="xmltv_ns">0.12.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507130000 +0200" channel="C111.api.telerama.fr" stop="20250507133500 +0200">
+    <title>Tapis turcs passés de mode</title>
+    <desc lang="fr">La Turquie est célèbre pour ses tapis faits main. Cet artisanat est aujourd'hui menacé par la production industrielle, qui ne cesse de prendre des parts de marché. Une jeune cheffe d'entreprise entend bien braver cette concurrence et perpétuer une tradition millénaire qui fait la fierté de son pays.</desc>
+    <category lang="fr">documentaire economie</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/25/d3d47b59ce4f4ef2a9b53ac18fbe2622.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507133500 +0200" channel="C111.api.telerama.fr" stop="20250507152500 +0200">
+    <title>Vipère au poing</title>
+    <desc lang="fr">Jean et Ferdinand Rézeau, deux frères, sont élevés par leur grand-mère paternelle, tandis que leurs parents séjournent à l'étranger. Mais à la mort de leur aïeule, la mère des deux enfants, de retour d'Indochine, reprend ses droits. Jugeant l'éducation de leur grand-mère trop laxiste, elle entend bien remettre ses fils dans le droit chemin. Rapidement, elle leur inflige des souffrances et des humiliations de toutes sortes. Négligeant leur bien-être, elle les nourrit mal et va jusqu'à les tondre ou planter sa fourchette dans leurs mains. Son tempérament tyrannique et cruel lui vaut d'être surnommée Folcoche, association de "folle" et "cochonne"... - Critique : C’est le dernier film de Philippe de Broca, délicieux réalisateur de films bondissants ou faussement gais. Broca a donc illuminé le sombre Bazin de sa générosité. Il fait de Jacques Villeret un personnage proche des héros qu’il a toujours aimé peindre : un être faible, dominé par sa femme, mais avant tout un poète citant Voltaire devant la voûte céleste. Et de Folcoche, une frustrée sexuelle, proche des sorcières des contes d’enfants, plus drôle qu’effrayante. Quant aux trois gamins, ils sont plus attendrissants que haineux. Ne parlons pas de ratage (la photo et les décors sauvent le film), juste d’un produit édulcoré.</desc>
+    <credits>
+      <actor>Cherie Lunghi</actor>
+      <actor>Sabine Haudepin</actor>
+      <actor>Paul Le</actor>
+      <actor>Jacques Villeret</actor>
+      <actor>Catherine Frot</actor>
+      <actor>Wojciech Pszoniak</actor>
+      <actor>Taylor-Gordon Hannah</actor>
+      <actor>Sitruk Jules</actor>
+      <actor>Touil William</actor>
+      <actor>Annick Alane</actor>
+      <actor>Richard Bremmer</actor>
+      <actor>Stévenin Pierre</actor>
+      <writer>Philippe de</writer>
+      <guest>Corinne Devaux</guest>
+    </credits>
+    <date>2004</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/15/50ca16829ee14a468c9fe15195b714b0.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250507152500 +0200" channel="C111.api.telerama.fr" stop="20250507155000 +0200">
+    <title>Nomade des mers, les escales de l'innovation</title>
+    <sub-title>Brésil, Recife</sub-title>
+    <desc lang="fr">Saison:1 - Episode:6 - A Recife, dans le nord du Brésil, Corentin rencontre un enseignant qui travaille dans un centre de formation à l'agro-écologie et à la permaculture.</desc>
+    <date>2018</date>
+    <category lang="fr">documentaire voyage</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/17516c94596d4e07bc4cb2347f4acf7f.jpg" />
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507155000 +0200" channel="C111.api.telerama.fr" stop="20250507163500 +0200">
+    <title>Constructions animales</title>
+    <sub-title>Des paysages fondateurs</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - Certaines espèces, comme le termite, le ver et le castor, sont de vrais paysagistes, tant l'énergie déployée pour construire leur maison façonne leur environnement.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/21/5dcdd1127a584f76b40e2e1119cbb6af.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507163500 +0200" channel="C111.api.telerama.fr" stop="20250507172000 +0200">
+    <title>Cultures animales</title>
+    <sub-title>Transmettre pour s'adapter</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - On a longtemps cru que la culture était le propre des humains, mais les avancées scientifiques viennent bousculer cette idée reçue. Dans cet épisode : place à l'innovation.</desc>
+    <date>2023</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/87dbb6b82bf24dfbb3947db516441356.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507172000 +0200" channel="C111.api.telerama.fr" stop="20250507181000 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Henri Verneuil, un Arménien à Marseille. - Au Japon, à l'assaut de la montagne. - En Suisse, le cordon bleu de Claude. - Au Royaume-Uni, des funérailles explosives.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/adff1a43bae84f618534c497ad6bf1fd.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507181000 +0200" channel="C111.api.telerama.fr" stop="20250507185500 +0200">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">À Rome, Franz Liszt devient éternel - Aux fêtes de Pirenópolis, le Brésil se démasque - En Grèce, quand la musique est bonne.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/bc8474a200f34c54859aae266f8875bc.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507185500 +0200" channel="C111.api.telerama.fr" stop="20250507193000 +0200">
+    <title>Voyage en cuisine</title>
+    <sub-title>Japon : le kaiseki</sub-title>
+    <desc lang="fr">Au sommaire : "La cuisine japonaise version zen : le kaiseki". - "Le goût du pays : Kyoko, une Japonaise en Ecosse". - "A vos marmites !".</desc>
+    <category lang="fr">magazine culinaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/10e81ca2651e472583fa38917a98c833.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507193000 +0200" channel="C111.api.telerama.fr" stop="20250507194500 +0200">
+    <title>Le dessous des images</title>
+    <sub-title>Effacez ces images que Trump ne saurait voir !</sub-title>
+    <desc lang="fr">La photo d'une femme-soldat a tellement effrayé le gouvernement américain qu'il l'a supprimée. Depuis son retour au pouvoir, Donald Trump a ordonné l'effacement des références aux minorités des archives fédérales. Décryptage d'une purge iconographique made in America.</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/d3e9993ee565459fa01bd2039e7b6ac8.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507194500 +0200" channel="C111.api.telerama.fr" stop="20250507200500 +0200">
+    <title>Arte journal</title>
+    <desc lang="fr">ARTE Journal - 07/05/2025</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507200500 +0200" channel="C111.api.telerama.fr" stop="20250507205000 +0200">
+    <title>28 minutes</title>
+    <desc lang="fr">28 minutes samedi apporte un éclairage tout particulier à l'actualité sociétale et internationale de la semaine écoulée. Renaud Dély invite chaque semaine une personnalité connue et reconnue dans son domaine. À ses côtés tout au long de l'émission, elle réagira aux débats et autres séquences de ce rendez-vous hebdomadaire.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/01/25/10121f8f31744a5984c1db50e809c0bf.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507205000 +0200" channel="C111.api.telerama.fr" stop="20250507210000 +0200">
+    <title>Le dessous des cartes : l'essentiel</title>
+    <desc lang="fr">"Le dessous des cartes" met son expertise géopolitique au service d'un décryptage en quatre minutes des grands événements qui secouent le monde contemporain.</desc>
+    <category lang="fr">magazine de géopolitique</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/26/96e21b374d1f42d9affb41a0ee3bea81.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507210000 +0200" channel="C111.api.telerama.fr" stop="20250507225000 +0200">
+    <title>Lion</title>
+    <desc lang="fr">Saroo, 5 ans, est assis dans une gare en Inde. Guddu, son grand frère qu'il adore, le laisse sur un banc en lui disant qu'il revient dans quelques minutes. Il ne le reverra plus, se retrouvant entraîné très loin de sa famille. Désormais âgé de 25 ans, le jeune homme vit en Australie. Il a été adopté par Sue et John, des parents aimants. Alors que sa vie part sur de bons rails, il se demande ce qu'il est advenu de sa famille biologique. Accompagné de Lucy, dont il est tombé amoureux, il mène ses propres recherches, avec des photos satellite comme seul outil pour retrouver son village. Cette enquête délicate tourne à l'obsession... - Critique : En 1986, un gamin pauvre de l’agglomération de Khandwa, en Inde, se retrouve emporté malgré lui dans un train où il attendait son frère, parti en quête d’objets oubliés à récupérer. Les portes se sont refermées. Elles ne s’ouvriront qu’à Calcutta, à 1 500 kilomètres de là… Incapable de dire d’où il vient, l’enfant de 5 ans est placé dans un orphelinat. Adopté par un couple d’Australiens, il grandit en Tasmanie et retrouve une famille, sans pourtant oublier la première. Vingt-cinq ans plus tard, il se met en tête de retrouver le chemin de son village, en explorant une carte de l’Inde sur Internet…
+
+D’abord devenue un livre, cette histoire aussi vraie qu’émouvante semble faite pour le cinéma. L’idée qu’un écran d’ordinateur puisse soudain devenir la boussole providentielle d’une vie sans repères est fascinante. Pourtant, le réalisateur n’en tire pas le meilleur sur le plan dramatique. C’est son regard sur l’Inde des déshérités qui retient l’attention. Les aiguillages qui arrachent Saroo aux siens le sauvent peut-être d’une enfance si dure qu’elle mettait en danger sa vie. Ce balancement entre malheur et bonheur poursuit l’enfant devenu homme. Et les meilleurs comédiens s’unissent pour faire revivre ce terrible et magnifique destin.</desc>
+    <credits>
+      <director>Garth Davis</director>
+      <actor>Nicole Kidman</actor>
+      <actor>David Wenham</actor>
+      <actor>Dev Patel</actor>
+      <actor>Tannishtha Chatterjee</actor>
+      <actor>Nawazuddin Siddiqui</actor>
+      <actor>Rooney Mara</actor>
+      <actor>Bose Priyanka</actor>
+      <actor>Riddhi Sen</actor>
+      <actor>Sunny Pawar</actor>
+      <actor>Abhishek Bharate</actor>
+      <actor>Khushi Solanki</actor>
+      <actor>Shankar Nisode</actor>
+      <writer>Luke Davies</writer>
+    </credits>
+    <date>2016</date>
+    <category lang="fr">film : drame</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/03/12/9a5d532c84cf47559db79c6ff46a5d7e.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250507225000 +0200" channel="C111.api.telerama.fr" stop="20250507235500 +0200">
+    <title>King Kong, le coeur des ténèbres</title>
+    <desc lang="fr">Alors que le cinéma vient d'entrer, avec l'irruption du parlant, dans son adolescence, "King Kong", sorti en salle en 1933 dans l'Amérique de la Grande Dépression, s'impose d'emblée comme un monument hors normes. Artisans de cette fiction dont le succès triomphal égalera la démesure, deux cinéastes explorateurs : Merian C. Cooper et Ernest B. Schoedsack. Bercés par les romans d'aventures et les récits de Joseph Conrad, ces anciens combattants meurtris par la Grande Guerre unissent leurs talents, dès les années 1920, dans de rocambolesques tournages en pleine nature entre l'Abyssinie, l'Iran et le Siam. C'est l'écrivaine Ruth Rose, l'épouse de Schoedsack, qui peaufine le scénario. Une femme de son temps qui confère au film sa fibre sociale, son ton critique et son érotisme : en un mot, sa folle modernité.</desc>
+    <category lang="fr">documentaire cinéma</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/62fadc963250404b82fff53bbadc2e9e.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250507235500 +0200" channel="C111.api.telerama.fr" stop="20250508012000 +0200">
+    <title>L'odyssée de Runa</title>
+    <desc lang="fr">A travers le portrait d'une jeune Kurde de 16 ans coincée avec sa famille entre la Biélorussie et la Pologne, Agnieszka Zwiefka porte un regard d'une bouleversante humanité.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/1111x625/2025/04/24/8c6e0d8b4d5d4a4fa19898f4f045e9fc.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
