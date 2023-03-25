@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://television.telerama.fr/sites/tr_master/files/sheet_media/tv/500x500/111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20241212234500" channel="C111.api.telerama.fr" stop="20241213023000">
+    <title>Le moine noir</title>
+    <desc lang="fr">Intellectuel surmené, emporté par ses espoirs de liberté et de grandeur, Andreï Kovrine décide de prendre du repos à la campagne chez son vieil ami Pessotski et sa fille Tania. Dans l'immense jardin de la propriété, dédié à la production de fruits, de blé et d'orge pour lesquels son hôte se dévoue sans compter, il voit apparaître le fantôme d'un moine noir, qui hantera son séjour jusqu'à le faire basculer dans la folie.</desc>
+    <category lang="fr">contemporain</category>
+    <length units="minutes">165</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/06/26/c2ed01c1bca86134ce80bbee071d1ac06ee4b14e.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20241213023000" channel="C111.api.telerama.fr" stop="20241213032100">
+    <title>Itinéraires sauvages</title>
+    <sub-title>En Tanzanie</sub-title>
+    <desc lang="fr">Saison:1 - Episode:3 - En Tanzanie, quelques routes bitumées serpentent à travers le pays. Mais, les camions, les bus et les 4x4 empruntent surtout des pistes caillouteuses.</desc>
+    <date>2023</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">51</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/06/14/c9f652dfe27740639421c07ec8b0cde5.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213032100" channel="C111.api.telerama.fr" stop="20241213041000">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">49</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213041000" channel="C111.api.telerama.fr" stop="20241213044000">
+    <title>La seconde vie des éoliennes</title>
+    <desc lang="fr">En Europe, l'éolien joue un rôle central dans la transition énergétique. Parallèlement à la construction de nouveaux modèles, plus grands et performants, les anciennes installations suscitent un intérêt croissant. Les éoliennes usagées font ainsi l'objet d'un véritable commerce de seconde main : après avoir été exploitées sur un site, elles sont reconstruites ailleurs pour un nouveau cycle de vie.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/02/28/c25cd35e485e403bb1ee7c5066d7bacb.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213044000" channel="C111.api.telerama.fr" stop="20241213044500">
+    <title>Le dessous des cartes : l'essentiel</title>
+    <desc lang="fr">"Le dessous des cartes" met son expertise géopolitique au service d'une pastille quotidienne dédiée à l'actualité ukrainienne.</desc>
+    <category lang="fr">magazine de géopolitique</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/6aaf21e90fec495ca889b1c258b5c4bb.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213044500" channel="C111.api.telerama.fr" stop="20241213045500">
+    <title>Le dessous des images</title>
+    <sub-title>Inondations en Espagne : le pouvoir face à la boue</sub-title>
+    <desc lang="fr">Le roi Felipe VI visé par des jets de boue. Cette photo illustre le drame du déluge qui s'est abattu en Espagne, dans la région de Valence, le 29 octobre 2024. Comment celui qui incarne la souveraineté la plus absolue de l'État, a-t-il pu se retrouver souillé de la sorte ?</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/d3e9993ee565459fa01bd2039e7b6ac8.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213045500" channel="C111.api.telerama.fr" stop="20241213055000">
+    <title>Les secrets des momies égyptiennes</title>
+    <desc lang="fr">Saison:1 - Episode:3 - Un épais mystère entourait depuis sa découverte, dans les années 1880, la dépouille d'un jeune homme inconnu de 18 à 20 ans, surnommée "momie hurlante" en raison du cri qui semble déformer, depuis trois mille ans, les traits du mort. De plus, les organes n'ont pas été prélevés, les mains portent des traces de liens et, plus étonnant encore, la momie est recouverte d'une peau de mouton, objet considéré comme impur dans l'Égypte antique. Les circonstances de la mort de ce prince, récemment identifié comme Pentaour, le fils de Ramsès III, sont-elles liées à la conspiration, dite "du harem", menée contre son père ?</desc>
+    <date>2020</date>
+    <category lang="fr">documentaire histoire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/03/28/d6a3a339-4dfb-4ac5-a9b2-c0cfa36c2f82.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213055000" channel="C111.api.telerama.fr" stop="20241213055500">
+    <title>ARTE Journal Junior</title>
+    <desc lang="fr">Lancé en 2014 dans un format magazine, "ARTE Journal junior" propose à l'heure du petit déjeuner une édition quotidienne présentée dans les deux langues. Au programme : un décryptage du monde et de ses enjeux à travers deux sujets d'actualité et, tout au long de la semaine, un feuilleton en cinq épisodes sur un même thème ou des réponses à des questions posées par des enfants.</desc>
+    <category lang="fr">magazine jeunesse</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/dc18781c2e90dc8c03ed4b7b66da2fa348c6c3af.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213055500" channel="C111.api.telerama.fr" stop="20241213065000">
+    <title>Fous du volant en Laponie</title>
+    <desc lang="fr">Chaque été, dans le nord de la Finlande, la petite localité de Pello, 3200 habitants, accueille 750 pilotes pour une course automobile pas comme les autres.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/04/19/cb1605ad-b3f7-40ec-9487-1ba77414a0e3.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213065000" channel="C111.api.telerama.fr" stop="20241213074000">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Linda Lorin nous emmène à la découverte de notre patrimoine artistique, culturel et naturel. Albuquerque, décor stupéfiant de "Breaking Bad" - Les Vosges, aux avant-postes du ski français - En République Tchèque, les quenelles aux fraises de Sandra - Au baseball, Taïwan déjoue les pronostics.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/12/02/890a7d0695728d99a7fde67e6acdc2ba9e8fcfaa_E534EF767A18729E5C9F753579819ED2.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213074000" channel="C111.api.telerama.fr" stop="20241213082500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Linda Lorin nous emmène à la découverte de notre patrimoine artistique, culturel et naturel. La Bretagne Art déco de Yvonne Jean-Haffen - L'ao dai, silhouette des Vietnamiennes - Au Costa Rica, le pot-au-feu d'Andy - En Italie, on passe à table.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/29/c8fdc4026af64e028988447693de579f.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213082500" channel="C111.api.telerama.fr" stop="20241213092000">
+    <title>Les lumières scandinaves : un hiver autour de Stockholm</title>
+    <desc lang="fr">Pour braver l'obscurité hivernale, les habitants de Stockholm soignent leurs décorations de Noël et célèbrent la Sainte-Lucie, la fête de la lumière.</desc>
+    <category lang="fr">documentaire découvertes</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/04/18/3a521ae4eb500621adf3256a95463f1837b24971.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213092000" channel="C111.api.telerama.fr" stop="20241213101500">
+    <title>La Scandinavie arctique</title>
+    <sub-title>Quand revient le jour</sub-title>
+    <desc lang="fr">En hiver, la Scandinavie arctique est plongée dans une longue nuit polaire, durant laquelle le soleil ne se lève jamais. Ce manque de lumière perturbe l'horloge interne et met l'organisme humain à rude épreuve, mais n'épargne pas non plus le métabolisme des animaux et des plantes. Les rennes, les ours ou les renards polaires profitent de ce ralentissement hivernal pour prendre des forces.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/14/211bd3e213c844bca8a27133cdd4f0e1.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213101500" channel="C111.api.telerama.fr" stop="20241213110500">
+    <title>La Scandinavie arctique</title>
+    <sub-title>Quand revient la nuit</sub-title>
+    <desc lang="fr">Chaque année, autour du 21 juin, la Scandinavie se met en effervescence pour célébrer le solstice d'été. En Finlande, au nord du cercle polaire, un festival créé par les frères Aki et Mika Kaurismäki donne rendez-vous aux cinéphiles du monde entier sous le soleil de minuit, qui ne se couche presque jamais. Les rennes, les élans et les ours bruns profitent de l'abondance de nourriture.</desc>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/03/14/211bd3e213c844bca8a27133cdd4f0e1.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213110500" channel="C111.api.telerama.fr" stop="20241213120000">
+    <title>Natura Europa</title>
+    <sub-title>L'île d'Émeraude et le désert de pierres</sub-title>
+    <desc lang="fr">Saison:1 - Episode:4 - L'Irlande recèle l'un des plus grands trésors naturels : un désert de pierre grise qui abrite certains des animaux sauvages les plus enchanteurs de l'île d'émeraude.</desc>
+    <date>2022</date>
+    <category lang="fr">documentaire nature</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/12/08/0ab21ebc0fc8fa73f7507ee6c222dcf755563d68.jpg" />
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20241213120000" channel="C111.api.telerama.fr" stop="20241213123500">
+    <title>Marchés du monde</title>
+    <sub-title>Guatemala, le marché maya</sub-title>
+    <desc lang="fr">Sur le marché de la petite ville de Chichicastenango, au Guatemala, l'influence culturelle maya est encore vive, des vêtements à la nourriture.</desc>
+    <category lang="fr">documentaire voyage</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/16/b8dd1763c34e4eeb8d772b4a0621c9bb.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213123500" channel="C111.api.telerama.fr" stop="20241213145000">
+    <title>Le corsaire noir</title>
+    <desc lang="fr">Dans l'île de Macaraibo. Le duc Van Gold, représentant du roi d'Espagne, mécontent de la gestion du gouverneur en place, prend le pouvoir. Mais le duc n'est pas une créature angélique : il le prouve en tuant Enrico de Vintimille en un combat singulier truqué, où un sbire caché derrière une tenture achève le malheureux qui a osé défier Van Gold. De plus, ses agents sèment la mort et la désolation au sein de la population indigène. Au cours d'un de ces massacres, Emilio, le légendaire corsaire noir, parvient à faire fuir les sbires du duc, mais seule Yara, une jolie jeune fille, a survécu. Suivant ses sauveurs, elle découvre avec eux leur camp, malheureusement visité par les forces du duc : Emilio y trouve le cadavre de son frère et celui de son meilleur ami. Le corsaire noir jure vengeance...</desc>
+    <credits>
+      <actor>Mel Ferrer</actor>
+      <actor>Kabir Bedi</actor>
+      <actor>Dagmar Lassander</actor>
+      <actor>Angelo Infanti</actor>
+      <actor>Sal Borgese</actor>
+      <actor>Carole André</actor>
+      <actor>Guido Alberti</actor>
+      <actor>Franco Fantasia</actor>
+      <actor>Basehart Jackie</actor>
+      <actor>Sonja Jeannine</actor>
+      <actor>Nicolò Piccolomini</actor>
+      <actor>Edoardo Faieta</actor>
+      <writer>Sergio Sollima</writer>
+      <writer>Alberto Silvestri</writer>
+    </credits>
+    <date>1976</date>
+    <category lang="fr">film d'aventures</category>
+    <length units="minutes">135</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/1a61d2621c4c4a119fbf64596d975063.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213145000" channel="C111.api.telerama.fr" stop="20241213153500">
+    <title>Le monde fabuleux des chauves-souris</title>
+    <desc lang="fr">A la découverte des chauves-souris, prédateurs redoutables aux sens affutés, dont la scientifique Toni Hubancheva a fait son principal sujet d'étude.</desc>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/802f9129859744d9ab9acd58b50a8d4e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213153500" channel="C111.api.telerama.fr" stop="20241213162000">
+    <title>Le langage des animaux</title>
+    <sub-title>Une affaire de sentiments</sub-title>
+    <desc lang="fr">Saison:1 - Episode:5 - Alors que les chimpanzés consolident leurs liens en se livrant à différents jeux, les crocodiles peuvent jauger le degré de détresse de leurs petits à l'écoute de leurs vocalises.</desc>
+    <date>2023</date>
+    <category lang="fr">documentaire animalier</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/9f2b4205e8ca48928fd44d85dffbc7d0.jpg" />
+    <episode-num system="xmltv_ns">0.4.</episode-num>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213162000" channel="C111.api.telerama.fr" stop="20241213170500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">Linda Lorin nous emmène à la découverte de notre patrimoine artistique, culturel et naturel. Au Chili, Francisco Coloane, conteur du bout du monde - Au Libéria, l'utopie du retour des esclaves - En France, les feuilles de chou farcies de Stéphanie - À Vienne, ça sent le sapin.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/356eac1cc5be4fb9a4a1757833ff775a.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213170500" channel="C111.api.telerama.fr" stop="20241213175500">
+    <title>Invitation au voyage</title>
+    <desc lang="fr">À Marseille, Georges Braque éclate le paysage - Le koala, mignon miraculé de l'Australie - Dans les Caraïbes, un roi sans sujet.</desc>
+    <category lang="fr">magazine du tourisme</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/1111x625/2023/07/01/428eee8c6fcd61b8f75d461921d872256cf287c3_49B41F80140760D6ACD9D0CFE0821875.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213175500" channel="C111.api.telerama.fr" stop="20241213183000">
+    <title>La reine de la corrida en Bosnie</title>
+    <desc lang="fr">En Bosnie-Herzégovine, les traditionnels combats de taureaux sont appelés "corridas". Mais ici, on ne trouve ni matador ni torero, la discipline consiste simplement en l'affrontement de deux animaux qui défendent leur territoire. Mirjana Frankovic compte parmi les rares femmes à s'être fait un nom en tant qu'entraîneuse de taureaux.</desc>
+    <category lang="fr">documentaire société</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/07/10/2edc2a578095441da007b3f9dd7371af.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213183000" channel="C111.api.telerama.fr" stop="20241213184500">
+    <title>Le dessous des images</title>
+    <sub-title>Séries : plus c'est court, plus c'est bon ?</sub-title>
+    <desc lang="fr">Une dose d'amour, de revanche et d'argent à consommer directement sur son téléphone portable, découvrez les micro-dramas ! Très courtes et très rentables, elles se fabriquent à la chaîne avec un objectif : capter notre attention. Retour sur ce format nouveau et addictif !</desc>
+    <category lang="fr">magazine culturel</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/05/15/d3e9993ee565459fa01bd2039e7b6ac8.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213184500" channel="C111.api.telerama.fr" stop="20241213190500">
+    <title>Arte journal</title>
+    <desc lang="fr">ARTE Journal - 13/12/2024</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/1111x625/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213190500" channel="C111.api.telerama.fr" stop="20241213195100">
+    <title>28 minutes</title>
+    <desc lang="fr">Présenté par Renaud Dély les vendredi et samedi, le rendez-vous quotidien consacré à l'actualité et au débat.</desc>
+    <category lang="fr">magazine d'actualité</category>
+    <length units="minutes">46</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/02/28/65efa4450d104d2f9cb65e2c3cab4d8a.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213195100" channel="C111.api.telerama.fr" stop="20241213195500">
+    <title>De Gaulle à la plage</title>
+    <sub-title>La réunion au sommet</sub-title>
+    <desc lang="fr">Saison:1 - Episode:15 - Le monde est petit, même à la plage on tombe sur de vieilles connaissances, si bien que le général finit par faire au bord de la mer ce qu'il fait à Paris.</desc>
+    <date>2020</date>
+    <category lang="fr">série d'animation</category>
+    <length units="minutes">4</length>
+    <icon src="https://focus.telerama.fr/1111x625/2021/03/31/42965c2a-d777-4e67-b198-31f02773d7d4.jpg" />
+    <episode-num system="xmltv_ns">0.14.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213195500" channel="C111.api.telerama.fr" stop="20241213212500">
+    <title>Fortes têtes</title>
+    <desc lang="fr">Un petit village du Brandebourg, dans l'est de l'Allemagne. Veuve depuis longtemps et brouillée avec tout le voisinage, Anne vit recluse dans sa ferme. Elle n'a guère plus de contact avec sa fille Julia, et n'a même jamais rencontré Tilda, sa petite-fille de 8 ans. Lorsque Julia se retrouve condamnée à une peine de prison, Tilda vient frapper à la porte de sa grand-mère. Anne l'accueille à contrecœur, bien décidée à s'en débarrasser à la première occasion. Mais Tilda, qui a hérité du caractère têtu de ses aînées, s'obstine à vouloir conquérir une place dans la vie de sa grand-mère.</desc>
+    <credits>
+      <director>Nana Neul</director>
+      <actor>Meret Becker</actor>
+      <actor>Florian Lukas</actor>
+      <actor>Steffi Kühnert</actor>
+      <actor>Anita Vulesica</actor>
+      <actor>Bading Emma</actor>
+      <actor>Banafshe Hourmazdi</actor>
+      <actor>Camill Jammal</actor>
+      <actor>Luise Landau</actor>
+      <writer>Andrea Deppert</writer>
+    </credits>
+    <category lang="fr">téléfilm dramatique</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/9c2ca7fd00284f7693c8eed5d4fa1b4b.jpg" />
+    <audio>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213212500" channel="C111.api.telerama.fr" stop="20241213221000">
+    <title>James Brown: Say It Loud</title>
+    <sub-title>Créer ma propre vie</sub-title>
+    <desc lang="fr">Né en 1933, James Brown grandit à Augusta, en Géorgie, dans la musique et la misère d'un Sud ségrégationniste, entre champs de coton et violences de son père. Abandonné par sa mère, l'enfant vole pour survivre. Ce virtuose des claquettes et du buck dancing se produit aussi devant les Blancs. Condamné pour attaque à main armée à 16 ans, il forme un chœur de gospel derrière les barreaux et assiste à un concert du chanteur Bobby Byrd. Avec ce mentor, James Brown, à sa sortie, fonde son premier groupe, influencé par Little Richard. Quand il enregistre "Please, Please, Please", le titre se hisse aussitôt au sommet des charts, son groove, sa voix suppliante et sa présence éclipsant ses aînés. En 1962, lui qui ne croit qu'en Dieu et en lui-même autofinance son légendaire album "Live at the Apollo".</desc>
+    <category lang="fr">documentaire musique</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/6620dfea1c17468b8eff796ce77fab59.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213221000" channel="C111.api.telerama.fr" stop="20241213225000">
+    <title>James Brown: Say It Loud</title>
+    <sub-title>L'homme noir le plus puissant des Etats-Unis</sub-title>
+    <desc lang="fr">Au cours des années 1960, James Brown, showman acharné, est consacré "Soul Brother Number 1". La star planétaire rejoint le mouvement des droits civiques et s'impose comme l'une des figures les plus influentes du Black Power. Son titre "Say it Loud : I'm Black and I'm Proud" sera érigé en hymne. Grâce à son charisme incandescent, le chanteur harangue et mobilise les foules, promeut l'entrepreneuriat noir et se voit bientôt célébré comme "l'homme noir le plus important d'Amérique". Le monde entier est gagné par son funk : les morceaux "I Feel Good", "Papa's Got a Brand New Bag", "Get Up (I Feel Like Being a) Sex Machine" ou "It's a Man's Man's Man's World", deviendront bien plus que la bande-son de la communauté afro-américaine.</desc>
+    <category lang="fr">documentaire musique</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/6620dfea1c17468b8eff796ce77fab59.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213225000" channel="C111.api.telerama.fr" stop="20241213233000">
+    <title>James Brown: Say It Loud</title>
+    <sub-title>La vie à l'état brut</sub-title>
+    <desc lang="fr">Dans les années 1970, la vague disco submerge la planète, empruntant parfois à son funk, mais l'aura de James Brown commence à faiblir. Empêtré dans ses démêlés avec le fisc et un conflit avec sa maison de disques, il sombre dans l'addiction à la drogue et à l'alcool. Menacé de prison pour avoir brandi une arme, l'artiste businessman vacille, avant que son épouse ne porte plainte pour violences conjugales aggravées. Dans cette descente aux enfers, sa performance, lors du festival Zaïre 74, à l'occasion du combat de boxe historique entre Mohamed Ali et George Foreman, fera néanmoins date. Mais si la génération du hip-hop, ainsi que Prince et Michael Jackson le revendiquent comme référence, James Brown perd de son aura. Jusqu'en 1980, où le film "The Blues Brothers" relance sa carrière.</desc>
+    <category lang="fr">documentaire musique</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/6620dfea1c17468b8eff796ce77fab59.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20241213233000" channel="C111.api.telerama.fr" stop="20241214001000">
+    <title>James Brown: Say It Loud</title>
+    <sub-title>Le plus grand de tous</sub-title>
+    <desc lang="fr">Après un nouveau séjour en prison, à l'aube des années 2000, James Brown, désigné père du breakbeat, revient en force. Héros de la scène rap, et notamment de LL Cool J ou de Chuck D, il enchaîne encore - avec à peine moins d'énergie - les performances survoltées. Mais il lutte toujours contre ses démons, éprouvé par de nouveaux procès et la mort de sa troisième épouse. En 2002, son interprétation de "It's a Man's Man's Man's World", aux côtés et à la demande du ténor Pavarotti, l'installe définitivement au panthéon de la musique du XXe siècle, Jusqu'à peu avant sa mort, il se produit sur scène, avant de choisir le jour de la naissance du Christ, en 2006, pour la quitter définitivement. Une foule en larmes défilera pour lui dire adieu à l'Apollo Theater à Harlem où son corps est exposé.</desc>
+    <category lang="fr">documentaire musique</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/1111x625/2024/11/30/6620dfea1c17468b8eff796ce77fab59.jpg" />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
