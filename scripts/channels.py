@@ -77,7 +77,8 @@ COUNTRIES_CHANNELS = {
             'C1943.api.telerama.fr',
             'C1944.api.telerama.fr',
             'C2111.api.telerama.fr',
-            'C3163.api.telerama.fr'  # Culturebox
+            'C3163.api.telerama.fr',  # Culturebox
+            'C4139.api.telerama.fr',  # T18
         ]
     },
     'fr_tnt': {
@@ -86,30 +87,28 @@ COUNTRIES_CHANNELS = {
             'C192.api.telerama.fr',  # TF1
             'C4.api.telerama.fr',  # France 2
             'C80.api.telerama.fr',  # France 3
-            'C34.api.telerama.fr',  # Canal+
+            'C78.api.telerama.fr',  # France 4
             'C47.api.telerama.fr',  # France 5
             'C118.api.telerama.fr',  # M6
             'C111.api.telerama.fr',  # Arte
-            'C445.api.telerama.fr',  # C8
+            'C234.api.telerama.fr',  # LCP
             'C119.api.telerama.fr',  # W9
             'C195.api.telerama.fr',  # TMC
             'C446.api.telerama.fr',  # TFX
-            'C444.api.telerama.fr',  # NRJ 12
-            'C234.api.telerama.fr',  # LCP
-            'C78.api.telerama.fr',  # France 4
+            'C482.api.telerama.fr',  # Gulli
             'C481.api.telerama.fr',  # BFM TV
             'C226.api.telerama.fr',  # CNEWS
+            'C112.api.telerama.fr',  # LCI
+            'C2111.api.telerama.fr',  # Franceinfo
             'C458.api.telerama.fr',  # CSTAR
-            'C482.api.telerama.fr',  # Gulli
-            'C3163.api.telerama.fr',  # Culturebox
+            'C4139.api.telerama.fr',  # T18
             'C1404.api.telerama.fr',  # TF1 Séries Films
             'C1401.api.telerama.fr',  # L'équipe
             'C1403.api.telerama.fr',  # 6ter
             'C1402.api.telerama.fr',  # RMC Story
             'C1400.api.telerama.fr',  # RMC Découverte
             'C1399.api.telerama.fr',  # Chérie 25
-            'C112.api.telerama.fr',  # LCI
-            'C2111.api.telerama.fr'  # Franceinfo
+            'C3163.api.telerama.fr',  # Culturebox
         ]
     },
     'be': {
