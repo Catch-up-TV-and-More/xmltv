@@ -144,28 +144,27 @@ COUNTRIES_CHANNELS = {
     'uk': {
         'dst': 'tv_guide_uk{}.xml',
         'channels': [
-            '178.tvguide.co.uk',  # STV Central
-            '185.tvguide.co.uk',  # Magic
-            '182.tvguide.co.uk',  # Kiss TV
-            '257.tvguide.co.uk',  # Sky News
-            '267.tvguide.co.uk',  # Box Hits
-            '279.tvguide.co.uk',  # The Box
-            '320.tvguide.co.uk',  # Yesterday
-            '422.tvguide.co.uk',  # Really
-            '432.tvguide.co.uk',  # Dave
-            '454.tvguide.co.uk',  # DMAX
-            '559.tvguide.co.uk',  # Quest
-            '596.tvguide.co.uk',  # Food Network
-            '871.tvguide.co.uk',  # Drama
-            '1013.tvguide.co.uk',  # Blaze
-            '1014.tvguide.co.uk',  # Quest Red
-            '1154.tvguide.co.uk',  # Birmingham TV
-            '1157.tvguide.co.uk',  # Bristol TV
-            '1171.tvguide.co.uk',  # Cardiff TV
-            '1207.tvguide.co.uk',  # Kerrang!
-            '1210.tvguide.co.uk',  # Leeds TV
-            '1212.tvguide.co.uk',  # Liverpool TV
-            '1255.tvguide.co.uk'  # Tyne & Wear TV
+            '4.freeview.co.uk',  # Channel 4
+            '5.freeview.co.uk',  # Channel 5
+            '12.freeview.co.uk',  # Quest
+            '13.freeview.co.uk',  # E4
+            '14.freeview.co.uk',  # Film 4
+            '17.freeview.co.uk',  # Really
+            '18.freeview.co.uk',  # More 4
+            '19.freeview.co.uk',  # U&Dave
+            '20.freeview.co.uk',  # U&Drama
+            '21.freeview.co.uk',  # 5 USA
+            '27.freeview.co.uk',  # U&Yesterday
+            '32.freeview.co.uk',  # 5 Star
+            '33.freeview.co.uk',  # 5 Action
+            '39.freeview.co.uk',  # DMAX
+            '40.freeview.co.uk',  # Quest Red
+            '43.freeview.co.uk',  # Food Network
+            '44.freeview.co.uk',  # HGTV
+            '46.freeview.co.uk',  # 5 Select
+            '49.freeview.co.uk',  # 4seven
+            '64.freeview.co.uk',  # Blaze
+            '233.freeview.co.uk'  # Sky News
         ]
     },
     'ch': {

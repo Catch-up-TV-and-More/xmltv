@@ -42,25 +42,25 @@ GRABBERS = {
         ],
         'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
     },
-    #'tv_grab_uk_tvguide': {
-    #    'raw_min_size': 150000 if not TEST_MODE else 1000,
-    #    'raw': 'tv_guide_uk_tvguide{}.xml',
-    #    'tz': 'Europe/London',
-    #    'run_cmd': [
-    #
-    #SCRIPTS_DIRECTORY + 'tv_grab_uk_tvguide/tv_grab_uk_tvguide',
-    #        '--config-file',
-    #        SCRIPTS_DIRECTORY + 'tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_uk_tvguide/tv_grab_uk_tvguide_test.conf',
-    #        '--days',
-    #        '1',
-    #        '--debug',
-    #        '--offset',
-    #        'myoffset',
-    #        '--output',
-    #        'myoutput'
-    #    ],
-    #    'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
-    #},
+    'tv_grab_uk_freeview': {
+       'raw_min_size': 150000 if not TEST_MODE else 1000,
+       'raw': 'tv_guide_uk_freeview{}.xml',
+       'tz': 'Europe/London',
+       'run_cmd': [
+           SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview',
+           '--config-file',
+           SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview_test.conf',
+           '--days',
+           '1',
+           '--fast',
+           '--debug',
+           '--offset',
+           'myoffset',
+           '--output',
+           'myoutput'
+       ],
+       'allowed_offsets': [0, 1, 2, 3, 4, 5, 6]
+    },
     'tv_grab_it': {
         'raw_min_size': 150000 if not TEST_MODE else 1000,
         'raw': 'tv_guide_it{}.xml',
