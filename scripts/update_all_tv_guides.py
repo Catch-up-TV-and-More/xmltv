@@ -45,7 +45,7 @@ GRABBERS = {
     'tv_grab_uk_freeview': {
        'raw_min_size': 150000 if not TEST_MODE else 1000,
        'raw': 'tv_guide_uk_freeview{}.xml',
-       'tz': 'Europe/London',
+       'tz': 'utc',
        'run_cmd': [
            SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview',
            '--config-file',
