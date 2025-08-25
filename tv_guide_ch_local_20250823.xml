@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C59.api.telerama.fr">
+    <display-name>SRF 1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-59.png" />
+  </channel>
+  <channel id="C183.api.telerama.fr">
+    <display-name>RTS 2</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-183.png" />
+  </channel>
+  <channel id="C202.api.telerama.fr">
+    <display-name>RTS 1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-202.png" />
+  </channel>
+  <programme start="20250823054000 +0200" channel="C59.api.telerama.fr" stop="20250823062500 +0200">
+    <title>Einfach Retour</title>
+    <category lang="fr">autre : jeu</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/6105e61e00b84e76ad6764552018edff.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823062500 +0200" channel="C59.api.telerama.fr" stop="20250823073000 +0200">
+    <title>News-Schlagzeilen</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/03/05/92e8f2827ef144b185ab606bfb58a62e.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823073000 +0200" channel="C59.api.telerama.fr" stop="20250823090000 +0200">
+    <title>Wetterkanal</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/03/12/7db86a24cfbc42258c821c0d1b3e920f.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823090000 +0200" channel="C59.api.telerama.fr" stop="20250823093500 +0200">
+    <title>Kassensturz in Gebärdensprache</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">35</length>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823093500 +0200" channel="C59.api.telerama.fr" stop="20250823103500 +0200">
+    <title>Sternstunde Musik</title>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/06/9db0e5c6c9c441269dbe54896d4aba13.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823103500 +0200" channel="C59.api.telerama.fr" stop="20250823104500 +0200">
+    <title>SRF Kids News</title>
+    <category lang="fr">autre : emission-jeunesse</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/d03a9dc9dd1f448ab8f1319a3e8d0d89.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823104500 +0200" channel="C59.api.telerama.fr" stop="20250823110000 +0200">
+    <title>SRF Kids - Next Level</title>
+    <category lang="fr">autre : jeu</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/da83ba50ae124aa89dfc76b143c4c37d.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823110000 +0200" channel="C59.api.telerama.fr" stop="20250823110500 +0200">
+    <title>Berufsbild</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/05/07/d4aa7a1c865e4aac8353992402e990fe.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823110500 +0200" channel="C59.api.telerama.fr" stop="20250823120500 +0200">
+    <title>Naked</title>
+    <desc lang="fr">Saison:1 - Episode:4</desc>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/6556d8c38e3f4239984696409b5f7b07.jpg" />
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823120500 +0200" channel="C59.api.telerama.fr" stop="20250823125000 +0200">
+    <title>Einstein</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/20/10784c171e77487dbbc08c85b6a9a9e8.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823125000 +0200" channel="C59.api.telerama.fr" stop="20250823134500 +0200">
+    <title>Südostschweiz Standpunkte</title>
+    <category lang="fr">autre : interview</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/04/30/694a9f23b0b24480879b520a4a6a8b12.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823134500 +0200" channel="C59.api.telerama.fr" stop="20250823154000 +0200">
+    <title>Polizist Wäckerli in Gefahr</title>
+    <category lang="fr">film</category>
+    <length units="minutes">115</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/20c5c42f7653443f82aaba53020c782a.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823154000 +0200" channel="C59.api.telerama.fr" stop="20250823161500 +0200">
+    <title>Cuisines des terroirs</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/18/199e92dbe3f341e080c4f12d97023853.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823161500 +0200" channel="C59.api.telerama.fr" stop="20250823164000 +0200">
+    <title>Apoint: Eine salzige Fotzelschnitte mit Zürichsee-Muscheln?</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823164000 +0200" channel="C59.api.telerama.fr" stop="20250823171000 +0200">
+    <title>Fenster zum Sonntag</title>
+    <category lang="fr">autre : interview</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/0d22c8b8c3cb4f43a4abf43e8a5454e4.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823171000 +0200" channel="C59.api.telerama.fr" stop="20250823174000 +0200">
+    <title>Cuntrasts</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/dcba1197ee7e4f0e9bfd3c06b9cd225a.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823174000 +0200" channel="C59.api.telerama.fr" stop="20250823180000 +0200">
+    <title>Minisguard</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/20/13392d3a677b414599305e9177cfedfe.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823180000 +0200" channel="C59.api.telerama.fr" stop="20250823180500 +0200">
+    <title>Tagesschau</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/7856780f58d94216a610715be8d19846.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823180500 +0200" channel="C59.api.telerama.fr" stop="20250823181000 +0200">
+    <title>Meteo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/16/1aba79d2bf064da2bdddf6a61f616e8f.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823181000 +0200" channel="C59.api.telerama.fr" stop="20250823184500 +0200">
+    <title>gesundheitheute</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/03/12/04c857f963294fb2a4cd1fa515f5ca19.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823184500 +0200" channel="C59.api.telerama.fr" stop="20250823192000 +0200">
+    <title>Samschtig-Jass</title>
+    <category lang="fr">autre : jeu</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/13ecc6a5e4b24e34bc9d86022aa56ad6.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823192000 +0200" channel="C59.api.telerama.fr" stop="20250823193000 +0200">
+    <title>Lotto am Mittwoch - Die Gewinnzahlen</title>
+    <category lang="fr">autre : loterie</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/8dc7db9ef76340ef8559181803cbe04b.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823193000 +0200" channel="C59.api.telerama.fr" stop="20250823195500 +0200">
+    <title>Tagesschau</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/7856780f58d94216a610715be8d19846.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823195500 +0200" channel="C59.api.telerama.fr" stop="20250823200000 +0200">
+    <title>Meteo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/16/1aba79d2bf064da2bdddf6a61f616e8f.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823200000 +0200" channel="C59.api.telerama.fr" stop="20250823201000 +0200">
+    <title>Wort zum Sonntag</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/06/571bccde2cf044349cb5e9b4b66fc63a.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823201000 +0200" channel="C59.api.telerama.fr" stop="20250823215500 +0200">
+    <title>Swiss Comedy Awards!</title>
+    <category lang="fr">culture : spectacle</category>
+    <length units="minutes">105</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/f7dd4d7b135345b2a325f6d0c6adb034.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823215500 +0200" channel="C59.api.telerama.fr" stop="20250823220500 +0200">
+    <title>Tagesschau</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/7856780f58d94216a610715be8d19846.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823220500 +0200" channel="C59.api.telerama.fr" stop="20250823221500 +0200">
+    <title>Meteo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/16/1aba79d2bf064da2bdddf6a61f616e8f.jpg" />
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823221500 +0200" channel="C59.api.telerama.fr" stop="20250824001000 +0200">
+    <title>La valse des pantins</title>
+    <category lang="fr">film</category>
+    <length units="minutes">115</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/30/2f9c95b79a7845398b21a5adb8011661.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250823055500 +0200" channel="C183.api.telerama.fr" stop="20250823070000 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823070000 +0200" channel="C183.api.telerama.fr" stop="20250823090000 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823090000 +0200" channel="C183.api.telerama.fr" stop="20250823100000 +0200">
+    <title>Forum</title>
+    <category lang="fr">magazine</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/16a77486341e4b328c504e06f7eb0be4.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823100000 +0200" channel="C183.api.telerama.fr" stop="20250823113000 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823113000 +0200" channel="C183.api.telerama.fr" stop="20250823120000 +0200">
+    <title>Svizra Rumantscha</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/0def36c841ca4106a494474afbc05c0d.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823120000 +0200" channel="C183.api.telerama.fr" stop="20250823121500 +0200">
+    <title>Adrénaline</title>
+    <category lang="fr">sport : magazine-sportif</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/e0b0ed6746ed4382b612bfb02144429a.jpg" />
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823121500 +0200" channel="C183.api.telerama.fr" stop="20250823131500 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823131500 +0200" channel="C183.api.telerama.fr" stop="20250823133500 +0200">
+    <title>Le 12h45</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2add4f34e4694575a202230d6d5125ae.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823133500 +0200" channel="C183.api.telerama.fr" stop="20250823134000 +0200">
+    <title>Météo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/23/b68c9967d6d24568a9e3693d69be415c.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823134000 +0200" channel="C183.api.telerama.fr" stop="20250823145500 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">75</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823145500 +0200" channel="C183.api.telerama.fr" stop="20250823153000 +0200">
+    <title>Grand Prix de Hongrie</title>
+    <category lang="fr">sport : motocyclisme</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/11/8dc6c783a9f448b2b97dc75babc636a4.jpg" />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823153000 +0200" channel="C183.api.telerama.fr" stop="20250823163000 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823163000 +0200" channel="C183.api.telerama.fr" stop="20250823165500 +0200">
+    <title>Escapades en Suisse Italienne</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/16/ad2c6e73a81a4f1aaa66eacb9c6a3668.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823165500 +0200" channel="C183.api.telerama.fr" stop="20250823174000 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823174000 +0200" channel="C183.api.telerama.fr" stop="20250823182500 +0200">
+    <title>Tu bluffes</title>
+    <category lang="fr">autre : jeu</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/123x82/2023/07/10/82ca02f696cd470939ef2f9feaca095d67f7b230_138727FC9A6747F13DD2A030F99E97B3.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823182500 +0200" channel="C183.api.telerama.fr" stop="20250823193000 +0200">
+    <title>RTS Info</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823193000 +0200" channel="C183.api.telerama.fr" stop="20250823200800 +0200">
+    <title>Le 19h30</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">38</length>
+    <icon src="https://focus.telerama.fr/123x82/2021/08/09/8922b7b77da17ecc6038ab96999eb1cccec1d6b2.jpg" />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823200800 +0200" channel="C183.api.telerama.fr" stop="20250823200900 +0200">
+    <title>PMU</title>
+    <category lang="fr">sport : hippisme</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/16/be6f4a2660e545868a3bda0398bc3292.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823200900 +0200" channel="C183.api.telerama.fr" stop="20250823201000 +0200">
+    <title>Swiss Loto</title>
+    <category lang="fr">autre : loterie</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/4ec52d7bb32d47f6a484f8e9e0effe12.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823201000 +0200" channel="C183.api.telerama.fr" stop="20250823204000 +0200">
+    <title>Au coeur de la Suisse</title>
+    <desc lang="fr">Saison:3 - Episode:1</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/19/ee6ecc4a70ab481bb9770d2b5cfb38de.jpg" />
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823204000 +0200" channel="C183.api.telerama.fr" stop="20250823221000 +0200">
+    <title>Une belle équipe</title>
+    <category lang="fr">film</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/23/5d2ab023faa640349876faea66255a07" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823204000 +0200" channel="C183.api.telerama.fr" stop="20250823222500 +0200">
+    <title>Late Night</title>
+    <category lang="fr">film</category>
+    <length units="minutes">105</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/03/19/e6ebea277c514ba6aa3024416b50f711.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823222500 +0200" channel="C183.api.telerama.fr" stop="20250823223500 +0200">
+    <title>Zap RTS Sport</title>
+    <category lang="fr">sport : magazine-sportif</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/05/14/2109f83c06a344d8bfe9bf253587c193.jpg" />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823223500 +0200" channel="C183.api.telerama.fr" stop="20250824002500 +0200">
+    <title>Sir Alex Ferguson : Le rêve impossible</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/f77843da965447e3a9023d3cdc73ecce.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823060000 +0200" channel="C202.api.telerama.fr" stop="20250823101000 +0200">
+    <title>RTS Kids</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">250</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/b520d52ea11f4e13bd17054151b67bad.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823101000 +0200" channel="C202.api.telerama.fr" stop="20250823102500 +0200">
+    <title>Quel temps fait-il ?</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/ddee065929b24d1d8bdedc7d0d3293f0.jpg" />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823102500 +0200" channel="C202.api.telerama.fr" stop="20250823105000 +0200">
+    <title>Au coeur de la Suisse</title>
+    <desc lang="fr">Saison:3 - Episode:1</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/19/ee6ecc4a70ab481bb9770d2b5cfb38de.jpg" />
+    <episode-num system="xmltv_ns">2.0.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823105000 +0200" channel="C202.api.telerama.fr" stop="20250823114500 +0200">
+    <title>La cuisine marocaine, épicez tout !</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/03/05/9dafa7e83ede460f893a532ecde51710.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823114500 +0200" channel="C202.api.telerama.fr" stop="20250823124500 +0200">
+    <title>Cheveux, un business qui décoiffe !</title>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/04/23/e966319f218942f481b8ab2c0efbb556.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823124500 +0200" channel="C202.api.telerama.fr" stop="20250823131000 +0200">
+    <title>Le 12h45</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/123x82/2024/05/15/2add4f34e4694575a202230d6d5125ae.jpg" />
+    <previously-shown />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823131000 +0200" channel="C202.api.telerama.fr" stop="20250823131500 +0200">
+    <title>Météo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/23/b68c9967d6d24568a9e3693d69be415c.jpg" />
+    <previously-shown />
+    <new />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823131500 +0200" channel="C202.api.telerama.fr" stop="20250823141000 +0200">
+    <title>L'arbre qui cache la forêt</title>
+    <desc lang="fr">Saison:1 - Episode:6</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/a486db0533914bf48ef738d140acaf2d.jpg" />
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823141000 +0200" channel="C202.api.telerama.fr" stop="20250823145000 +0200">
+    <title>Scènes de ménages</title>
+    <desc lang="fr">Saison:12 - Episode:53</desc>
+    <category lang="fr">serie</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/22/b273817f89424f259ed83cd07692365c.jpg" />
+    <episode-num system="xmltv_ns">11.52.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823141500 +0200" channel="C202.api.telerama.fr" stop="20250823144500 +0200">
+    <title>Série non communiquée</title>
+    <category lang="fr">autre : programme-indetermine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/16/77bd42b2b59c414f9f705075d3f87d98.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823145000 +0200" channel="C202.api.telerama.fr" stop="20250823153000 +0200">
+    <title>Monk</title>
+    <desc lang="fr">Saison:1 - Episode:7</desc>
+    <category lang="fr">serie</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/0f54fbdc4bfc4b2d9769e9620c4c28ce.jpg" />
+    <episode-num system="xmltv_ns">0.6.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823153000 +0200" channel="C202.api.telerama.fr" stop="20250823161500 +0200">
+    <title>Monk</title>
+    <desc lang="fr">Saison:1 - Episode:8</desc>
+    <category lang="fr">serie</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/13/6241d0cc6c5a4e679c26f4ebf7ad30e0.jpg" />
+    <episode-num system="xmltv_ns">0.7.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823161500 +0200" channel="C202.api.telerama.fr" stop="20250823170500 +0200">
+    <title>Family Law</title>
+    <desc lang="fr">Saison:2 - Episode:6</desc>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/06/18/da6179f423bf4c94bb43ec309f406bd6.jpg" />
+    <episode-num system="xmltv_ns">1.5.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823170500 +0200" channel="C202.api.telerama.fr" stop="20250823184500 +0200">
+    <title>Meurtres à Sandhamn</title>
+    <desc lang="fr">Saison:9 - Episode:1</desc>
+    <category lang="fr">serie</category>
+    <length units="minutes">100</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/05/07/4de64985225849f0b19acc186a2caa11.jpg" />
+    <episode-num system="xmltv_ns">8.0.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823184500 +0200" channel="C202.api.telerama.fr" stop="20250823191500 +0200">
+    <title>Le miracle suisse</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2023/07/03/4bd2123a6e21c60b379ca703c41c84fe0947217f_C875C0CA595E6C31507B462558AA54CB.jpg" />
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823191500 +0200" channel="C202.api.telerama.fr" stop="20250823192000 +0200">
+    <title>Météo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/23/b68c9967d6d24568a9e3693d69be415c.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823192000 +0200" channel="C202.api.telerama.fr" stop="20250823193000 +0200">
+    <title>Swiss Loto</title>
+    <category lang="fr">autre : loterie</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/26/4ec52d7bb32d47f6a484f8e9e0effe12.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823193000 +0200" channel="C202.api.telerama.fr" stop="20250823200500 +0200">
+    <title>Le 19h30</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/123x82/2021/08/09/8922b7b77da17ecc6038ab96999eb1cccec1d6b2.jpg" />
+    <previously-shown />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823200500 +0200" channel="C202.api.telerama.fr" stop="20250823201000 +0200">
+    <title>Météo</title>
+    <category lang="fr">autre : meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/23/b68c9967d6d24568a9e3693d69be415c.jpg" />
+    <previously-shown />
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823201000 +0200" channel="C202.api.telerama.fr" stop="20250823210500 +0200">
+    <title>52 minutes</title>
+    <category lang="fr">autre : divertissement-humour</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/123x82/2023/03/27/d621d1f192821b9343556d45f4b9c865d92ce2f7_23C148A6FD2FF21A1DCDEBAF4258BD66.jpg" />
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823210500 +0200" channel="C202.api.telerama.fr" stop="20250823224000 +0200">
+    <title>Avance (trop) rapide</title>
+    <category lang="fr">film</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/04/16/4a68353a85004b36a41100f7490759c7.jpg" />
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823210500 +0200" channel="C202.api.telerama.fr" stop="20250823225500 +0200">
+    <title>La vie pour de vrai</title>
+    <category lang="fr">film</category>
+    <length units="minutes">110</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/03/12/74453fbc21d14e9db827a7117423a191.jpg" />
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250823225500 +0200" channel="C202.api.telerama.fr" stop="20250824002500 +0200">
+    <title>Nobody</title>
+    <category lang="fr">film</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/30/67d72d2551a7446bb8f2d3acf24c707f" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+</tv>

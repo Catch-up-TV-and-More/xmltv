@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250823223000 +0200" channel="C111.api.telerama.fr" stop="20250824010500 +0200">
+    <title>Giuseppe Verdi : "Aïda" au Metropolitan Opera</title>
+    <category lang="fr">culture : opera</category>
+    <length units="minutes">155</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/10/081dad9e792a4f3f8afc3a8f2810dd3e.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824010500 +0200" channel="C111.api.telerama.fr" stop="20250824013500 +0200">
+    <title>Tracks East</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/10/2544a0ce1fda4cb193b43bcb92ddffe4.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824013500 +0200" channel="C111.api.telerama.fr" stop="20250824022000 +0200">
+    <title>Voyage en eaux calmes</title>
+    <desc lang="fr">Saison:1 - Episode:1</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/10/dcdba49cfb974baeb278cf68258cbd38.jpg" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824022000 +0200" channel="C111.api.telerama.fr" stop="20250824025500 +0200">
+    <title>Délices de Sicile</title>
+    <desc lang="fr">Saison:1 - Episode:2</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/10/68b1cd2ac2044b23ac5a0ada562295bb.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824025500 +0200" channel="C111.api.telerama.fr" stop="20250824035000 +0200">
+    <title>360°-GEO</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/02/f7711dd8d3944dea9a59434abf7c17f8.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824035000 +0200" channel="C111.api.telerama.fr" stop="20250824043300 +0200">
+    <title>L'invisible poésie de la nature</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">43</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/07/22/a4a7a8e341624f0e96723645ce27a6da.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824043300 +0200" channel="C111.api.telerama.fr" stop="20250824051500 +0200">
+    <title>Pause</title>
+    <category lang="fr">autre</category>
+    <length units="minutes">42</length>
+    <icon src="https://focus.telerama.fr/123x82/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824051500 +0200" channel="C111.api.telerama.fr" stop="20250824054500 +0200">
+    <title>Cuisines des terroirs</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/02/24/7722535628434acc8849b369529bca8a.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824054500 +0200" channel="C111.api.telerama.fr" stop="20250824061000 +0200">
+    <title>Cuisines des terroirs</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/123x82/2025/08/12/98b598487f4f4deeb70cde8bacf49eec.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824054500 +0200" channel="C111.api.telerama.fr" stop="20250824061000 +0200">
+    <title>Cuisines des terroirs</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/12/98b598487f4f4deeb70cde8bacf49eec.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824061000 +0200" channel="C111.api.telerama.fr" stop="20250824074000 +0200">
+    <title>La femme qui murmurait à l'oreille des éléphants</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/16a01c459f53455881b73dc7e1f74019.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824074000 +0200" channel="C111.api.telerama.fr" stop="20250824080500 +0200">
+    <title>Mystères d'archives</title>
+    <desc lang="fr">Saison:8 - Episode:5</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/b9f14dbeb81842de9fb396222c749e94.jpg" />
+    <episode-num system="xmltv_ns">7.4.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824080500 +0200" channel="C111.api.telerama.fr" stop="20250824082000 +0200">
+    <title>ARTE Junior, le mag</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/28/5f403df3357f4b2585198955fc301689.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824082000 +0200" channel="C111.api.telerama.fr" stop="20250824085000 +0200">
+    <title>42, la réponse à presque tout</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/07/452353b63cd348fa940c6fddf538a84c.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824085000 +0200" channel="C111.api.telerama.fr" stop="20250824091500 +0200">
+    <title>Booming Bangladesh</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/ec9516e7126c440fb7e9151b4fd26e88.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824091500 +0200" channel="C111.api.telerama.fr" stop="20250824095000 +0200">
+    <title>Twist</title>
+    <category lang="fr">magazine</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/01/4bce7dfe18c147cda8937f2af1c6b61f.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824095000 +0200" channel="C111.api.telerama.fr" stop="20250824103500 +0200">
+    <title>Les ramasseuses de coquillages de Galice</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/a30dfbc7f6b342e480863381323b8904.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824103500 +0200" channel="C111.api.telerama.fr" stop="20250824110000 +0200">
+    <title>Délices de Campanie</title>
+    <desc lang="fr">Saison:1 - Episode:4</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/9a9b70216c924c3195dc793de06a44aa.jpg" />
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824110000 +0200" channel="C111.api.telerama.fr" stop="20250824114500 +0200">
+    <title>Terres sauvages du Grand Nord</title>
+    <desc lang="fr">Saison:1 - Episode:1</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/31/c33a194dee5f4e19a1e959f44f7a3022.jpg" />
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824114500 +0200" channel="C111.api.telerama.fr" stop="20250824123000 +0200">
+    <title>Terres sauvages du Grand Nord</title>
+    <desc lang="fr">Saison:1 - Episode:2</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/31/156d337deceb44dda472e7fe321c146e.jpg" />
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824123000 +0200" channel="C111.api.telerama.fr" stop="20250824133000 +0200">
+    <title>Terres sauvages du Grand Nord</title>
+    <desc lang="fr">Saison:1 - Episode:3</desc>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/31/f4fc1d2fc3fa4ed1ba297e6cf425a42b.jpg" />
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824133000 +0200" channel="C111.api.telerama.fr" stop="20250824153000 +0200">
+    <title>Boulevard du rhum</title>
+    <category lang="fr">film</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/524e5160ff174e29a8bddef6c0e98879.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824153000 +0200" channel="C111.api.telerama.fr" stop="20250824170000 +0200">
+    <title>Cette sacrée vérité</title>
+    <category lang="fr">film</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/21/437cba03c51e4a1887d81744176c22e3.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824170000 +0200" channel="C111.api.telerama.fr" stop="20250824180000 +0200">
+    <title>Billy Wilder, la perfection hollywoodienne</title>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/20/165160c8534b45689b5e998a6aa04c2d.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824180000 +0200" channel="C111.api.telerama.fr" stop="20250824185500 +0200">
+    <title>Sternstunde Kunst</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824185500 +0200" channel="C111.api.telerama.fr" stop="20250824194500 +0200">
+    <title>Les grands moments de la musique</title>
+    <category lang="fr">culture : concert</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/04d51c8504234dcea12b8155f829c6a5.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824194500 +0200" channel="C111.api.telerama.fr" stop="20250824200500 +0200">
+    <title>Arte journal</title>
+    <category lang="fr">autre : journal</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2022/01/08/b852a7b0ae3a6b2cab81c48ecfb69c45aa3f1a11.jpg" />
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824200500 +0200" channel="C111.api.telerama.fr" stop="20250824210000 +0200">
+    <title>Dolly Parton : L'Amérique réconciliée</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/b3a08dccd97942b28c5c2949f589a35e.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824210000 +0200" channel="C111.api.telerama.fr" stop="20250824231000 +0200">
+    <title>The Lost City of Z</title>
+    <category lang="fr">film</category>
+    <length units="minutes">130</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/07/1271a720e65d4b82908b8510160fa0b0.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250824231000 +0200" channel="C111.api.telerama.fr" stop="20250825012000 +0200">
+    <title>Giacomo Puccini : "Tosca" au Metropolitan Opera</title>
+    <category lang="fr">culture : opera</category>
+    <length units="minutes">130</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/11/96ad01afd5dd4ac986a8ffb5ee8c25d9.jpg" />
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
