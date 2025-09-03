@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C50.api.telerama.fr">
+    <display-name>RTL club</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL tvi</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>Tipik</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>RTL plug</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-892.png" />
+  </channel>
+  <programme start="20250927215000" channel="C50.api.telerama.fr" stop="20250928030000">
+    <title>Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">310</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/17/dd55ef4d1f1345b9b9acf9891ab1ae40.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928030000" channel="C50.api.telerama.fr" stop="20250928073000">
+    <title>Mint, la radio pop rock</title>
+    <desc lang="fr">Mint, la radio pop rock</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">270</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/a0ea11ebfc754e76a16dacfe719d6b89.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250927233000" channel="C164.api.telerama.fr" stop="20250928000300">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">33</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/03/27/1ea365609cb17d38273a87775fb636b820f7f0c7_7EC349D60DB870D61449E7958443756B.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928000300" channel="C164.api.telerama.fr" stop="20250928050000">
+    <title>Contacts</title>
+    <desc lang="fr">Rares sont les secteurs qui utilisent encore le cheval comme moyen de transport. C'est pourtant le cas de la police, qui dispose toujours d'une unité composée de cavaliers. Dans ce Contacts, nous mettons en avant leur travail, tout en rappelant quelques règles ou conseils de circulation à cheval.</desc>
+    <credits>
+      <presenter>Fanny Hendrick</presenter>
+      <presenter>Olivier Quisquater</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">297</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/08/8b0d67e2b7cc1e20a51ab8510c2d498a5b3ad0dc_32439869CE274D8AF807C74865A9B347.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250927232500" channel="C168.api.telerama.fr" stop="20250928012500">
+    <title>Moments d'évasion</title>
+    <desc lang="fr">Chaque nuit, cette émission transporte le téléspectateur de chez soi vers les plus beaux endroits de la planète. Confortablement installés dans leur salon, devant leur écran, les adeptes de voyages, de beaux paysages et de nature sont happés par les images et reportages spectaculaires qui sont proposés. Une invitation à l'évasion et au rêve, destinée à toutes les générations, à la découverte de nombreuses merveilles, aux quatre coins du monde.</desc>
+    <category lang="fr">jeu</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/edb02ee559874ed0912cf86643289f63.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928012500" channel="C168.api.telerama.fr" stop="20250928030000">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Retrouvez le programme diffusé en boucle du journal, des magazines, des séries pendant toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">emission-speciale</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/c047cfcfc1214ca79d1021a12cefe4a4.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928030000" channel="C168.api.telerama.fr" stop="20250928065000">
+    <title>bel RTL matin</title>
+    <desc lang="fr">Retrouvez les programmes de la radio</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">230</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/2b0a6cda83fa45f38802a47b02fa6c42.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250927221100" channel="C187.api.telerama.fr" stop="20250928000000">
+    <title>Magazine selon annonce</title>
+    <desc lang="fr">Magazine d'information, sujet du jour encore non communiqué.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">109</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/26/800367a3c91b40708b2bc786785e4581.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928000000" channel="C187.api.telerama.fr" stop="20250928015500">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Rediffusion du programme en boucle toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">115</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/26/4561dd784aba4f1fb931ecb9920ca1c0.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928015500" channel="C187.api.telerama.fr" stop="20250928031800">
+    <title>Grand Prix du Japon</title>
+    <desc lang="fr">Comme les MotoGP et les Moto2, le Grand Prix du Japon de Moto3 se dispute sur le circuit de Motegi, appelé aussi le Twin Ring Motegi, avec sa fameuse section ovale.</desc>
+    <category lang="fr">motocyclisme</category>
+    <length units="minutes">83</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/17/ade74787bfbd4500a38c233950face6f.jpg" />
+    <country lang="fr">Japon</country>
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928031800" channel="C187.api.telerama.fr" stop="20250928045000">
+    <title>Grand Prix du Japon</title>
+    <desc lang="fr">Le Grand Prix du Japon de Moto2 se dispute depuis des années sur le circuit de Motegi et accueille une manche du championnat du monde de vitesse.</desc>
+    <category lang="fr">motocyclisme</category>
+    <length units="minutes">92</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/17/890921b4bf94469b8ad95aa1bc42acc8.jpg" />
+    <country lang="fr">Japon</country>
+    <new />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250927224500" channel="C377.api.telerama.fr" stop="20250928030000">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">255</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/05/03/b07eade200ce6558af7f538efc7afe5124a83fee_F1CDED88B91D18A615C4D9DD7E72A028.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250928030000" channel="C377.api.telerama.fr" stop="20250928060500">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">185</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/05/03/b07eade200ce6558af7f538efc7afe5124a83fee_F1CDED88B91D18A615C4D9DD7E72A028.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250927225900" channel="C892.api.telerama.fr" stop="20250928040000">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">301</length>
+    <icon src="https://focus.telerama.fr/952x634/2022/02/14/0992273c68da38635776091d45afc82cfc60d62b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
