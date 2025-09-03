@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20251011235000" channel="C111.api.telerama.fr" stop="20251012002000">
+    <title>Les Grandes Vacances</title>
+    <desc lang="fr">En ce début d'été, Indien et Cowboy s'ennuient. Ils décident de construire un bateau pour partir à l'aventure, mais c'est le fiasco. Parviendront-ils à quitter le village ?</desc>
+    <credits>
+      <director>Stéphane Aubier</director>
+      <director>Vincent Patar</director>
+      <writer>Stéphane Aubier</writer>
+      <writer>Vincent Tavier</writer>
+      <writer>Vincent Patar</writer>
+    </credits>
+    <category lang="fr">film</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/04/13/b682f128095749268dc32e6495720ef6.jpg" />
+    <country lang="fr">Belgique</country>
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012002000" channel="C111.api.telerama.fr" stop="20251012005000">
+    <title>42, la réponse à presque tout</title>
+    <desc lang="fr">La musique peut rendre euphorique ou mélancolique. Quels mécanismes sont à l'oeuvre quand nous éprouvons l'envie irrépressible de nous trémousser ?</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/22/74a8f19aa26241bd8c03661d2ddcf0a2.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012005000" channel="C111.api.telerama.fr" stop="20251012012500">
+    <title>Les artisans du bon pain</title>
+    <desc lang="fr">Saison:1 - Episode:1 - De la Géorgie à la Bretagne en passant par le Danemark, cinq parcours étonnants d'hommes et de femmes qui consacrent leur vie à l'art du bon pain.</desc>
+    <credits>
+      <director>Thomas Riedelsheimer</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/06/11/3853f038c8c443f09891015586056e85.jpg" />
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012012500" channel="C111.api.telerama.fr" stop="20251012020000">
+    <title>Les artisans du bon pain</title>
+    <desc lang="fr">Saison:1 - Episode:2 - Voilà 25 ans, Nicolas quitte Paris pour un village de Bretagne où il décide de fabriquer du pain. Le blé provient de sa propre ferme, autour de laquelle s'étendent des champs.</desc>
+    <credits>
+      <director>Eileen Byrne</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/21/99e2dc106a18434b99c3183cc1c62add.jpg" />
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">0.1.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012020000" channel="C111.api.telerama.fr" stop="20251012023200">
+    <title>Les artisans du bon pain</title>
+    <desc lang="fr">Saison:1 - Episode:3 - Après avoir parcouru l'Autriche, l'Italie et l'Allemagne, Arnd retrouve sa région natale, la Franconie, où il reprend la boulangerie familiale, ouverte depuis trois siècles.</desc>
+    <credits>
+      <director>Thomas Riedelsheimer</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/28/2ba0a27a472b4712a6afcc9205bd784b.jpg" />
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012023200" channel="C111.api.telerama.fr" stop="20251012032500">
+    <title>Pause</title>
+    <credits>
+      <presenter>Jean-Michel Zecca</presenter>
+    </credits>
+    <category lang="fr">autre</category>
+    <length units="minutes">53</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012032500" channel="C111.api.telerama.fr" stop="20251012035500">
+    <title>42, la réponse à presque tout</title>
+    <desc lang="fr">Les énormes quantités de CO2 émises par les incendies accélèrent le dérèglement climatique. Un cercle vicieux qui a poussé les chercheurs à qualifier l'époque de "pyrocène".</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/15/34ca98d62ec84a168d9334c6d80ebb7d.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251012035500" channel="C111.api.telerama.fr" stop="20251012045000">
+    <title>Les énergies de la mer, toujours en lice ?</title>
+    <desc lang="fr">Depuis plusieurs décennies, les scientifiques tentent de mettre au point des technologies permettant d'utiliser l'énergie des marées et des vagues pour produire de l'électricité. À Saint-Malo, l'usine marémotrice de la Rance est active depuis près de soixante ans, mais a engendré d'importants problèmes écologiques d'envasement, dénoncés par les habitants des environs. Dans le nord de l'Écosse, sur les îles Orcades, le Centre européen de l'énergie marine mène des expérimentations pour concevoir une technologie qui permettrait de se passer des barrages, dont l'impact sur l'environnement est important. Les ingénieurs et scientifiques de cet institut ont néanmoins dû faire face à l'échec de l'un de leurs projets phares : le Pelamis, la première centrale tirant son énergie de la houle, mais dont la maintenance s'est révélée trop coûteuse.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/21/34d1c11da4b94d56800b85b4fe616430.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>

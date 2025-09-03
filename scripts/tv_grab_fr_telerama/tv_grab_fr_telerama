@@ -1,0 +1,1160 @@
+#!/usr/bin/perl
+#   coding: utf-8
+
+eval 'exec /usr/bin/perl  -S $0 ${1+"$@"}'
+  if 0;                         # not running under some shell
+
+=head1 NAME
+
+tv_grab_fr_telerama - Grab TV listings for France.
+
+=head1 SYNOPSIS
+
+ To configure:
+   tv_grab_fr_telerama --configure [--config-file FILE]
+ To grab listings:
+   tv_grab_fr_telerama [--config-file FILE] [--output FILE] [--days N]
+ To show capabilities:
+   tv_grab_fr_telerama --capabilities
+ To show version:
+   tv_grab_fr_telerama --version
+ Help:
+   tv_grab_fr_telerama --help
+
+=head1 DESCRIPTION
+
+Output TV listings for several channels available in France (Hertzian,
+Cable/satellite, Canal+ Sat).  The data comes from
+the api for the iphone app of Telerama
+The default is to grab as many days as possible
+from the current day onwards. The program description are
+downloaded.
+
+B<--configure> Grab channels information from the website and ask for
+channel type and names.
+
+B<--config-file FILE> Use FILE as config file instead of the default config
+file. This allows having different config files for different apps.
+
+B<--gui OPTION> Use this option to enable a graphical interface to be used.
+OPTION may be 'Tk', or left blank for the best available choice.
+Additional allowed values of OPTION are 'Term' for normal terminal output
+(default) and 'TermNoProgressBar' to disable the use of Term::ProgressBar.
+
+B<--output FILE> Write to FILE rather than standard output.
+
+B<--days N> Grab N days starting from today, rather than as many as
+possible. Due to the website organization, the speed depends on
+the --days value Default value is 11.
+
+B<--offset N> Start grabbing N days from today, rather than starting
+today.  N may be negative. Due to the website organization, N cannot
+be inferior to -1.Default value is 0
+
+B<--ch_prefix S> (string): string to add at the beginning of XMLTV channel id
+Default value is "C"
+
+B<--ch_postfix S> (string): string to add at the end of XMLTV channel id
+Default value is ".api.telerama.fr"
+
+B<--quiet> Suppress the progress messages normally written to standard
+error.
+
+B<--capabilities> Show which capabilities the grabber supports. For more
+information, see L<http://xmltv.org/wiki/xmltvcapabilities.html>
+
+B<--version> Show the version of the grabber.
+
+B<--help> Print a help message and exit.
+
+B<--delay I> Règle le delai maximum I en secondes entre 2 requetes au serveur. Defaut 2
+
+B<--no_episodedesc> n'inclut pas la description des épisodes dans le fichier genere.
+
+B<--no_aggregatecat> n'aggrege pas les multiples categories d'un programme en une seule.
+
+B<--show_url> Affiche l'URL des pages de programmes téléchargées.
+
+B<--save_json> Sauve les pages programmes json telles que reçues (raw) de Télérama.
+
+B<--no_htmltags> Enlève les tags html de la description.
+
+B<--casting> Pour récuperer le casting (nécéssite un appel api supplémentaire par programme)
+
+=head1 SEE ALSO
+
+L<xmltv(5)>
+
+=head1 AUTHOR
+
+Zubrick, zubrick<at>number6<dot>ch
+Contributed by patrick-g  patrickg<dot>github<at>free<dot>fr
+Contributed by hamelg
+Contributed by fgouget
+Contributed by beavis69
+Contributed by HvB (https://github.com/HvB)
+
+=head1 LICENSE
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+=head1 CHANGELOG
+
+1.8 Suppression de l'option --slow ne servait plus
+         Ajout des option --ch_prefix et --ch_postfix pour définir le prefix et le suffixe
+         du channel id. Par defaut "C" et ".telerama.fr" (conforme à l'existant)
+         Correction de la description du programme dans l'entête
+         Augmentation du nombre de jours récupérés par défaut (11)
+         Ajout de la licence d'utilisation (GPL v3+ comme xmltv)
+         Correction définitive (je pense) des problèmes d'encodage UTF8 (le xml généré passe xmltv:tv_validate_file)
+         Diminution du délai entre 2 captures de page (malgré les dizaine d'essais que j'ai effectués,
+         ça n'a pas posé de problème)
+         Correction de l'entête du fichier xml généré qui indiquait toujours telepoche.
+         Suppression du code mort (routines gérant le site de telepoche)
+         Suppression de la routine tidy (puisque les problème d'encodage sont résolus smile )
+         Correction de la récupération de l'image du programme (URL incorrecte), maintenant on peut afficher la petite photo
+         Les informations suivantes sont maintenant récupérées :
+        - Durée (corrigée)
+        - Présence de sous-titrage (onscreen ou teletexte)
+        - Scénariste(s)
+        - Présentateur(s)
+        - Invité(s)
+        - Compositeur(s), il faut une version de xmltv >= 5.58
+        - stereo/dolby/dolby digital/surround/VM  (problème dans le format xmltv actuel : il ne peut y
+                         avoir qu'un seul de ces choix on ne peut pas décrire une VM en dolby digital par exemple)
+        - Titre original (s'il est présent)
+        - Pays d'origine
+        - Première diffusion/Inédit
+        - Rediffusion
+        - Format (4:3 ou 16:9)
+        - Qualité de la vidéo (HD ou rien)
+        - Critique
+        - Gestion du rating CSA (Tout Public/-10/-12/-16/-18) avec URL de la signalétique quand elle existe.
+        - Nombre d'étoiles.
+
+1.9  Suppression de l'ancien rating
+
+1.10 Suppression de l'option --verytv, le serveur n'est plus accessible au public.
+          Ajout de l'option --delay
+
+1.11 Suppression des restes du patch de tigerlol sur les chevauchements d'horaire. Ce patch ne concernait
+          que le site de télépoche.
+
+1.12 Correction de --list-channel qui ne marchait plus depuis la version 1.7 au moins et --configure
+     que j'avais cassé en corrigeant les Pb d'encodage.
+
+1.13 Correction nom de fichier de l'icone des chaine (il manquait un point devant le gif). Merci à
+     Piratebab et Gilles74.
+     Ajout de la possibilité d'afficher la ligne de commande (voir $DEBUG_CMD)
+
+1.14 Inversion des positions de la saison et de l'épisode dans la description.
+
+1.15 Correction d'un oubli dans le traitement des numéros d'épisode, si le nombre d'épisodes
+     était absent, le numéro n'était pas récupéré.
+     Ajout du traitement du nombre de saison.
+
+1.16 Correction du format du star-rating.
+          Modification regexp de récupération de l'année qui ne marchait plus
+
+1.17 Si un fichier './logo-path.txt' existe, il est utilisé pour déterminer
+     le chemin vers les logos des chaines lorsqu'on utilise l'option --configure.
+     La version fournie est une version corrigée de lookup_tv_grab_fr_telerama.tx,
+     il pointe donc vers les logos de lyngsat. Il utilise la même syntaxe mais le
+     champ chid n'est pas utilisé. De cette façon le fichier de conf et le fichier
+     xml généré pointe directement vers les bons logos.
+
+1.18 Correction de quelques variables réguilère l'année et le réalisateur
+
+1.19 Correction d'un bug dans le cas ou un $ est mis à la fin du titre ou dans d'autre champs.
+
+1.20 Ajout de 2 options pour filtrer les programmes cryptés de Canal+ et Paris Première.
+
+1.21 Le CSA ayant supprimé de son site les pictogrammes de rating dans un format exploitable,
+     remplacement des URL par celle de Wikimedia Commons.
+     Ajout initialisation oubliée de la variable $crypted.
+     Traitement des réalisateurs multiples (comme pour les acteurs)
+     Correction détection de sous-champ "Stéréo"
+     Correction récupération du sous-champs "Durée" : il n'était plus reconnu et la
+        gestion de l'unité n'était pas faite.
+     Suppression variable $showview qui n'était plus utilisé.
+     Le format des pages récupérées de Télérama a légérement changé :
+        Ajout du sous-champ "Rediffusion :" suivi de la date de la prochaine redif. (n'est pas
+           pris en compte par XMLTV, mais pollue le sous-champ "Rediffusion" (sans les ':')
+
+1.22 L'api verytv utilisée n'es plus fonctionnelle, adaptation a une nouvelle api
+     Il reste des problème d'encodage à régler
+
+1.23 Essaie encore une fois en cas d'erreur http. après skip la chaine
+
+1.24 Corrections de bug au décodage du json
+
+1.25 Bug fixes
+
+1.26 Encodage utf8 correcte et correction d'un bug pour le flag stereo
+
+1.27 Correction de certains champs
+
+1.28 Ajout api_cle
+
+1.29 Some fixes and better category values
+
+1.30 Fixe inverted test of $genretext from commit e595d56e286ba66120fd232f68f36c28c6870d6d
+     Add cli option for inhibiting category aggregation.
+
+1.31 Corrige la fonction usage et l'aide : ajout des nouvelles options
+     Ajout de l'option '--show_url' pour afficher l'URL Télérama récupérée.
+     Capitalise les catégories retrouvées via URL (en mode aggregate, elles sont remises en minuscule).
+     Corrige la chaine de version qui était restée en 1.29
+     Ajout de l'option --save_json
+     Remise en place du rating CSA, qui ne fonctionnait plus depuis la nouvelle API.
+
+1.32 Utilise le role_id pour les credits si aucun libellé ne correspond.
+
+1.33 Corrige un crash lorsque telerama renvoi un acteur sans nom
+
+1.34 Ajout d'une option --no_htmltags pour enlever les tags html de la description
+
+1.35 Cosmetic and remove debug dependency
+
+1.36 Replace telechargement api with grille
+
+1.37 Utilisation de la nouvelle api_clef / signature
+     Ajout de l'option --casting pour récuperer le casting (nécéssite un appel d'api supplémentaire par programme)
+     Correction du xml casting (le rôle n'est plus entre parenthèse mais un attribut role pour respecter la dtd xmltv)
+     Utilisation de Memoize
+     Utilisation de XMLTV:Get_nice qui gère déja $Delay
+
+1.38 Optimisation casting pas d'appel d'api suivant le subgenre (animation|réaliste|jeunesse|téléréalité|sentimental|burlesque)
+
+1.40 Ajout du casting pour les pièces de théâtre
+
+1.41 Gestion des erreurs de l'api (404 qd la chaine n'a pas de programme)
+     Affichage d'un warning si --quiet n'est pas présent
+     Correction bug nb/nb_par_page
+
+1.42 Fix params/page
+
+2.0  Nettoyage, Réécriture et optimisations pour avoir moins d'appel d'api
+     * un appel d'api grille pour 32 chaînes à la fois (32x plus rapide si vous n'utiliser pas --casting)
+     * cache pour le casting car les programmes_id qui ont le même emission_id sont la même émission (2 à 3 fois plus rapide si vous utiliser --casting)
+     * Les critiques et notules sont récupérés avec le casting
+     * Quand il n'y a pas de titre on prend soustitre.
+
+2.1 Utilisation de l'api v3 avec heure_debut et heure_fin
+
+2.2 retry sur l'api en cas d'erreur
+    bug fix status_line/status_code
+
+2.3 bug fix : titres qui contiennent parfois des espaces
+
+2.4 bug fixes :
+    * correction warning subgenre
+    * correction progress bar
+    * taille de groupe à 24 pour eviter les erreurs de memoire coté serveurs telerama
+    * --days a 7 jours par defaut (au lieu de 11), mais on peut toujours demander 11 jours max
+    * correction caractères invalides dans la description
+
+2.5 bug fix :
+   * more casting see https://github.com/zubrick/tv_grab_fr_telerama/issues/32
+
+2.6 bug fix :
+   * fix bad sub-title containing newlines.
+
+2.7 bug fix :
+   * fix bad $to_get calculation (causing progress bar already finished warning)
+
+2.8 feature request :
+   * channels order follows configuration file order
+
+2.9 bug fix :
+   * sometimes channelnames returned by get_channels("categories.json") is empty for some chids, use chname from config file in that case
+
+3.0 changement des urls :
+   * utilisation des urls https://apps.telerama.fr
+   * plus de filtrage des emissions cryptees
+   * version beta
+
+3.1 changement des urls :
+   * utilisation des urls https://apps.telerama.fr
+   * plus de filtrage des emissions cryptees
+   * version beta
+   * fix progress bar
+
+3.2 fix --configure
+
+3.3 fix utc_offset
+
+3.4 fix episode/saison from deeplink parsing
+
+3.5 fix channel sort, remove debug print
+
+3.6 bigger images : 952x634
+
+3.7 casting html parsing thanks to HvB
+    added --tsize to choose thumbnails size (default is 952x634) recommended small size is 123x82
+
+3.8 option no_aggregatecat dépréciée (affiche un warning)
+    remise en place de l'option no_episodedesc
+    --help mis à jour pour refleter ces modifications
+
+3.9  meilleurs gestions des categogies #48
+     suppression des html_entities #51
+=cut
+use XMLTV::Usage <<END
+    $0: get French television listings in XMLTV format
+    To configure: $0 --configure [--config-file FILE]
+    To list all channels $0 --list-channels
+    To grab listings: tv_grab_fr_telerama [--config-file FILE] [--output FILE] [--days N]
+    [--offset N] [--quiet]
+    [--ch_prefix prefix] [--ch_postfix postfix] [--delay N]
+    [--no_episodedesc]
+    [--show_url] [--save_json]
+    [--no_htmltags]
+    [--casting] retrieve casting,synopsys and various details about films/series/telefilms, can be really long (adds 1 http request per show).
+    [--tsize widthxheight, exemple 123x82 for small thumbnails, defaults to 952x634]
+    prefix, postfix : strings, "" for null string
+    To show capabilities : $0 --capabilities
+    To show version      : $0 --version
+    To view help         : $0 --help
+END
+  ;
+
+use warnings;
+use strict;
+use utf8;
+use XMLTV::Version '$Id: tv_grab_fr_telerama,v 3.9 - 2025/08/23 12:18:00 beavis69 Exp $ ';
+use XMLTV::Capabilities qw/baseline manualconfig/;
+use XMLTV::Description 'France (telerama)';
+use Getopt::Long;
+use IO::File;
+use URI;
+use Date::Manip;
+use XMLTV;
+use XMLTV::Ask;
+use XMLTV::ProgressBar;
+use XMLTV::Mode;
+use XMLTV::Config_file;
+use XMLTV::DST;
+use LWP;
+use XMLTV::Get_nice;
+use Memoize;
+use XMLTV::Memoize;
+use File::Temp;
+use LWP::Simple;
+use LWP::UserAgent;
+use POSIX;
+use Encode;
+use JSON;
+use Data::Dumper;
+use Date::Parse;
+use Digest::HMAC_SHA1 qw(hmac_sha1_hex);
+use open ':std', ':encoding(UTF-8)';
+use Mojo::DOM;
+use Unicode::Normalize;
+use HTML::Entities;
+
+# subs
+sub get_channels($);
+sub grab_day($);
+sub grab_day_channel($$$$$$);
+sub debug_print(@);
+sub get_page_json($$$);
+sub date_to_num($);
+sub deprecated($);
+
+#***************************************************************************
+# Main declarations
+#***************************************************************************
+my $LANG = "fr";
+# delay between api requests in seconds
+my $Delay = 5;
+my $FailOnError = 1;
+
+my %errors = ();
+my $channel_postfix = ".api.telerama.fr";
+my $channel_prefix = "C";
+
+# Set this to 1 of you want to print command line
+my $DEBUG_CMD = 0;
+
+#***************************************************************************
+# Global variables allocation according to options
+#***************************************************************************
+# Get options, including undocumented --cache option.
+XMLTV::Memoize::check_argv('XMLTV::Get_nice::get_nice_aux') # cache on disk
+  or memoize('XMLTV::Get_nice::get_nice_aux')               # cache in memory
+  or die "cannot memoize 'XMLTV::Get_nice::get_nice_aux': $!";
+
+my ($opt_days, $opt_help, $opt_output, $opt_offset, $opt_gui, $opt_quiet,
+    $opt_list_channels, $opt_config_file, $opt_configure, $opt_logo_path,
+    $no_episodedesc, $show_url, $save_json,
+    $no_htmltags, $opt_casting, $opt_tsize, $no_aggregatecat);
+
+# debug
+if ($DEBUG_CMD) {
+  print $0." | ".join(" | ", @ARGV), "\n\n";
+}
+
+$opt_quiet  = 0;
+
+# The website is able to store at least 7 days from now
+my $default_opt_days = 7;
+# but you can try to retrieve up to 11 days
+my $max_days = 11;
+
+GetOptions('days=i'     => \$opt_days,
+           'help'         => \$opt_help,
+           'output=s'  => \$opt_output,
+           'offset=i'  => \$opt_offset,
+           'quiet'       => \$opt_quiet,
+           'configure' => \$opt_configure,
+           'config-file=s' => \$opt_config_file,
+           'gui:s'       => \$opt_gui,
+           'list-channels' => \$opt_list_channels,
+           'ch_prefix=s'  => \$channel_prefix,
+           'ch_postfix=s'  => \$channel_postfix,
+           'no_episodedesc' => \$no_episodedesc,
+           'show_url' => \$show_url,
+           'save_json' => \$save_json,
+           'no_htmltags' => \$no_htmltags,
+           'casting' => \$opt_casting,
+           'tsize=s' => \$opt_tsize,
+           'delay=i' => \$Delay,
+           # deprecated options
+           'no_aggregatecat' => \$no_aggregatecat
+          )
+  or usage(0);
+
+
+my $CHANNEL_GRID = '/tlr/v1/free-android-tablet/tv-program/configuration';
+my $CHANNEL_GRID_PAGE = '/tlr/v1/free-android-phone/tv-program/grid';
+my $CHANNEL_PROGRAMME_PAGE = '/tlr/v1/free-android-tablet/element';
+my $ROOT_URL  = 'https://apps.telerama.fr';
+
+my %stats;
+my $group_size = 1;
+my $emissions_cache = 1;
+$stats{cache_casting} = 0;
+
+# use keep-alive to avoid useless ssl handshakes !
+$XMLTV::Get_nice::ua = LWP::UserAgent->new(
+  requests_redirectable => ['GET', 'POST','HEAD'],
+  max_redirect => 3,
+  keep_alive => 1,
+  agent=>'TLR/4.11 (free; fr; ABTest 322) Android/13/33 (tablet; Galaxy Tab S6 Samsung Device)'
+);
+$XMLTV::Get_nice::ua->default_header(
+  'lmd-sys-name'    => 'Android',
+  'lmd-sys-version' => '13',
+  'lmd-sys-ver-num' => '13000000',
+  'lmd-device-type' => 'tablet',
+  'lmd-app-id'      => 'com.telerama',
+  'lmd-app-version' => '4.11',
+  'lmd-app-ver-num' => 4011000
+);
+
+$XMLTV::Get_nice::ua->env_proxy;
+$XMLTV::Get_nice::Delay = $Delay;
+# tell XMLTV::Get_nice, we handle error our self
+$XMLTV::Get_nice::FailOnError = 0;
+
+#***************************************************************************
+# Options processing, warnings, checks and default parameters
+#***************************************************************************
+die 'Number of days must not be negative'  if (defined $opt_days && $opt_days < 0);
+die 'Cannot get more than one day before current day' if (defined $opt_offset && $opt_offset < -1);
+usage(1) if $opt_help;
+
+XMLTV::Ask::init($opt_gui);
+
+# deprecated options
+deprecated("--no_aggregatecat") if $no_aggregatecat;
+
+sub deprecated($) {
+  my $option=shift;
+  print STDERR "$option is depecrated, and has no more effect, it will be removed in future releases\n";
+}
+
+# The options can be used, but we default them if not set.
+$opt_offset = 0 if not defined $opt_offset;
+$opt_days = $default_opt_days if not defined $opt_days;
+$opt_tsize = q{} if not defined $opt_tsize;
+if(!($opt_tsize =~ m/^\d+x\d+$/)) {
+  $opt_tsize = '952x634';
+}
+
+if ( (($opt_offset + $opt_days) > $max_days) or ($opt_offset > $max_days) ) {
+  $opt_days = $default_opt_days - $opt_offset;
+  if ($opt_days < 0) {
+    $opt_offset = 0;
+    $opt_days = $default_opt_days;
+  }
+  say <<END
+        The website does not handle more than $default_opt_days days.
+        So the grabber is now configure with --offset $opt_offset --days $opt_days
+END
+    ;
+}
+
+#***************************************************************************
+# Last init before doing real work
+#***************************************************************************
+my %results;
+my $lastdaysoffset = $opt_offset + $opt_days - 1;
+my $checkDummySlot = 0;
+my @data;
+my $chan;
+my @name_url;
+my %icon_map;
+my @channelnames;
+
+# Now detects if we are in configure mode
+my $mode = XMLTV::Mode::mode('grab', # default
+                             $opt_configure => 'configure',
+                             $opt_list_channels => 'list-channels');
+
+# File that stores which channels to download.
+my $config_file = XMLTV::Config_file::filename($opt_config_file, 'tv_grab_fr_telerama', $opt_quiet);
+
+# get channel logo path in conf file
+#***********************************
+$opt_logo_path = "false";
+
+if (-e "./logo-path.txt") {
+  $opt_logo_path = "true";
+  open(FILE, "./logo-path.txt") or die("Unable to open file");
+  @data = <FILE>;
+  close(FILE);
+
+  foreach $chan (@data) {
+    @name_url = split('\|', $chan);
+    $icon_map{$name_url[0]} = $name_url[2];
+  }
+}
+
+#***************************************************************************
+# Sub sections
+#***************************************************************************
+
+sub mkjsonname($$) {
+  my ($u, %p) = ($_[0], %{$_[1]});
+  my $l = "";
+  my $ul = "";
+
+  foreach (sort keys %p) {
+    $l .= $ul;
+    $l .= "$_"."_"."$p{$_}";
+    $ul = "_";
+  }
+  $l .= ".json";
+
+  return $l;
+}
+
+
+sub mkurl($$) {
+  my ($u, %p) = ($_[0], %{$_[1]});
+  return $ROOT_URL.$u.'?'.join('&', sort map { $_.'='.$p{$_} } keys %p);
+}
+
+
+# Set this to 1 of you debug strings
+my $DEBUG_FR = 1;
+# Internal debug functions
+sub debug_print( @ ) {
+  if ($DEBUG_FR) {
+    print STDERR @_;
+  }
+}
+
+sub xmlencoding {
+  # encode for xml
+  $_[0] =~ s/</&lt;/g;
+  $_[0] =~ s/>/&gt;/g;
+  $_[0] =~ s/&/\%26/g;
+  return $_[0];
+}
+
+sub trim {
+  $_[0] =~ s/^\s+//;
+  $_[0] =~ s/\s+$//;
+  return $_[0];
+}
+
+#debug_print( "my Mode  : " . $mode ."\n");
+#***************************************************************************
+# Configure mode
+#***************************************************************************
+if ($mode eq 'configure') {
+  XMLTV::Config_file::check_no_overwrite($config_file);
+  open(CONF, '>:utf8', $config_file) or die "Cannot write to $config_file: $!";
+
+  my %channels = get_channels("configure.json");
+  die 'No channels could be found' if not %channels;
+
+  my %asked;
+  # Ask about each channel (unless already asked).
+  my @chs = grep { not $asked{$_}++ } sort {$a <=> $b} keys %channels;
+  my @names = map { $channels{$_}{name} } @chs;
+  my @qs = map { "add channel $_ ?" } @names;
+  my @want = ask_many_boolean(1, @qs);
+  foreach (@chs) {
+    my $w = shift @want;
+    warn("cannot read input, stopping channel questions"), last if not defined $w;
+    # Print a config line, but comment it out if channel not wanted.
+    print CONF '#' if not $w;
+    print CONF "channel $_ $channels{$_}{name};$channels{$_}{icon}\n";
+  }
+
+  close CONF or warn "cannot close $config_file: $!";
+  say("Finished configuration.");
+  exit();
+}
+
+#***************************************************************************
+# Check mode checking and get configuration file
+#***************************************************************************
+die if $mode ne 'grab' and $mode ne 'list-channels';
+
+my @config_lines;
+if ($mode eq 'grab') {
+  @config_lines = XMLTV::Config_file::read_lines($config_file);
+}
+
+#***************************************************************************
+# Prepare the XMLTV writer object
+#***************************************************************************
+my %w_args;
+if (defined $opt_output) {
+  my $fh = new IO::File("$opt_output",'>:utf8');
+  die "cannot write to $opt_output: $!" if not defined $fh;
+  $w_args{OUTPUT} = $fh;
+}
+
+$w_args{encoding} = 'UTF-8';
+
+my $writer = new XMLTV::Writer(%w_args);
+$writer->start
+  ({ 'source-info-url'         => $ROOT_URL,
+     'source-data-url'     => $ROOT_URL,
+     'generator-info-name' => 'XMLTV',
+     'generator-info-url'  => 'http://mythtv-fr.org/',
+   });
+
+#***************************************************************************
+# List channels only case
+#***************************************************************************
+if ($mode eq 'list-channels') {
+  my %seen;
+  my %channels = get_channels("list_chan.json");
+  die 'no channels could be found' if (scalar(keys(%channels)) == 0);
+  foreach my $ch_did (sort { $channels{$a}{name} cmp $channels{$b}{name} } (keys %channels)) {
+    my $ch_xid = $channel_prefix.$ch_did.$channel_postfix;
+    $writer->write_channel({ id => $ch_xid,
+                             'display-name' => [ [ $channels{$ch_did}{name} ] ],
+                             'icon' => [{src=> $channels{$ch_did}{icon} }] })
+      unless $seen{$ch_xid}++;
+  }
+  $writer->end();
+  exit;
+}
+
+#***************************************************************************
+# Now the real grabbing work
+#***************************************************************************
+die if $mode ne 'grab';
+
+#***************************************************************************
+# Build the working list of channel name/channel id
+#***************************************************************************
+my (%channels, $chicon, $chid, $chname, $chid_name);
+my $line_num = 1;
+foreach (@config_lines) {
+  ++ $line_num;
+  next if not defined;
+
+  # Here we store the Channel name with the ID in the config file, as the XMLTV id = Website ID
+  if (/^channel:?\s+(\S+)\s+([^\#]+);([^\#]+)/) {
+    $chid = $1;
+    $chname = decode('UTF-8',$2);
+    $chicon = $3;
+    $chname =~ s/\s*$//;
+    if($chid =~ /(\d+):(.*)/) {
+      $chid = $1;
+      $chid_name = $2;
+    } else {
+      $chid_name = '';
+    }
+    $channels{$chid} = {'name'=>$chname, 'icon'=>$chicon, 'chid_name'=>$chid_name, 'order' => $line_num};
+  } else {
+    warn "$config_file:$line_num: bad line $_\n";
+  }
+}
+#***************************************************************************
+# Now process the days by getting the main grids.
+#***************************************************************************
+warn "No working channels configured, so no listings\n" if not %channels;
+$stats{start} = time();
+
+# loop on channels
+foreach my $chid (sort { $channels{$a}{order} <=> $channels{$b}{order} } keys %channels) {
+  my $url;
+  my $i;
+  my $dayoff;
+  my $json_name = "";
+  my $chid_name = "";
+
+  if($channels{$chid}{chid_name} ne '') {
+    $chid_name = $channels{$chid}{chid_name};
+  } else {
+    $chid_name = $channel_prefix.$chid.$channel_postfix;
+    $channels{$chid}{chid_name} = $channel_prefix.$chid.$channel_postfix;
+  }
+  $writer->write_channel({ id => $chid_name, 'display-name' => [[$channels{$chid}{name}]], 'icon' => [{src=>$channels{$chid}{icon}}]});
+}
+
+# count needed api calls
+my $nb_chans = scalar(keys %channels);
+my $to_get = (int($nb_chans / $group_size) + ($nb_chans % $group_size > 0 ? 1 : 0)) * ($opt_days - $opt_offset);
+my $bar = new XMLTV::ProgressBar('getting listings', $to_get) if not $opt_quiet and not $show_url;
+
+Date_Init('SetDate=now,UTC');
+
+# cache emission to reduce casting/programme api call
+my %emissions;
+# loop on days
+for (my $offset=$opt_offset; $offset < $opt_offset+$opt_days; $offset++ ) {
+  grab_day($offset);
+
+}
+
+$writer->end();
+$bar->finish() if not $opt_quiet and not $show_url;
+
+# Print the duration
+if (!$opt_quiet) {
+  my @apis;
+  foreach my $api(sort { $stats{api}{$b} <=> $stats{api}{$a} } keys %{$stats{api}}) {
+    if($api ne 'total') { push @apis, $stats{api}{$api}." api_".$api; }
+  }
+  print STDERR "Grabber process finished in ".(time() - $stats{start})." seconds for ".$nb_chans." chans, ".$stats{api}{total}." api calls : ".join(', ',@apis).", ".$stats{cache_casting}." cached api_casting\n";
+}
+
+#***************************************************************************
+# Specific functions for grabbing information
+#***************************************************************************
+#Get the channel from a grid id
+sub get_channels( $ ) {
+  my $jsname = shift ;
+
+  my %channels;
+
+  # create random hash to mimic api trace
+  my $hash;
+  for(1..32) { $hash .= sprintf("%X", rand(16)); }
+  # Get the current page
+  my $my_url = mkurl($CHANNEL_GRID, {'hash'=>lc $hash});
+  if ($show_url) {
+    print STDERR $my_url."\n";
+  }
+
+  my $json = get_page_json('init',$my_url, $jsname);
+
+  my $chicon = "";
+
+  # empty json ?
+  if( !defined($json->{'channels'}) ) {
+    if(!$opt_quiet) {
+          print STDERR "empty json, on $my_url\n";
+    }
+    return %channels;
+  }
+
+  my $chans = $json->{'channels'};
+  #print Dumper($lines);
+  foreach my $id ( sort { $chans->{$a}{title} cmp $chans->{$b}{title}} keys %$chans ) {
+    $chid = $id;
+    $chname = $chans->{$id}{title};
+    $channelnames[$chid] = $chname;
+
+    $chicon = $chans->{$id}{logo}{url};
+    $chicon =~ s/[\{]+width[\}]+x[\{]+height[\}]+/500x500/;
+    $channels{$chid} = {'name' =>  $chname, 'icon' => $chicon };
+  }
+  return %channels;
+}
+
+sub grab_day ($) {
+  my $offset = shift;
+
+  my $dayoff = strftime("%Y-%m-%d", gmtime(time() + 3600 * 24 * $offset));
+  my ($jsname, $nb);
+  my $page = 1;
+  my @chids = (sort { $channels{$a}{order} <=> $channels{$b}{order} } keys %channels);
+  my %params = ( 'date' => $dayoff);
+  my $url = mkurl($CHANNEL_GRID_PAGE, \%params);
+  if ($show_url) { print STDERR $url."\n"; }
+  if ($save_json) { $jsname = mkjsonname("", \%params); }
+  my $json = get_page_json('grille', $url, $jsname);
+  # loop on chid
+  foreach my $chid (@chids) {
+    update $bar if not $opt_quiet and not $show_url;
+    # filter chid
+    if(defined($json->{'channels'}{$chid})) {
+      my $progs = $json->{'channels'}{$chid}{'broadcasts'};
+      #print Dumper($progs);
+      #print ref($progs);
+      if(scalar @$progs) {
+        grab_day_channel($chid, $url, $jsname, $dayoff, $page, $progs);
+      } elsif(!$opt_quiet) {
+        print STDERR "Aucun programme pour la chaîne $chid ".$channels{$chid}{name}." le $dayoff\n";
+      }
+    } elsif(!$opt_quiet) {
+      print STDERR "Aucun programme pour la chaîne $chid ".$channels{$chid}{name}." le $dayoff\n";
+    }
+  }
+}
+
+sub date_to_num($) {
+  my $date=shift;
+  $date =~ s/\..*$//;
+  $date =~ tr/T:\$\ -//d;
+  return $date;
+}
+
+sub grab_day_channel($$$$$$) {
+  my ($chid, $url, $jsname, $dayoff, $page, $progs) = @_;
+  my @lines = sort { $a->{'start_date'} cmp $b->{'start_date'} } @$progs;
+  #print Dumper(@lines);
+  # flag overlapping
+  # check all shows in reverse order
+  my $nb = scalar @lines;
+  my $start = 0;
+  $lines[$nb-1]->{'overlap'} = 0;
+  for (my $i=$nb-1;$i>=1;$i--) {
+    my $stop_prev = date_to_num($lines[$i-1]{'end_date'});
+    if($lines[$i]{'overlap'} != 1) {
+      $start = date_to_num($lines[$i]{'start_date'})
+    }
+    if($stop_prev > $start) {
+      $lines[$i-1]{'overlap'} = 1;
+    } else {
+      $lines[$i-1]{'overlap'} = 0;
+    }
+  }
+  foreach my $line (@lines) {
+    my $startdate = $line->{'start_date'};
+    my $enddate = $line->{'end_date'};
+    $startdate =~ s/:|-|T|\.000//g;
+    $enddate =~ s/:|-|T|\.000//g;
+    $startdate =~ s/\+/ +/g;
+    $enddate =~ s/\+/ +/g;
+
+    my $title = $line->{'title'};
+    my $description = '';
+
+    my $chname;
+    # sometimes channelnames returned by get_channels("categories.json") is empty for some chids
+    # use chname from config file in that case
+    if(defined $channelnames[$chid]) {
+      $chname = $channelnames[$chid];
+    } else {
+      $chname = $channels{$chid}{'name'};
+    }
+
+    # illustration
+    my $imgurl;
+    if(defined($line->{'illustration'}{'url'})) {
+      $imgurl = $line->{'illustration'}{'url'};
+      $imgurl =~ s/\{\{width\}\}x\{\{height\}\}/$opt_tsize/;
+    }
+
+    my %prog = (channel  => $channels{$chid}{chid_name},
+                title       => [ [ $title ] ], # lang unknown
+                start       => $startdate,
+                stop         => $enddate
+               );
+
+
+    my $genretext = lc($line->{'filter_type'});
+    my $subgenre = lc($line->{'type'});
+    # see https://github.com/beavis69/tv_grab_fr_telerama/issues/48
+    if ($subgenre ne $genretext) {
+      push @{$prog{category}}, [ xmlencoding($subgenre), $LANG ];
+    } else {
+      push @{$prog{category}}, [ xmlencoding($genretext), $LANG ];
+    }
+
+    my $deeplink = $line->{'deeplink'};
+    my $episode;
+    my $season;
+    # try to get season/episode from deeplink url
+    if($deeplink =~ m/(-|%2C)saison(\d+)/ig) {
+        $season  = $2;
+    }
+    if($deeplink =~ m/(-|%2C)episode(\d+)/ig) {
+        $episode  = $2;
+    }
+    my $episode_text = "Episode:".$episode if ($episode);
+    my $season_text = "Saison:".$season if ($season);
+    my $epstring;
+    my $age = 0;
+    my $icon = "";
+
+    my $flags = $line->{flags};
+    # tout public par default
+    my $rating2 = 1; # tout public
+    my %csa_rating = ( 10 => 2, 12 => 3, 16 => 4, 18 => 5);
+    foreach my $flag (@$flags) {
+      if( $flag =~ m/^moins-de-(\d+)$/) {
+        $age = -$1;
+        $icon = 'http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins'.$1.'svg/200px-Moins'.$1.'.svg.png';
+        $rating2 = $csa_rating{$1};
+      } elsif ( $flag =~ m/^dolby/) {
+        $prog{'audio'}{stereo} = "dolby";
+      } elsif ( $flag eq '4k') {
+        $prog{'video'}{quality} = "4K";
+      } elsif ( $flag eq 'haute-definition') {
+        $prog{'video'}{quality} = "HDTV";
+      } elsif ( $flag eq 'teletexte' ) {
+        $prog{subtitles} = [ { type => 'teletext', language => ['fr'] } ];
+      }
+    }
+    $prog{length} = str2time($line->{'end_date'}) - str2time($line->{'start_date'});
+
+    # if casting is enable, we need another api call
+    # casting parsing start
+    if($opt_casting) {
+      my $jsname_programme = '';
+      my $id;
+      if( $deeplink =~ /&id=([^&]+)/) {
+       $id = $1
+      }
+      my %params = ( 'program_id' => $line->{'id'}, 'id' => $id);
+      my $url_programme = mkurl($CHANNEL_PROGRAMME_PAGE,\%params);
+      if ($show_url) { print STDERR $url_programme."\n"; }
+      if ($save_json) { $jsname_programme = mkjsonname("", { "id_programme" => $line->{'id'}}); }
+      my $json_p;
+      # try to use emissions cache
+      if(exists $emissions{$line->{id}} && $emissions_cache) {
+        #use cache
+        $stats{cache_casting}++;
+        $json_p = $emissions{$line->{id}};
+      } else {
+        $json_p = get_page_json('casting', $url_programme, $jsname_programme);
+        $emissions{$line->{id}} = $json_p if $emissions_cache;
+      }
+
+      my $content = $json_p->{'templates'}->{'raw_content'}->{'content'};
+      $content = '' if !$content;
+      if($content && $content =~ m/\"note_t\": *(\d)/ig) {
+        push @{$prog{'star-rating'}}, [ $1."/5", "Telerama" ];
+      }
+
+      my $document = Mojo::DOM->new($content);
+      my $synopsis = $document->at('section#article_synopsis');
+      $synopsis->find('p')->each(sub {
+        $description .= "\n" if $description;
+        if ($no_htmltags) {
+          $description .= decode_entities(trim($_->all_text));
+        } else {
+          $description .= decode_entities(trim($_->content));
+        }
+      }) if $synopsis;
+      my $casting = $document->find('section#article_casting ul > li.sheet__info-item');
+      $casting->each(sub {
+        my $actor = $_->at('p[class~="sheet__info-item-label"][class~="sheet__info-item-label--casting"]')->all_text;
+        my $role = $_->at('p[class~="sheet__info-item-value"]')->all_text;
+        push @{$prog{credits}{actor}}, [$actor,$role];
+      });
+
+      $casting = $document->find('section#article_infos ul > li.sheet__info-item');
+      $casting = $document->find('section[class~="sheet__info-container--no-bb"] ul > li.sheet__info-item') if (!$casting || $casting->size < 1) ;
+      my (%directors, %writers, %presenters, %composers, %guests, %producers, %commentators, %adapters);
+      $casting->each(sub {
+        my $ctype = NFKD($_->at('p[class~="sheet__info-item-label"]')->all_text);
+        # Suppression des caractères diacritiques
+        $ctype =~ s/\p{NonspacingMark}//g;
+        my $value = $_->at('p[class~="sheet__info-item-value"]')->all_text;
+        my @names = split(/, /, $value);
+        if ($ctype =~ m/Realisateur/i || $ctype =~ m/Metteur en Scene/i) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{director}}, $name if (!exists $directors{$name});
+            $directors{$name} = 1;
+          }
+        } elsif ($ctype =~ m/presentateur/i) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{presenter}}, $name if (!exists $presenters{$name});
+            $presenters{$name} = 1;
+          }
+        } elsif ($ctype =~ m/Musique/i) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{composer}}, $name if (!exists $composers{$name});
+            $composers{$name} = 1;
+          }
+        } elsif ($ctype =~ m/Createur/i || $ctype =~ m/Auteur/i || $ctype =~ m/Scenariste/i || $ctype =~ m/Scenario/i || $ctype =~ m/Dialogue/i) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{writer}}, $name if (!exists $writers{$name});
+            $writers{$name} = 1;
+          }
+        } elsif ($ctype =~ m/Invite/i ) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{guest}}, $name if (!exists $guests{$name});
+            $guests{$name} = 1;
+          }
+        } elsif ($ctype =~ m/Commentateur/i || $ctype =~ m/Commentaire/i) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{commentator}}, $name if (!exists $commentators{$name});
+            $commentators{$name} = 1;
+          }
+        } elsif ($ctype =~ m/Adaptation/i) {
+          foreach my $name (@names) {
+            push @{$prog{credits}{adapter}}, $name if (!exists $adapters{$name});
+            $adapters{$name} = 1;
+          }
+        } elsif ($ctype =~ m/Pays/i || $ctype =~ m/Origine/i) {
+          my @countries = split(/ - /, $value);
+          foreach my $country (@countries) {
+            push @{$prog{country}}, [ xmlencoding($country), $LANG ];
+          }
+        } elsif ($ctype =~ m/Sortie/) {
+          $prog{'date'} = $value;
+        } elsif ($ctype =~ m/Genre/) {
+          #todo
+        }
+      });
+    }
+    # end of casting parsing
+
+    $prog{premiere} = [] if ($line->{'is_inedit'} eq JSON::true);
+    $prog{'previously-shown'} = {} if ($line->{'is_replay'} eq JSON::true);
+    $prog{'new'} = {} if ($line->{'is_live'} eq JSON::true);
+
+    if (!$no_episodedesc && $episode) {
+      if($description) {
+        $description = $episode_text." - ".$description;
+      } else {
+        $description = $episode_text;
+      }
+    }
+    if (!$no_episodedesc && $season) {
+      if($description) {
+      $description = $season_text." - ".$description;
+      } else {
+        $description = $season_text;
+      }
+    }
+
+    $epstring = "";
+    if ($episode || $season) {
+      if ($season) {
+        if ($season =~ /(\d+)\/(\d+)/) {
+          $epstring .= ($1-1)."/".$2;
+        } else {
+          if ($season =~ /(\d+)/) {
+            $epstring .= ($1-1);
+          }
+        }
+      }
+      $epstring .= ".";
+
+      if ($episode) {
+        if ($episode =~ /(\d+)\/(\d+)/) {
+          $epstring .= ($1-1)."/".$2;
+        } else {
+          if ($episode =~ /(\d+)/) {
+            $epstring .= ($1-1);
+          }
+        }
+      }
+      $epstring .= ".";
+      push @{$prog{'episode-num'}}, [$epstring,"xmltv_ns"];
+    }
+
+    if ( $description ne "" ) {
+      $description =~ tr/\x00-\x08\x0B\x0C\x0E-\x1F\x90//d;
+      if ( $no_htmltags ) {
+          $description =~ s/<\/?[^>]+>//g;
+      }
+      $description =~ s/\r//g;
+      push @{$prog{desc}}, [$description, $LANG ];
+    }
+
+    if ($imgurl) {
+      push @{$prog{icon}}, {src => $imgurl};
+    }
+
+    # CSA Icons
+    if ($age == 0) {
+      push @{$prog{rating}}, [ "Tout public", "CSA", [] ];
+    } else {
+      push @{$prog{rating}}, [ $age, "CSA", [ {src => $icon}] ];
+    }
+
+    $writer->write_programme(\%prog);
+  }
+  return;
+}
+
+# use XMLTV::get_nice
+# with our error_handling
+sub get_page_json( $$$ ) {
+  my ($api_name, $url, $jsname) = @_;
+  # stats on api calls
+  $stats{api}{total}++;
+  $stats{api}{$api_name}++;
+
+  # try 2 times;
+  my $retry = 2;
+  my ($content, $Response, $json);
+  do {
+    $content = get_nice($url);
+    # error handling
+    $Response = $XMLTV::Get_nice::Response;
+    # api returns a 404 with json content when there is no shows
+    if(!$content && $Response->code == 404) {
+      $content = $Response->content;
+    }
+    $retry--;
+    if(!$content && $retry > 0) {
+      if(!$opt_quiet) { print STDERR "Erreur ".$Response->status_line.", url: $url , retrying...\n"; }
+      sleep($Delay);
+    }
+  } until ($content || $retry == 0);
+
+  if(!$content) {
+    if($FailOnError) {
+      die ("Erreur ".$Response->status_line.", url: $url\n");
+    } else {
+      $content = '{}';
+      if(!$opt_quiet) { print STDERR "Erreur ".$Response->status_line.", url: $url \n"; }
+    }
+  }
+
+  eval {
+    $json = JSON->new->utf8(1)->decode($content);
+  } or do {
+    my $erreur = $content;
+    $erreur =~ s/.*(Fatal error.*) on line.*/$1/sm;
+    die ("malformed json on $url\n".$Response->status_line." : ".$erreur."\n");
+  };
+
+  if ($save_json) {
+    open (JSFIC, ">$jsname") || die ("Vous ne pouvez pas créer le fichier \"$jsname\"\n");
+    print JSFIC JSON->new->pretty->canonical->encode($json);
+    close (JSFIC);
+  }
+
+  return $json;
+}
