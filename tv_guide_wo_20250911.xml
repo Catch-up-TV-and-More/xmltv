@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-111.png" />
+  </channel>
+  <channel id="euronews.rai.it">
+    <display-name>EuroNews</display-name>
+  </channel>
+  <programme start="20250910235000" channel="C111.api.telerama.fr" stop="20250911001000">
+    <title>Move !</title>
+    <desc lang="fr">Saison:5 - Episode:3 - C'est une méthode de locomotion astucieuse : le parkour allie efficacité, grâce et liberté et permet à ceux qui le pratiquent de se déplacer rapidement, même sur un terrain accidenté. À Paris, berceau du sport tendance, la danseuse et chorégraphe Sylvia Camarda rencontre des athlètes éblouissants.</desc>
+    <credits>
+      <director>Julie Schroell</director>
+      <director>Eileen Byrne</director>
+      <director>Heiko Lange</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/28/882f4a3653844a9e86800f1f2704a8dd.jpg" />
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">4.2.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250911001000" channel="C111.api.telerama.fr" stop="20250911021300">
+    <title>Burning Days</title>
+    <desc lang="fr">Emre Gündüz, un jeune procureur intègre, est nommé à Yaniklar, une petite ville perdue dans une plaine d'Anatolie. Si l'accueil qu'il reçoit est plutôt sympathique, les choses ne se passent pas comme il l'espérait. Il doit faire face non seulement à une crise de l'eau mais aussi à différents scandales politiques. Face à l'inflexibilité d'Emre, les notables locaux sont déterminés à défendre leurs privilèges par tous les moyens. De nombreuses rumeurs commencent alors à circuler sur le procureur, entachant sa réputation. La pression s'intensifie encore plus lorsqu'il entame sa première enquête sur un meurtre...</desc>
+    <credits>
+      <director>Emin Alper</director>
+      <actor>Selahattin Pasali</actor>
+      <actor>Ekin Koç</actor>
+      <actor>Erol Babaoglu</actor>
+      <actor>Erdem Senocak</actor>
+      <actor>Selin Yeninci</actor>
+      <actor>Sinan Demirer</actor>
+      <actor>Eylül Ersöz</actor>
+      <actor>Nizam Namidar</actor>
+      <actor>Onur Gürçay</actor>
+      <actor>Ali Seçkiner Alici</actor>
+      <actor>Görkem Ipek</actor>
+      <actor>Ismail Bahadir Peker</actor>
+      <writer>Emin Alper</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film</category>
+    <length units="minutes">123</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/27/e586a1b7898e4df3a8b7e081c4e58b68" />
+    <country lang="fr">Turquie</country>
+    <country lang="fr">France</country>
+    <country lang="fr">Allemagne</country>
+    <country lang="fr">Pays-Bas</country>
+    <country lang="fr">Grèce</country>
+    <country lang="fr">Croatie</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250911021300" channel="C111.api.telerama.fr" stop="20250911030000">
+    <title>Pause</title>
+    <credits>
+      <presenter>Jean-Michel Zecca</presenter>
+    </credits>
+    <category lang="fr">autre</category>
+    <length units="minutes">47</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250911030000" channel="C111.api.telerama.fr" stop="20250911035500">
+    <title>360°-GEO</title>
+    <desc lang="fr">Le point sur l'action des pompiers forestiers corses pour prévenir les incendies qui ravagent l'île et qui ont redoublé d'intensité depuis les années 60.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/25/ff629be29ffb4cdd8a5b3412c8117b01.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250911035500" channel="C111.api.telerama.fr" stop="20250911042500">
+    <title>Sicile : à qui profitent les incendies ?</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <country lang="fr">Allemagne</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250910235000" channel="C111.api.telerama.fr" stop="20250911001000">
+    <title>Move !</title>
+    <desc lang="fr">Saison:5 - Episode:3 - C'est une méthode de locomotion astucieuse : le parkour allie efficacité, grâce et liberté et permet à ceux qui le pratiquent de se déplacer rapidement, même sur un terrain accidenté. À Paris, berceau du sport tendance, la danseuse et chorégraphe Sylvia Camarda rencontre des athlètes éblouissants.</desc>
+    <credits>
+      <director>Julie Schroell</director>
+      <director>Eileen Byrne</director>
+      <director>Heiko Lange</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/28/882f4a3653844a9e86800f1f2704a8dd.jpg" />
+    <country lang="fr">Allemagne</country>
+    <episode-num system="xmltv_ns">4.2.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250911001000" channel="C111.api.telerama.fr" stop="20250911021300">
+    <title>Burning Days</title>
+    <desc lang="fr">Emre Gündüz, un jeune procureur intègre, est nommé à Yaniklar, une petite ville perdue dans une plaine d'Anatolie. Si l'accueil qu'il reçoit est plutôt sympathique, les choses ne se passent pas comme il l'espérait. Il doit faire face non seulement à une crise de l'eau mais aussi à différents scandales politiques. Face à l'inflexibilité d'Emre, les notables locaux sont déterminés à défendre leurs privilèges par tous les moyens. De nombreuses rumeurs commencent alors à circuler sur le procureur, entachant sa réputation. La pression s'intensifie encore plus lorsqu'il entame sa première enquête sur un meurtre...</desc>
+    <credits>
+      <director>Emin Alper</director>
+      <actor>Selahattin Pasali</actor>
+      <actor>Ekin Koç</actor>
+      <actor>Erol Babaoglu</actor>
+      <actor>Erdem Senocak</actor>
+      <actor>Selin Yeninci</actor>
+      <actor>Sinan Demirer</actor>
+      <actor>Eylül Ersöz</actor>
+      <actor>Nizam Namidar</actor>
+      <actor>Onur Gürçay</actor>
+      <actor>Ali Seçkiner Alici</actor>
+      <actor>Görkem Ipek</actor>
+      <actor>Ismail Bahadir Peker</actor>
+      <writer>Emin Alper</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film</category>
+    <length units="minutes">123</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/27/e586a1b7898e4df3a8b7e081c4e58b68" />
+    <country lang="fr">Turquie</country>
+    <country lang="fr">France</country>
+    <country lang="fr">Allemagne</country>
+    <country lang="fr">Pays-Bas</country>
+    <country lang="fr">Grèce</country>
+    <country lang="fr">Croatie</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20250911021300" channel="C111.api.telerama.fr" stop="20250911030000">
+    <title>Pause</title>
+    <credits>
+      <presenter>Jean-Michel Zecca</presenter>
+    </credits>
+    <category lang="fr">autre</category>
+    <length units="minutes">47</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20250911030000" channel="C111.api.telerama.fr" stop="20250911035500">
+    <title>360°-GEO</title>
+    <desc lang="fr">Le point sur l'action des pompiers forestiers corses pour prévenir les incendies qui ravagent l'île et qui ont redoublé d'intensité depuis les années 60.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/25/ff629be29ffb4cdd8a5b3412c8117b01.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20250911035500" channel="C111.api.telerama.fr" stop="20250911042500">
+    <title>Sicile : à qui profitent les incendies ?</title>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <country lang="fr">Allemagne</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
