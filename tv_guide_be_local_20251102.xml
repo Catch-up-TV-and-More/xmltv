@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C50.api.telerama.fr">
+    <display-name>RTL club</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL tvi</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>Tipik</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>RTL plug</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-892.png" />
+  </channel>
+  <programme start="20251101232000 +0100" channel="C50.api.telerama.fr" stop="20251102050000 +0100">
+    <title>Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">340</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/17/dd55ef4d1f1345b9b9acf9891ab1ae40.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102050000 +0100" channel="C50.api.telerama.fr" stop="20251102095000 +0100">
+    <title>Mint, la radio pop rock</title>
+    <desc lang="fr">Mint, la radio pop rock</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">290</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/a0ea11ebfc754e76a16dacfe719d6b89.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251101233600 +0100" channel="C164.api.telerama.fr" stop="20251102004800 +0100">
+    <title>Rebecca</title>
+    <desc lang="fr">Saison:1 - Episode:8 - Rebecca découvre qui est le meurtrier de Laetitia Baumann. Pour prouver sa culpabilité, elle mène son enquête sans impliquer sa hiérarchie. Mais Julien se met en travers de son chemin, obsédé par l'idée de venger personnellement sa maîtresse. L'opération tourne mal. C'en est trop pour la commissaire Laura Portier qui, fatiguée par les multiples rappels à l'ordre, décide de retirer Rebecca de l'enquête. La vérité est à portée de main et le tueur en série est sur le point de s'en sortir. Déterminés à trouver la preuve décisive et irréfutable qui le fera passer aux aveux, Marco et Raf aident Rebecca à confondre le meurtrier. Une fois l'enquête résolue, Rebecca plonge une dernière fois dans ses souvenirs et découvre l'effroyable réalité à l'origine de ses black-out.</desc>
+    <credits>
+      <director>Didier Le Pêcheur</director>
+      <actor>Anne Marivin</actor>
+      <actor>Benjamin Biolay</actor>
+      <actor>Clotilde Courau</actor>
+      <actor>Samir Guesmi</actor>
+      <actor>Grégory Montel</actor>
+      <actor>Valérie Karsenti</actor>
+      <actor>Baptiste Lecaplain</actor>
+      <actor>Patrick Timsit</actor>
+      <actor>Salim Kechiouche</actor>
+      <actor>Nicolas Grandhomme</actor>
+      <actor>Cédric Moreau</actor>
+      <actor>Artemisia Toussaint</actor>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">72</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/22/b197c8ae59fa4e66abfcd3438fee4e8a.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.7.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20251102004800 +0100" channel="C164.api.telerama.fr" stop="20251102005300 +0100">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/87fec9b7834440ac9f763a598399e72b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102005300 +0100" channel="C164.api.telerama.fr" stop="20251102012700 +0100">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">34</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/29/43bce816967b4a459dac8973e2fe935b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102012700 +0100" channel="C164.api.telerama.fr" stop="20251102013400 +0100">
+    <title>Contacts</title>
+    <desc lang="fr">Le panel doit analyser des situations qui mettent en danger des usagers vulnérables, comme ceux qui n'ont pas de carrosserie pour les protéger.</desc>
+    <credits>
+      <presenter>Nathalie Schraen-Guirma</presenter>
+      <presenter>Olivier Quisquater</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">7</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/08/8b0d67e2b7cc1e20a51ab8510c2d498a5b3ad0dc_32439869CE274D8AF807C74865A9B347.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102013400 +0100" channel="C164.api.telerama.fr" stop="20251102013700 +0100">
+    <title>Météo 20h00</title>
+    <desc lang="fr">Le bulletin météo du soir.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/87fec9b7834440ac9f763a598399e72b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102013700 +0100" channel="C164.api.telerama.fr" stop="20251102021000 +0100">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">33</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/29/43bce816967b4a459dac8973e2fe935b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102021000 +0100" channel="C164.api.telerama.fr" stop="20251102070000 +0100">
+    <title>Contacts</title>
+    <desc lang="fr">Le panel doit analyser des situations qui mettent en danger des usagers vulnérables, comme ceux qui n'ont pas de carrosserie pour les protéger.</desc>
+    <credits>
+      <presenter>Nathalie Schraen-Guirma</presenter>
+      <presenter>Olivier Quisquater</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">290</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/08/8b0d67e2b7cc1e20a51ab8510c2d498a5b3ad0dc_32439869CE274D8AF807C74865A9B347.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251101215000 +0100" channel="C168.api.telerama.fr" stop="20251102002500 +0100">
+    <title>Harry Potter et le Prisonnier d'Azkaban</title>
+    <desc lang="fr">Le dangereux sorcier Sirius Black s'est évadé de la prison d'Azkaban après treize longues années de détention. Son but : assassiner Harry. Pendant ce temps, le jeune sorcier fait sa troisième rentrée à l'école de magie de Poudlard. Harry s'est à peine mis en route pour Poudlard qu'il est attaqué par un Détraqueur, un gardien d'Azkaban lancé à la recherche du fugitif. Le Détraqueur tente d'aspirer son âme mais Ron et Hermione, qui veillent sur lui, l'aident à se tirer de ce mauvais pas. Les nouveaux enseignements sur la Défense contre les Forces du Mal ou les soins aux créatures magiques ne seront pas de trop pour aider le jeune magicien à affronter les dangers qui le guettent de toutes parts...</desc>
+    <credits>
+      <director>Alfonso Cuarón</director>
+      <actor>Daniel Radcliffe</actor>
+      <actor>Rupert Grint</actor>
+      <actor>Emma Watson</actor>
+      <actor>Robbie Coltrane</actor>
+      <actor>Gary Oldman</actor>
+      <actor>Alan Rickman</actor>
+      <actor>David Thewlis</actor>
+      <actor>Michael Gambon</actor>
+      <actor>Maggie Smith</actor>
+      <actor>Richard Griffiths</actor>
+      <actor>Fiona Shaw</actor>
+      <actor>Pam Ferris</actor>
+      <writer>Steve Kloves</writer>
+    </credits>
+    <date>2004</date>
+    <category lang="fr">film</category>
+    <length units="minutes">155</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/15/44566ae810a44fa49818f8e764230474.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <country lang="fr">Etats-Unis</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20251102002500 +0100" channel="C168.api.telerama.fr" stop="20251102005500 +0100">
+    <title>Waldorado</title>
+    <credits>
+      <presenter>Laura Beyne</presenter>
+      <presenter>Shalimar Debru</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/11/06/81032cace28f45348dde3860272f070d.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102005500 +0100" channel="C168.api.telerama.fr" stop="20251102011000 +0100">
+    <title>Loïc, fou de cuisine</title>
+    <desc lang="fr">Loïc n'est pas un "chef", mais un fou de cuisine. Ses grands-parents et parents sont à la base de son éducation culinaire et c'est grâce aux livres, à la télévision, Facebook, YouTube et Instagram que Loïc a poursuivi son apprentissage. Sa cuisine est super rapide, facile et toujours gourmande. Soucieux de son époque et du monde dans lequel il vit, il essaie de privilégier les produits de saison et locaux au travers des recettes qu'il présente.</desc>
+    <credits>
+      <presenter>Loïc Van Impe</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/da5a4ed43bf14047bc29463c9501bf8a.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102011000 +0100" channel="C168.api.telerama.fr" stop="20251102011500 +0100">
+    <title>Météo soir</title>
+    <desc lang="fr">Quel temps fera-t-il demain ? Les bulletins météo tiennent au courant des prévisions. La pluie et le beau temps, annoncés par des spécialistes.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/14/827f285a741a4a0e838e85904a262af9.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102011500 +0100" channel="C168.api.telerama.fr" stop="20251102015500 +0100">
+    <title>RTL info 19 heures</title>
+    <desc lang="fr">L'information est le coeur d'activité de la chaîne RTL tvi. L'ensemble des équipes de la rédaction se mobilise afin de donner aux téléspectateurs les informations les plus fraîches lors de chaque édition de son journal quotidien. Information nationale et internationale, faits divers locaux, événements sportif ou festifs, rien de ce qui concerne l'actualité n'échappe aux journalistes de la rédaction.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/12/25/087e887dff9e44199db652ba12bbff55.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102015500 +0100" channel="C168.api.telerama.fr" stop="20251102035500 +0100">
+    <title>Moments d'évasion</title>
+    <desc lang="fr">Chaque nuit, cette émission transporte le téléspectateur de chez soi vers les plus beaux endroits de la planète. Confortablement installés dans leur salon, devant leur écran, les adeptes de voyages, de beaux paysages et de nature sont happés par les images et reportages spectaculaires qui sont proposés. Une invitation à l'évasion et au rêve, destinée à toutes les générations, à la découverte de nombreuses merveilles, aux quatre coins du monde.</desc>
+    <category lang="fr">jeu</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/edb02ee559874ed0912cf86643289f63.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102035500 +0100" channel="C168.api.telerama.fr" stop="20251102050000 +0100">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Retrouvez le programme diffusé en boucle du journal, des magazines, des séries pendant toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">emission-speciale</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/c047cfcfc1214ca79d1021a12cefe4a4.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102050000 +0100" channel="C168.api.telerama.fr" stop="20251102085000 +0100">
+    <title>bel RTL matin</title>
+    <desc lang="fr">Retrouvez les programmes de la radio</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">230</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/2b0a6cda83fa45f38802a47b02fa6c42.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251101234500 +0100" channel="C187.api.telerama.fr" stop="20251102003300 +0100">
+    <title>Planet Sex avec Cara Delevingne</title>
+    <desc lang="fr">Saison:1 - Episode:1 - La mannequin et actrice britannique Cara Delevingne explore les questions de l'orientation sexuelle et du genre. Elle confie avoir grandi en ayant eu peur d'explorer ses préférences sexuelles. Embrassant progressivement une identité queer, elle part à la rencontre de personnes qui vivent leur vie pleinement et fièrement. Peu à peu, en leur compagnie, elle déconstruit le mythe de l'hétérosexualité.</desc>
+    <credits>
+      <director>Daniela Carson</director>
+      <director>Jessica Chermayeff</director>
+      <director>Shiho Fukada</director>
+      <director>Ayasylla Ghosn</director>
+      <director>Krysia Plonka</director>
+      <director>Ana Veselic</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">48</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/04e75618affa4cdaae2993e522292158.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20251102003300 +0100" channel="C187.api.telerama.fr" stop="20251102010500 +0100">
+    <title>OpinionS : CSC</title>
+    <desc lang="fr">L'émission TV de la CSC diffusée sur les antennes de la RTBF.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/946d818b3e1d4975b5aada7747d31f72.jpg" />
+    <country lang="fr">Belgique</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102010500 +0100" channel="C187.api.telerama.fr" stop="20251102020000 +0100">
+    <title>L'Internet Show</title>
+    <desc lang="fr">L'émission de décryptage du web est de retour avec une approche 100% magazine. Chaque émission analyse en profondeur un sujet propre au monde parallèle qu'est Internet. Avec une grande variété de séquences, les sujets sont décortiqués dans l'humour et la bonne humeur en compagnie de deux présentateurs débordants d'enthousiasme.</desc>
+    <credits>
+      <presenter> Lufy</presenter>
+      <presenter>Lufy</presenter>
+      <presenter>Enzo</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/64af1539edc94deb9fda2109efdb78ed.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102010600 +0100" channel="C187.api.telerama.fr" stop="20251102020000 +0100">
+    <title>Magazine selon annonce</title>
+    <desc lang="fr">Magazine d'information, sujet du jour encore non communiqué.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">54</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/03/05/43876f1f144442658f44b187c9eec147.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102020000 +0100" channel="C187.api.telerama.fr" stop="20251102054600 +0100">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Rediffusion du programme en boucle toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">226</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/26/4561dd784aba4f1fb931ecb9920ca1c0.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102054600 +0100" channel="C187.api.telerama.fr" stop="20251102064700 +0100">
+    <title>The Missing</title>
+    <desc lang="fr">Saison:1 - Episode:1 - En 2006, Tony, Emily et leur fils Oliver sont en vacances en France. Une panne de voiture les immobilise à Châlon-du-Bois. Le soir même, durant la retransmission d'un match de la coupe du monde de football, Oliver disparaît, presque sous les yeux de son père. Celui-ci alerte la police locale, qui fait venir en renfort Julien Baptiste, un inspecteur parisien spécialisé dans les disparitions. Mais Oliver demeure introuvable. Huit ans plus tard, Tony et Emily se sont séparés. Tony, qui refuse toujours d'accepter que son fils puisse être mort, revient à Châlon-du-Bois. Il retrouve Julien Baptiste et, ensemble, ils reprennent leur enquête...</desc>
+    <credits>
+      <director>Tom Shankland</director>
+      <actor>James Nesbitt</actor>
+      <actor>Frances O'Connor</actor>
+      <actor>Tchéky Karyo</actor>
+      <actor>Emilie Dequenne</actor>
+      <actor>Jason Flemyng</actor>
+      <actor>Saïd Taghmaoui</actor>
+      <actor>Arsher Ali</actor>
+      <actor>Sasha Waddell</actor>
+      <actor>Adam Thomas</actor>
+      <actor>Oliver Hunt</actor>
+      <actor>Astrid Whettnall</actor>
+      <actor>Jean-François Wolff</actor>
+      <writer>Harry Williams</writer>
+      <writer>Jack Williams</writer>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">61</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/21/5e2874eee7604b2cb42edaafb8ef98df.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">0.0.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251101223000 +0100" channel="C377.api.telerama.fr" stop="20251102000500 +0100">
+    <title>L'amour est dans le pré : version belge</title>
+    <desc lang="fr">Avant le démarrage de cette 17e saison de "L'Amour est dans le pré", Maria Del Rio a sillonné les routes de Wallonie pour rencontrer les nouveaux agriculteurs célibataires qui ont été sélectionnés. Ce que ces hommes et ces femmes, âgés de 26 à 64 ans, vont vivre pourrait bien bouleverser leur vie.</desc>
+    <credits>
+      <presenter>Maria Del Rio</presenter>
+    </credits>
+    <category lang="fr">telerealite</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/04/8e4c88a4528246d5a95df9b126f9118c.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102000500 +0100" channel="C377.api.telerama.fr" stop="20251102050000 +0100">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">295</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/05/03/b07eade200ce6558af7f538efc7afe5124a83fee_F1CDED88B91D18A615C4D9DD7E72A028.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102050000 +0100" channel="C377.api.telerama.fr" stop="20251102075500 +0100">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">175</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/05/03/b07eade200ce6558af7f538efc7afe5124a83fee_F1CDED88B91D18A615C4D9DD7E72A028.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251101231500 +0100" channel="C892.api.telerama.fr" stop="20251102000900 +0100">
+    <title>Collection Riviera</title>
+    <desc lang="fr">Ses ports hérissés de forêts de mâts. Ses pierres au désordre superbe qui rappellent qu'elle est l'une des plus anciennes cités de France... Une ville-monde aux accents bigarrés, porte de l'Orient et fenêtre de son pays. Vieille de plus de 3 000 ans, Marseille ponctue la France d'un regard vers la Méditerranée. Massilia et sa mer, comme un tandem indissociable. Une histoire d'amour que nous dévoilent ses habitants...</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">54</length>
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102000900 +0100" channel="C892.api.telerama.fr" stop="20251102004100 +0100">
+    <title>JT 19h30 avec interprétation en langue des signes</title>
+    <desc lang="fr">"JT 19h30 avec interprétation en langue des signes " est une émission qui revient sur toutes sortes d'actualités quotidiennes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/d2f2b75ad9f04f608cfb85ce3948d396.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251102004100 +0100" channel="C892.api.telerama.fr" stop="20251102060000 +0100">
+    <title>Météo internationale</title>
+    <desc lang="fr">Retrouvez tous les jours les prévisions météorologiques des grandes villes d'Europe, du Proche-Orient et du Nord de l'Afrique, présentées en alternance par notre équipe.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">319</length>
+    <icon src="https://focus.telerama.fr/952x634/2022/02/14/0992273c68da38635776091d45afc82cfc60d62b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
