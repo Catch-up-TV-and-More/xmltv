@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C50.api.telerama.fr">
+    <display-name>RTL club</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-50.png" />
+  </channel>
+  <channel id="C164.api.telerama.fr">
+    <display-name>La Une</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-164.png" />
+  </channel>
+  <channel id="C168.api.telerama.fr">
+    <display-name>RTL tvi</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-168.png" />
+  </channel>
+  <channel id="C187.api.telerama.fr">
+    <display-name>Tipik</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-187.png" />
+  </channel>
+  <channel id="C377.api.telerama.fr">
+    <display-name>RTL plug</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-377.png" />
+  </channel>
+  <channel id="C892.api.telerama.fr">
+    <display-name>La Trois</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-892.png" />
+  </channel>
+  <programme start="20251120232000" channel="C50.api.telerama.fr" stop="20251121001000">
+    <title>Most Wanted Criminals</title>
+    <desc lang="fr">Saison:3 - Episode:18 - Remy et l'équipe enquêtent sur les homicides de deux anciens combattants de l'armée américaine. Leur mort s'ajoute à une série de meurtres déjà longue, liée à leur séjour en Afghanistan. De son côté, Hana reçoit des nouvelles surprenantes au sujet de sa mère biologique...</desc>
+    <credits>
+      <director>Alex Zakrzewski</director>
+      <actor>Dylan McDermott</actor>
+      <actor>Alexa Davalos</actor>
+      <actor>Roxy Sternberg</actor>
+      <actor>Keisha Castle-Hughes</actor>
+      <actor>Miguel Gomez</actor>
+      <actor>Joseph Kamal</actor>
+      <actor>Siovhan Christensen</actor>
+      <actor>Matt Mercurio</actor>
+      <actor>Paul Schoeffler</actor>
+      <actor>Rachel Kenney</actor>
+      <actor>Nick Mauldin</actor>
+      <actor>Timothy Ware-Hill</actor>
+      <writer>Elizabeth Rinehart</writer>
+      <writer>D. Dona Le</writer>
+      <writer>Dick Wolf</writer>
+      <writer>Craig Turk</writer>
+      <writer>Spindrift Beck</writer>
+      <writer>Zach Cannon</writer>
+      <writer>René Balcer</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/15/0e4d61b6997a4f5a91b17d2591f6dcaf.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">2.17.</episode-num>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121001000" channel="C50.api.telerama.fr" stop="20251121004000">
+    <title>Waldorado</title>
+    <credits>
+      <presenter>Laura Beyne</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/11/06/81032cace28f45348dde3860272f070d.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121004000" channel="C50.api.telerama.fr" stop="20251121040000">
+    <title>Magazine Télé-achat</title>
+    <desc lang="fr">Pour faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">200</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/17/dd55ef4d1f1345b9b9acf9891ab1ae40.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121040000" channel="C50.api.telerama.fr" stop="20251121120000">
+    <title>Shopping Hours</title>
+    <desc lang="fr">Chaque jour, un produit exclusif est mis en valeur, au travers de reportages dévoilant son utilisation et son concept.</desc>
+    <category lang="fr">magazine</category>
+    <length units="hours">8</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/13/ec268c70bc5a41dcb46a352b18585ab7.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251120233800" channel="C164.api.telerama.fr" stop="20251121001000">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/29/43bce816967b4a459dac8973e2fe935b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121001000" channel="C164.api.telerama.fr" stop="20251121002700">
+    <title>Jeudi en prime</title>
+    <desc lang="fr">L'émission a pour but d'enrichir le JT de 19h30 avec l'interview d'un quart d'heure d'une personnalité en lien avec l'actualité politique du moment.</desc>
+    <credits>
+      <presenter>Nathalie Maleux</presenter>
+      <presenter>Laurent Mathieu</presenter>
+      <presenter>Thomas Gadisseux</presenter>
+    </credits>
+    <category lang="fr">emission-politique</category>
+    <length units="minutes">17</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/01/16/5986abb44e582841f7f1fddc18775f6bd5b1764d.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121002700" channel="C164.api.telerama.fr" stop="20251121014200">
+    <title>C'est pas fini</title>
+    <desc lang="fr">Patrick Weber épingle l'actualité. Avec une incroyable bande de débatteurs, il revient sur les moments forts de la journée dans la bonne humeur.</desc>
+    <category lang="fr">talk-show</category>
+    <length units="minutes">75</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/1e0cbe19287849218ab89d9d6dd2a967.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121014200" channel="C164.api.telerama.fr" stop="20251121014300">
+    <title>Alors on sort ?</title>
+    <desc lang="fr">Kody explore son identité à travers un spectacle mêlant humour, souvenirs et réflexions. Entre rires et tendresse, il revisite son parcours, de l'enfance à la scène, en passant par ses racines congolaises et ses influences multiples. Un voyage introspectif et universel, drôle, touchant et profondément humain.</desc>
+    <credits>
+      <presenter>Joëlle Scoriels</presenter>
+      <presenter>Hélo</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/9957f1735ab64048a01d72209daf79e6.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121014300" channel="C164.api.telerama.fr" stop="20251121022600">
+    <title>On n'est pas des pigeons</title>
+    <desc lang="fr">Un décryptage précieux des codes de la consommation et du marketing afin d'éclairer les consommateurs au quotidien. Les chroniqueurs dénichent les bons plans du moment et aident ainsi les téléspectateurs à économiser de l'argent.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">43</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/10/b217174ebed84965a41daa81d7eac439.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121022600" channel="C164.api.telerama.fr" stop="20251121023000">
+    <title>Météo 19h25</title>
+    <desc lang="fr">Tout au long de la journée, les prévisions météorologiques nationales et les bons conseils pour ne pas être surpris par le temps.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">4</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/14/827f285a741a4a0e838e85904a262af9.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121023000" channel="C164.api.telerama.fr" stop="20251121030200">
+    <title>JT 19h30</title>
+    <desc lang="fr">Tous les jours, le JT de 19h30 informe de l'actualité et des faits de société, politiques, économiques, culturels et sportifs.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/29/43bce816967b4a459dac8973e2fe935b.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121030200" channel="C164.api.telerama.fr" stop="20251121045900">
+    <title>Jeudi en prime</title>
+    <desc lang="fr">L'émission a pour but d'enrichir le JT de 19h30 avec l'interview d'un quart d'heure d'une personnalité en lien avec l'actualité politique du moment.</desc>
+    <credits>
+      <presenter>Nathalie Maleux</presenter>
+      <presenter>Laurent Mathieu</presenter>
+      <presenter>Thomas Gadisseux</presenter>
+    </credits>
+    <category lang="fr">emission-politique</category>
+    <length units="minutes">117</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/01/16/5986abb44e582841f7f1fddc18775f6bd5b1764d.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121045900" channel="C164.api.telerama.fr" stop="20251121070000">
+    <title>Le 6-8</title>
+    <desc lang="fr">Très interactive, l'émission est animée par par Walid avec la complicité d'Alessia. Au sommaire: de l'info, le journal des sports, l'info-trafic, des reportages, ainsi que des chroniques de la vie quotidienne: les Buzz; Nos amis les animaux; Sexo; On s'bouge!; Beauté, mode &amp; bien-être; La télé d'avant; G testé pour vous; People; Enfants; Sport extrêmes; Un p'tit bout d'histoire et des News musicales.</desc>
+    <credits>
+      <presenter> Walid</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">121</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/03/6b396e49d27541e895de22cc1a041292.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251120223500" channel="C168.api.telerama.fr" stop="20251121005000">
+    <title>Mystère à Venise</title>
+    <desc lang="fr">C'est à Venise que le célèbre détective belge Hercule Poirot a choisi de passer sa retraite. Le jour d'Halloween, en 1947, son amie Ariadne Oliver, une auteure de romans policiers, le convie à une séance de spiritisme, organisée dans un palais qui a la réputation d'être hanté. D'abord réticent, Poirot accepte finalement l'invitation et se rend dans la vieille demeure appartenant à la cantatrice Rowena Drake. Là, se trouvent réunis quelques invités autour de la médium Joyce Reynolds. Malheureusement, un des participants trouve la mort durant la soirée, obligeant le célèbre détective à sortir de sa retraite. Il se lance alors dans une investigation qui le plonge dans un monde plein de secrets et de mystères...</desc>
+    <credits>
+      <director>Kenneth Branagh</director>
+      <actor>Kenneth Branagh</actor>
+      <actor>Michelle Yeoh</actor>
+      <actor>Jamie Dornan</actor>
+      <actor>Kyle Allen</actor>
+      <actor>Camille Cottin</actor>
+      <actor>Tina Fey</actor>
+      <actor>Jude Hill</actor>
+      <actor>Ali Khan</actor>
+      <actor>Emma Laird</actor>
+      <actor>Kelly Reilly</actor>
+      <actor>Riccardo Scamarcio</actor>
+      <actor>Rowan Robinson</actor>
+      <writer>Michael Green</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film</category>
+    <length units="minutes">135</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/26/d6709339ca244ad5aa176ee1a5600b66.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <country lang="fr">Italie</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20251121005000" channel="C168.api.telerama.fr" stop="20251121005500">
+    <title>Météo soir</title>
+    <desc lang="fr">Quel temps fera-t-il demain ? Les bulletins météo tiennent au courant des prévisions. La pluie et le beau temps, annoncés par des spécialistes.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/14/827f285a741a4a0e838e85904a262af9.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121005500" channel="C168.api.telerama.fr" stop="20251121013500">
+    <title>RTL info 19 heures</title>
+    <desc lang="fr">L'information est le coeur d'activité de la chaîne RTL tvi. L'ensemble des équipes de la rédaction se mobilise afin de donner aux téléspectateurs les informations les plus fraîches lors de chaque édition de son journal quotidien. Information nationale et internationale, faits divers locaux, événements sportif ou festifs, rien de ce qui concerne l'actualité n'échappe aux journalistes de la rédaction.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/12/25/087e887dff9e44199db652ba12bbff55.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121013500" channel="C168.api.telerama.fr" stop="20251121031500">
+    <title>Moments d'évasion</title>
+    <desc lang="fr">Chaque nuit, cette émission transporte le téléspectateur de chez soi vers les plus beaux endroits de la planète. Confortablement installés dans leur salon, devant leur écran, les adeptes de voyages, de beaux paysages et de nature sont happés par les images et reportages spectaculaires qui sont proposés. Une invitation à l'évasion et au rêve, destinée à toutes les générations, à la découverte de nombreuses merveilles, aux quatre coins du monde.</desc>
+    <category lang="fr">jeu</category>
+    <length units="minutes">100</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/edb02ee559874ed0912cf86643289f63.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121031500" channel="C168.api.telerama.fr" stop="20251121040000">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Retrouvez le programme diffusé en boucle du journal, des magazines, des séries pendant toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">emission-speciale</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/c047cfcfc1214ca79d1021a12cefe4a4.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121040000" channel="C168.api.telerama.fr" stop="20251121084000">
+    <title>bel RTL matin</title>
+    <desc lang="fr">Retrouvez les programmes de la radio</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">280</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/2b0a6cda83fa45f38802a47b02fa6c42.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251120231400" channel="C187.api.telerama.fr" stop="20251121010000">
+    <title>Hep taxi !</title>
+    <desc lang="fr">De passage à Bruxelles à l'occasion de la parution de son livre "Libre", l'ancien top model Adriana Karembeu retrace son parcours, des magazines de mode à son statut d'ambassadrice de la Croix-Rouge en passant par "Les Pouvoirs extraordinaires du corps humain" ou ses rôles au cinéma.</desc>
+    <credits>
+      <presenter>Jérôme Colin</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">106</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/25/24592997_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121010000" channel="C187.api.telerama.fr" stop="20251121050000">
+    <title>Boucle de nuit</title>
+    <desc lang="fr">Rediffusion du programme en boucle toute la nuit jusqu'au matin.</desc>
+    <category lang="fr">journal</category>
+    <length units="hours">4</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/26/4561dd784aba4f1fb931ecb9920ca1c0.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251120231500" channel="C377.api.telerama.fr" stop="20251121000500">
+    <title>The cerveau : qui sera le plus grand cerveau de la télé-réalité ?</title>
+    <desc lang="fr">L'Académie du Cerveau revient pour une nouvelle saison, plus drôle, imprévisible et stratégique encore. Répartis en deux équipes, Alpha et Bêta, 22 nouveaux pensionnaires vont participer à des épreuves de logique, de mémoire et de culture générale, sous l'oeil redoutable du Vérificateur. Cette saison, la Doyenne sera assistée d'Eddy et de Benoît, qui veilleront sur les candidats tout en commentant leurs exploits !</desc>
+    <category lang="fr">telerealite</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/07/0976af528c0d48e6a6360cf6ef3fd105.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121000500" channel="C377.api.telerama.fr" stop="20251121040000">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">235</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/05/03/b07eade200ce6558af7f538efc7afe5124a83fee_F1CDED88B91D18A615C4D9DD7E72A028.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121040000" channel="C377.api.telerama.fr" stop="20251121050000">
+    <title>Le Télé-achat</title>
+    <desc lang="fr">Pour savoir quels seront vos coups de coeurs de demain et connaître les tendances d'aujourd'hui, ne manquez pas le téléachat, un magazine conso malin pour vous aider au quotidien et découvrir des produits toujours plus novateurs et pratiques. Une émission pratique, qui permet de faire les boutiques sans sortir de chez soi.</desc>
+    <category lang="fr">magazine</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/05/03/b07eade200ce6558af7f538efc7afe5124a83fee_F1CDED88B91D18A615C4D9DD7E72A028.jpg" />
+    <country lang="fr">Belgique</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251120234100" channel="C892.api.telerama.fr" stop="20251121001300">
+    <title>JT 19h30 avec interprétation en langue des signes</title>
+    <desc lang="fr">"JT 19h30 avec interprétation en langue des signes " est une émission qui revient sur toutes sortes d'actualités quotidiennes.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">32</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/d2f2b75ad9f04f608cfb85ce3948d396.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121001300" channel="C892.api.telerama.fr" stop="20251121045900">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions par le service météo de la rtbf.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">286</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/29/c09c95ae6ace4b8dae91847651127930.jpg" />
+    <country lang="fr">Belgique</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20251121045900" channel="C892.api.telerama.fr" stop="20251121090000">
+    <title>Matin Première</title>
+    <desc lang="fr">Chaque matin, dès 6h00, Sophie Brems réveille et informe le public avec le journal des régions, l'invité dans l'actu, le journal des sports, etc. A 7h00, elle passe le relais à François Heureux et son équipe pour une tranche info qui vient titiller intelligemment l'actu.</desc>
+    <credits>
+      <presenter>François Heureux</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">241</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/08/28/b40557a2afda44d98f5929fe0d2d7b25.jpg" />
+    <country lang="fr">Belgique</country>
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
