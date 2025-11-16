@@ -1,0 +1,32 @@
+# This is a workflow to update the repository every day at 12:00PM
+
+name: Updater
+
+       # Controls when the workflow will run
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytz
+        sudo apt-get install -y xmltv
+        sudo apt-get install -y libmojolicious-perl
+ 
+    - name: update 
+      working-directory: scripts
+      run: |
+          git config user.name 'GitHub Actions'
+          git config user.email 'github@noreply.github.com'
+          bash update_all_tv_guides.sh
+      shell: bash
