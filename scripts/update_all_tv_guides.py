@@ -61,23 +61,23 @@ GRABBERS = {
        ],
        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6]
     },
-    'tv_grab_it': {
-        'raw_min_size': 150000 if not TEST_MODE else 1000,
-        'raw': 'tv_guide_it{}.xml',
-        'tz': 'Europe/Rome',
-        'run_cmd': [
-            SCRIPTS_DIRECTORY + 'tv_grab_it/tv_grab_it',
-            '--config-file',
-            SCRIPTS_DIRECTORY + 'tv_grab_it/tv_grab_it.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_it/tv_grab_it_test.conf',
-            '--days',
-            '1',
-            '--offset',
-            'myoffset',
-            '--output',
-            'myoutput'
-        ],
-        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6]
-    }
+    # 'tv_grab_it': {
+    #     'raw_min_size': 150000 if not TEST_MODE else 1000,
+    #     'raw': 'tv_guide_it{}.xml',
+    #     'tz': 'Europe/Rome',
+    #     'run_cmd': [
+    #         SCRIPTS_DIRECTORY + 'tv_grab_it/tv_grab_it',
+    #         '--config-file',
+    #         SCRIPTS_DIRECTORY + 'tv_grab_it/tv_grab_it.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_it/tv_grab_it_test.conf',
+    #         '--days',
+    #         '1',
+    #         '--offset',
+    #         'myoffset',
+    #         '--output',
+    #         'myoutput'
+    #     ],
+    #     'allowed_offsets': [0, 1, 2, 3, 4, 5, 6]
+    # }
 }
 
 
