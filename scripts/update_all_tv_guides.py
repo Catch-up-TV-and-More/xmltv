@@ -52,7 +52,7 @@ GRABBERS = {
            SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview_test.conf',
            '--days',
            '1',
-           '--fast',
+           # '--fast',
            '--debug',
            '--offset',
            'myoffset',
