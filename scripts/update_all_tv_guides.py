@@ -124,6 +124,7 @@ def update_raw_files():
     print('\n# Update raw XMLTV files from grabbers', flush=True)
     my_env = os.environ.copy()
     my_env['HOME'] = SCRIPTS_DIRECTORY
+    proc_infos = []     # list of tuples of info about a running grabber sub-process.
     for delta in range(0, 8):
         day_to_grab = TODAY + timedelta(days=delta)
         print('\t* Grab TV guides of day {}'.format(day_to_grab.strftime("%d/%m/%Y")), flush=True)
@@ -143,18 +144,42 @@ def update_raw_files():
                     print('\t\t\t* This file already exists (size: {} bytes) --> Nothing to do'.format(xmltv_file_size), flush=True)
                     run_cmd = False
             if run_cmd:
-                stdout_f = open(xmltv_fp + '_stdout_stderr.log', 'w')
+                # Open log file for write and read, create if not exists.
+                stdout_f = open(xmltv_fp + '_stdout_stderr.log', 'a+')
+                stdout_f.seek(0)
+                stdout_f.truncate()
+                stdout_f.write(f'{grabber}, {TODAY.strftime("%Y-%m-%d %H:%M:%S")}\n{"-" * 40}\n')
+                stdout_f.flush()
+
                 cmd = grabber_infos['run_cmd']
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
-                subprocess.run(cmd, env=my_env)
-                stdout_f.close()
                 try:
-                    final_size = os.path.getsize(xmltv_fp)
-                except Exception:
-                    final_size = 0
-                print('\t\t\t* Final file size: {} bytes'.format(final_size), flush=True)
+                    proc_inf = ((stdout_f,
+                                 xmltv_fp,
+                                 subprocess.Popen(cmd, env=my_env, stdout=stdout_f, stderr=subprocess.STDOUT)))
+                    proc_infos.append(proc_inf)
+                except:
+                    stdout_f.close()
+    if not proc_infos:
+        print('\t* No grabbers run.', flush=True)
+        return
+    print('\t* Grabbers results:', flush=True)
+    for proc_inf in proc_infos:
+        stdout_f, xmltv_fp, process = proc_inf
+        process.wait()
+        stdout_f.seek(0)
+        process_output = stdout_f.read()
+        stdout_f.close()
+        try:
+            final_size = os.path.getsize(xmltv_fp)
+        except Exception:
+            final_size = 0
+        print('\t\t* {} final file size: {} bytes'.format(xmltv_fp.replace(RAW_DIRECTORY, ''), final_size), flush=True)
+        print('-' * 120, flush=True)
+        print(process_output, flush=True)
+        print('-' * 120, '\n', flush=True)
 
 
 def parse_raw_xmltv_files():
