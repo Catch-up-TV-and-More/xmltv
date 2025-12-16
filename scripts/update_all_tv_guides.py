@@ -123,6 +123,7 @@ def update_raw_files():
     """Update raw XMLTV files from grabbers."""
     print('\n# Update raw XMLTV files from grabbers', flush=True)
     my_env = os.environ.copy()
+    # Grabbers use the 'HOME' environment variable to locate the cache directory.
     my_env['HOME'] = SCRIPTS_DIRECTORY
     for delta in range(0, 8):
         day_to_grab = TODAY + timedelta(days=delta)
