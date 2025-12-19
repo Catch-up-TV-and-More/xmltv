@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import hashlib
 import os
 import glob
 import pytz
@@ -39,24 +40,26 @@ GRABBERS = {
             '--output',
             'myoutput'
         ],
-        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
+        'allowed_offsets': [0, 1, 2, 3, 4, 5]
     },
-    'tv_grab_uk_tvguide': {
-        'raw_min_size': 150000 if not TEST_MODE else 1000,
-        'raw': 'tv_guide_uk_tvguide{}.xml',
-        'tz': 'Europe/London',
-        'run_cmd': [
-            SCRIPTS_DIRECTORY + 'tv_grab_uk_tvguide/tv_grab_uk_tvguide',
-            '--config-file',
-            SCRIPTS_DIRECTORY + 'tv_grab_uk_tvguide/tv_grab_uk_tvguide.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_uk_tvguide/tv_grab_uk_tvguide_test.conf',
-            '--days',
-            '1',
-            '--offset',
-            'myoffset',
-            '--output',
-            'myoutput'
-        ],
-        'allowed_offsets': [0, 1, 2, 3, 4, 5, 6, 7]
+    'tv_grab_uk_freeview': {
+       'raw_min_size': 150000 if not TEST_MODE else 1000,
+       'raw': 'tv_guide_uk_freeview{}.xml',
+       'tz': 'utc',
+       'run_cmd': [
+           SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview',
+           '--config-file',
+           SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview.conf' if not TEST_MODE else SCRIPTS_DIRECTORY + 'tv_grab_uk_freeview/tv_grab_uk_freeview_test.conf',
+           '--days',
+           '1',
+           # '--fast',
+           '--debug',
+           '--offset',
+           'myoffset',
+           '--output',
+           'myoutput'
+       ],
+       'allowed_offsets': [0, 1, 2, 3, 4, 5, 6]
     },
     'tv_grab_it': {
         'raw_min_size': 150000 if not TEST_MODE else 1000,
@@ -78,10 +81,28 @@ GRABBERS = {
 }
 
 
+def compute_md5(filepath):
+    """Compute MDH hash of the file."""
+    try:
+        with open(filepath, "rb") as f:
+            file_md5 = hashlib.md5()
+            while True:
+                chunk = f.read(8192)
+                if not chunk:
+                    break
+                file_md5.update(chunk)
+
+            return file_md5.hexdigest()
+    except Exception as e:
+        raise RuntimeError("Failed to compute MD5 of file {} ({})".format(filepath, e))
+
+
 def remove_root_xmltv_files():
     """In root directory, remove all XMLTV files."""
     print('\n# Remove all XMLTV files in root directory', flush=True)
     for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
+        os.remove(f)
+    for f in glob.glob(ROOT_DIRECTORY + '*_md5.txt'):
         os.remove(f)
 
 
@@ -102,6 +123,7 @@ def update_raw_files():
     """Update raw XMLTV files from grabbers."""
     print('\n# Update raw XMLTV files from grabbers', flush=True)
     my_env = os.environ.copy()
+    # Grabbers use the 'HOME' environment variable to locate the cache directory.
     my_env['HOME'] = SCRIPTS_DIRECTORY
     for delta in range(0, 8):
         day_to_grab = TODAY + timedelta(days=delta)
@@ -127,7 +149,7 @@ def update_raw_files():
                 cmd[-1] = xmltv_fp
                 cmd[-3] = str(delta)
                 print('\t\t\t* Run cmd:', ' '.join(cmd), flush=True)
-                subprocess.run(cmd, env=my_env, stdout=stdout_f, stderr=stdout_f)
+                subprocess.run(cmd, env=my_env)
                 stdout_f.close()
                 try:
                     final_size = os.path.getsize(xmltv_fp)
@@ -341,13 +363,28 @@ def generate_new_xmltv_files(all_data, all_channels, all_programmes, all_program
     print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
 
+def generate_root_xmltv_files_md5():
+    """For each xmltv files in root, generate corresponding md5 file."""
+    print('\n# Compute MD5 hash of new XMLTV files', flush=True)
+    for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
+        try:
+            md5 = compute_md5(f)
+            dst_fp = f.replace('.xml', '_md5.txt')
+            with open(dst_fp, 'w') as f:
+                f.write(md5)
+        except Exception as e:
+            print('\t- Failed to create MD5 file of {} ({})'.format(f, e), flush=True)
+
+
 def main():
     print('\n# Start script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
+    os.system('hostnamectl')
     remove_root_xmltv_files()
     remove_old_raw_files()
     update_raw_files()
     (all_data, all_channels, all_programmes, all_programmes_local) = parse_raw_xmltv_files()
     generate_new_xmltv_files(all_data, all_channels, all_programmes, all_programmes_local)
+    generate_root_xmltv_files_md5()
     print('\n# Exit script at', datetime.now().strftime("%d/%m/%Y %H:%M:%S"), flush=True)
 
 

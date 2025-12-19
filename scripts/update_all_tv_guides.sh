@@ -13,6 +13,7 @@ force_pull () {
 }
 
 force_push () {
+    rm -fR /scripts/.xmltv/cache
     git add --all
     git commit --amend -m "Auto update TV guides ($now)"
     git push -f origin master
