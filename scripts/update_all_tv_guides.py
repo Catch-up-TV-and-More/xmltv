@@ -109,14 +109,13 @@ def remove_root_xmltv_files():
 def remove_old_raw_files():
     """In 'raw' directory, remove old XMLTV and log files."""
     print('\n# Remove old XMLTV and log files of raw directory', flush=True)
-    subexpr_to_remove = []
-    for delta in range(3, 20):
-        subexpr_to_remove.append((TODAY - timedelta(days=delta)).strftime("%Y%m%d"))
+    subexpr_to_keep = []
+    for delta in range(-2, 7):
+        subexpr_to_keep.append((TODAY + timedelta(days=delta)).strftime("%Y%m%d"))
     for f in glob.glob(RAW_DIRECTORY + '*'):
-        for expr in subexpr_to_remove:
-            if expr in f:
-                print('\t* Remove file ' + f, flush=True)
-                os.remove(f)
+        if not any(expr in f for expr in subexpr_to_keep):
+            print('\t* Remove file ' + f, flush=True)
+            os.remove(f)
 
 
 def update_raw_files():
