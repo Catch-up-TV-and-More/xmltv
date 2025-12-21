@@ -9,20 +9,33 @@ This repository keeps XMLTV TV guides up to date in order to be used with the Li
 
 ## Developers notes
 
-The `update_all_tv_guides.sh` can be used to automatically update TV guides files (`xxxxx.xml` files).
-The script automatically create a commit with the latest TV guides and it will push the modification on this GitHub repository.
-This script is executed every night with a cron task but you can trigger it manually on your own computer.
+Contrary to what the name suggests, the `master` branch is not the default 
+branch in this repo. It contains no code, just EPG data files. The default 
+branch is `dev`, which contains all code and no data. All PR's should target 
+the `dev` branch.
 
-## Fonctionnement (only in french ATM)
+The `update_all_tv_guides.py` script can be used to automatically update TV 
+guides files (`xxxxx.xml` files). This script is executed every night from a 
+GitHub workflow that is triggered by a cron task, but you can run it manually 
+on your own computer. The workflow automatically create a commit with the 
+latest TV guides and it will push the modifications to the master branch on 
+this GitHub repository.
 
-* Si on est le jour J (par exemple le 19/06/2020)
-* Toutes les nuits, le script bash `update_all_tv_guides.sh` est exécuté
-* Ce que fait le script bash (`update_all_tv_guides.sh`)
-    * Pull du dépôt GitHub
-    * Suppression des fichiers XMLTV de la racine
-    * Pour chaque pays, récupération du programme TV de la journée J+2 (par exemple le 21/06/2020) qu'on place dans le dossier `raw`
-    * Appel du petit script Python (`post_treatment.py`)
-        * Suppression, dans le dossier `raw`, des programmes TV trop anciens
-        * Fusion, pour chaque pays, des programmes TV de chaque jour présents dans le dossier `raw`
-        * Post traitement des programmes TV (découpage par jour, avec heure locale ou UTC, ...)
-    * Push sur le dépôt GitHub des modifications
+## How it works
+
+* Every night at 22:00 the workflow runs.
+* Pull the `dev` branch from the GitHub repo.
+* Pull the `master` branch from the GitHub repo and copy the folder with raw 
+  files.
+* Python script `update_all_tv_guides.py` is executed
+* What the script does (`update_all_tv_guides.py`):
+  * Delete XMLTV files from the root directory
+  * Deletes outdated files from the `raw` folder
+  * For each country, always retrieve the file with TV programmes for tomorrow 
+    and place it in the `raw` folder.
+  * Determine how many days of EPG should be available for each country and 
+    retrieve the programmes for each day for which no raw file is yet available. 
+  * Calls the small Python script (`post_treatment.py`)
+  * Merges the TV programmes for each day in the `raw` folder for each country
+  * Post-processes the TV programmes (divides them by day, with local time or UTC, etc.)
+* Pushes xmltv files and raw files to the master branch of the GitHub repository
