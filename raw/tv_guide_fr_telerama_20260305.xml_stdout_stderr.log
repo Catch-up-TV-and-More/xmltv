@@ -1,0 +1,8 @@
+tv_grab_fr_telerama, 2026-03-01 22:15:15
+----------------------------------------
+                                                  getting listings...Use of uninitialized value $deeplink in pattern match (m//) at /home/runner/work/xmltv/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama line 903.
+Use of uninitialized value $deeplink in pattern match (m//) at /home/runner/work/xmltv/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama line 906.
+Use of uninitialized value $deeplink in pattern match (m//) at /home/runner/work/xmltv/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama line 941.
+Use of uninitialized value $p{"id"} in concatenation (.) or string at /home/runner/work/xmltv/xmltv/scripts/tv_grab_fr_telerama/tv_grab_fr_telerama line 568.
+Erreur 400 Bad Request, url: https://apps.telerama.fr/tlr/v1/free-android-tablet/element?id=&program_id=14591825 , retrying...
+Erreur 400 Bad Request, url: https://apps.telerama.fr/tlr/v1/free-android-tablet/element?id=&program_id=14591825
