@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C59.api.telerama.fr">
+    <display-name>SRF 1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-59.png" />
+  </channel>
+  <channel id="C183.api.telerama.fr">
+    <display-name>RTS 2</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-183.png" />
+  </channel>
+  <channel id="C202.api.telerama.fr">
+    <display-name>RTS 1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-202.png" />
+  </channel>
+  <programme start="20260219234500 +0100" channel="C183.api.telerama.fr" stop="20260220000500 +0100">
+    <title>Sigma Olomuc / FC Lausanne-Sport</title>
+    <desc lang="fr">Le FC Lausanne-Sport affronte les Tchèques du SK Sigma Olomouc dans ce barrage : une rencontre qui sur le papier paraît à la portée des Suisses. En cas de victoire après le match retour, Lausanne affrontera soit l'AEK Larnaca (Chypre), soit le club allemand de Mayence en 8es de finale.</desc>
+    <category lang="fr">football</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/5bf156dc296e4fe987e4f909d78944d5.jpg" />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220000500 +0100" channel="C183.api.telerama.fr" stop="20260220001000 +0100">
+    <title>PMU</title>
+    <desc lang="fr">Les derniers résultats des paris sportifs et hippiques du PMU.</desc>
+    <category lang="fr">hippisme</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/be6f4a2660e545868a3bda0398bc3292.jpg" />
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220001000 +0100" channel="C183.api.telerama.fr" stop="20260220002000 +0100">
+    <title>Zap RTS Sport</title>
+    <desc lang="fr">Les informations sportives en images, les résultats et les moments forts des principales rencontres du week-end.</desc>
+    <category lang="fr">magazine-sportif</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/14/2109f83c06a344d8bfe9bf253587c193.jpg" />
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220002000 +0100" channel="C183.api.telerama.fr" stop="20260220010000 +0100">
+    <title>Chicago Med</title>
+    <desc lang="fr">Saison:8 - Episode:3 - Goodwin met en place la gestion de la pénurie. Charles et Cuevas accueillent David, le jeune schizophrène de retour en pleine crise pendant que Asher prend en charge son père, Eric, qui s'écroule aux urgences. Ethan s'occupe de Liza, enceinte, qui refuse d'être soignée par "une droguée". Il écarte Hannah, qui le vit très mal. Will soigne Indrani, allergique et infectée par une bactérie résistante. Goodwin prive Will du traitement efficace et sans danger pour sa patiente. Crockett et Vanessa s'occupent de Marcus, aux vertèbres endommagées. Abrams refuse de l'opérer à cause d'un problème sanguin qui se résout de manière spectaculaire.</desc>
+    <credits>
+      <director>Charles S. Carroll</director>
+      <actor>Nick Gehlfuss</actor>
+      <actor>Brian Tee</actor>
+      <actor>Dominic Rains</actor>
+      <actor>Marlyne Barrett</actor>
+      <actor>Jessy Schram</actor>
+      <actor>S. Epatha Merkerson</actor>
+      <actor>Oliver Platt</actor>
+      <actor>Steven Weber</actor>
+      <actor>Brennan Brown</actor>
+      <actor>Asjha Cooper</actor>
+      <actor>Anna George</actor>
+      <actor>Karin Anglin</actor>
+      <writer>Meridith Friedman</writer>
+      <writer>Ryan Johnson</writer>
+      <writer>Matt Olmstead</writer>
+      <writer>Gabrielle Fulton Ponder</writer>
+      <writer>Gabriel L. Feinberg</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/07/08bb867d87b24a5886e5d5923774d6b8.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">7.2.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220010000 +0100" channel="C183.api.telerama.fr" stop="20260220014000 +0100">
+    <title>Chicago Med</title>
+    <desc lang="fr">Saison:8 - Episode:4 - Le docteur Blake part exercer à Boston, et Crockett essaie de l'intercepter. Les médecins urgentistes de Gaffney sont aux prises avec des ruptures de stock en matériel pharmaceutique. Hannah reçoit une patiente enceinte avec des maux de dos. Dean fait face au manque de fournitures et à sa défiance envers le docteur Asher. Will et Vanessa doivent soigner une femme avec une infection urinaire, mais le traitement nécessaire n'est nulle part disponible. Ethan et Kai doivent faire un drainage pleural à un patient en utilisant des moyens alternatifs...</desc>
+    <credits>
+      <director>Nicole Rubio</director>
+      <actor>Nick Gehlfuss</actor>
+      <actor>Brian Tee</actor>
+      <actor>Dominic Rains</actor>
+      <actor>Marlyne Barrett</actor>
+      <actor>Jessy Schram</actor>
+      <actor>S. Epatha Merkerson</actor>
+      <actor>Oliver Platt</actor>
+      <actor>Steven Weber</actor>
+      <actor>Sasha Roiz</actor>
+      <actor>Johanna Braddy</actor>
+      <actor>Asjha Cooper</actor>
+      <actor>David Eigenberg</actor>
+      <writer>Daniel Sinclair</writer>
+      <writer>Matt Olmstead</writer>
+      <writer>Gabriel L. Feinberg</writer>
+      <writer>Gabrielle Fulton Ponder</writer>
+      <writer>Ryan Johnson</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">40</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/07/66376592807f444f92540f926c41e940.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">7.3.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220014000 +0100" channel="C183.api.telerama.fr" stop="20260220021500 +0100">
+    <title>Le 19h30</title>
+    <desc lang="fr">Téléjournal de la rédaction de la RTS qui présente l'actualité en Suisse et dans le monde.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/08/09/8922b7b77da17ecc6038ab96999eb1cccec1d6b2.jpg" />
+    <country lang="fr">Suisse</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220021500 +0100" channel="C183.api.telerama.fr" stop="20260220023000 +0100">
+    <title>Couleurs locales</title>
+    <desc lang="fr">Couleurs locales, c'est toute l'actualité locale en Suisse romande présentée sur le terrain. Un magazine d'information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l'actualité dans les régions.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/03/05/c47472f243634bdc9e8feae5f840cf9a.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220023000 +0100" channel="C183.api.telerama.fr" stop="20260220055500 +0100">
+    <title>Le 19h30</title>
+    <desc lang="fr">Téléjournal de la rédaction de la RTS qui présente l'actualité en Suisse et dans le monde.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">205</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/08/09/8922b7b77da17ecc6038ab96999eb1cccec1d6b2.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260220055500 +0100" channel="C183.api.telerama.fr" stop="20260220070000 +0100">
+    <title>RTS Info</title>
+    <desc lang="fr">Boucle d'information vidéo composée des principaux rendez-vous d'actualité et de sport de la radio, de la télévision et du multimédia de la RTS. Outre les 3 journaux quotidiens, RTS Info en continu intégrera des éléments de Mise au Point, de Toutes Taxes Comprises, des émissions de sport ainsi que d'autres magazines de la RTS.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <country lang="fr">Suisse</country>
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+</tv>
