@@ -1,0 +1,12 @@
+tv_grab_uk_freeview, 2026-10-24 00:12:21
+----------------------------------------
+getting list of channels:  URL= https://www.freeview.co.uk/api/channel-list?nid=64403 
+Fetching https://www.freeview.co.uk/api/channel-list?nid=64403 from server.
+##################################################
+using cache '/home/runner/work/xmltv/xmltv/scripts//.xmltv/cache' 
+using channel format 'number' 
+using region id '64403' 
+using icon ch string '?w=160' 
+using icon pg string '?w=800' 
+fetch 20 channels 
+no 'id' attribute in channel at /usr/share/perl5/XMLTV.pm line 2769.
