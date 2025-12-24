@@ -1,4 +1,4 @@
-# This is a workflow to update the repository every day at 12:00PM
+# This is a workflow to update the repository every day at 22:00PM
 
 name: Updater
 
@@ -10,23 +10,98 @@ on:
 
 
 jobs:
-  cron:
+  update-epg-data:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-      
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytz
-        sudo apt-get install -y xmltv
-        sudo apt-get install -y libmojolicious-perl
- 
-    - name: update 
-      working-directory: scripts
-      run: |
+      - name: Checkout code branch
+        uses: actions/checkout@v6
+
+      - name: Checkout data branch
+        uses: actions/checkout@v6
+        with:
+          ref: master
+          path: databranch
+
+      - name: Print folder structure
+        run: ls -R ./
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytz
+          sudo apt-get install -y xmltv
+          sudo apt-get install -y libmojolicious-perl
+
+      - name: Copy raw files from data branch
+        run: cp -rf databranch/raw ./
+        continue-on-error: true
+
+      - name: Print folder structure
+        run: ls -R ./
+
+      - name: Update
+        working-directory: scripts
+        run: python3 update_all_tv_guides.py
+
+      - name: Print folder structure
+        run: ls -R ./
+
+      - name: Store raw data
+        uses: actions/upload-artifact@v6
+        with:
+          name: raw-data
+          path: raw/
+          retention-days: 7
+
+      - name: Store EPG data
+        uses: actions/upload-artifact@v6
+        with:
+          name: epg-data
+          path: data/
+          retention-days: 2
+
+
+  push-epg-data:
+    needs: update-epg-data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout data branch
+        uses: actions/checkout@v6
+        with:
+          ref: master
+
+      - name: Print folder contents after checkout
+        run: ls -A ./
+
+      - name: Clean existing data
+        run: rm -rf ./*
+
+      - name: Print folder contents after cleanup
+        run: ls -A ./
+
+      - name: Download stored EPG data
+        uses: actions/download-artifact@v7
+        with:
+          name: epg-data
+
+      - name: Download stored raw files
+        uses: actions/download-artifact@v7
+        with:
+          name: raw-data
+          path: raw
+
+      - name: Print folder structure
+        run: ls -R ./
+
+      - name: Force-push new data
+        run: |
+          now=$(date +"%d/%m/%Y %H:%M:%S-%Z")
           git config user.name 'GitHub Actions'
           git config user.email 'github@noreply.github.com'
-          bash update_all_tv_guides.sh
-      shell: bash
+          git add --all
+          git commit --amend -m "Auto update TV guides ($now)"
+          git push -f origin master

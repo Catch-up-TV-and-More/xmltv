@@ -12,8 +12,12 @@ from datetime import datetime, timedelta
 from channels import COUNTRIES_CHANNELS
 
 SCRIPTS_DIRECTORY = os.path.dirname(os.path.realpath(__file__)) + '/'
-ROOT_DIRECTORY = SCRIPTS_DIRECTORY + '../'
-RAW_DIRECTORY = ROOT_DIRECTORY + 'raw/'
+ROOT_DIRECTORY = os.path.normpath(SCRIPTS_DIRECTORY + '../')
+RAW_DIRECTORY = os.path.join(ROOT_DIRECTORY, 'raw/')
+DATA_DIRECTORY = os.path.join(ROOT_DIRECTORY, 'data/')
+
+os.makedirs(RAW_DIRECTORY, exist_ok=True)
+os.makedirs(DATA_DIRECTORY, exist_ok=True)
 
 # The date format used in XMLTV (the %Z will go away in 0.6)
 DATE_FORMAT = '%Y%m%d%H%M%S %Z'
@@ -98,11 +102,14 @@ def compute_md5(filepath):
 
 
 def remove_root_xmltv_files():
-    """In root directory, remove all XMLTV files."""
+    """In root directory, remove all XMLTV files.
+
+    No need when run in production, but kept in case this script is run locally for testing.
+    """
     print('\n# Remove all XMLTV files in root directory', flush=True)
-    for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
+    for f in glob.glob(DATA_DIRECTORY + '*.xml'):
         os.remove(f)
-    for f in glob.glob(ROOT_DIRECTORY + '*_md5.txt'):
+    for f in glob.glob(DATA_DIRECTORY + '*_md5.txt'):
         os.remove(f)
 
 
@@ -276,7 +283,7 @@ def generate_new_xmltv_files(all_data, all_channels, all_programmes, all_program
 
         # Write full xmltv file
         for fp_prefix in ['', '_local']:
-            dst_fp = ROOT_DIRECTORY + country_infos['dst'].format(fp_prefix)
+            dst_fp = DATA_DIRECTORY + country_infos['dst'].format(fp_prefix)
             print('\t\t- Write full{} xmltv file in {}'.format(fp_prefix, os.path.basename(dst_fp)), flush=True)
             w = xmltv.Writer()
 
@@ -313,7 +320,7 @@ def generate_new_xmltv_files(all_data, all_channels, all_programmes, all_program
             date_s = date.strftime("%Y%m%d")
 
             for fp_prefix in ['', '_local']:
-                dst_fp = ROOT_DIRECTORY + country_infos['dst'].format(fp_prefix + '_' + date_s)
+                dst_fp = DATA_DIRECTORY + country_infos['dst'].format(fp_prefix + '_' + date_s)
                 print('\t\t- Write day {} in {}'.format(date_s, os.path.basename(dst_fp)), flush=True)
                 w = xmltv.Writer()
 
@@ -363,7 +370,7 @@ def generate_new_xmltv_files(all_data, all_channels, all_programmes, all_program
             w.addProgramme(p)
             cnt = cnt + 1
 
-    with open(ROOT_DIRECTORY + 'tv_guide_all.xml', 'wb') as f:
+    with open(DATA_DIRECTORY + 'tv_guide_all.xml', 'wb') as f:
         w.write(f, pretty_print=True)
     print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
@@ -382,7 +389,7 @@ def generate_new_xmltv_files(all_data, all_channels, all_programmes, all_program
             w.addProgramme(p)
             cnt = cnt + 1
 
-    with open(ROOT_DIRECTORY + 'tv_guide_all_local.xml', 'wb') as f:
+    with open(DATA_DIRECTORY + 'tv_guide_all_local.xml', 'wb') as f:
         w.write(f, pretty_print=True)
     print('\t\t- Final file contains {} TV shows'.format(cnt), flush=True)
 
@@ -390,7 +397,7 @@ def generate_new_xmltv_files(all_data, all_channels, all_programmes, all_program
 def generate_root_xmltv_files_md5():
     """For each xmltv files in root, generate corresponding md5 file."""
     print('\n# Compute MD5 hash of new XMLTV files', flush=True)
-    for f in glob.glob(ROOT_DIRECTORY + '*.xml'):
+    for f in glob.glob(DATA_DIRECTORY + '*.xml'):
         try:
             md5 = compute_md5(f)
             dst_fp = f.replace('.xml', '_md5.txt')
