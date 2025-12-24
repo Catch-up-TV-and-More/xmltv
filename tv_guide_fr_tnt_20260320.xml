@@ -1,0 +1,2550 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C192.api.telerama.fr">
+    <display-name>TF1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-192.png" />
+  </channel>
+  <channel id="C4.api.telerama.fr">
+    <display-name>France 2</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-4.png" />
+  </channel>
+  <channel id="C80.api.telerama.fr">
+    <display-name>France 3</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-80.png" />
+  </channel>
+  <channel id="C78.api.telerama.fr">
+    <display-name>France 4</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-78.png" />
+  </channel>
+  <channel id="C47.api.telerama.fr">
+    <display-name>France 5</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-47.png" />
+  </channel>
+  <channel id="C118.api.telerama.fr">
+    <display-name>M6</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-118.png" />
+  </channel>
+  <channel id="C111.api.telerama.fr">
+    <display-name>Arte</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-111.png" />
+  </channel>
+  <channel id="C234.api.telerama.fr">
+    <display-name>La Chaîne Parlementaire</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-234.png" />
+  </channel>
+  <channel id="C119.api.telerama.fr">
+    <display-name>W9</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-119.png" />
+  </channel>
+  <channel id="C195.api.telerama.fr">
+    <display-name>TMC</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-195.png" />
+  </channel>
+  <channel id="C446.api.telerama.fr">
+    <display-name>TFX</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-446.png" />
+  </channel>
+  <channel id="C482.api.telerama.fr">
+    <display-name>Gulli</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-482.png" />
+  </channel>
+  <channel id="C481.api.telerama.fr">
+    <display-name>BFM TV</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-481.png" />
+  </channel>
+  <channel id="C226.api.telerama.fr">
+    <display-name>CNews</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-226.png" />
+  </channel>
+  <channel id="C112.api.telerama.fr">
+    <display-name>LCI</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-112.png" />
+  </channel>
+  <channel id="C2111.api.telerama.fr">
+    <display-name>Franceinfo</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-2111.png" />
+  </channel>
+  <channel id="C458.api.telerama.fr">
+    <display-name>CSTAR</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-458.png" />
+  </channel>
+  <channel id="C4139.api.telerama.fr">
+    <display-name>T18</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-4139.png" />
+  </channel>
+  <channel id="C4138.api.telerama.fr">
+    <display-name>NOVO19</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-4138.png" />
+  </channel>
+  <channel id="C1404.api.telerama.fr">
+    <display-name>TF1 Séries Films</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1404.png" />
+  </channel>
+  <channel id="C1401.api.telerama.fr">
+    <display-name>L'Equipe</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1401.png" />
+  </channel>
+  <channel id="C1403.api.telerama.fr">
+    <display-name>6ter</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1403.png" />
+  </channel>
+  <channel id="C1402.api.telerama.fr">
+    <display-name>RMC Story</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1402.png" />
+  </channel>
+  <channel id="C1400.api.telerama.fr">
+    <display-name>RMC Découverte</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1400.png" />
+  </channel>
+  <channel id="C1399.api.telerama.fr">
+    <display-name>Chérie 25</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-1399.png" />
+  </channel>
+  <programme start="20260319235000" channel="C192.api.telerama.fr" stop="20260320005500">
+    <title>Erica</title>
+    <desc lang="fr">Saison:2 - Episode:3 - En publiant une vieille photo de sa mère, Erica réveille un secret enfoui depuis près de cinquante ans. Farid Hussein, l'un des visages du cliché, est retrouvé assassiné, serrant des pages arrachées d'un journal intime disparu. Plongée dans le passé, Erica découvre une jeunesse marquée par l'amitié, la jalousie et la violence. Une disparition jamais élucidée refait surface, tandis que témoins et coupables s'effacent. La vérité menace de ressurgir et de tuer encore...</desc>
+    <credits>
+      <director>Nicolas Copin</director>
+      <actor>Julie de Bona</actor>
+      <actor>Grégory Fitoussi</actor>
+      <actor>Théo Fernandez</actor>
+      <actor>Maud Baecker</actor>
+      <actor>Hubert Delattre</actor>
+      <actor>Catherine Benguigui</actor>
+      <actor>Benjamin Douba-Paris</actor>
+      <actor>Guy Lecluyse</actor>
+      <actor>Johane Turpault</actor>
+      <actor>Jeanne Bournaud</actor>
+      <actor>Scali Delpeyrat</actor>
+      <actor>Anthony Goffi</actor>
+      <writer>Julien Magnat</writer>
+      <writer>Camilla Läckberg</writer>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/06/35d44f9f76f440aab6e2153e4423a5ae.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.2.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320005500" channel="C192.api.telerama.fr" stop="20260320015000">
+    <title>Erica</title>
+    <desc lang="fr">Saison:2 - Episode:4 - Une vieille photo, un journal déchiré et des secrets enfouis depuis des décennies refont surface. Entre suicides, meurtres et disparitions, Erica reconstitue le passé d'Elsie, découvre l'enfant caché de Kamil et affronte des vérités explosives. La vengeance, l'amour et la trahison s'entrelacent jusqu'au choc final. Erica se retrouve seule face à un avenir incertain...</desc>
+    <credits>
+      <director>Nicolas Copin</director>
+      <actor>Julie de Bona</actor>
+      <actor>Grégory Fitoussi</actor>
+      <actor>Théo Fernandez</actor>
+      <actor>Maud Baecker</actor>
+      <actor>Hubert Delattre</actor>
+      <actor>Catherine Benguigui</actor>
+      <actor>Benjamin Douba-Paris</actor>
+      <actor>Guy Lecluyse</actor>
+      <actor>Johane Turpault</actor>
+      <actor>Jeanne Bournaud</actor>
+      <actor>Scali Delpeyrat</actor>
+      <actor>Anthony Goffi</actor>
+      <writer>Julien Magnat</writer>
+      <writer>Camilla Läckberg</writer>
+    </credits>
+    <date>2025</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/06/6c0605bd062f4124801196248c2816c2.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320015000" channel="C192.api.telerama.fr" stop="20260320045000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="hours">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045000" channel="C192.api.telerama.fr" stop="20260320055500">
+    <title>TFou</title>
+    <desc lang="fr">Une émission jeunesse qui propose les meilleures séries de dessins animés du moment.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/19/c7ce43a785bf4a288915899abc41b207.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319235000" channel="C4.api.telerama.fr" stop="20260320003500">
+    <title>Au bout de l'enquête, la fin du crime parfait ?</title>
+    <desc lang="fr">Au début des années 1980, une folle cavale meurtrière et très médiatique tient la France en haleine. Tout commence par l'attaque la nuit d'une belle maison de maître dans la banlieue de Bordeaux, où vit un jeune couple de médecins riche et brillant. S'engage alors une course-poursuite et même une prise d'otages chez une avocate. La mission des forces de l'ordre : neutraliser un jeune tueur extrêmement violent et avide de publicité.</desc>
+    <credits>
+      <presenter>Marie Drucker</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/14/321511ae0f36470ab1482b40e688b1f2.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320003500" channel="C4.api.telerama.fr" stop="20260320012500">
+    <title>Au bout de l'enquête, la fin du crime parfait ?</title>
+    <desc lang="fr">Le couple de médecins de Pessac a été assassiné. L'homme est mort étranglé chez lui. La femme, qui a été enlevée, est retrouvée avec une balle dans le coeur à plusieurs centaines de kilomètres de son domicile. Et le nom d'un suspect apparaît : Lionel Cardon. Un jeune homme de 25 ans déjà condamné pour une affaire de vol à main armée. Il va mener une folle cavale en prenant les médias à témoin.</desc>
+    <credits>
+      <presenter>Marie Drucker</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/133055a767db49c8b14000efadd1946f.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320012500" channel="C4.api.telerama.fr" stop="20260320013000">
+    <title>Journal Météo climat outre-mer</title>
+    <desc lang="fr">Un point météo complet sur la météo dans les Outre-mer, avec les prévisions de températures et la force des vents.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/e79e3b90f71649b3832a96a824d33401.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320013000" channel="C4.api.telerama.fr" stop="20260320031000">
+    <title>Ça commence aujourd'hui</title>
+    <desc lang="fr">Tous les jours, Faustine Bollaert accueille sur le plateau de "Ça commence aujourd'hui" des hommes et des femmes qui évoquent des événements marquants de leur existence, pour permettre à d'autres d'avancer dans leur parcours: un rendez-vous positif et optimiste.</desc>
+    <credits>
+      <presenter>Faustine Bollaert</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">100</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/22/f734d84ec602454baa7eb3462488909c.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320031000" channel="C4.api.telerama.fr" stop="20260320034000">
+    <title>Saint-Malo la corsaire</title>
+    <desc lang="fr">Découverte de la ville bretonne de Saint-Malo, située sur les côtes de la Manche, une cité au riche patrimoine, qui témoigne d'un passé historique mouvementé.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/13/29e4ae92b3ff4cb18af06a2f180a91bd.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034000" channel="C4.api.telerama.fr" stop="20260320035000">
+    <title>Courant d'art</title>
+    <desc lang="fr">A la découverte des oeuvres et du style de Charles Cambier, un artiste adepte de l'aquarelle, de la peinture à l'huile et de la peinture au couteau.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/22/3337ea6b00b949ae9da9ee421ef4fbed.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320035000" channel="C4.api.telerama.fr" stop="20260320040000">
+    <title>Pays et marchés du monde</title>
+    <desc lang="fr">Saison:4 - Episode:34 - Caméraman reporter, Xavier Petit part à la découverte d'un pays, d'une ville, d'un peuple et, bien sûr, d'un marché traditionnel et d'une spécialité locale.</desc>
+    <date>2020</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/01/25/13773320_A8E5FA5962F799422F4C0F0E681FB539.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">3.33.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040000" channel="C4.api.telerama.fr" stop="20260320044500">
+    <title>Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Six candidats affrontent un "champion" autour d'une série de jeux. Celui ou celle qui parviendra à le déloger deviendra le nouveau champion. Suspense et coups de théâtre rythment ce rendez-vous ludique.</desc>
+    <credits>
+      <presenter>Cyril Féraud</presenter>
+    </credits>
+    <category lang="fr">jeu</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/08/22/5806f0526bc84a198a19d2dbca0ac0ee.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320044500" channel="C4.api.telerama.fr" stop="20260320045500">
+    <title>Mot de passe : le duel</title>
+    <desc lang="fr">Deux candidats accompagnés de deux personnalités s'affrontent pour découvrir un maximum de mots en un minimum de temps.</desc>
+    <credits>
+      <presenter>Camille Cerf</presenter>
+    </credits>
+    <category lang="fr">jeu</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/09/838b972e01e74bae98a96e689a93a8f3.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045500" channel="C4.api.telerama.fr" stop="20260320050000">
+    <title>Stances</title>
+    <desc lang="fr">Un programme court dédié à la poésie française et internationale, conçu comme une parenthèse enchantée dans un quotidien saturé d'informations.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/10/af090d41339e4070a775aae0f7381973.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319234500" channel="C80.api.telerama.fr" stop="20260320014500">
+    <title>Voyage voyage, les stars chantent au Maroc</title>
+    <desc lang="fr">De Rabat à Ouarzazate en passant par Fès, plusieurs artistes francophones, guidés par des habitants, choisissent des lieux emblématiques pour interpréter des chansons inoubliables.</desc>
+    <credits>
+      <presenter>Laury Thilleman</presenter>
+    </credits>
+    <category lang="fr">emission-musicale</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/06/098b37868f3c485cb530d9de9f088ead.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320014500" channel="C80.api.telerama.fr" stop="20260320015000">
+    <title>La p'tite librairie</title>
+    <desc lang="fr">François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
+    <credits>
+      <presenter>François Busnel</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">5</length>
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320015000" channel="C80.api.telerama.fr" stop="20260320024500">
+    <title>Les potagers de Julie</title>
+    <desc lang="fr">Cette semaine, Julie s'attaque au poireau, un légume qu'il faut savoir bichonner et qui se fait désirer au potager. Thomas Noclerq, le jardinier normand, cultive son potager depuis trois ans. Christelle Lemoine, experte en salaison, prépare un jambon fumé à Lessay.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/28/de13df431f614501abfed046bddaca82.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320024500" channel="C80.api.telerama.fr" stop="20260320034000">
+    <title>Les potagers de Julie</title>
+    <desc lang="fr">Cette semaine, Julie s'intéresse aux artichauts, plantes vivaces ornementales dont on déguste les fleurs non écloses. Dans le potager de Carine Hinder, l'artichaut se déguste avec fleurs et autres légumes de son jardin. Au cours de cette aventure bretonne, "Les potagers de Julie" font également un tour chez Corine Le Roux, l'une des rares ostréicultrices de France, qui bichonne ses huitres dans la presqu'île de Rhuys.</desc>
+    <credits>
+      <presenter>Julie Andrieu</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/28/de13df431f614501abfed046bddaca82.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034000" channel="C80.api.telerama.fr" stop="20260320034500">
+    <title>Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/20/b6bb0564a56045ea9b75da4662f20f9f.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034500" channel="C80.api.telerama.fr" stop="20260320042000">
+    <title>Duels en familles</title>
+    <desc lang="fr">Les Français connaissent-ils bien leurs régions ? Deux familles de quatre personnes s'opposent pour remporter des sommes pouvant atteindre plusieurs milliers d'euros. Elles devront trouver les réponses aux questions de Cyril Féraud sur des sujets concernant leurs régions respectives.</desc>
+    <credits>
+      <presenter>Cyril Féraud</presenter>
+    </credits>
+    <category lang="fr">jeu</category>
+    <length units="minutes">35</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/10/07/3701dfb0de7b4690bf6d3bd82812f99a.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320042000" channel="C80.api.telerama.fr" stop="20260320050100">
+    <title>Slam</title>
+    <desc lang="fr">Accessible à tous les publics, "Slam" est un jeu de lettres 100% original qui fait la joie des amoureux des mots, des férus de quiz et des adeptes des mots fléchés, en mixant tous les genres, de la géographie aux mathématiques, en passant par la chimie...et bien sûr le français. Au menu: vivacité d'esprit, humour, vocabulaire, orthographe et bien sûr culture générale!</desc>
+    <credits>
+      <presenter>Théo Curin</presenter>
+    </credits>
+    <category lang="fr">jeu</category>
+    <length units="minutes">41</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/25/1a42ce5bee8b4dea91e696bc20076734.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319231000" channel="C78.api.telerama.fr" stop="20260320005000">
+    <title>Etienne Daho show</title>
+    <desc lang="fr">En décembre 2023, devant 17 000 spectateurs, Etienne Daho présentait à l'Accor Arena un concert aux allures de best of, retraçant une carrière de plus de quatre décennies. Un grand pas et une première pour cet habitué des salles intimistes dans lesquelles il avait coutume de se produire depuis ses débuts. Entouré de huit musiciens : Jean-Louis Piérot, aux claviers et à la guitare, François Poggio, à la guitare, Colin Russeil, à la batterie, Marcello Giuliani, à la basse, ainsi qu'un quatuor à cordes, Daho a offert à ses fans un spectacle d'envergure. Tout au long du concert, l'artiste a été rejoint sur scène par des invités, parmi lesquels Vanessa Paradis, pour des duos.</desc>
+    <credits>
+      <actor>Etienne Daho</actor>
+    </credits>
+    <category lang="fr">concert</category>
+    <length units="minutes">100</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/06/02/e4cad31aa5c64de6b57ae2fdc898a6f9.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320005000" channel="C78.api.telerama.fr" stop="20260320021500">
+    <title>L'effet miroir</title>
+    <desc lang="fr">Ecrivain à succès sur le déclin, Théophile retrouve enfin son inspiration lorsqu'il se lance dans l'écriture d'un petit conte poétique et aquatique. La réussite est au rendez-vous et l'oeuvre fait son petit effet auprès d'un public totalement conquis. Mais l'interprétation du texte par des membres de son proche entourage se révèle cataclysmique. En effet, ces derniers se reconnaissent dans les traits des personnages d'oursins, de poulpes et autres créatures marines, décelant dans les métaphores des messages cachés. Ce soir, ils se réunissent autour d'un dîner pour régler leurs comptes.</desc>
+    <credits>
+      <director>Julien Boisselier</director>
+      <actor>Caroline Anglade</actor>
+      <actor>François Vincentelli</actor>
+      <actor>Eric Laugérias</actor>
+      <actor>Jeanne Arènes</actor>
+      <writer>Léonore Confino</writer>
+    </credits>
+    <category lang="fr">theatre</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/26/cfa813acf6c94400bed13fe8a0111b9a.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320021500" channel="C78.api.telerama.fr" stop="20260320034000">
+    <title>Chicandier et Mathou font leur show à Saint-Etienne</title>
+    <desc lang="fr">A l'occasion de sa 21ème édition, le festival Arcomik 2024 a décidé de donner carte blanche à Chicandier et Mathou pour une soirée de folie ! A la manière des "Enfoirés", les "Fumiers" organisent un spectacle caritatif pour l'association "Sauvons les enfants de Courchevel". Et le thème du spectacle est "Napoléon". Tous les fonds du spectacle iront à une association holding assez floue, décriée par la presse scandalisée, à laquelle Chicandier et Mathou, organisateurs de la soirée, répondent avec un parfait sarcasme.</desc>
+    <credits>
+      <actor> Chicandier</actor>
+      <actor> Mathou</actor>
+    </credits>
+    <category lang="fr">spectacle</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/06/05/1e500c1f04644b3d8a3ada4a31d22519.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034000" channel="C78.api.telerama.fr" stop="20260320040500">
+    <title>Les matinales</title>
+    <desc lang="fr">Programme de musique classique pour se réveiller en douceur.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/20/b6bb0564a56045ea9b75da4662f20f9f.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040500" channel="C78.api.telerama.fr" stop="20260320042500">
+    <title>L'armure de Jade</title>
+    <desc lang="fr">Saison:2 - Episode:22 - C'est jour de fête à Ban Tang. Les Ye ont prévu d'aller ensemble au festival et Lan Jun espère y retrouver Kai. Ce qui n'est pas du goût de Liam.</desc>
+    <credits>
+      <director>Chloé Miller</director>
+      <writer>Pongo Kou</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/8fc4dd948ea042fdb3a1a9d0bf4ba447.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.21.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320042500" channel="C78.api.telerama.fr" stop="20260320044600">
+    <title>L'armure de Jade</title>
+    <desc lang="fr">Saison:2 - Episode:23 - Lan Jun se demande si elle doit révéler à Kai qu'elle est Jade, mais a peur qu'il le prenne mal. Au même moment, un Eclat frappe d'amnésie tous les habitants de Ban Tang.</desc>
+    <credits>
+      <director>Chloé Miller</director>
+      <writer>Pongo Kou</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">21</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/8fc4dd948ea042fdb3a1a9d0bf4ba447.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.22.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320044600" channel="C78.api.telerama.fr" stop="20260320050700">
+    <title>L'armure de Jade</title>
+    <desc lang="fr">Saison:2 - Episode:24 - Les Zhu veulent construire une Armure Rouge pour Kai. Avec leur nouvelle machine, ils parcourent la ville pour collecter les Eclats qu'ils réveillent sur leur passage.</desc>
+    <credits>
+      <director>Chloé Miller</director>
+      <writer>Pongo Kou</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">21</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/8fc4dd948ea042fdb3a1a9d0bf4ba447.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.23.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319230500" channel="C47.api.telerama.fr" stop="20260320001000">
+    <title>C dans l'air</title>
+    <desc lang="fr">Caroline Roux (du lundi au jeudi) et Aurélie Casse (le vendredi et le samedi) décryptent en direct l'actualité en compagnie de quatre experts. En fin d'émission, ceux-ci répondent aux questions des téléspectateurs.</desc>
+    <credits>
+      <presenter>Caroline Roux</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/19/25740e1935cf46a9b70c8694360c1b02.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320001000" channel="C47.api.telerama.fr" stop="20260320010500">
+    <title>C à vous</title>
+    <desc lang="fr">Installés dans le loft de "C à vous", Anne-Elisabeth Lemoine (du lundi au jeudi) et sa bande de chroniqueurs donnent la parole à leurs invités et font la part belle à l'actualité du jour. En cuisine, un chef prépare un dîner simple et original. Les vendredis et samedis, Mohamed Bouhafsi prend les commandes de l'émission.</desc>
+    <credits>
+      <presenter>Anne-Elisabeth Lemoine</presenter>
+    </credits>
+    <category lang="fr">talk-show</category>
+    <length units="minutes">55</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/04/0f10a8055f49435d97019920b94c5b42.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320010500" channel="C47.api.telerama.fr" stop="20260320011000">
+    <title>Vu</title>
+    <desc lang="fr">"Vu" est le zapping quotidien, impertinent et libre, sur le monde de l'image.</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">5</length>
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320011000" channel="C47.api.telerama.fr" stop="20260320020400">
+    <title>C à vous la suite</title>
+    <desc lang="fr">Dans cette seconde partie, Anne-Elisabeth Lemoine (du lundi au jeudi) et Mohamed Bouhafsi (les vendredis et samedis) accueillent des invités pour une discussion à bâtons rompus.</desc>
+    <credits>
+      <presenter>Anne-Elisabeth Lemoine</presenter>
+    </credits>
+    <category lang="fr">talk-show</category>
+    <length units="minutes">54</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/04/31c8776ed5c94bb3bc75ad4d231bc4fc.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320020400" channel="C47.api.telerama.fr" stop="20260320030100">
+    <title>Les merveilles du monde antique</title>
+    <desc lang="fr">Saison:2 - Episode:8 - Ancienne position stratégique sur les routes de la soie, l'Azerbaïdjan s'est composé d'un mélange de cultures qui ont toutes contribué à créer son patrimoine actuel.</desc>
+    <credits>
+      <director>Anna Thomson</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">57</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/21/a2502cc780e744ca9cc4a9fc525e9671.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320030100" channel="C47.api.telerama.fr" stop="20260320034400">
+    <title>Paris au temps du Bal Nègre</title>
+    <desc lang="fr">L'aventure commence en 1924 dans le 15e arrondissement, au 33, rue Blomet, dans une maison du XVIIIe siècle reconvertie en commerce de vins puis en cabaret sous le nom de "Bal Blomet". Au lendemain de la Grande Guerre, la génération des Années folles avide de distractions se passionne pour ce lieu, baptisé "Bal Nègre" par Robert Desnos. Les célébrités y croisent des anonymes, des ouvriers côtoient des intellectuels. Le Bal Blomet devient le creuset d'une nouvelle identité noire où se croisent les créoles de Paris, petits-bourgeois assimilés, travailleurs manuels, intellectuels et révolutionnaires venus danser sur la biguine en oubliant, le temps d'une parenthèse enchantée, la réalité de leur condition.</desc>
+    <credits>
+      <writer>Martine Delumeau</writer>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">43</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/c8074dd8629d4abfbea5aa23ba9e45b5.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034400" channel="C47.api.telerama.fr" stop="20260320040400">
+    <title>Imprévus</title>
+    <desc lang="fr">"Imprévus" est une série documentaire de découvertes.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/11/40c3d387c5c34924a6ade88387f35c00.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040400" channel="C47.api.telerama.fr" stop="20260320041100">
+    <title>Les mini-héros de la forêt</title>
+    <desc lang="fr">Saison:1 - Episode:31 - En plein ménage de printemps, Sylvestre retrouve un coffret contenant ses souvenirs d'enfance et le donne aux mini-héros. Ils y découvrent une mystérieuse carte au trésor.</desc>
+    <credits>
+      <director>Massimo Montigiani</director>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">7</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/28/92fd8f6cb7564cf5b8d17b529f89a656.jpg" />
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">0.30.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320041100" channel="C47.api.telerama.fr" stop="20260320041300">
+    <title>Les mini-héros de la forêt</title>
+    <desc lang="fr">Saison:1 - Episode:29 - Gaston a trouvé un jeu ayant appartenu à son père quand il était enfant et veut y jouer avec lui. Mais les mini-héros ne comprennent pas les règles du jeu.</desc>
+    <credits>
+      <director>Massimo Montigiani</director>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/28/92fd8f6cb7564cf5b8d17b529f89a656.jpg" />
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">0.28.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320041300" channel="C47.api.telerama.fr" stop="20260320042400">
+    <title>Les mini-héros de la forêt</title>
+    <desc lang="fr">Saison:1 - Episode:30 - C'est la fête du Potager et tout le monde doit apporter quelque chose qui provient de la forêt. Les mini-héros veulent chacun trouver le meilleur objet pour remporter le prix spécial : un pot de confiture de rhubarbe ! Mais c'est en travaillant ensemble qu'ils auront peut-être ka chance de gagner et de comprendre le sens de cette fête.</desc>
+    <credits>
+      <director>Massimo Montigiani</director>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">11</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/28/92fd8f6cb7564cf5b8d17b529f89a656.jpg" />
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">0.29.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320042400" channel="C47.api.telerama.fr" stop="20260320042600">
+    <title>Hé, Oua-Oua</title>
+    <desc lang="fr">Saison:3 - Episode:10 - Les P'tits loups font leurs exercices quand soudain, un guépard nommé Chipo arrive avec sa troupe. Chip critique leur habitité à danser en rythme, et il s'avère que Oua-Oua faisait avant partie de la troupe ! Oua-Oua était un grand danseur, mais ne respectait pas vraiment la chorégraphie et faisait ses propres mouvements.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <writer>Sam Morrison</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/04/26/e8f8a3ddce2d4c3ea8e0ece204f616f4.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2.9.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320042600" channel="C47.api.telerama.fr" stop="20260320043700">
+    <title>Hé, Oua-Oua</title>
+    <desc lang="fr">Saison:3 - Episode:8 - Roi Tigre réveille les P'tits loups de leur sieste en débarquant avec un chapeau magique à la place de sa couronne.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <writer>Sam Morrison</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">11</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/c12e86268ef345ab9afe8114b69bd941.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2.7.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320043700" channel="C47.api.telerama.fr" stop="20260320043900">
+    <title>Hé, Oua-Oua</title>
+    <desc lang="fr">Saison:3 - Episode:12 - Les P'tits loups s'amusent follement avec leur nouveaux talkies-walkies. Oua-Oua appelle les P'tits loups pour prendre du jus de myrtilles, mais en courant, Tag trébuche sur une voiture et tombe dans une trappe secrète dans le mur !! Avec son talkie-walkie Tag explique qu'il ne sait pas où il est.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <writer>Grant Orchard</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/c12e86268ef345ab9afe8114b69bd941.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2.11.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320043900" channel="C47.api.telerama.fr" stop="20260320045000">
+    <title>Hé, Oua-Oua</title>
+    <desc lang="fr">Saison:3 - Episode:11 - Les P'tits loups rencontrent Boule de poils dans les bois, et malgré leur réticence, ils le gardent comme animal de compagnie. Cependant ils comprennent vite ce que sont les responsabilités de prendre soin d'un animal de compagnie.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <writer>Grant Orchard</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">11</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/c12e86268ef345ab9afe8114b69bd941.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2.10.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045000" channel="C47.api.telerama.fr" stop="20260320045100">
+    <title>Hé, Oua-Oua</title>
+    <desc lang="fr">Saison:3 - Episode:9 - Les P'tits loups s'amusent et sont surpris d'apprendre que Betty n'a pas toujours aimé jouer. Depuis ses débuts au Club des P'tits loups, elle a toujours impressionné par sa confiance et son indépendance, mais avant, elle n'osait pas se joindre aux autres.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <writer>Grant Orchard</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/c12e86268ef345ab9afe8114b69bd941.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2.8.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045100" channel="C47.api.telerama.fr" stop="20260320045900">
+    <title>A table les enfants</title>
+    <desc lang="fr">Saison:2 - Episode:57 - Aujourd'hui découvrons le brocoli un aliment plein de ressources!!!</desc>
+    <credits>
+      <director>Guillaume Delaunay</director>
+      <writer>Arnold Boiseau</writer>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">dessin-anime</category>
+    <length units="minutes">8</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/27/1a149c1e4d864ab2b9c475d0431e0d89.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.56.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045900" channel="C47.api.telerama.fr" stop="20260320050400">
+    <title>A table les enfants</title>
+    <desc lang="fr">Saison:1 - Episode:70 - Les fruits et légumes prennent la parole en racontant leur vie aux enfants.</desc>
+    <credits>
+      <writer>Arnold Boiseau</writer>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">dessin-anime</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/27/1a149c1e4d864ab2b9c475d0431e0d89.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.69.</episode-num>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319225500" channel="C118.api.telerama.fr" stop="20260320010000">
+    <title>Indiana Jones et le royaume du crâne de cristal</title>
+    <desc lang="fr">En 1957, en pleine guerre froide, le professeur Indiana Jones et son ami Mac sont confrontés au jusqu'au-boutisme d'une bande d'agents soviétiques. De retour aux Etats-Unis, Jones apprend qu'il est exclu du prestigieux Marshall College où il menait ses recherches depuis des années. C'est alors qu'un mystérieux jeune homme, Mutt Williams, lui propose de se rendre au Pérou afin de retrouver une relique oubliée : le crâne de cristal d'Akator. Intrigué, Jones accepte, car ce mystérieux objet suscite la fascination des historiens depuis des siècles. Une fois sur place, Indiana Jones et le jeune Mutt réalisent qu'ils ne sont pas les seuls à s'intéresser au précieux artefact. Les Soviétiques se montrent prêts à tout pour s'emparer du crâne de cristal...</desc>
+    <credits>
+      <director>Steven Spielberg</director>
+      <actor>Harrison Ford</actor>
+      <actor>Cate Blanchett</actor>
+      <actor>Shia LaBeouf</actor>
+      <actor>Karen Allen</actor>
+      <actor>Ray Winstone</actor>
+      <actor>John Hurt</actor>
+      <actor>Jim Broadbent</actor>
+      <actor>Igor Jijikine</actor>
+      <actor>Dimitri Diatchenko</actor>
+      <actor>Ilia Volok</actor>
+      <actor>Emmanuel Todorov</actor>
+      <actor>Pasha D. Lychnikoff</actor>
+      <writer>David Koepp</writer>
+    </credits>
+    <date>2008</date>
+    <category lang="fr">film</category>
+    <length units="minutes">125</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/24/1edd6e455ef84c699a10449802f5c7db.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320010000" channel="C118.api.telerama.fr" stop="20260320050000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="hours">4</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319235500" channel="C111.api.telerama.fr" stop="20260320002500">
+    <title>La frontière bleue</title>
+    <desc lang="fr">Secourus au large d'une côte espagnole, des migrants sont regroupés dans un camp géré par les agents de la Guardia civil.</desc>
+    <credits>
+      <director>Dinis M. Costa</director>
+      <actor>Guilherme Arabolaza</actor>
+      <actor>Laura Barba</actor>
+      <actor>Zé Bernardino</actor>
+      <actor>Afonso Laginha</actor>
+      <actor>Lucília Raimundo</actor>
+      <actor>Ana Amor de Bastos</actor>
+      <actor>Félix Lozano</actor>
+      <actor>Guilherme Cardoso Lopes</actor>
+      <writer>Dinis M. Costa</writer>
+    </credits>
+    <category lang="fr">film</category>
+    <length units="minutes">30</length>
+    <country lang="fr">France</country>
+    <country lang="fr">Portugal</country>
+    <country lang="fr">Espagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320002500" channel="C111.api.telerama.fr" stop="20260320011000">
+    <title>One Lane Bridge</title>
+    <desc lang="fr">Saison:2 - Episode:4 - Malgré les tentatives d'apaisement d'Ariki, la situation a dégénéré entre les activistes écologistes et le clan McCrae. En proie à des visions effrayantes, l'inspecteur a trouvé refuge chez la femme qui partage son don surnaturel. De son côté, Stephen continue de faire cavalier seul en suivant sa propre piste, alors qu'une enquête a été diligentée contre lui par sa hiérarchie...</desc>
+    <credits>
+      <director>Peter Burger</director>
+      <actor>Dominic Ona-Ariki</actor>
+      <actor>Joel Tobeck</actor>
+      <actor>Alison Bruce</actor>
+      <actor>Michelle Langstone</actor>
+      <actor>Phil Brown</actor>
+      <actor>Alex Walker</actor>
+      <actor>Hester Ullyart</actor>
+      <actor>Jim Moriarty</actor>
+      <actor>Arlo Green</actor>
+      <actor>Jared Turner</actor>
+      <actor>Evotia-Rose Araiti</actor>
+      <actor>Susan Brady</actor>
+      <writer>Pip Hall</writer>
+      <writer>Philip Smith</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/03/a10226e457ea42d7a7eeb33406d5af95.jpg" />
+    <country lang="fr">Nouvelle-Zélande</country>
+    <episode-num system="xmltv_ns">1.3.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320011000" channel="C111.api.telerama.fr" stop="20260320020000">
+    <title>One Lane Bridge</title>
+    <desc lang="fr">Saison:2 - Episode:5 - Ariki réalise que les visions qui le hantent sont plus complexes à décrypter qu'il ne le pensait. De son côté, Stephen révèle une information qui bouleverse l'un de ses proches. Les activistes, eux, fomentent un complot pour stopper le projet immobilier. Des indices orientent Ariki vers un nouveau suspect...</desc>
+    <credits>
+      <director>Peter Burger</director>
+      <actor>Dominic Ona-Ariki</actor>
+      <actor>Joel Tobeck</actor>
+      <actor>Alison Bruce</actor>
+      <actor>Michelle Langstone</actor>
+      <actor>Phil Brown</actor>
+      <actor>Alex Walker</actor>
+      <actor>Hester Ullyart</actor>
+      <actor>Jim Moriarty</actor>
+      <actor>Arlo Green</actor>
+      <actor>Jared Turner</actor>
+      <actor>Evotia-Rose Araiti</actor>
+      <actor>Susan Brady</actor>
+      <writer>Pip Hall</writer>
+      <writer>Philip Smith</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/03/748042522032479f8d908c092ec19724.jpg" />
+    <country lang="fr">Nouvelle-Zélande</country>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320020000" channel="C111.api.telerama.fr" stop="20260320024500">
+    <title>Les prédateurs de la Grande Barrière de corail</title>
+    <desc lang="fr">Serpents, cônes, poissons-pierres et méduses : leur venin peut aussi bien tuer que guérir.</desc>
+    <credits>
+      <director>John Jackson</director>
+      <director>Thierry Piantanida</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">45</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/14/f996583a3a644191a2dc67d51c27abb8.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320024500" channel="C111.api.telerama.fr" stop="20260320031500">
+    <title>Des vignes et des hommes</title>
+    <desc lang="fr">Saison:2 - Episode:8 - Petite enclave viticole en Bavière, la Franconie possède des vignobles sur un relief escarpé, produisant un vin blanc minéral et puissant : un patrimoine unique et menacé.</desc>
+    <credits>
+      <director>Herlé Jouon</director>
+      <director>Pascal Vasselin</director>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/01/93e1beb53af548d68fd7c72332b0eab4.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.7.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320031500" channel="C111.api.telerama.fr" stop="20260320034400">
+    <title>A la frontière glacée de l'Otan</title>
+    <desc lang="fr">Située aux confins de la Norvège, de la Finlande et de la Russie, la petite ville de Kirkenes joue un rôle clé au niveau géopolitique. Un bataillon de quelque 700 militaires d'élite est stationné dans cette localité septentrionale de 3.500 âmes. L'État norvégien y manifeste ses droits territoriaux par des actions ciblées, également pour le compte de ses alliés occidentaux de l'Otan et de l'Union européenne.</desc>
+    <credits>
+      <writer>Detlev Konnerth</writer>
+      <writer>Marijke Engel</writer>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">29</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/05/40869ad360564af4aa3d9693808880da.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034400" channel="C111.api.telerama.fr" stop="20260320034700">
+    <title>Tout est vrai (ou presque)</title>
+    <desc lang="fr">Saison:5 - Episode:2 - Quand, en 2019, un film est sorti sur Colette, certains se sont écriés : "Pourquoi les Anglo-Saxons sont-ils les premiers à faire un biopic sur elle ?"</desc>
+    <credits>
+      <director>Nicolas Rendu</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">serie</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/06/bcefcad789234b22823271e45955e5c4.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">4.1.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034700" channel="C111.api.telerama.fr" stop="20260320040000">
+    <title>Pause</title>
+    <credits>
+      <presenter>Jean-Michel Zecca</presenter>
+    </credits>
+    <category lang="fr">autre</category>
+    <length units="minutes">13</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040000" channel="C111.api.telerama.fr" stop="20260320051500">
+    <title>Marc Chagall : foi, amour et guerre</title>
+    <desc lang="fr">Entre 1930 et 1940, le peintre juif Marc Chagall (1887-1985) exprime à travers ses peintures son inquiétude face aux événements qui bouleversent l'Europe.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">75</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/12/f5cbb4e1d4384a4194e6710b2607e5e0.jpg" />
+    <country lang="fr">Allemagne</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319233800" channel="C234.api.telerama.fr" stop="20260320003800">
+    <title>Enfants d'Irak, les damnés de la guerre</title>
+    <desc lang="fr">Ils seraient plusieurs dizaines de milliers d'"enfants de Daech", dont la famille avait prêté allégeance au califat. Stigmatisés, ils sont privés de toute existence légale dans l'Irak de l'après-"Etat Islamique". Sans papiers, ils n'ont accès ni aux soins médicaux, ni à l'aide alimentaire, ni à l'école. D'autres enfants, fanatisés, qui font l'objet de rapts ou recrutés comme petites mains par l'organisation terroriste, sont aujourd'hui incarcérés. D'autres encore sont retenus dans des camps côté syrien, avec les femmes les plus radicalisées. Leur situation humanitaire catastrophique est encore fragilisée par la crise du coronavirus. Cette enquête inédite donne la parole à ces mineurs.</desc>
+    <credits>
+      <writer>Anne Poiret</writer>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/03/23/e5cb0da8cdbe41a3803e0696d73c3608.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320003800" channel="C234.api.telerama.fr" stop="20260320005800">
+    <title>DébatDoc</title>
+    <desc lang="fr">Depuis 2019, plus de 300 enfants de djihadistes ont été rapatriés en France depuis l'Irak et la Syrie. Alors qu'une centaine d'enfants se trouvent encore dans des camps de détention kurdes et attendent un retour en France, leur rapatriement soulève de nombreuses questions. Comment s'organise leur prise en charge une fois en France ? Ces enfants représentent-ils une menace future ?</desc>
+    <credits>
+      <presenter>Jean-Pierre Gratien</presenter>
+    </credits>
+    <category lang="fr">debat</category>
+    <length units="minutes">20</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/04/afa297d390ea42af91bbbeb29f0eb2e8.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320005800" channel="C234.api.telerama.fr" stop="20260320022700">
+    <title>La séance est ouverte !</title>
+    <credits>
+      <presenter>Kathia Gilder</presenter>
+    </credits>
+    <category lang="fr">emission-politique</category>
+    <length units="minutes">89</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/25/4abeb559902b43cc8961777d8bf3bb61.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320022700" channel="C234.api.telerama.fr" stop="20260320032400">
+    <title>Le banquet</title>
+    <credits>
+      <presenter>Anna Cabana</presenter>
+      <presenter>Christophe Ono-dit-Biot</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">57</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/20/3ebd1634f9b64b2bbebcc7c18c0522f6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320032400" channel="C234.api.telerama.fr" stop="20260320032700">
+    <title>Histoires de timbres</title>
+    <desc lang="fr">Depuis le 1er janvier 1849, la Poste a émis plus de 4 600 timbres. A partir d'archives audiovisuelles, de tableaux et de gravures, cette collection remonte le temps avec ces petites vignettes, comme porte d'entrée pour raconter l'histoire de France.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/13/b64fec0cee054e7f9d6b728f2e8b36e8.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320032700" channel="C234.api.telerama.fr" stop="20260320033000">
+    <title>Histoires de timbres</title>
+    <desc lang="fr">Depuis le 1er janvier 1849, la Poste a émis plus de 4 600 timbres. A partir d'archives audiovisuelles, de tableaux et de gravures, cette collection remonte le temps avec ces petites vignettes, comme porte d'entrée pour raconter l'histoire de France.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/13/b64fec0cee054e7f9d6b728f2e8b36e8.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320033000" channel="C234.api.telerama.fr" stop="20260320050000">
+    <title>100% Sénat</title>
+    <desc lang="fr">Le magazine entièrement consacré à l'actualité de la "chambre haute" de la Ve République française.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/03/6f32ca9b05c74852980105fc8e1ac86a.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319232000" channel="C119.api.telerama.fr" stop="20260320002000">
+    <title>Y'a que la vérité qui compte</title>
+    <desc lang="fr">Le rideau mythique s'apprête à s'ouvrir à nouveau. L'émission culte revient et le duo emblématique Pascal Bataille et...</desc>
+    <credits>
+      <presenter>Pascal Bataille</presenter>
+      <presenter>Laurent Fontaine</presenter>
+      <presenter>Rebecca Hampton</presenter>
+    </credits>
+    <category lang="fr">divertissement</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/27/8ff1e2ae87be4d8ab470f23e2621e9d9.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320002000" channel="C119.api.telerama.fr" stop="20260320011000">
+    <title>Y'a que la vérité qui compte</title>
+    <desc lang="fr">Le rideau mythique s'apprête à s'ouvrir à nouveau. L'émission culte revient et le duo emblématique Pascal Bataille et Laurent Fontaine reprend les commandes. Toujours complices et sincères, ils portent l'émission avec la même bienveillan...</desc>
+    <credits>
+      <presenter>Pascal Bataille</presenter>
+      <presenter>Laurent Fontaine</presenter>
+      <presenter>Rebecca Hampton</presenter>
+    </credits>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/20/fd85e24cb4334c128b3718eab36c3b2a.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320011000" channel="C119.api.telerama.fr" stop="20260320020000">
+    <title>Y'a que la vérité qui compte</title>
+    <desc lang="fr">Le rideau mythique s'apprête à s'ouvrir à nouveau. L'émission culte revient et le duo emblématique Pascal Bataille et Laurent Fontaine reprend les commandes. Toujours complices et sincères, ils portent l'émission avec la même bienveillan...</desc>
+    <credits>
+      <presenter>Pascal Bataille</presenter>
+      <presenter>Laurent Fontaine</presenter>
+      <presenter>Rebecca Hampton</presenter>
+    </credits>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/27/8ff1e2ae87be4d8ab470f23e2621e9d9.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320020000" channel="C119.api.telerama.fr" stop="20260320050000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="hours">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319235800" channel="C195.api.telerama.fr" stop="20260320064000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">402</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319232000" channel="C446.api.telerama.fr" stop="20260320003200">
+    <title>Tattoo Cover : Sauveurs de tatouages</title>
+    <desc lang="fr">Saison:1 - Episode:4 - Trois virtuoses du tatouage viennent en aide aux personnes désireuses de se débarrasser de leur tatouage. Amy Mymouse, Marty Early et Diego Moraes sont de véritables magiciens de l'aiguille. Avec l'aide de leur réceptionniste, Cécile, ils proposent chacun leur modèle au client qui va choisir celui ou celle qui va œuvrer sur lui pour recouvrir son ancien tatouage.</desc>
+    <date>2018</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">72</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/28/a3b847438b04490f8a273474e8e12a18.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.3.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320003200" channel="C446.api.telerama.fr" stop="20260320055500">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">323</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319232500" channel="C482.api.telerama.fr" stop="20260320005500">
+    <title>Sur la route avec Matt Pokora</title>
+    <desc lang="fr">Saison:1 - Episode:3 - L'aventure prend une autre dimension lorsque surgissent les premières inquiétudes. Expressions de besoins affectifs, fatigue, vulnérabilités physiques et émotionnelles rappellent que l'autonomie n'efface pas les fragilités. Matt Pokora découvre ce que signifie réellement être responsable d'eux, humainement et émotionnellement. Les liens se resserrent, les confidences émergent et les premières relations affectives prennent forme. La route devient plus intime, plus profonde, et engage chacun bien au-delà du voyage.</desc>
+    <credits>
+      <director>Aurélia Bloch</director>
+      <director>Yan Benisty</director>
+    </credits>
+    <date>2026</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/13/84c6706847894e29979a170d42f39548.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.2.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320005500" channel="C482.api.telerama.fr" stop="20260320050000">
+    <title>Programmation nuit</title>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">245</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/06/29/fbaf174ec3e4471087d2a6554765acad.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319230000" channel="C481.api.telerama.fr" stop="20260320033000">
+    <title>Le direct BFMTV</title>
+    <desc lang="fr">Le plein d'informations avec "Le direct BFMTV", la plage d'informations en direct du samedi et du dimanche matin, présentée par François Gapihan.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">270</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/08/07/a6534c73bcbd4cb992ff10a6772f505a.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320033000" channel="C481.api.telerama.fr" stop="20260320050000">
+    <title>BFM Première : Pré-matinale</title>
+    <desc lang="fr">Un nouveau tandem prend les commandes du rdv tv d'Informations le plus matinal de France. Dès 4h30, ils accompagnent les Français qui se lèvent tôt en présentant les informations qui feront l'actualité de la journée.</desc>
+    <credits>
+      <presenter>Tanguy de Lanlay</presenter>
+      <presenter>Djena Tsimba</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/16/157404fc8e904007aa8f26a1fa22b880.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319235800" channel="C226.api.telerama.fr" stop="20260320000000">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320000000" channel="C226.api.telerama.fr" stop="20260320002100">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">21</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320002100" channel="C226.api.telerama.fr" stop="20260320002600">
+    <title>L'heure des livres</title>
+    <desc lang="fr">Anne Fulda vous présente chaque jour l'actualité littéraire en recevant un invité dans #HDLivres.</desc>
+    <credits>
+      <presenter>Anne Fulda</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/f098eb7bba99482c89c914142854de48.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320002600" channel="C226.api.telerama.fr" stop="20260320003600">
+    <title>La sélection</title>
+    <desc lang="fr">Bienvenue dans La Sélection CNEWS, l'agenda des événements du moment à ne pas manquer : culture, cinéma, théâtre, spectacle, exposition, festival, concert…</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/16/95663dd599be4bb6810543250752d6c6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320003600" channel="C226.api.telerama.fr" stop="20260320003700">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320003700" channel="C226.api.telerama.fr" stop="20260320005900">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">22</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320005900" channel="C226.api.telerama.fr" stop="20260320010200">
+    <title>La sélection</title>
+    <desc lang="fr">Bienvenue dans La Sélection CNEWS, l'agenda des événements du moment à ne pas manquer : culture, cinéma, théâtre, spectacle, exposition, festival, concert…</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/16/95663dd599be4bb6810543250752d6c6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320010200" channel="C226.api.telerama.fr" stop="20260320010300">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320010300" channel="C226.api.telerama.fr" stop="20260320012500">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">22</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320012500" channel="C226.api.telerama.fr" stop="20260320012700">
+    <title>L'éphéméride</title>
+    <desc lang="fr">Une courte présentation de l'histoire du saint du jour qui se conclut par un dicton.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/ad72f3b10f9e49a38c64984803978c9f.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320012700" channel="C226.api.telerama.fr" stop="20260320013000">
+    <title>La sélection</title>
+    <desc lang="fr">Bienvenue dans La Sélection CNEWS, l'agenda des événements du moment à ne pas manquer : culture, cinéma, théâtre, spectacle, exposition, festival, concert…</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/16/95663dd599be4bb6810543250752d6c6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320013000" channel="C226.api.telerama.fr" stop="20260320013100">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320013100" channel="C226.api.telerama.fr" stop="20260320015300">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">22</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320015300" channel="C226.api.telerama.fr" stop="20260320015500">
+    <title>La sélection</title>
+    <desc lang="fr">Bienvenue dans La Sélection CNEWS, l'agenda des événements du moment à ne pas manquer : culture, cinéma, théâtre, spectacle, exposition, festival, concert…</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/16/95663dd599be4bb6810543250752d6c6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320015500" channel="C226.api.telerama.fr" stop="20260320015700">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320015700" channel="C226.api.telerama.fr" stop="20260320021800">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">21</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320021800" channel="C226.api.telerama.fr" stop="20260320022100">
+    <title>La sélection</title>
+    <desc lang="fr">Bienvenue dans La Sélection CNEWS, l'agenda des événements du moment à ne pas manquer : culture, cinéma, théâtre, spectacle, exposition, festival, concert…</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/16/95663dd599be4bb6810543250752d6c6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320022100" channel="C226.api.telerama.fr" stop="20260320022300">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320022300" channel="C226.api.telerama.fr" stop="20260320024500">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">22</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320024500" channel="C226.api.telerama.fr" stop="20260320025100">
+    <title>L'heure des livres</title>
+    <desc lang="fr">Anne Fulda vous présente chaque jour l'actualité littéraire en recevant un invité dans #HDLivres.</desc>
+    <credits>
+      <presenter>Anne Fulda</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">6</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/f098eb7bba99482c89c914142854de48.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320025100" channel="C226.api.telerama.fr" stop="20260320025300">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320025300" channel="C226.api.telerama.fr" stop="20260320031400">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">21</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320031400" channel="C226.api.telerama.fr" stop="20260320032100">
+    <title>L'heure des livres</title>
+    <desc lang="fr">Anne Fulda vous présente chaque jour l'actualité littéraire en recevant un invité dans #HDLivres.</desc>
+    <credits>
+      <presenter>Anne Fulda</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">7</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/f098eb7bba99482c89c914142854de48.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320032100" channel="C226.api.telerama.fr" stop="20260320032200">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320032200" channel="C226.api.telerama.fr" stop="20260320034400">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">22</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320034400" channel="C226.api.telerama.fr" stop="20260320035800">
+    <title>La sélection</title>
+    <desc lang="fr">Bienvenue dans La Sélection CNEWS, l'agenda des événements du moment à ne pas manquer : culture, cinéma, théâtre, spectacle, exposition, festival, concert…</desc>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">14</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/04/16/95663dd599be4bb6810543250752d6c6.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320035800" channel="C226.api.telerama.fr" stop="20260320035900">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320035900" channel="C226.api.telerama.fr" stop="20260320042600">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">27</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320042600" channel="C226.api.telerama.fr" stop="20260320042700">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour le lendemain</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320042700" channel="C226.api.telerama.fr" stop="20260320045400">
+    <title>Edition de la nuit</title>
+    <desc lang="fr">Un journal télévisé complet qui revient en détails sur toute l'actualité et les faits marquants de la journée</desc>
+    <credits>
+      <presenter>Julien Pasquet</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">27</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/fd59ad5b080a43c3b1fd43cc28721a77" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045400" channel="C226.api.telerama.fr" stop="20260320045700">
+    <title>La matinale</title>
+    <desc lang="fr">Tous les matins, Romain Desarbres, ses chroniqueurs et ses invités délivrent l'information dans "La Matinale" de 6h à 9h du lundi au vendredi.</desc>
+    <credits>
+      <presenter>Romain Desarbres</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">3</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/23/65729653c7934d39a590a3f5a398fda7.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045700" channel="C226.api.telerama.fr" stop="20260320045800">
+    <title>Météo</title>
+    <desc lang="fr">Les prévisions météo pour la journée</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/11/c5ff6cff075646a5bbc0b14a92068eef.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320045800" channel="C226.api.telerama.fr" stop="20260320074900">
+    <title>La matinale</title>
+    <desc lang="fr">Tous les matins, Romain Desarbres, ses chroniqueurs et ses invités délivrent l'information dans "La Matinale" de 6h à 9h du lundi au vendredi.</desc>
+    <credits>
+      <presenter>Romain Desarbres</presenter>
+    </credits>
+    <category lang="fr">journal</category>
+    <length units="minutes">171</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/23/65729653c7934d39a590a3f5a398fda7.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319230000" channel="C112.api.telerama.fr" stop="20260320023000">
+    <title>Le 22H</title>
+    <desc lang="fr">Chaque soir, les journalistes ouvrent les portes d'un débat vigoureux et éclairant, entouré d'éditorialistes chevronnés et d'invités aux opinions tranchées.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">210</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/10/24df62ef52d34fe7885aabeea3c5f9db.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320023000" channel="C112.api.telerama.fr" stop="20260320033000">
+    <title>Histoires criminelles</title>
+    <desc lang="fr">Le magazine qui replonge dans de grandes affaires non résolues ou non jugées. Témoignages inédits et interventions de spécialistes, avec l'éclairage de Guillaume Farde et Alain Bauer qui apportent méthode et expertise.</desc>
+    <category lang="fr">magazine</category>
+    <length units="hours">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/08/538d711836574d979d9c91a3fa294935.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320033000" channel="C112.api.telerama.fr" stop="20260320040000">
+    <title>Les grands reportages LCI</title>
+    <desc lang="fr">Des enquêtes de terrain approfondies sur des sujets d'actualité internationale, politique, sociale ou géopolitique, avec des témoignages exclusifs et une narration rigoureuse.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/03/11/2962af651a2b49b5a54a2801ceaa53e4.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040000" channel="C112.api.telerama.fr" stop="20260320043000">
+    <title>Le 5H Info</title>
+    <desc lang="fr">Le premier rendez-vous d'information de la journée, qui propose un tour d'horizon rapide, clair et complet des événements marquants en France et dans le monde.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/29/02cc71c68cd145128231aca99a33cbfe.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320043000" channel="C112.api.telerama.fr" stop="20260320050000">
+    <title>Le 5H30 Info</title>
+    <desc lang="fr">Le premier rendez-vous d'information de la journée, qui propose un tour d'horizon rapide, clair et complet des événements marquants en France et dans le monde.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/30/08c4190e2713459ba5e3c845e9b45d0d.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319231500" channel="C2111.api.telerama.fr" stop="20260320052900">
+    <title>France 24</title>
+    <desc lang="fr">France 24 traite de toutes les actualités, en temps réel, en images et en vidéos, avec les analyses et les dernières informations des journalistes de la rédaction.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">374</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/11/02/33e0b9e208fc42c640f1943037e25de9a90ef300.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319230000" channel="C458.api.telerama.fr" stop="20260320002600">
+    <title>Les héros de la route</title>
+    <desc lang="fr">La France possède le réseau routier le plus dense d'Europe. Pour rendre nos trajets plus sûrs, gendarmes, dépanneurs et patrouilleurs font l'impossible chaque jour. Sur les autoroutes des vacances, le périphérique parisien ou encore les routes nationales, ils surveillent le trafic, effectuent des con trôles, gèrent des convois exceptionnels et interviennent au plus vite en cas d'accident.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">86</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/20/1f7648d14e7e4461874048b35d05a541.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320002600" channel="C458.api.telerama.fr" stop="20260320010400">
+    <title>Top France</title>
+    <desc lang="fr">Les 15 clips les plus en vogue du moment, avec les artistes français qui se sont illustrés dans les différents classements de titres ou d'albums.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">38</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/02/28/c58faac375fe4cd39279f12a322c962c.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320010400" channel="C458.api.telerama.fr" stop="20260320010500">
+    <title>L'éphéméride</title>
+    <desc lang="fr">Une courte présentation de l'histoire du saint du jour qui se conclut par un dicton.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/ad72f3b10f9e49a38c64984803978c9f.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320010500" channel="C458.api.telerama.fr" stop="20260320021600">
+    <title>Nuit rap français</title>
+    <desc lang="fr">Le rap français est à l'honneur, avec une sélection des meilleurs clips du moment.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">71</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/27/762788e5ca1245ffb089818a8f111899.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320021600" channel="C458.api.telerama.fr" stop="20260320021800">
+    <title>L'éphéméride</title>
+    <desc lang="fr">Une courte présentation de l'histoire du saint du jour qui se conclut par un dicton.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/09/07/ad72f3b10f9e49a38c64984803978c9f.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320021800" channel="C458.api.telerama.fr" stop="20260320035900">
+    <title>Nuit rap français</title>
+    <desc lang="fr">Le rap français est à l'honneur, avec une sélection des meilleurs clips du moment.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">101</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/27/762788e5ca1245ffb089818a8f111899.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320035900" channel="C458.api.telerama.fr" stop="20260320055200">
+    <title>Top Clip</title>
+    <desc lang="fr">Dance, pop-rock, R'n'b, hip-hop, rap : «Top clip» offre une programmation éclectique des meilleurs clips du moment.</desc>
+    <category lang="fr">clips</category>
+    <length units="minutes">113</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/02/28/6ecfcc65bad24a1eb625646e0f8268f1.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319231500" channel="C4139.api.telerama.fr" stop="20260320002000">
+    <title>Indices</title>
+    <desc lang="fr">Saison:1 - Episode:17 - Le 18 juin 2011, Marie-Jeanne Meyer prend le chemin d'une colline escarpée de Tournon, pour effectuer son jogging quotidien. Inquiet de ne pas la voir revenir, son petit ami donne l'alerte. Le soir-même, une vaste opération de recherche est initiée par les autorités. La population locale s'associe aux recherches. En vain. Trois jours plus tard, la dépouille calcinée et démembrée de Marie-Jeanne est retrouvée sous un amas de branchages. Une enquête débute alors. Qui pouvait en vouloir à cette brillante lycéenne ? Un an après le début des investigations, un individu est fortuitement arrêté en Espagne.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/13/6f79972745404c97b6601dd956fdf3d1.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.16.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320002000" channel="C4139.api.telerama.fr" stop="20260320013000">
+    <title>Indices</title>
+    <desc lang="fr">Saison:1 - Episode:18 - Le vendredi 26 mars 2004, dans la région de Dijon, Laurent Bary rentre de son travail quand il découvre le corps sans vie de sa femme Valérie baignant dans une mare de sang. Selon les premières constatations des enquêteurs, cette aide-soignante de 38 ans a été poignardée à de nombreuses reprises. Plusieurs éléments semblent valider la piste du cambriolage qui a mal tourné. Mais l'enquête va prendre une toute autre tournure, notamment grâce à l'exploitation d'un indice inattendu : des aboiements de chiens.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/13/dfbd634f58f2460788a2197958e9f472.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.17.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320013000" channel="C4139.api.telerama.fr" stop="20260320023500">
+    <title>Indices</title>
+    <desc lang="fr">Saison:1 - Episode:19 - Le 13 juillet 2011, deux plaisanciers ramassent une valise qui flotte dans la rade de Lorient. À l'intérieur, ils découvrent le cadavre d'un homme ligoté. Pour identifier cet inconnu dont le visage est méconnaissable, les enquêteurs vont mener pendant 18 mois des investigations exceptionnelles. Après avoir réalisé une reconstitution faciale, ils publient dans la presse un portrait robot... mais sans résultat. Ils parviendront finalement à mettre un nom sur cet homme grâce à un indice retrouvé dans sa poche : une simple clé ! Les gendarmes vont ensuite remonter de nombreuses pistes pour identifier son meurtrier : règlement de compte mafieux, jalousies féminines, crime crapuleux... Une enquête fascinante qui prouve, une fois de plus, que la réalité peut être plus forte que la fiction...</desc>
+    <credits>
+      <director>Marion Angelosanto</director>
+      <director>Lucile Martin</director>
+      <director>Audrey Avram</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/13/280807857b964912a51bbdfd442aa128.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.18.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320023500" channel="C4139.api.telerama.fr" stop="20260320030500">
+    <title>Pour tout dire</title>
+    <desc lang="fr">De l'expertise, de l'humeur et des convictions : c'est le cocktail de "Pour tout dire", un rendez-vous qui permet à Matthieu Croissandeau et ses invités de débattre des petits et grands sujets qui font l'actualité, avec une grande liberté de ton. Du lundi au vendredi, en deuxième partie de soirée, le journaliste politique anime ce regard pointu sur les réalités de l'époque actuelle. Un moment d'échange instructif et distrayant.</desc>
+    <credits>
+      <presenter>Matthieu Croissandeau</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/04/c6bf99d5bd744822a453b7cadf781bde.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320030500" channel="C4139.api.telerama.fr" stop="20260320041000">
+    <title>Pour tout dire</title>
+    <desc lang="fr">De l'expertise, de l'humeur et des convictions : c'est le cocktail de "Pour tout dire", un rendez-vous qui permet à Matthieu Croissandeau et ses invités de débattre des petits et grands sujets qui font l'actualité, avec une grande liberté de ton. Du lundi au vendredi, en deuxième partie de soirée, le journaliste politique anime ce regard pointu sur les réalités de l'époque actuelle. Un moment d'échange instructif et distrayant.</desc>
+    <credits>
+      <presenter>Matthieu Croissandeau</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/04/c6bf99d5bd744822a453b7cadf781bde.jpg" />
+    <country lang="fr">France</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320041000" channel="C4139.api.telerama.fr" stop="20260320051500">
+    <title>Indices</title>
+    <desc lang="fr">Saison:1 - Episode:20 - 4 janvier 2006. Ruth Légeret est retrouvée morte aux côtés de son amie Marina Strudel dans le sous-sol de sa propriété cossue de Vevey, en Suisse. Rien n'a été volé dans la maison. Qui pouvait en vouloir à ces deux veuves octogénaires ? Rapidement, les policiers privilégient l'hypothèse d'un drame familial, lié à un différend financier, et focalisent leur enquête sur François, le fils adoptif de Ruth Légeret.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/13/d696e801dd8a4831bc50f6fe083d8b79.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.19.</episode-num>
+    <previously-shown />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260319231000" channel="C4138.api.telerama.fr" stop="20260320004000">
+    <title>Inside Ikea</title>
+    <desc lang="fr">Grâce à ses prix bas, l'enseigne suédoise IKEA est devenue le leader incontesté de la vente de meubles. Chaque année, 680 millions de personnes à travers le monde y font leurs emplettes, pour dénicher des articles de décoration à des prix défiant toute concurrence et trouver des idées d'aménagement de leur espace de vie. Mais si la marque est bien connue du grand public, elle est pourtant l'une des entreprises les plus secrètes. Des usines de fabrication aux magasins, en passant par le très confidentiel département "design" et les stratégies de vente, enquête sur l'enseigne de meubles la plus connue au monde.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/15/f15c8549221a4c739042f79e4a2c9dbc.jpg" />
+    <country lang="fr">France</country>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320004000" channel="C4138.api.telerama.fr" stop="20260320021900">
+    <title>Les visages du crime en région</title>
+    <desc lang="fr">Saison:1 - Episode:6 - Au sommaire : "Prises au piège". Laura, 28 ans, accuse un magnétiseur d'avoir pratiqué sur elle des attouchements sexuels. Au cours des deux ans qui suivent, douze autres plaintes sont déposées par d'anciennes patientes. - "Le meurtre du brocanteur". Jean-Pierre est brocanteur. En 2013, son corps est découvert sans vie au beau milieu de sa chambre. - "Le tueur à la hache". Mohamed est un ancien gérant de bar installé à Sochaux. Il est marié et père de deux garçons. Mais cette vie paisible vire au cauchemar.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">99</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/02/24/ec41ffc98d754d77a6673be9743d512f.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.5.</episode-num>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260320021900" channel="C4138.api.telerama.fr" stop="20260320050000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">161</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260319233000" channel="C1404.api.telerama.fr" stop="20260320052000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">350</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319225900" channel="C1401.api.telerama.fr" stop="20260320014500">
+    <title>Paradox Effect</title>
+    <desc lang="fr">Une femme est obligée d'affronter un dangereux caïd qui a kidnappé sa jeune fille et la retient en otage. Elle fait équipe avec un agent d'Interpol corrompu, dont le fils est également retenu en otage, pour arnaquer divers criminels afin de réunir la rançon nécessaire pour sauver leur progéniture.</desc>
+    <credits>
+      <director>Scott Weintrob</director>
+      <actor>Olga Kurylenko</actor>
+      <actor>Harvey Keitel</actor>
+      <actor>Oliver Trevena</actor>
+      <actor>Romano Reggiani</actor>
+      <actor>Andrea Garofalo</actor>
+      <actor>Giuliano Logos</actor>
+      <actor>Alice Astons</actor>
+      <actor>Meredith Mickelson</actor>
+      <actor>Talia Andrews</actor>
+      <actor>Malich Cissé</actor>
+      <actor>Stella Addario</actor>
+      <actor>Luke Cannella</actor>
+      <writer>Samuel Bartlett</writer>
+      <writer>Ferdinando Dell'Omo</writer>
+      <writer>Andrea Iervolino</writer>
+    </credits>
+    <category lang="fr">telefilm</category>
+    <length units="minutes">166</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/18/146c78686211401cb9d53a8e37295df4.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320014500" channel="C1401.api.telerama.fr" stop="20260320040000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">135</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/29/ab7a5f54e04b4dc9af5f9c369e50dff6.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040000" channel="C1401.api.telerama.fr" stop="20260320090000">
+    <title>Programmes de la nuit</title>
+    <category lang="fr">programme-indetermine</category>
+    <length units="hours">5</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/12/29/ab7a5f54e04b4dc9af5f9c369e50dff6.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319231500" channel="C1403.api.telerama.fr" stop="20260320004000">
+    <title>Kaamelott</title>
+    <desc lang="fr">Au Ve siècle après Jésus-Christ, dans l'actuelle Grande-Bretagne, le roi Arthur règne sur sa cour, à Kaamelott. Investi d'une mission divine, il recherche sans relâche le Graal, la coupe dont se serait servi Jésus de Nazareth lors de la Cène. Mais voilà, les fameux chevaliers de la Table ronde ne se montrent pas très efficaces pour le seconder. Incompétents, batailleurs, noceurs et fainéants, ils multiplient les gaffes. La vie à Kaamelott est pleine de surprises. Une série à succès qui cultive l'absurde avec délectation. L'acteur et réalisateur Alexandre Astier y côtoie son père, Lionnel Astier.</desc>
+    <credits>
+      <actor>Alexandre Astier</actor>
+      <actor>Franck Pitiot</actor>
+      <actor>Jean-Christophe Hembert</actor>
+      <actor>Anne Girouard</actor>
+      <actor>Thomas Cousseau</actor>
+      <actor>Lionnel Astier</actor>
+      <actor>Nicolas Gabion</actor>
+      <actor>Audrey Fleurot</actor>
+      <writer>Alexandre Astier</writer>
+    </credits>
+    <category lang="fr">serie</category>
+    <length units="minutes">85</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/05/16/af966c9d8c0540158a1f29af482939bf.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320004000" channel="C1403.api.telerama.fr" stop="20260320053000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">290</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319232500" channel="C1402.api.telerama.fr" stop="20260320004500">
+    <title>SOS garage</title>
+    <desc lang="fr">Saison:2 - Episode:5 - Dans "SOS Garage", Vincent Lagaf' et Thierry Muscat viennent au secours de garagistes en grande difficulté. Pour cet épisode, cap sur la Corse, et plus précisément Porto-Vecchio, au garage de Yohan. Passionné de mécanique depuis son enfance, Yohan a quitté la métropole avec sa femme pour s'installer sur l'île de Beauté il y a quelques années. Bien que le travail ne manque pas, les débuts sont difficiles.</desc>
+    <credits>
+      <director>Hervé Fieujean</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">80</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/03/14/e2753c6a3c2b433dba0847dd45430176.jpg" />
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1.4.</episode-num>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320004500" channel="C1402.api.telerama.fr" stop="20260320040000">
+    <title>Pause</title>
+    <credits>
+      <presenter>Jean-Michel Zecca</presenter>
+    </credits>
+    <category lang="fr">autre</category>
+    <length units="minutes">195</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260320040000" channel="C1402.api.telerama.fr" stop="20260320060000">
+    <title>5/7 le morning RMC</title>
+    <desc lang="fr">A la tête de cette pré-matinale, un duo de professionnels talentueux pour un rendez-vous puissant et plein d'énergie : Pascale de la Tour du Pin et Matthieu Belliard. Au programme, de l'interactivité : toutes les trente minutes, Matthieu Belliard converse en direct depuis le standard pour recueillir les appels et prendre le pouls de l'actualité en temps réel.</desc>
+    <credits>
+      <presenter>Elise Denjean</presenter>
+      <presenter>Matthieu Belliard</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="hours">2</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/24/e37113cd6bdd45fc8af8f4c8af90b815.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <previously-shown />
+    <premiere />
+    <new />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319225800" channel="C1400.api.telerama.fr" stop="20260320055500">
+    <title>Pause</title>
+    <credits>
+      <presenter>Jean-Michel Zecca</presenter>
+    </credits>
+    <category lang="fr">autre</category>
+    <length units="minutes">417</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/06/09/70e696282107b49d230702cd59c274cd5f627080.jpg" />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260319225000" channel="C1399.api.telerama.fr" stop="20260320001300">
+    <title>Faites entrer l'accusé</title>
+    <desc lang="fr">Février 1998. Jean-Paul Zawadzki, major dans l'armée de l'air, rentre d'une mission en Afrique et tombe malade. Sa femme Nicole et son médecin de famille, Michel Trouillard-Perrot, se relaient à son chevet. Mais, le 11 mars, Jean-Paul meurt. Le major est à peine enterré que des doutes assaillent le général Pons, commandant de la base aérienne de Bricy : Jean-Paul aurait-il été assassiné ?</desc>
+    <credits>
+      <presenter>Christophe Hondelatte</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">83</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/17/911c2d1e3857417687c96ffca7da6a74.jpg" />
+    <country lang="fr">France</country>
+    <video>
+      <quality>HDTV</quality>
+    </video>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260320001300" channel="C1399.api.telerama.fr" stop="20260320050000">
+    <title>Programmes de la nuit</title>
+    <desc lang="fr">A suivre, des rediffusions des émissions de la chaîne, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt.</desc>
+    <category lang="fr">programme-indetermine</category>
+    <length units="minutes">287</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/17/0a39e00f07f2450da1d076245f117f9b.jpg" />
+    <country lang="fr">France</country>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+</tv>
