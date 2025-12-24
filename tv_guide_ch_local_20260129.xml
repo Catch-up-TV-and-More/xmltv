@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv>
+  <channel id="C59.api.telerama.fr">
+    <display-name>SRF 1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-59.png" />
+  </channel>
+  <channel id="C183.api.telerama.fr">
+    <display-name>RTS 2</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-183.png" />
+  </channel>
+  <channel id="C202.api.telerama.fr">
+    <display-name>RTS 1</display-name>
+    <icon src="https://focus.telerama.fr/500x500/0000/00/01/clear-202.png" />
+  </channel>
+  <programme start="20260128230000 +0100" channel="C59.api.telerama.fr" stop="20260129013000 +0100">
+    <title>Tár</title>
+    <desc lang="fr">Première femme nommée cheffe à la tête de l'Orchestre philharmonique de Berlin, Lydia Tár semble réussir tout ce qu'elle entreprend. En pleine préparation de l'enregistrement d'un nouveau concerto prestigieux, elle s'emploie également à faire la promotion de son autobiographie, dont la publication approche. Au sommet de la gloire et quasiment intouchable, Lydia va se retrouver accusée de favoritisme et d'abus de pouvoir. A la suite de ces révélations, elle voit sa brillante réputation voler en éclats et perd peu à peu tous ses soutiens. Une chute brutale s'amorce...</desc>
+    <credits>
+      <director>Todd Field</director>
+      <actor>Cate Blanchett</actor>
+      <actor>Nina Hoss</actor>
+      <actor>Noémie Merlant</actor>
+      <actor>Julian Glover</actor>
+      <actor>Mark Strong</actor>
+      <actor>Sophie Kauer</actor>
+      <actor>Adam Gopnik</actor>
+      <actor>Allan Corduner</actor>
+      <actor>Zethphan D. Smith-Gneist</actor>
+      <actor>Mila Bogojevic</actor>
+      <actor>Marie-Lou Sellem</actor>
+      <actor>Sydney Lemmon</actor>
+      <writer>Todd Field</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">film</category>
+    <length units="minutes">150</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/09/10/85b650015e4042978527a845c45faa9c.jpg" />
+    <country lang="fr">Etats-Unis</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+    <star-rating system="Telerama">
+      <value>5/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260129013000 +0100" channel="C59.api.telerama.fr" stop="20260129014000 +0100">
+    <title>Newsflash</title>
+    <desc lang="fr">Hier werden die Zuschauer in wenigen Minuten auf den neuesten Stand gebracht. In kompakter Form berichtet "Newsflash" über alle wichtigen Ereignisse des Tages, die kurz und prägnant zusammengefasst werden. Zudem bietet die Sendung eine Aussicht auf die Wetterlage der kommenden Tage, kurze Interviews sowie Hintergrundinformationen aus Politik, Wirtschaft, Gesellschaft und Sport.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">10</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/10/11/e8ecdcc34fb853d28e02e0a50546ca01d0a28220.jpg" />
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129014000 +0100" channel="C59.api.telerama.fr" stop="20260129031000 +0100">
+    <title>Rosamunde Pilcher: Herzensläufe</title>
+    <desc lang="fr">Ein Jobwechsel gibt der jungen Köchin Alice die Gelegenheit, ihre Familie zu besuchen. Bei ihrem Vater ist die Freude groß, ihre Schwester Jacky verbindet mit dem Wiedersehen jedoch gemischte Gefühle. Seit einem Brand in der familieneigenen Gin-Destillerie haben sich die Geschwister auseinandergelebt. Jacky versucht seither mit aller Kraft, eine ebenso gute Schnapsbrennerin wie ihre verstorbene Mutter zu werden.</desc>
+    <credits>
+      <actor>Hedi Honert</actor>
+      <actor>Liliane Zillner</actor>
+      <actor>Jochen Nickel</actor>
+      <actor>Max Themak</actor>
+      <actor>Orestes Fiedler</actor>
+      <actor>Benjamin Weygand</actor>
+      <actor>Anke Sevenich</actor>
+      <actor>Benedict Martin</actor>
+      <actor>Carsten Hayes</actor>
+      <actor>Laura Frances-Martin</actor>
+      <actor>Emma Spurgin Hussey</actor>
+      <actor>Tanveer Ghani</actor>
+    </credits>
+    <category lang="fr">telefilm</category>
+    <length units="minutes">90</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/21/a302d221ef57449bb9c7e6bd75c9de43.jpg" />
+    <country lang="fr">Allemagne</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129031000 +0100" channel="C59.api.telerama.fr" stop="20260129040000 +0100">
+    <title>Rundschau</title>
+    <desc lang="fr">Das Politmagazin berichtet über Hintergründe und aktuelle Ereignisse und Brennpunkte im In- und Ausland.</desc>
+    <credits>
+      <presenter>Gion-Duri Vincenz</presenter>
+      <presenter>Franziska Ramser</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/11/19/86012e7c40804a67835a822dceeb3734.jpg" />
+    <country lang="fr">Suisse</country>
+    <audio>
+      <stereo>dolby</stereo>
+    </audio>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129040000 +0100" channel="C59.api.telerama.fr" stop="20260129043000 +0100">
+    <title>Auf dünnem Eis</title>
+    <category lang="fr">divertissement</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/21/a519d974f4c440029afa6f8de8abb633.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129043000 +0100" channel="C59.api.telerama.fr" stop="20260129044500 +0100">
+    <title>Mini Chuchi, dini Chuchi</title>
+    <desc lang="fr">Tag 3 der "Indie"-Woche findet bei Marco aus Bürglen TG statt. Der 45-Jährige spielt gerne Dart und hat eine spezielle Eigenschaft beim Kochen: Er schmeckt sein Essen nicht ab. Ob das eine gute Ausgangslage für sein Menü zum Thema "Indie" gibt? Er kocht Garnelen in Kokosmilch.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/16/1dec18868bb746149a52390fce9e667e.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129044500 +0100" channel="C59.api.telerama.fr" stop="20260129051500 +0100">
+    <title>Cuisines des terroirs</title>
+    <desc lang="fr">L'avoine noire du pays de Galles connaît une seconde jeunesse sous l'impulsion d'un collectif de fermiers. Becky Holden, agricultrice, et Owen Shiers, musicien folk et fermier, remettent au goût du jour d'anciennes pratiques pour concocter d'excellents plats à base de farine d'avoine noire.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/18/88904834151d4fb2a72d1d2c9366efda.jpg" />
+    <country lang="fr">Allemagne</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129051500 +0100" channel="C59.api.telerama.fr" stop="20260129054500 +0100">
+    <title>Potzmusig</title>
+    <desc lang="fr">Nicolas Senn startet das "Potzmusig"-Beizenjahr in Erlinsbach AG, wo er eine Vielzahl volkstümlicher Entdeckungen und Altbewährtes präsentiert. Mit dabei: Ländler-Wurlitzer, Geschwister von Niederhäusern, LQ Adlergruess, Kapelle Fadegraad, SQ Schenkenberg, Jodlerklub Bergbrünneli Küsnacht.</desc>
+    <credits>
+      <presenter>Nicolas Senn</presenter>
+    </credits>
+    <category lang="fr">varietes</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/21/efb6f64c3a774b3ba7c9a497609c634e.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260129054500 +0100" channel="C59.api.telerama.fr" stop="20260129061000 +0100">
+    <title>Kulturplatz</title>
+    <desc lang="fr">Die Sendung möchte für Kultur begeistern und behält wichtige Akteure und Ereignisse des Kulturbetriebes im Blick.</desc>
+    <credits>
+      <presenter>Nina Mavis Brunner</presenter>
+    </credits>
+    <category lang="fr">magazine</category>
+    <length units="minutes">25</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/07/5a2dbe48b84c4c0aae65d72bd9deb194.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>Tout public</value>
+    </rating>
+  </programme>
+  <programme start="20260128235000 +0100" channel="C183.api.telerama.fr" stop="20260129010000 +0100">
+    <title>Road 190</title>
+    <desc lang="fr">Depuis sa cellule de sa prison au Texas, Mabry, un condamné à mort, imagine le dernier trajet qui l'amènera un jour au lieu de son exécution.</desc>
+    <credits>
+      <director>Charlotte Nastasi</director>
+      <director>Emilie Cornu</director>
+    </credits>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">70</length>
+    <icon src="https://focus.telerama.fr/952x634/2023/10/23/8703420d23b3db12b47ebbb8a3b1bf426bf3d100_A6FE76C3A936F368F880E8F7779EC22D.jpg" />
+    <country lang="fr">Belgique</country>
+    <previously-shown />
+    <premiere />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129010000 +0100" channel="C183.api.telerama.fr" stop="20260129015000 +0100">
+    <title>Infrarouge</title>
+    <desc lang="fr">20 Producteur: Alexis Favre</desc>
+    <credits>
+      <presenter>Alexis Favre</presenter>
+    </credits>
+    <category lang="fr">debat</category>
+    <length units="minutes">50</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/066e96931fe940f98b3b14a816591103.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129015000 +0100" channel="C183.api.telerama.fr" stop="20260129020500 +0100">
+    <title>Couleurs locales</title>
+    <desc lang="fr">Couleurs locales, c'est toute l'actualité locale en Suisse romande présentée sur le terrain. Un magazine d'information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l'actualité dans les régions.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">15</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/03/05/c47472f243634bdc9e8feae5f840cf9a.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129020500 +0100" channel="C183.api.telerama.fr" stop="20260129055500 +0100">
+    <title>Le 19h30</title>
+    <desc lang="fr">Téléjournal de la rédaction de la RTS qui présente l'actualité en Suisse et dans le monde.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">230</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/08/09/8922b7b77da17ecc6038ab96999eb1cccec1d6b2.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129055500 +0100" channel="C183.api.telerama.fr" stop="20260129070000 +0100">
+    <title>RTS Info</title>
+    <desc lang="fr">Boucle d'information vidéo composée des principaux rendez-vous d'actualité et de sport de la radio, de la télévision et du multimédia de la RTS. Outre les 3 journaux quotidiens, RTS Info en continu intégrera des éléments de Mise au Point, de Toutes Taxes Comprises, des émissions de sport ainsi que d'autres magazines de la RTS.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">65</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/2eb1a90611564ab292259b2050d3b253.jpg" />
+    <country lang="fr">Suisse</country>
+    <new />
+    <rating system="CSA">
+      <value>-10</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins10svg/200px-Moins10.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260128235500 +0100" channel="C202.api.telerama.fr" stop="20260129013000 +0100">
+    <title>Petits meurtres entre amis</title>
+    <desc lang="fr">Juliet, médecin, David, journaliste, et Alex, comptable en pleine crise existentielle, partagent un luxueux appartement. A la recherche du colocataire idéal, ils finissent par choisir Hugo, un jeune homme bien sous tous rapports. Mais la nuit même, Hugo meurt, laissant derrière lui une valise bourrée de billets. Après concertation, le trio décide de garder la petite fortune, en dépit des réticences d'Alex, et de faire disparaître le corps, après l'avoir rendu méconnaissable. C'est Alex qui est désigné par le sort pour accomplir cette tâche ingrate. Un cambriolage dans l'appartement du dessous inquiète les trois amis. Et si les complices de Hugo étaient en train de rechercher le butin ?...</desc>
+    <credits>
+      <director>Danny Boyle</director>
+      <actor>Kerry Fox</actor>
+      <actor>Christopher Eccleston</actor>
+      <actor>Ewan McGregor</actor>
+      <actor>Ken Stott</actor>
+      <actor>Keith Allen</actor>
+      <actor>Colin McCredie</actor>
+      <actor>John Hodge</actor>
+      <actor>Peter Mullan</actor>
+      <actor>Leonard O'Malley</actor>
+      <actor>Robert David MacDonald</actor>
+      <actor>Victoria Nairn</actor>
+      <actor>Gary Lewis</actor>
+      <writer>John Hodge</writer>
+    </credits>
+    <category lang="fr">film</category>
+    <length units="minutes">95</length>
+    <icon src="https://focus.telerama.fr/952x634/2026/01/21/d888c3f850a841f79e153b2cbcceb69a.jpg" />
+    <country lang="fr">Grande-Bretagne</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+    <star-rating system="Telerama">
+      <value>2/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260129013000 +0100" channel="C202.api.telerama.fr" stop="20260129014900 +0100">
+    <title>Couleurs locales</title>
+    <desc lang="fr">Couleurs locales, c'est toute l'actualité locale en Suisse romande présentée sur le terrain. Un magazine d'information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l'actualité dans les régions.</desc>
+    <category lang="fr">magazine</category>
+    <length units="minutes">19</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/03/05/c47472f243634bdc9e8feae5f840cf9a.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129014900 +0100" channel="C202.api.telerama.fr" stop="20260129015000 +0100">
+    <title>Météo</title>
+    <desc lang="fr">Quel temps fera-t-il demain en Suisse ? Des informations météorologiques d'une grande exactitude pour toute la Suisse en général et pour la Romandie en particulier.</desc>
+    <category lang="fr">meteo</category>
+    <length units="minutes">1</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/07/23/b68c9967d6d24568a9e3693d69be415c.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129015000 +0100" channel="C202.api.telerama.fr" stop="20260129022000 +0100">
+    <title>Le 19h30</title>
+    <desc lang="fr">Téléjournal de la rédaction de la RTS qui présente l'actualité en Suisse et dans le monde.</desc>
+    <category lang="fr">journal</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2021/08/09/8922b7b77da17ecc6038ab96999eb1cccec1d6b2.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129022000 +0100" channel="C202.api.telerama.fr" stop="20260129053000 +0100">
+    <title>Infrarouge</title>
+    <desc lang="fr">20 Producteur: Alexis Favre</desc>
+    <credits>
+      <presenter>Alexis Favre</presenter>
+    </credits>
+    <category lang="fr">debat</category>
+    <length units="minutes">190</length>
+    <icon src="https://focus.telerama.fr/952x634/2024/05/15/066e96931fe940f98b3b14a816591103.jpg" />
+    <country lang="fr">Suisse</country>
+    <previously-shown />
+    <subtitles type="teletext">
+      <language>fr</language>
+    </subtitles>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+  <programme start="20260129053000 +0100" channel="C202.api.telerama.fr" stop="20260129060000 +0100">
+    <title>La Suisse vue du ciel</title>
+    <desc lang="fr">Une série documentaire qui part à la découverte de la Suisse vue du ciel.</desc>
+    <category lang="fr">documentaire</category>
+    <length units="minutes">30</length>
+    <icon src="https://focus.telerama.fr/952x634/2025/02/19/a05533d48a6b4a56adf3d86e04b09913.jpg" />
+    <country lang="fr">Suisse</country>
+    <rating system="CSA">
+      <value>-12</value>
+      <icon src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Moins12svg/200px-Moins12.svg.png" />
+    </rating>
+  </programme>
+</tv>
