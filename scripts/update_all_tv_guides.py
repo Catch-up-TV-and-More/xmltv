@@ -18,6 +18,10 @@ DATA_DIRECTORY = os.path.join(ROOT_DIRECTORY, 'data/')
 
 os.makedirs(RAW_DIRECTORY, exist_ok=True)
 os.makedirs(DATA_DIRECTORY, exist_ok=True)
+# Pre-create cache dir.
+cache_dir = os.path.join(ROOT_DIRECTORY, 'scripts/.xmltv/cache')
+os.makedirs(cache_dir, exist_ok=True)
+print(f"Created xmltv cache directory '{cache_dir}'.")
 
 # The date format used in XMLTV (the %Z will go away in 0.6)
 DATE_FORMAT = '%Y%m%d%H%M%S %Z'
